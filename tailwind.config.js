@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require('daisyui'),require('preline/plugin')],
+  plugins: [require('daisyui'),require('preline/plugin'),require('@tailwindcss/aspect-ratio')],
   daisyui: {
     themes: ["light"]
   },
