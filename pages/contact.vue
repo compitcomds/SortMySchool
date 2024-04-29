@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>Contact</h1>
+        <HomiFooSa/>
     </div>
 </template>
 
