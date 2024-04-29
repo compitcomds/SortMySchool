@@ -35,7 +35,7 @@
       </div>
     
   </section>
-  <section>
+  <section class="bg-yellow-50">
     <div class="container mx-auto px-4 my-4">
         <div class="flex flex-col md:flex-row justify-between">
             <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0">
