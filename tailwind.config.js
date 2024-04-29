@@ -6,7 +6,7 @@ export default {
   },
   plugins: [require('daisyui'),require('preline/plugin')],
   daisyui: {
-    themes: ["light","dark"]
+    themes: ["light"]
   },
 }
 
