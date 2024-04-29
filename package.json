@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "appwrite": "^14.0.1",
     "nuxt": "^3.11.2",
     "preline": "^2.1.0",
     "vue": "^3.4.21",

@@ -8,5 +8,5 @@ export default defineNuxtConfig({
     preference: 'light', // Force light theme
     fallback: 'light', // Fallback theme if user's preference cannot be determined
     classSuffix: '', // No suffix added to the class
-  },
+  }
 })
