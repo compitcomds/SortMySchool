@@ -20,7 +20,7 @@
           />
           <button
             class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-md">
-            <span>search</span>
+            <span>Search</span>
             <span class="hidden md:block">
                 <svg class="text-gray-200 h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
@@ -34,6 +34,41 @@
         </div>
       </div>
     
+  </section>
+  <section>
+    <div class="container mx-auto px-4 my-4">
+        <div class="flex flex-col md:flex-row justify-between">
+            <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0">
+                <h1 class="text-3xl font-bold my-2 mx-6">Heading of the Section</h1>
+                <p class="text-gray-600 mb-6 mx-6">This is some introductory text that gives context to the section below. Lorem ipsum dolor sit amet.</p>
+                <ul class="list-none space-y-2">
+                    <li class="flex justify-center items-center">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </li>
+                    <li class="flex justify-center items-center">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </li>
+                    <li class="flex justify-center items-center">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </li>
+                    <li class="flex justify-center items-center">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </li>
+                    <li class="flex justify-center items-center">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 w-full pl-4 flex items-center py-4">
+                <img src="https://images.surferseo.art/e1328a58-93b1-42e3-bb00-b5f2c4ca76af.png" alt="Descriptive Alt Text" class="w-full h-[350px] object-cover rounded-md shadow-lg">
+            </div>
+        </div>
+    </div>
   </section>
 </template>
 
