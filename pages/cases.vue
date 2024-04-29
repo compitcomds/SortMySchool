@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Courses</h1>
+        <h1>cases</h1>
     </div>
 </template>
 
