@@ -1,12 +1,12 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools min-h-[600px] flex flex-col items-center justify-center relative">
+    <section class="bg-cover bg-center bg-w3schools lg:min-h-[600px] min-h-[300px] pb-14 flex flex-col items-center justify-center relative">
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="hidden sm:block absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
-        <div class="mb-8 text-white">
-            <h2 class="text-3xl lg:text-4xl font-bold mb-3">
+        <div class="mb-8 text-white flex flex-col items-center justify-center">
+            <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
                 Looking for a solution?
             </h2>
-            <p class="text-lg lg:text-xl opacity-80">
+            <p class="text-lg lg:text-xl sm:text-lg opacity-80">
                 Search the forum for the answer to your question
             </p>
         </div>
