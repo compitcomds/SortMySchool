@@ -1,6 +1,6 @@
 <template>
     <div>
-        this is main blog page
+        this is seconds
     </div>
 </template>
 

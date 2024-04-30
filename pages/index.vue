@@ -432,7 +432,7 @@
 import { searchBlogsByTitle } from "~/utils/appwrite";
 const consoleAllBlogs = async () => {
     const blogs = await searchBlogsByTitle("titl");
-    console.log(blogs);
+    // console.log(blogs);
 };
 consoleAllBlogs();
 

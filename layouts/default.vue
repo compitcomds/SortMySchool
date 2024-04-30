@@ -83,123 +83,123 @@
                 </div>
             </div>
             <div id="navbar-slide-up-animation"
-                class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block">
-                <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-                    <nuxt class="font-medium text-blue-500" href="#" aria-current="page">Home </nuxt>
-
-                    <div
-                        class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover] ">
-                        <button type="button"
-                            class="sm:py-4 flex items-center w-full text-black hover:text-gray-600 font-medium ">
-                            Case Brief
-                            <svg class="ms-2 flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
-                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m6 9 6 6 6-6" />
-                            </svg>
-                        </button>
+                    class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block">
+                    <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+                        <nuxt class="font-medium text-blue-500" href="#" aria-current="page">Home </nuxt>
 
                         <div
-                            class="hs-dropdown-menu transition-[opacity,margin] sm:border duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 sm:mt-3 top-full start-0 min-w-60 bg-white sm:shadow-md rounded-lg py-2 sm:px-2  sm:dark:border  before:absolute">
-                            <div class="sm:grid sm:grid-cols-4">
-                                <div class="flex flex-col">
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Administrative Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Services
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Company Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Contract Law
-                                    </nuxt>
-                                </div>
+                            class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover] ">
+                            <button type="button"
+                                class="sm:py-4 flex items-center w-full text-black hover:text-gray-600 font-medium ">
+                                Case Brief
+                                <svg class="ms-2 flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
 
-                                <div class="flex flex-col">
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Administrative Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Services
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Company Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Contract Law
-                                    </nuxt>
-                                </div>
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] sm:border duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 sm:mt-3 top-full start-0 min-w-60 bg-white sm:shadow-md rounded-lg py-2 sm:px-2  sm:dark:border  before:absolute">
+                                <div class="sm:grid sm:grid-cols-4">
+                                    <div class="flex flex-col">
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Administrative Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Services
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Company Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Contract Law
+                                        </nuxt>
+                                    </div>
+
+                                    <div class="flex flex-col">
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Administrative Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Services
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Company Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Contract Law
+                                        </nuxt>
+                                    </div>
 
 
-                                <div class="flex flex-col">
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Administrative Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Services
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Company Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Contract Law
-                                    </nuxt>
-                                </div>
-                                <div class="flex flex-col">
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Administrative Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Services
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Company Law
-                                    </nuxt>
-                                    <nuxt
-                                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
-                                        href="#">
-                                        Contract Law
-                                    </nuxt>
+                                    <div class="flex flex-col">
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Administrative Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Services
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Company Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Contract Law
+                                        </nuxt>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Administrative Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Services
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Company Law
+                                        </nuxt>
+                                        <nuxt
+                                            class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm   text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500  "
+                                            href="#">
+                                            Contract Law
+                                        </nuxt>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <nuxt-link class="font-medium text-black hover:text-gray-400" to="">About</nuxt-link>
+                        <nuxt-link class="font-medium text-black hover:text-gray-400" to="">About</nuxt-link>
+                    </div>
                 </div>
-            </div>
             <div class="watsup-group flex items-center justify-end space-x-5">
                 <label for="my_modal_7" class=""><span class="hidden md:block">
                         <svg class="text-black h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
