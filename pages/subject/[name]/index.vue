@@ -1,14 +1,14 @@
 <template>
     <div>
+      this is [name].vue
       <p>Route Parameter: {{ name }}</p>
-
       <div v-if="content">
         <ul>
           <li v-for="blog in content" :key="blog.id">
             {{ blog.title }}
-            <nuxt-link :to="`/case/${blog.$id}`">click</nuxt-link>
+            <nuxt-link :to="`${name}/${blog.$id}`">click</nuxt-link>
             <br>
-            <nuxt-link :to="`${name}/${blog.$id}`">second click</nuxt-link>
+            
           </li>
         </ul>
       </div>
@@ -31,7 +31,8 @@
   
     computed: {
       name() {
-        return this.$route.params.name || ''; // Ensure a default value if id is not present
+        return this.$route.params.name || ''; 
+        // Ensure a default value if id is not present
       }
     },
   

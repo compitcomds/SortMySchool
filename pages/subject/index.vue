@@ -1,44 +1,44 @@
+<!-- have list of subject  -->
 <template>
     <div>
-      <h1>cases</h1>
-      <div v-if="subjects ">
+        <p>This is Subject Index:</p>
+        <hr>
         <ul>
-          <li v-for="subject in subjects" :key="subject.id">
-            <!-- {{ subject.name }} -->
-            {{ subject }}
-            <div class="badge badge-primary">
-            <nuxt-link :to="`subject/${subject.name}`">click</nuxt-link>
-            </div>
-          </li>
+            <li v-for="sub in subject" :key="sub.$id">
+                {{ sub.name }}
+                <nuxt-link :to="`/subject/${sub.name}`">click</nuxt-link>
+            </li>
         </ul>
-      </div>
-      <div v-else>
-        loading...
-      </div>
-      
     </div>
-  </template>
-  
-  <script>
-  import { getAllSubjects } from "~/utils/appwrite";
-  
-  export default {
+</template>
+
+<script>
+import { getAllSubjects } from "~/utils/appwrite";
+
+export default {
     data() {
-      return {
-        subjects: null
-      };
+        return {
+            subject: []
+        };
     },
-    async mounted() {
-      await this.fillAllSubjects();
+
+    mounted() {
+        this.fillAllSubject();
     },
+
     methods: {
-      async fillAllSubjects() {
-        const subs = await getAllSubjects();
-        this.subjects = subs.documents;
-      }
+        async fillAllSubject() {
+            try {
+                const subs = await getAllSubjects();
+                this.subject = subs.documents;
+            } catch (error) {
+                console.error("Error fetching subjects:", error);
+            }
+        }
     }
-  }
-  </script>
-  
-  <style lang="scss" scoped></style>
-  
+};
+</script>
+
+<style scoped>
+/* Add your scoped styles here if needed */
+</style>
