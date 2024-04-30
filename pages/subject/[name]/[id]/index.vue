@@ -32,7 +32,7 @@
         // for get data use this keyword 
         
         getDataById(){
-            this.content='as'
+            this.content=''
 
         }
     },
