@@ -1,15 +1,28 @@
 <template>
     <div>
-<h1> inner course id</h1>
+      <p>Route Parameter: {{ id }}</p>
     </div>
-</template>
+  </template>
+  
+  <script>
+  import { getBlogsBySubjectId } from "~/utils/appwrite";
 
-<script>
-    export default {
-        
+  export default {
+    data() {
+      return {
+        id: ''
+      };
+    },
+    created() {
+      this.id = this.$route.params.id;
+      // Do something with the id parameter
     }
-</script>
+    methods: {
+        AllBolg(){
 
-<style lang="scss" scoped>
-
-</style>
+        }
+    },
+    
+  };
+  </script>
+  
