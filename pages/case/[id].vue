@@ -17,11 +17,11 @@
       this.id = this.$route.params.id;
       // Do something with the id parameter
     }
-    methods: {
-        AllBolg(){
+    // methods: {
+    //     AllBolg(){
 
-        }
-    },
+    //     }
+    // },
     
   };
   </script>
