@@ -1,42 +1,43 @@
 <template>
     <div>
-{{ name }}
-<hr>
-{{ id }}
-<hr>
-<div id="app">
- 
-    <div v-html="content"></div>
-</div>
+        {{ name }}
+        <hr>
+        {{ id }}
+        <hr>
+        <div id="app">
+            <div class="max-w-5xl p-5 mx-auto">
+                <div class="prose lg:prose-xl" v-html="content"></div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
-    import { getBlogById } from "~/utils/appwrite";
+import { getBlogById } from "~/utils/appwrite";
 
-    export default {
-        data(){
-            return{
-                content:'<p class="text-lg uppercase text-gray-100 bg-gray-700">UI/UX Designer</p>'
-            }
-        },
-        computed: {
-        name() {
-            return this.$route.params.name || ''; 
-            // Ensure a default value if id is not present
-        },
-        id(){
-            return this.$route.params.id || ''; 
+export default {
+    data() {
+        return {
+            content: '<p class="text-lg uppercase text-gray-100 bg-gray-700">UI/UX Designer</p>'
         }
     },
-    mounted(){
+    computed: {
+        name() {
+            return this.$route.params.name || '';
+            // Ensure a default value if id is not present
+        },
+        id() {
+            return this.$route.params.id || '';
+        }
+    },
+    mounted() {
         this.getDataById();
     },
     methods: {
         // here write a login to get data
         // for get data use this keyword 
-        
-        async getDataById(){
+
+        async getDataById() {
             try {
                 const blog = await getBlogById(this.id);
                 this.content = blog.content;
@@ -47,9 +48,7 @@
 
         }
     },
-    }
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
