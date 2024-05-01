@@ -16,9 +16,9 @@
 
             <div class="flex rounded-md w-full px-4 max-w-xl relative">
 
-                <input type="text" placeholder="Search..." name="q" id="query"
+                <input type="text" placeholder="Search..." name="q" id="query" v-model="name"
                     class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
-                <button
+                <button v-on:click="searchBlog(name)"
                     class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                     <span>Search</span>
                     <span class="hidden md:block">
@@ -436,7 +436,18 @@ const consoleAllBlogs = async () => {
 };
 consoleAllBlogs();
 
-export default {};
+export default {
+    data(){
+        return{
+            name:null
+        }
+    },
+    methods: {
+        searchBlog (inputname){
+            console.log(inputname)
+        }
+    },
+};
 </script>
 
 <style scoped>
