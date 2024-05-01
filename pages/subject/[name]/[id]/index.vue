@@ -8,36 +8,39 @@
         <div class="max-w-[85rem]  mx-auto" id="app">
             <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8 bg-indigo-50">
                 <!-- Content -->
-                <div class="lg:col-span-2">                    
+                <div class="lg:col-span-2">
                     <div class="py-6 lg:pe-8">
                         <div class="flex mb-4" aria-label="Breadcrumb">
                             <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                              <li class="inline-flex items-center">
-                                <a href="#" class="ml-1 inline-flex text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-4 h-4 w-4">
-                                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                  </svg>
-                                  Documentation
-                                </a>
-                              </li>
-                              <li>
-                                <div class="flex items-center">
-                                  <span class="mx-2.5 text-gray-800 ">/</span>
-                                  <a href="#" class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                                    Database
-                                  </a>
-                                </div>
-                              </li>
-                              <li aria-current="page">
-                                <div class="flex items-center">
-                                  <span class="mx-2.5 text-gray-800 ">/</span>
-                                  <span class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                                    Replication
-                                  </span>
-                                </div>
-                              </li>
+                                <li class="inline-flex items-center">
+                                    <a href="#"
+                                        class="ml-1 inline-flex text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="mr-4 h-4 w-4">
+                                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                        </svg>
+                                        Documentation
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="flex items-center">
+                                        <span class="mx-2.5 text-gray-800 ">/</span>
+                                        <a href="#"
+                                            class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                            Database
+                                        </a>
+                                    </div>
+                                </li>
+                                <li aria-current="page">
+                                    <div class="flex items-center">
+                                        <span class="mx-2.5 text-gray-800 ">/</span>
+                                        <span class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                            Replication
+                                        </span>
+                                    </div>
+                                </li>
                             </ol>
                         </div>
                         <div class="space-y-5 lg:space-y-8">
@@ -310,9 +313,9 @@ export default {
                 const blog = await getBlogById(this.id);
                 this.content = blog.content;
                 this.title = blog.title;
-                this.tags = blog.tags;
+                this.tags = blog.tags.split(',').map(item => item.trim());
                 this.imgSrc = blog.imgSrc;
-                console.log(blog);
+                console.log(blog.tags);
             } catch (error) {
                 console.error("Error fetching blog:", error);
             }

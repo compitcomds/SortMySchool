@@ -218,8 +218,10 @@ export default {
         }
     },
     methods: {
-        searchBlog(inputname) {
-            console.log(inputname)
+        async searchBlog(inputname) {
+            const blogs = await searchBlogByTag(inputname);
+            console.log("Search query: ", inputname);
+            console.log(blogs);
         }
     },
 };
