@@ -1,3 +1,4 @@
+
 <template>
     <header
         class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-white text-sm  sm:py-0 text-black">
@@ -13,6 +14,7 @@
             </div>
         </div>
         <hr>
+        <mynav/>
         <nav class="w-full mx-auto px-6 py-2 md:px-6 lg:px-10 shadow-sm grid grid-cols-3" aria-label="Global">
             <div class="relative sm:flex sm:items-center">
                 <div class="flex items-center justify-start">
@@ -323,7 +325,7 @@
                     </span>
                 </label>
                 <!-- Put this part before </body> tag -->
-                <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+               <!-- <input type="checkbox" id="my_modal_7" class="modal-toggle" />
                 <div class="modal w-screen" role="dialog">
                     <div class="modal-box ">
                         <label class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end"
@@ -349,7 +351,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> -->
                 <button type="button"
                     class="whatsapp-icon hidden md:block p-2  justify-center items-center rounded-full bg-green-500 text-white hover:bg-green-600"
                     aria-label="WhatsApp">
