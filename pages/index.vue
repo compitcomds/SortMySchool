@@ -19,7 +19,7 @@
                 <input type="text" placeholder="Search..." name="q" id="query"
                     class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
                 <button
-                    class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
+                    class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                     <span>Search</span>
                     <span class="hidden md:block">
                         <svg class="text-white h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@
 
         </div>
     </section>
-    <section class="bg-yellow-50">
+    <section class="bg-indigo-50 h-screen flex justify-center items-center">
         <div class="container mx-auto px-4 my-4">
             <div class="flex flex-col md:flex-row justify-between">
                 <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0">
