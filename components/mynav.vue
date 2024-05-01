@@ -34,9 +34,13 @@
                             </svg>
                         </button>
 
-                        <nuxt-link class="flex-none text-xl font-semibold dark:text-white" href="/"
-                            aria-label="Brand">Brand</nuxt-link>
-
+                        <div class="w-28">
+                            <nuxt-link class="flex-none text-xl font-semibold dark:text-white" href="/"
+                                aria-label="Brand">
+                                <img src="assets/logo.png"
+                                    alt="" srcset="" />
+                            </nuxt-link>
+                        </div>
                         <div class="h-6 w-8 bg-slate-100"></div>
                     </div>
                 </div>
@@ -55,7 +59,7 @@
                             class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid dark:divide-neutral-700">
 
                             <nuxt-link class="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500" to="/"
-                            aria-current="page">Home</nuxt-link>
+                                aria-current="page">Home</nuxt-link>
                             <div
                                 class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
                                 <nuxt-link to="subject">
@@ -299,7 +303,7 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
 
                             <a class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-500"
                                 href="#">
