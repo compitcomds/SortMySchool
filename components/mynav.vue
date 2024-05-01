@@ -276,7 +276,7 @@
                                                 <a class="mt-4 group" href="#">
                                                     <div class="aspect-w-16 aspect-h-9">
                                                         <img class="w-full object-cover rounded-lg"
-                                                            src="https://clc.du.ac.in/wp-content/uploads/slider/cache/0d87130291d201bc0216138703412f87/DSC0161.-scaled.jpg"
+                                                            src= '/assets/du.jpg'
                                                             alt="Image Description">
                                                     </div>
                                                     <div class="mt-2">
