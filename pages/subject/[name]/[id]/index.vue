@@ -306,9 +306,9 @@ export default {
                 const blog = await getBlogById(this.id);
                 this.content = blog.content;
                 this.title = blog.title;
-                this.tags = blog.tags;
+                this.tags = blog.tags.split(',').map(item => item.trim());
                 this.imgSrc = blog.imgSrc;
-                console.log(blog);
+                console.log(blog.tags);
             } catch (error) {
                 console.error("Error fetching blog:", error);
             }

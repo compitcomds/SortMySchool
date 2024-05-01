@@ -133,7 +133,7 @@
                         class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[18%] md:inline-block lg:left-auto" />
                 </div>
                 <!-- How it Works Item -->
-                
+
                 <div class="relative flex flex-col items-center gap-4 p-8 text-center">
                     <div
                         class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
@@ -156,7 +156,7 @@
                     <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
                         purus sit.</p>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -271,12 +271,7 @@
 </template>
 
 <script>
-import { searchBlogsByTitle } from "~/utils/appwrite";
-const consoleAllBlogs = async () => {
-    const blogs = await searchBlogsByTitle("titl");
-    // console.log(blogs);
-};
-consoleAllBlogs();
+import { searchBlogByTag } from "~/utils/appwrite";
 
 export default {
     data() {
@@ -285,8 +280,10 @@ export default {
         }
     },
     methods: {
-        searchBlog(inputname) {
-            console.log(inputname)
+        async searchBlog(inputname) {
+            const blogs = await searchBlogByTag(inputname);
+            console.log("Search query: ", inputname);
+            console.log(blogs);
         }
     },
 };
@@ -295,5 +292,6 @@ export default {
 <style scoped>
 .bg-w3schools {
     background-image: url("/assets/sky.png");
+    background-size: cover;
 }
 </style>

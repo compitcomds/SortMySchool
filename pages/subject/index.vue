@@ -32,7 +32,7 @@
             <li v-for="i in generateRange(1, 24, 2)" :key="i">
                 <div
                     class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
-                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden bg-gray-300 ani">
+                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden bg-gray-300 animate-pulse">
                         <!-- Skeleton for image placeholder -->
                         <div class="bg-gray-300 animate-pulse"></div>
                     </div>
