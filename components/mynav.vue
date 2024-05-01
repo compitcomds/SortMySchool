@@ -53,25 +53,22 @@
                         </div>
                         <div
                             class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid dark:divide-neutral-700">
-                            <a class="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500" href="#"
-                                aria-current="page">Landing</a>
 
-                            <a class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-500"
-                                href="#">
-                                Company
-                            </a>
-
+                            <nuxt-link class="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500" to="/"
+                            aria-current="page">Home</nuxt-link>
                             <div
                                 class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
-                                <button type="button"
-                                    class="flex items-center w-full text-gray-800 hover:text-gray-600 font-medium dark:text-neutral-200 dark:hover:text-neutral-500">
-                                    Resources
-                                    <svg class="flex-shrink-0 ms-2 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
-                                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                </button>
+                                <nuxt-link to="subject">
+                                    <button type="button"
+                                        class="flex items-center w-full text-gray-800 hover:text-gray-600 font-medium dark:text-neutral-200 dark:hover:text-neutral-500">
+                                        Case Brief
+                                        <svg class="flex-shrink-0 ms-2 size-4" xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m6 9 6 6 6-6" />
+                                        </svg>
+                                    </button>
+                                </nuxt-link>
 
                                 <div
                                     class=" hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg dark:bg-neutral-800 dark:divide-neutral-700 before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
@@ -271,16 +268,19 @@
                                         <div class="col-span-full md:col-span-4">
                                             <div class="flex flex-col bg-gray-50 p-6 dark:bg-neutral-700">
                                                 <span
-                                                    class="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200"> DU Case Mate</span>
+                                                    class="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">
+                                                    DU Case Mate</span>
 
                                                 <a class="mt-4 group" href="#">
                                                     <div class="aspect-w-16 aspect-h-9">
-                                                        <img class="w-full object-cover rounded-lg"
-                                                            src= '/assets/du.jpg'
+                                                        <img class="w-full object-cover rounded-lg" src='/assets/du.jpg'
                                                             alt="Image Description">
                                                     </div>
                                                     <div class="mt-2">
-                                                        <p class="text-gray-800 dark:text-neutral-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in reiciendis enim, voluptas facilis et voluptatum nihil odio.</p>
+                                                        <p class="text-gray-800 dark:text-neutral-200">Lorem ipsum,
+                                                            dolor sit amet consectetur adipisicing elit. Voluptates in
+                                                            reiciendis enim, voluptas facilis et voluptatum nihil odio.
+                                                        </p>
                                                         <p
                                                             class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-400 dark:hover:text-blue-500">
                                                             Explore Now
@@ -299,6 +299,12 @@
                                     </div>
                                 </div>
                             </div>
+                           
+
+                            <a class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-500"
+                                href="#">
+                                Connect
+                            </a>
                         </div>
                         <div class="h-6 w-8 bg-slate-100 hidden md:block"></div>
                     </div>
