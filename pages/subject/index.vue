@@ -4,7 +4,7 @@
         <p>This is Subject Index:</p>
         <hr>
 
-        <ul class="flex flex-wrap justify-center items-center gap-5 p-5 max-w-7xl mx-auto">
+        <ul class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto">
             <li v-for="sub in subject" :key="sub.$id">
                 <nuxt-link :to="`/subject/${sub.$id}`"
                     class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
