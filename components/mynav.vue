@@ -74,7 +74,7 @@
                                 </button>
 
                                 <div
-                                    class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg dark:bg-neutral-800 dark:divide-neutral-700 before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
+                                    class=" hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg dark:bg-neutral-800 dark:divide-neutral-700 before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
                                     <div class="grid grid-cols-2 md:grid-cols-10">
                                         <div class="md:col-span-3">
                                             <div class="flex flex-col py-6 px-3 md:px-6">
@@ -271,22 +271,19 @@
                                         <div class="col-span-full md:col-span-4">
                                             <div class="flex flex-col bg-gray-50 p-6 dark:bg-neutral-700">
                                                 <span
-                                                    class="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">Customer
-                                                    stories</span>
+                                                    class="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200"> DU Case Mate</span>
 
                                                 <a class="mt-4 group" href="#">
                                                     <div class="aspect-w-16 aspect-h-9">
                                                         <img class="w-full object-cover rounded-lg"
-                                                            src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                                                            src="https://clc.du.ac.in/wp-content/uploads/slider/cache/0d87130291d201bc0216138703412f87/DSC0161.-scaled.jpg"
                                                             alt="Image Description">
                                                     </div>
                                                     <div class="mt-2">
-                                                        <p class="text-gray-800 dark:text-neutral-200">Preline Projects
-                                                            has proved to be most efficient cloud based project tracking
-                                                            and bug tracking tool.</p>
+                                                        <p class="text-gray-800 dark:text-neutral-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in reiciendis enim, voluptas facilis et voluptatum nihil odio.</p>
                                                         <p
                                                             class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-400 dark:hover:text-blue-500">
-                                                            Learn more
+                                                            Explore Now
                                                             <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"

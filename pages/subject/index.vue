@@ -32,17 +32,17 @@
             <li v-for="i in generateRange(1, 24, 2)" :key="i">
                 <div
                     class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
-                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden bg-gray-300 animate-pulse">
+                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden bg-gray-300 skeleton">
                         <!-- Skeleton for image placeholder -->
-                        <div class="bg-gray-300 animate-pulse"></div>
+                        <div class="bg-gray-300 skeleton"></div>
                     </div>
                     <div class="p-3 md:px-4">
                         <!-- Skeleton for heading -->
-                        <div class="h-6 bg-gray-300 mb-2 animate-pulse rounded-md"></div>
+                        <div class="h-6 bg-gray-300 mb-2 skeleton rounded-md"></div>
                         <!-- Skeleton for subheading -->
-                        <div class="h-4 bg-gray-300 w-3/4 mb-2 animate-pulse rounded-md"></div>
+                        <div class="h-4 bg-gray-300 w-3/4 mb-2 skeleton rounded-md"></div>
                         <!-- Skeleton for button -->
-                        <div class="h-8 bg-gray-300 w-1/2 animate-pulse rounded-md"></div>
+                        <div class="h-8 bg-gray-300 w-1/2 skeleton rounded-md"></div>
                     </div>
                 </div>
             </li>

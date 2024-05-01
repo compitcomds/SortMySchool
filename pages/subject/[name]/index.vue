@@ -1,11 +1,9 @@
 <template>
-  <div>
-    this is [name].vue
-    <p>Route Parameter: {{ name }}</p>
+  <div >
     <div v-if="content">
       <!-- Timeline -->
 
-      <div class="max-w-5xl mx-auto w-full p-5">
+      <div class="max-w-5xl mx-auto w-full p-5  bg-indigo-150 my-4 rounded-xl shadow-base-200 shadow-xl border-2">
         <template v-for="(blogs, letter) in content" :key="letter">
           <!-- Heading -->
           <div class="flex gap-x-3">
@@ -53,13 +51,13 @@
       <!-- End Timeline -->
     </div>
     <div v-else>
-      <ul class="flex flex-wrap justify-center items-center gap-5 p-5 max-w-5xl w-full mx-auto">
+      <ul class="flex flex-wrap justify-center items-center gap-5 p-5 max-w-5xl w-full mx-auto ">
         <li class="w-full" v-for="i in 3">
           <div class="w-full flex flex-col group bg-white rounded-xl overflow-hidden transition min-w-80">
-            <div class="size-7 rounded-full bg-gray-300 mb-1 animate-pulse"></div>
+            <div class="size-7 rounded-full bg-gray-300 mb-1 skeleton"></div>
             <div v-for="i in 3"
-              class="relative rounded-xl w-full h-fit min-h-16 mb-1 overflow-hidden bg-gray-300 animate-pulse">
-              <div class="bg-gray-300 animate-pulse"></div>
+              class="relative rounded-xl w-full h-fit min-h-16 mb-1 overflow-hidden bg-gray-300 skeleton">
+              <div class="bg-gray-300 skeleton"></div>
             </div>
           </div>
         </li>
