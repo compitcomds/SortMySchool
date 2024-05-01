@@ -1,9 +1,6 @@
 <!-- have list of subject  -->
 <template>
-    <div>
-        <p>This is Subject Index:</p>
-        <hr>
-
+    <div v-if="subject">
         <ul class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto">
             <li v-for="sub in subject" :key="sub.$id">
                 <nuxt-link :to="`/subject/${sub.$id}`"
@@ -30,6 +27,28 @@
             </li>
         </ul>
     </div>
+    <div v-else>
+        <ul class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto">
+            <li v-for="i in generateRange(1, 24, 2)" :key="i">
+                <div
+                    class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
+                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden bg-gray-300 ani">
+                        <!-- Skeleton for image placeholder -->
+                        <div class="bg-gray-300 animate-pulse"></div>
+                    </div>
+                    <div class="p-3 md:px-4">
+                        <!-- Skeleton for heading -->
+                        <div class="h-6 bg-gray-300 mb-2 animate-pulse rounded-md"></div>
+                        <!-- Skeleton for subheading -->
+                        <div class="h-4 bg-gray-300 w-3/4 mb-2 animate-pulse rounded-md"></div>
+                        <!-- Skeleton for button -->
+                        <div class="h-8 bg-gray-300 w-1/2 animate-pulse rounded-md"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
 </template>
 
 <script>
@@ -38,7 +57,7 @@ import { getAllSubjects } from "~/utils/appwrite";
 export default {
     data() {
         return {
-            subject: []
+            subject: null
         };
     },
 
@@ -54,6 +73,9 @@ export default {
             } catch (error) {
                 console.error("Error fetching subjects:", error);
             }
+        },
+        generateRange(start, stop, step) {
+            return Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + (i * step));
         }
     }
 };
