@@ -57,7 +57,6 @@
                                             <path d="m6 9 6 6 6-6" />
                                         </svg>
                                     </button>
-
                                     <div
                                         class="hs-dropdown-menu transition-[opacity,margin] sm:border duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-[800px] items-center justify-center hidden z-10 sm:mt-3 top-full start-0 bg-white sm:shadow-md rounded-lg py-2 sm:px-2 sm:dark:border before:absolute">
                                         <div class="sm:grid sm:grid-cols-4">
