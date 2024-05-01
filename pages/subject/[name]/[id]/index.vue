@@ -8,36 +8,39 @@
         <div class="max-w-[85rem]  mx-auto" id="app">
             <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8 bg-indigo-50">
                 <!-- Content -->
-                <div class="lg:col-span-2">                    
+                <div class="lg:col-span-2">
                     <div class="py-6 lg:pe-8">
                         <div class="flex mb-4" aria-label="Breadcrumb">
                             <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                              <li class="inline-flex items-center">
-                                <a href="#" class="ml-1 inline-flex text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-4 h-4 w-4">
-                                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                  </svg>
-                                  Documentation
-                                </a>
-                              </li>
-                              <li>
-                                <div class="flex items-center">
-                                  <span class="mx-2.5 text-gray-800 ">/</span>
-                                  <a href="#" class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                                    Database
-                                  </a>
-                                </div>
-                              </li>
-                              <li aria-current="page">
-                                <div class="flex items-center">
-                                  <span class="mx-2.5 text-gray-800 ">/</span>
-                                  <span class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                                    Replication
-                                  </span>
-                                </div>
-                              </li>
+                                <li class="inline-flex items-center">
+                                    <a href="#"
+                                        class="ml-1 inline-flex text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="mr-4 h-4 w-4">
+                                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                        </svg>
+                                        Documentation
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="flex items-center">
+                                        <span class="mx-2.5 text-gray-800 ">/</span>
+                                        <a href="#"
+                                            class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                            Database
+                                        </a>
+                                    </div>
+                                </li>
+                                <li aria-current="page">
+                                    <div class="flex items-center">
+                                        <span class="mx-2.5 text-gray-800 ">/</span>
+                                        <span class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                            Replication
+                                        </span>
+                                    </div>
+                                </li>
                             </ol>
                         </div>
                         <div class="space-y-5 lg:space-y-8">
@@ -75,9 +78,10 @@
                                 </div>
                                 <div class="flex justify-between px-4 items-center gap-x-1.5 pt-6">
                                     <!-- Button -->
-                                    <div class="hs-tooltip inline-block">
+                                    <div
+                                        class="hs-tooltip inline-block text-gray-900 bg-slate-300 hover:bg-slate-100 px-2 py-2 rounded-full hover:text-gray-700">
                                         <div
-                                            class="flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800">
+                                            class="flex items-center gap-x-2 text-sm text-gray-900 hover:text-gray-700">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -85,7 +89,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                             </svg>
-                                            <span class="text-gray-500 hover:text-gray-800">875 views</span>
+                                            <span class="text-gray-900 hover:text-gray-700">875 views</span>
                                         </div>
                                     </div>
 
@@ -97,7 +101,7 @@
                                     <!-- Button -->
                                     <div class="hs-dropdown relative inline-flex">
                                         <button type="button" id="blog-article-share-dropdown"
-                                            class="hs-dropdown-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 ">
+                                            class="hs-dropdown-toggle flex items-center gap-x-2 text-sm text-gray-900 bg-slate-300 hover:bg-slate-100 px-2 py-2 rounded-full hover:text-gray-700 ">
                                             <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
                                                 width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -169,7 +173,7 @@
                     class="lg:col-span-1 lg:w-full lg:h-full lg:bg-gradient-to-r lg:from-gray-50 lg:via-transparent lg:to-transparent ">
                     <div class="sticky top-0 start-0 py-8 lg:ps-8">
                         <!-- Avatar Media -->
-                        <div class="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8">
+                        <!-- <div class="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8">
                             <a class="block flex-shrink-0" href="#">
                                 <img class="size-10 rounded-full"
                                     src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
@@ -201,56 +205,48 @@
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End Avatar Media -->
 
                         <div class="space-y-6">
                             <!-- Media -->
-                            <a class="group flex items-center gap-x-6" href="#">
-                                <div class="grow">
-                                    <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 ">
-                                        5 Reasons to Not start a UX Designer Career in 2022/2023
-                                    </span>
+                            <article
+                                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-2">
+                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                    alt="University of Southern California"
+                                    class="absolute inset-0 h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love
                                 </div>
+                            </article>
 
-                                <div class="flex-shrink-0 relative rounded-lg overflow-hidden size-20">
-                                    <img class="size-full absolute top-0 start-0 object-cover rounded-lg"
-                                        src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                                        alt="Image Description">
-                                </div>
-                            </a>
                             <!-- End Media -->
 
                             <!-- Media -->
-                            <a class="group flex items-center gap-x-6" href="#">
-                                <div class="grow">
-                                    <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 ">
-                                        If your UX Portfolio has this 20% Well Done, it Will Give You an 80% Result
-                                    </span>
+                            <article
+                                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
+                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                    alt="University of Southern California"
+                                    class="absolute inset-0 h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love
                                 </div>
-
-                                <div class="flex-shrink-0 relative rounded-lg overflow-hidden size-20">
-                                    <img class="size-full absolute top-0 start-0 object-cover rounded-lg"
-                                        src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                                        alt="Image Description">
-                                </div>
-                            </a>
+                            </article>
                             <!-- End Media -->
 
                             <!-- Media -->
-                            <a class="group flex items-center gap-x-6" href="#">
-                                <div class="grow">
-                                    <span class="text-sm font-bold text-gray-800 group-hover:text-blue-600 ">
-                                        7 Principles of Icon Design
-                                    </span>
+                            <article
+                                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
+                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                    alt="University of Southern California"
+                                    class="absolute inset-0 h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love
                                 </div>
-
-                                <div class="flex-shrink-0 relative rounded-lg overflow-hidden size-20">
-                                    <img class="size-full absolute top-0 start-0 object-cover rounded-lg"
-                                        src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                                        alt="Image Description">
-                                </div>
-                            </a>
+                            </article>
                             <!-- End Media -->
                         </div>
                     </div>
