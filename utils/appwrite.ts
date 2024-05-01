@@ -1,5 +1,7 @@
 import { Client, Databases, Query } from "appwrite";
 
+const APPWRITE_ENDPOINT: string = import.meta.env.VITE_APPWRITE_ENDPOINT;
+const APPWRITE_PROJECT_ID: string = import.meta.env.VITE_APPWRITE_PROJECT_ID;
 const DATABASE_ID: string = import.meta.env.VITE_APPWRITE_DATABASE_ID;
 const COLLECTION_SUBJECTS: string = import.meta.env.VITE_APPWRITE_COLLECTION_SUBJECT_ID;
 const COLLECTION_BLOGS: string = import.meta.env.VITE_APPWRITE_COLLECTION_BLOGS_ID;
@@ -7,8 +9,8 @@ const COLLECTION_BLOGS: string = import.meta.env.VITE_APPWRITE_COLLECTION_BLOGS_
 export const client = new Client();
 
 client
-    .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT)
-    .setProject(import.meta.env.VITE_APPWRITE_PROJECT_ID);
+    .setEndpoint(APPWRITE_ENDPOINT)
+    .setProject(APPWRITE_PROJECT_ID);
 
 export const database = new Databases(client);
 
@@ -30,13 +32,14 @@ export async function getBlogById(id: string) {
 export async function getBlogsBySubjectId(id: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
         Query.equal("subject", id),
+        Query.select(["$createdAt", "$id", "title", "tags"]),
     ]);
     return blogs;
 }
 
-export async function searchBlogsByTags(tags: string[]) {
+export async function searchBlogByTag(tag: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.contains("tags", tags)
+        Query.search("tags", tag)
     ]);
     return blogs;
 }

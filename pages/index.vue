@@ -1,5 +1,6 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools lg:min-h-[600px] min-h-[300px] pb-14 flex flex-col items-center justify-center relative">
+    <section
+        class="bg-cover bg-center bg-w3schools min-h-[350px] md:min-h-[500px] lg:min-h-[630px] pb-14 flex flex-col items-center justify-center relative">
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="hidden sm:block absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center">
@@ -97,7 +98,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Testimonial -->
     <section>
         <!-- Team -->
@@ -111,8 +112,7 @@
 
             <!-- Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div
-                    class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
+                <div class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
                     <div class="flex items-center gap-x-4">
                         <img class="rounded-full size-20"
                             src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
@@ -162,8 +162,7 @@
                 </div>
                 <!-- End Col -->
 
-                <div
-                    class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
+                <div class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
                     <div class="flex items-center gap-x-4">
                         <img class="rounded-full size-20"
                             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
@@ -213,8 +212,7 @@
                 </div>
                 <!-- End Col -->
 
-                <div
-                    class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
+                <div class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
                     <div class="flex items-center gap-x-4">
                         <img class="rounded-full size-20"
                             src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
@@ -264,8 +262,7 @@
                 </div>
                 <!-- End Col -->
 
-                <div
-                    class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
+                <div class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
                     <div class="flex items-center gap-x-4">
                         <img class="rounded-full size-20"
                             src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
@@ -315,8 +312,7 @@
                 </div>
                 <!-- End Col -->
 
-                <div
-                    class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
+                <div class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
                     <div class="flex items-center gap-x-4">
                         <img class="rounded-full size-20"
                             src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
@@ -366,8 +362,7 @@
                 </div>
                 <!-- End Col -->
 
-                <div
-                    class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
+                <div class="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 ">
                     <div class="flex items-center gap-x-4">
                         <img class="rounded-full size-20"
                             src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
@@ -417,9 +412,9 @@
                 </div>
                 <!-- End Col -->
 
-                
 
-                
+
+
             </div>
             <!-- End Grid -->
         </div>
@@ -429,22 +424,19 @@
 </template>
 
 <script>
-import { searchBlogsByTitle } from "~/utils/appwrite";
-const consoleAllBlogs = async () => {
-    const blogs = await searchBlogsByTitle("titl");
-    // console.log(blogs);
-};
-consoleAllBlogs();
+import { searchBlogByTag } from "~/utils/appwrite";
 
 export default {
-    data(){
-        return{
-            name:null
+    data() {
+        return {
+            name: null
         }
     },
     methods: {
-        searchBlog (inputname){
-            console.log(inputname)
+        async searchBlog(inputname) {
+            const blogs = await searchBlogByTag(inputname);
+            console.log("Search query: ", inputname);
+            console.log(blogs);
         }
     },
 };
@@ -453,5 +445,6 @@ export default {
 <style scoped>
 .bg-w3schools {
     background-image: url("/assets/sky.png");
+    background-size: cover;
 }
 </style>

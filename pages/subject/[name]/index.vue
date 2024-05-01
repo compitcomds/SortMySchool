@@ -3,32 +3,67 @@
     this is [name].vue
     <p>Route Parameter: {{ name }}</p>
     <div v-if="content">
-      <ul class="flex flex-col p-5 max-w-5xl mx-auto w-full divide-y  divide-gray-200">
-        <li v-for="(blogs, letter) in content" :key="letter" class="py-3 px-4 text-sm font-medium text-gray-800">
-          <h2 class="text-3xl font-medium mb-5">{{ letter }}</h2>
-          <ul v-for="(blog, index) in blogs" :key="index"
-            class="marker:text-blue-600 list-disc ps-7 space-y-2 text-lg text-black font-normal">
-            <li>
-              <nuxt-link :to="`${name}/${blog.$id}`" class="hover:underline hover:text-blue-600">{{ blog.title
-                }}</nuxt-link>
-            </li>
-          </ul>
-          <br>
-        </li>
-      </ul>
+      <!-- Timeline -->
+
+      <div class="max-w-5xl mx-auto w-full p-5">
+        <template v-for="(blogs, letter) in content" :key="letter">
+          <!-- Heading -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div
+              class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <span
+                  class="flex flex-shrink-0 justify-center items-center size-7 border border-gray-200 text-sm font-semibold uppercase text-gray-800 rounded-full">
+                  {{ letter }}
+                </span>
+              </div>
+            </div>
+            <!-- End Icon -->
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <template v-for="(blog, index) in blogs" :key="index">
+            <div class="flex gap-1 md:gap-x-3 relative group rounded-lg hover:bg-gray-100">
+              <nuxt-link :to="`${name}/${blog.$id}`" class="absolute inset-0 z-[1]"></nuxt-link>
+
+              <!-- Icon -->
+              <div
+                class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                <div class="relative z-10 size-7 flex justify-center items-center">
+                  <div class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"></div>
+                </div>
+              </div>
+              <!-- End Icon -->
+
+              <!-- Right Content -->
+              <div class="grow p-2 pb-8">
+                <h3 class="md:text-lg flex gap-x-1 md:gap-x-1.5 font-semibold text-gray-800">
+                  {{ blog.title }}
+                </h3>
+              </div>
+              <!-- End Right Content -->
+            </div>
+
+          </template>
+          <!-- End Item -->
+        </template>
+      </div>
+      <!-- End Timeline -->
     </div>
     <div v-else>
-      <div class="flex flex-col p-5 max-w-5xl mx-auto w-full divide-y  divide-gray-200">
-        <p class="h-4 bg-gray-200 rounded-full" style="width: 40%;"></p>
-
-        <ul class="mt-5 space-y-3">
-          <li class="w-full h-4 bg-gray-200 rounded-full"></li>
-          <li class="w-full h-4 bg-gray-200 rounded-full"></li>
-          <li class="w-full h-4 bg-gray-200 rounded-full"></li>
-          <li class="w-full h-4 bg-gray-200 rounded-full"></li>
-          <li class="w-full h-4 bg-gray-200 rounded-full"></li>
-        </ul>
-      </div>
+      <ul class="flex flex-wrap justify-center items-center gap-5 p-5 max-w-5xl w-full mx-auto">
+        <li class="w-full" v-for="i in 3">
+          <div class="w-full flex flex-col group bg-white rounded-xl overflow-hidden transition min-w-80">
+            <div class="size-7 rounded-full bg-gray-300 mb-1 animate-pulse"></div>
+            <div v-for="i in 3"
+              class="relative rounded-xl w-full h-fit min-h-16 mb-1 overflow-hidden bg-gray-300 animate-pulse">
+              <div class="bg-gray-300 animate-pulse"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 
