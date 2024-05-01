@@ -2,12 +2,14 @@
     <header
         class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-white text-sm sm:py-0 text-black">
         <div class="inline-flex gap-5 justify-between items-center sm:p-0 md:p-0 lg:py-6 lg:px-10">
-            <div class="h-auto w-36 hidden sm:block md:block">
+            
+            <div class="h-auto w-36 hidden sm:block md:block"><nuxt-link to="/">
                 <img src="https://www.3forty.media/zosia/demo-5/wp-content/uploads/2022/09/zosia-logo.png" alt=""
-                    srcset="" />
+                    srcset="" /></nuxt-link>
                 <p>A personal blog theme</p>
             </div>
-            <div class="object-cover w-1/2 rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
+        
+            <div class="object-cover lg:w-1/2 lg:rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
                 <img src="https://yt3.googleusercontent.com/tis5V1pB6fvLi4yEXiivr9tCfw9gXNj95uyafLNH8MNzV058-yT048b4inWqeIkIO1wHkZcTyA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt=""
                     srcset="" class="rounded-lg" /></nuxt-link>
             </div>
@@ -41,8 +43,8 @@
                             class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block">
                             <div
                                 class="flex flex-col gap-5 mt-8 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-                                <nuxt class="font-medium text-blue-500" href="#" aria-current="page">Home
-                                </nuxt>
+                                <NuxtLink class="font-medium text-blue-500 cursor-pointer" to="/" aria-current="page">Home
+                                </NuxtLink>
 
                                 <div
                                     class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
@@ -202,8 +204,8 @@
                 <div id="navbar-slide-up-animation"
                     class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block">
                     <div class="flex flex-col gap-5 mt-8 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-                        <nuxt class="font-medium text-blue-500" href="#" aria-current="page">Home
-                        </nuxt>
+                        <NuxtLink class="font-medium text-blue-500 cursor-pointer" to="/" aria-current="page">Home
+                        </NuxtLink>
 
                         <div
                             class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
@@ -221,11 +223,11 @@
                                 class="hs-dropdown-menu transition-[opacity,margin] sm:border duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-[800px] items-center justify-center hidden z-10 sm:mt-3 top-full start-0 bg-white sm:shadow-md rounded-lg py-2 sm:px-2 sm:dark:border before:absolute">
                                 <div class="sm:grid sm:grid-cols-4">
                                     <div class="flex flex-col">
-                                        <nuxt
+                                        <nuxtLink
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
-                                            href="#">
+                                            to="subject">
                                             Administrative Law
-                                        </nuxt>
+                                        </nuxtLink>
                                         <nuxt
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                                             href="#">
@@ -244,11 +246,11 @@
                                     </div>
 
                                     <div class="flex flex-col">
-                                        <nuxt
+                                        <nuxtLink
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
-                                            href="#">
+                                            to="subject">
                                             Administrative Law
-                                        </nuxt>
+                                        </nuxtLink>
                                         <nuxt
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                                             href="#">
@@ -267,11 +269,11 @@
                                     </div>
 
                                     <div class="flex flex-col">
-                                        <nuxt
+                                        <nuxtLink
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
-                                            href="#">
+                                            to="subject">
                                             Administrative Law
-                                        </nuxt>
+                                        </nuxtLink>
                                         <nuxt
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                                             href="#">
@@ -289,11 +291,11 @@
                                         </nuxt>
                                     </div>
                                     <div class="flex flex-col">
-                                        <nuxt
+                                        <nuxtLink
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
-                                            href="#">
+                                            to="subject">
                                             Administrative Law
-                                        </nuxt>
+                                        </nuxtLink>
                                         <nuxt
                                             class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                                             href="#">
