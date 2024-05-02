@@ -1,14 +1,14 @@
 <template>
     <section
-        class="bg-cover bg-center bg-w3schools lg:min-h-[600px] min-h-[300px] pb-14 flex flex-col items-center justify-center relative">
+        class="bg-cover bg-center bg-w3schools h-[400px] pb-14 flex flex-col items-center justify-center relative">
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="hidden sm:block absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center">
             <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
-                Looking for a solution?
+                Looking for a case brief?
             </h2>
             <p class="text-lg lg:text-xl sm:text-lg opacity-80">
-                Search the forum for the answer to your question
+                Creating India's Largest Database of Case Brief for Academia...
             </p>
         </div>
         <div class="container mx-auto px-4 flex flex-col w-full justify-center items-center relative">
@@ -17,8 +17,8 @@
 
             <div class="flex rounded-md w-full px-4 max-w-xl relative">
 
-                <input type="text" placeholder="Search..." name="q" id="query" v-model="name"
-                    class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
+                <input type="text" placeholder="Find your brief here...." name="q" id="query" v-model="name"
+                    class="w-full p-3 rounded-full  border-r-white rounded-r-none  placeholder-gray-500" />
                 <button v-on:click="searchBlog(name)"
                     class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                     <span>Search</span>
@@ -35,18 +35,19 @@
                 <!-- Image for larger screens -->
 
             </div>
-            <nuxt-link to="/about" class="text-lg lg:text-xl opacity-80 text-white my-6 underline">
-                Not Sure Where to Begin?
-            </nuxt-link>
+            <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
+            <nuxt-link to="/about" class="text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
+                Click here !!
+            </nuxt-link></P>
 
         </div>
     </section>
     <!-- full Image -->
     <section class="">
-        <div class="max-w-750 mx-auto text-center mb-4 pt-8 ">
+        <!-- <div class="max-w-750 mx-auto text-center mb-4 pt-8 ">
             <h2 class="text-2xl md:text-3xl font-medium mb-2 lg:px-0 px-2" style="color: #2B0380;">Find the best courses, wherever
                 they exist</h2>
-        </div>
+        </div> -->
 
         <div class=" max:w-full flex items-center justify-center">
             <img src="assets\fullImage.png"
@@ -54,15 +55,21 @@
         </div>
     </section>
     <!-- comparision -->
-    <section class="bg-indigo-50 h-full flex justify-center items-center">
-        <div class="container mx-auto px-4 my-4">
-            <div class="flex flex-col md:flex-row justify-between">
+    <section>
+        
+        <div class="container mx-auto px-10 my-4">
+            <div class="flex flex-col md:flex-row justify-center text-start items-center bg-indigo-50 rounded-2xl">
                 <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0">
-                    <h1 class="text-3xl font-bold my-2 mx-6">Heading of the Section</h1>
-                    <p class="text-gray-600 mb-6 mx-6">This is some introductory text that gives context to the section
-                        below. Lorem ipsum dolor sit amet.</p>
-                    <ul class="list-none space-y-2">
-                        <li class="flex justify-center items-center">
+                    <ul class="list-none space-y-2 flex-col items-start">
+                        <li class="flex justify-start items-center font-medium text-lg">
+                            <span>Lorem ipsum dolor sit amet. Lorem, i</span>
+                            <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </li>
+                        <li class="flex jjustify-start items-center font-medium text-lg">
                             <span>Lorem ipsum dolor sit amet.</span>
                             <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -70,38 +77,22 @@
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
                         </li>
-                        <li class="flex justify-center items-center">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                        <li class="flex justify-start items-center font-medium text-lg">
+                            <span>Lorem ipsum dolor sit amet Lorem ipsum dolor </span>
                             <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
                         </li>
-                        <li class="flex justify-center items-center">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                        <li class="flex justify-start items-center font-medium text-lg">
+                            <span>Lorem ipsum Lorem ipsum dolor sit.</span>
                             <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
-                        </li>
-                        <li class="flex justify-center items-center">
-                            <span>Lorem ipsum dolor sit amet.</span>
-                            <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </li>
-                        <li class="flex justify-center items-center">
-                            <span>Lorem ipsum dolor sit amet.</span>
-                            <svg class="w-5 h-5 text-white ml-2   bg-green-600 rounded-full p-1" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                        </li>
+                        </li>                        
                     </ul>
                 </div>
                 <div class="max:w-full pl-4 flex items-center justify-center py-4">
@@ -120,116 +111,107 @@
             <div class="mx-auto max-w-7xl">
                 <!-- Header -->
                 <div class="mx-auto mb-8 max-w-3xl text-center md:mb-6 lg:mb-8">
-                    <h2 class="mb-4 mt-6 text-3xl font-extrabold md:text-5xl">Our Team Members</h2>
-                    <p class="mx-auto mt-4 max-w-[528px] text-[#636262]">Lorem ipsum dolor sit amet elit ut aliquam</p>
+                    <h2 class="mb-4 mt-6 text-3xl font-extrabold md:text-5xl">Knowledge Partners</h2>
+                    <!-- <p class="mx-auto mt-4 max-w-[528px] text-[#636262]">Lorem ipsum dolor sit amet elit ut aliquam</p> -->
                 </div>
                 <!-- Team Items -->
                 <div class="flex flex-wrap justify-center gap-3 md:justify-between md:gap-6  my-12">
                     <div class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
-                        <div
-                            class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative ">
+                        <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
                                 <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
                                 <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
-                                <div class="flex flex-row gap-2"><a href="https://twitter.com/imrgoyal"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z">
-                                            </path>
-                                        </svg></a><a href="https://www.linkedin.com/in/r0hitgoyal/"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z">
-                                            </path>
-                                        </svg></a></div>
+                                <div class="flex flex-row gap-2">
+                                    <!-- <a href="https://twitter.com/imrgoyal">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z"></path>
+                                        </svg>
+                                    </a> -->
+                                    <a href="https://www.linkedin.com/in/r0hitgoyal/">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel
-                            </div><img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50]"
-                                src="https://images.mudrex.com/web/about-us/Edul.png" style="color: transparent;">
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel</div>
+                            <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
+                    
                     <!-- Repeat the same structure for other team members -->
                     <div class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
-                        <div
-                            class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative ">
+                        <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Prince Arora</h2>
-                                <p class="text-sm max-w-xs z-50">Co-Founder at Mesh Finance, JediSwap and
-                                    Mudrex (YC-W19)</p>
-                                <div class="flex flex-row gap-2"><a><svg viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z">
-                                            </path>
-                                        </svg></a><a href="https://www.linkedin.com/in/princearora111/"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z">
-                                            </path>
-                                        </svg></a></div>
+                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
+                                <div class="flex flex-row gap-2">
+                                    <!-- <a href="https://twitter.com/imrgoyal">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z"></path>
+                                        </svg>
+                                    </a> -->
+                                    <a href="https://www.linkedin.com/in/r0hitgoyal/">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rohit <br> Goyal
-                            </div><img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50]"
-                                src="https://images.mudrex.com/web/about-us/Prince.png" style="color: transparent;">
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel</div>
+                            <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
                     <div class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
-                        <div
-                            class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative ">
+                        <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Alankar Saxena</h2>
-                                <p class="text-sm max-w-xs z-50">Co-Founder &amp; CTO at Mudrex (YC-W19)
-                                </p>
-                                <div class="flex flex-row gap-2"><a href="https://twitter.com/alankar_saxena"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z">
-                                            </path>
-                                        </svg></a><a href="https://www.linkedin.com/in/saxenaalankar/"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z">
-                                            </path>
-                                        </svg></a></div>
+                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
+                                <div class="flex flex-row gap-2">
+                                    <!-- <a href="https://twitter.com/imrgoyal">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z"></path>
+                                        </svg>
+                                    </a> -->
+                                    <a href="https://www.linkedin.com/in/r0hitgoyal/">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rohit <br> Goyal
-                            </div><img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50]"
-                                src="https://images.mudrex.com/web/about-us/Alankar.png" style="color: transparent;">
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel</div>
+                            <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
                     <div class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
-                        <div
-                            class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative ">
+                        <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Rohit Goyal</h2>
-                                <p class="text-sm max-w-xs z-50">Co-Founder at Mesh Finance, JediSwap and
-                                    Mudrex (YC-W19)</p>
-                                <div class="flex flex-row gap-2"><a href="https://twitter.com/imrgoyal"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z">
-                                            </path>
-                                        </svg></a><a href="https://www.linkedin.com/in/r0hitgoyal/"><svg
-                                            viewBox="0 0 1024 1024"
-                                            style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
-                                            <path
-                                                d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z">
-                                            </path>
-                                        </svg></a></div>
+                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
+                                <div class="flex flex-row gap-2">
+                                    <!-- <a href="https://twitter.com/imrgoyal">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z"></path>
+                                        </svg>
+                                    </a> -->
+                                    <a href="https://www.linkedin.com/in/r0hitgoyal/">
+                                        <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
+                                            <path d="M948.198 0h-872.598c-41.8 0-75.6 33-75.6 73.8v876.203c0 40.8 33.8 73.997 75.6 73.997h872.598c41.805 0 75.802-33.197 75.802-73.798v-876.401c0-40.8-33.997-73.8-75.802-73.8zM303.8 872.602h-151.999v-488.802h151.999v488.802zM227.8 317.2c-48.8 0-88.2-39.4-88.2-88s39.4-88 88.2-88c48.6 0 87.999 39.4 87.999 88 0 48.4-39.4 88-87.999 88zM872.602 872.602h-151.802v-237.601c0-56.6-0.998-129.601-79.002-129.601-78.998 0-90.998 61.8-90.998 125.601v241.601h-151.6v-488.802h145.6v66.801h2c20.2-38.4 69.8-79 143.6-79 153.798 0 182.202 101.2 182.202 232.8v268.202z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rohit <br> Goyal
-                            </div><img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50]"
-                                src="https://images.mudrex.com/web/about-us/Rohit.png" style="color: transparent;">
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel</div>
+                            <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
                 </div>
@@ -247,8 +229,9 @@
                 <!-- Component -->
                 <div class="text-center">
                     <p class="uppercase text-[#1353fe]">3 easy steps</p>
-                    <h2 class="text-3xl font-semibold capitalize md:text-5xl">How it <span
-                            class="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')] bg-cover bg-center bg-no-repeat px-4 text-white">works</span>
+                    <h2 class="text-3xl font-semibold capitalize md:text-5xl">We Help You With  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+                        <span class="relative text-white">work</span>
+                      </span>
                     </h2>
                     <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
                         <p class="text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut
