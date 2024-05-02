@@ -1,7 +1,7 @@
 <template>
     <!-- ========== HEADER ========== -->
     <header
-        class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white text-sm py-3 md:py-0  text-black">
+        class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-stone-50 text-sm py-3 md:py-0  text-black">
         <nav class="w-full mx-auto px-4 md:px-6 lg:px-14" aria-label="Global">
             <div class="relative md:flex md:items-center md:justify-between">
                 <div class="flex items-center justify-between ">
@@ -94,7 +94,8 @@
                             <div class="hidden sm:flex gap-6">
                                 <a class="text-gray-700 hover:text-white hover:bg-blue-500 rounded-xl px-2 py-2"
                                     aria-label="Visit TrendyMinds LinkedIn" href="" target="_blank"><svg
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-6 transition duration-300 ease-in-out hover:scale-110">
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                        class="h-6 transition duration-300 ease-in-out hover:scale-110">
                                         <path fill="currentColor"
                                             d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
                                         </path>
@@ -102,12 +103,13 @@
                                 </a>
                                 <a class="text-gray-700 hover:text-white hover:bg-red-500 rounded-xl px-2 py-2"
                                     aria-label="Visit TrendyMinds YouTube" href="" target="_blank"><svg
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-6 transition duration-300 ease-in-out hover:scale-110">
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                        class="h-6 transition duration-300 ease-in-out hover:scale-110">
                                         <path fill="currentColor"
                                             d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
                                         </path>
                                     </svg>
-                                </a>                               
+                                </a>
 
                             </div>
                         </div>
@@ -118,7 +120,7 @@
                                 aria-current="page">Home</nuxt-link>
                             <div
                                 class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
-                                <nuxt-link to="subject">
+                                <nuxt-link to="/subject">
                                     <button type="button"
                                         class="flex items-center w-full text-gray-800 hover:text-gray-600 font-medium ">
                                         Case Brief
@@ -143,75 +145,35 @@
                                                     <nuxt-link to="subject"
                                                         class="flex gap-x-4 text-gray-800 hover:text-blue-600 "
                                                         href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                                                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law</p>
                                                         </div>
                                                     </nuxt-link>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <rect width="7" height="7" x="14" y="3" rx="1" />
-                                                            <path
-                                                                d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law2</p>
                                                         </div>
                                                     </a>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path
-                                                                d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
-                                                            <polyline points="14 2 14 8 20 8" />
-                                                            <line x1="16" x2="8" y1="13" y2="13" />
-                                                            <line x1="16" x2="8" y1="17" y2="17" />
-                                                            <line x1="10" x2="8" y1="9" y2="9" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law3</p>
                                                         </div>
                                                     </a>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path d="m7 11 2-2-2-2" />
-                                                            <path d="M11 13h4" />
-                                                            <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law4</p>
                                                         </div>
                                                     </a>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law5</p>
                                                         </div>
@@ -227,45 +189,21 @@
                                                         class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Support</span> -->
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <circle cx="12" cy="12" r="10" />
-                                                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-                                                            <path d="M12 17h.01" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law6</p>
                                                         </div>
                                                     </a>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <circle cx="12" cy="12" r="4" />
-                                                            <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law7</p>
                                                         </div>
                                                     </a>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                                                            <circle cx="9" cy="7" r="4" />
-                                                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                                                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law8</p>
                                                         </div>
@@ -277,38 +215,14 @@
                                                         class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Partners</span> -->
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path
-                                                                d="M4 7V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-6" />
-                                                            <polyline points="14 2 14 8 20 8" />
-                                                            <path d="M5 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                                                            <path d="M7 16.5 8 22l-3-1-3 1 1-5.5" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Admininstrative Law9</p>
                                                         </div>
                                                     </a>
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-                                                        <svg class="flex-shrink-0 size-4"
-                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round">
-                                                            <path d="m15 5 4 4" />
-                                                            <path
-                                                                d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13" />
-                                                            <path d="m8 6 2-2" />
-                                                            <path
-                                                                d="m2 22 5.5-1.5L21.17 6.83a2.82 2.82 0 0 0-4-4L3.5 16.5Z" />
-                                                            <path d="m18 16 2-2" />
-                                                            <path
-                                                                d="m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17" />
-                                                        </svg>
+
                                                         <div class="grow">
                                                             <p>Administrative Law10</p>
                                                         </div>
@@ -352,10 +266,11 @@
                             </div>
 
 
-                            <a class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6  dark:hover:text-neutral-500"
-                                href="#">
+                            <nuxt-link
+                                class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6  dark:hover:text-neutral-500"
+                                to="/about">
                                 About
-                            </a>
+                            </nuxt-link>
                         </div>
                         <div class="h-full w-auto hidden md:block">
                             <div class="watsup-group flex items-center">

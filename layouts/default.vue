@@ -1,6 +1,6 @@
 <template>
     <header
-        class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-white text-sm sm:py-0 text-black">
+        class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black">
         <div class="inline-flex gap-5 justify-between items-center sm:p-0 md:p-0 lg:py-6 lg:px-10">
 
             <div class="h-auto w-36 hidden sm:block md:block"><nuxt-link to="/">
@@ -14,8 +14,9 @@
                         alt="" srcset="" class="rounded-lg" /></nuxt-link>
             </div>
         </div>
-        <hr />
+        <hr>
         <mynav />
+        <hr>
         <!-- here is cuted dipesh nav  -->
     </header>
     <slot />
