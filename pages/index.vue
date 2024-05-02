@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools h-[400px] pb-14 flex flex-col items-center justify-center relative">
+    <section class="bg-cover bg-center bg-w3schools h-[400px] lg:h-[700px] pb-14 sm:py-4 flex flex-col items-center justify-center lg:-mt-16 relative">
         <img src="assets\lynx_in_space.png" alt="Background Image"
-            class="hidden sm:block absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
-        <div class="mb-8 text-white flex flex-col items-center justify-center">
+            class="hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
+        <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
             <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
                 Looking for a case brief?
             </h2>
@@ -36,7 +36,7 @@
             </div>
             <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
                 <nuxt-link to="/about"
-                    class="text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
+                    class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
                     Click here !!
                 </nuxt-link>
             </P>
@@ -60,25 +60,25 @@
         <div class="container mx-auto px-10 py-4">
             <div
                 class="flex flex-col md:flex-row justify-center shadow-slate-200 text-start items-center bg-indigo-50 rounded-2xl">
-                <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0">
+                <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0 px-4">
                     <ul class="list-none space-y-2 flex-col items-start">
                         <li class="flex justify-start items-center font-medium text-lg">
-                            <span>"Creating India's Largest Academic Casebrief Database"</span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <span>Case Briefs for Academics</span>
+                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             
                         </li>
                         <li class="flex jjustify-start items-center font-medium text-lg">
-                            <span>"Don't Let College Tags Define Your Journey - Quality Content Is Your Right"</span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <span>Free Quality Content: Accessible for All</span>
+                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             
                         </li>
                         <li class="flex justify-start items-center font-medium text-lg">
-                            <span>"Your Success, Our Victory" </span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <span>Your Success, Our Victory </span>
+                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             
@@ -86,7 +86,7 @@
                         
                     </ul>
                 </div>
-                <div class="max:w-full pl-4 flex items-center justify-center py-4">
+                <div class="max:w-full px-4 flex items-center justify-center py-4">
                     <img src="assets\dssg.png"
                         alt="Descriptive Alt Text" class="w-full h-[350px] object-fill rounded-md shadow-lg">
                 </div>
@@ -108,9 +108,9 @@
                     <!-- <p class="mx-auto mt-4 max-w-[528px] text-[#636262]">Lorem ipsum dolor sit amet elit ut aliquam</p> -->
                 </div>
                 <!-- Team Items -->
-                <div class="flex flex-wrap justify-center gap-3 md:justify-between md:gap-6  my-12">
+                <div class="flex flex-wrap  justify-center gap-3 md:justify-between md:gap-6  my-12">
                     <div
-                        class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -135,14 +135,14 @@
                             <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                class="absolute  left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
                                 src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
 
                     <!-- Repeat the same structure for other team members -->
                     <div
-                        class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div
-                        class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                     <div
-                        class="relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -328,5 +328,6 @@ export default {
 .bg-w3schools {
     background-image: url("/assets/sky.png");
     background-size: cover;
+    object-fit: cover;
 }
 </style>
