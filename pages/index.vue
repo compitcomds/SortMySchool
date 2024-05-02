@@ -50,7 +50,7 @@
                 they exist</h2>
         </div> -->
 
-        <div class=" max:w-full flex items-center justify-center">
+        <div class="max:w-full flex items-center justify-center">
             <img src="assets\madam.png" alt="">
         </div>
     </section>
@@ -262,8 +262,8 @@
                 <!-- How it Works Item -->
                 <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-2 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold"><img class="w-16" src="assets\man.avif" alt=""></p>
+                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-2 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
+                        <p class="text-xl font-bold "><img class="w-16" src="assets\man.avif" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Find Component</p>
                     <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
@@ -276,7 +276,7 @@
 
                 <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
+                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
                         <p class="text-xl font-bold"><img class="w-24 rounded-xl" src="assets\man2.jpeg" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Copy and Paste</p>
@@ -289,7 +289,7 @@
                 <!-- How it Works Item -->
                 <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
+                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
                         <p class="text-xl font-bold"><img class="w-32 rounded-xl" src="assets\man3.avif" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Done!</p>
