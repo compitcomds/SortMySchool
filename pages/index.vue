@@ -44,7 +44,7 @@
     <!-- full Image -->
     <section class="">
         <div class="max-w-750 mx-auto text-center mb-4 pt-8 ">
-            <h2 class="text-2xl md:text-3xl font-medium mb-2" style="color: #2B0380;">Find the best courses, wherever
+            <h2 class="text-2xl md:text-3xl font-medium mb-2 lg:px-0 px-2" style="color: #2B0380;">Find the best courses, wherever
                 they exist</h2>
         </div>
 
