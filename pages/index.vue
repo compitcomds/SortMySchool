@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools h-[400px] lg:h-[700px] pb-14 sm:py-4 flex flex-col items-center justify-center lg:-mt-16 relative">
+    <section class="bg-cover bg-center bg-w3schools h-[400px] lg:h-[700px] pb-14 sm:py-4 flex flex-col items-center justify-center lg:-mt-16 relative">          
         <img src="assets\lynx_in_space.png" alt="Background Image"
-            class="hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
+            class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
             <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
                 Looking for a case brief?
@@ -10,6 +10,7 @@
                 Creating India's Largest Database of Case Brief for Academia...
             </p>
         </div>
+        
         <div class="container mx-auto px-4 flex flex-col w-full justify-center items-center relative">
 
             <!-- Search bar goes here -->
@@ -34,13 +35,15 @@
                 <!-- Image for larger screens -->
 
             </div>
+            
             <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
                 <nuxt-link to="/about"
                     class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
                     Click here !!
                 </nuxt-link>
             </P>
-
+            
+            
         </div>
     </section>
     <!-- full Image -->
