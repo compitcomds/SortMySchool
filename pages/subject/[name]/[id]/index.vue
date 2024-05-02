@@ -10,7 +10,7 @@
             <Meta name="description" :content="tags" />
 
         </div>
-        <div class="max-w-[85rem] my-4   mx-auto" id="app">
+        <div class="max-w-[85rem] my-4 mx-auto" id="app">
             <div
                 class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8 bg-indigo-50 rounded-lg shadow-md border-2">
                 <!-- Content -->
