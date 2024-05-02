@@ -49,7 +49,7 @@
         </div>
 
         <div class=" max:w-full flex items-center justify-center">
-            <img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fillustrations%2Fhomepage-discover-01.png?auto=format&h=650&ixlib=php-4.1.0&s=0f4b41c03ff818078174736b859d8421"
+            <img src="assets\fullImage.png"
                 alt="">
         </div>
     </section>
