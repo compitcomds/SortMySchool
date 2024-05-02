@@ -88,7 +88,7 @@
                 </div>
                 <div class="max:w-full px-4 flex items-center justify-center py-4">
                     <img src="assets\dssg.png"
-                        alt="Descriptive Alt Text" class="w-full h-[350px] object-fill rounded-md shadow-lg">
+                        alt="Descriptive Alt Text" class="transition duration-300 ease-in-out hover:scale-110 w-full h-[350px] object-fill rounded-md shadow-lg">
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <h2 class="text-xl font-semibold z-50">Rahul Soni</h2>
                                 <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
                                 <div class="flex flex-row gap-2">
                                     <!-- <a href="https://twitter.com/imrgoyal">
@@ -132,7 +132,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
                                 class="absolute  left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
@@ -146,7 +146,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <h2 class="text-xl font-semibold z-50">Rahul Soni</h2>
                                 <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
                                 <div class="flex flex-row gap-2">
                                     <!-- <a href="https://twitter.com/imrgoyal">
@@ -164,7 +164,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
                                 class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
@@ -176,7 +176,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <h2 class="text-xl font-semibold z-50">Rahul Soni</h2>
                                 <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
                                 <div class="flex flex-row gap-2">
                                     <!-- <a href="https://twitter.com/imrgoyal">
@@ -194,7 +194,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
                                 class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
@@ -206,7 +206,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold z-50">Edul Patel</h2>
+                                <h2 class="text-xl font-semibold z-50">Rahul Soni</h2>
                                 <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
                                 <div class="flex flex-row gap-2">
                                     <!-- <a href="https://twitter.com/imrgoyal">
@@ -224,7 +224,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Edul<br> Patel
+                            <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
                                 class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
@@ -260,10 +260,10 @@
             <!-- How it Works Div -->
             <div class="mx-auto grid grid-cols-1 gap-4 sm:justify-items-stretch md:grid-cols-3 lg:gap-8">
                 <!-- How it Works Item -->
-                <div class="relative flex flex-col items-center gap-4 p-8 text-center">
+                <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold">1</p>
+                        class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-2 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
+                        <p class="text-xl font-bold"><img class="w-16" src="assets\man.avif" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Find Component</p>
                     <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
@@ -274,10 +274,10 @@
                 </div>
                 <!-- How it Works Item -->
 
-                <div class="relative flex flex-col items-center gap-4 p-8 text-center">
+                <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
                         class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold">2</p>
+                        <p class="text-xl font-bold"><img class="w-24 rounded-xl" src="assets\man2.jpeg" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Copy and Paste</p>
                     <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
@@ -287,10 +287,10 @@
                         class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[8%] md:inline-block lg:left-auto" />
                 </div>
                 <!-- How it Works Item -->
-                <div class="relative flex flex-col items-center gap-4 p-8 text-center">
+                <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
                         class="mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold">3</p>
+                        <p class="text-xl font-bold"><img class="w-32 rounded-xl" src="assets\man3.avif" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Done!</p>
                     <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,

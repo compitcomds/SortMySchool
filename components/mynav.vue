@@ -136,9 +136,9 @@
                                         <div class="md:col-span-3">
                                             <div class="flex flex-col py-6 px-3 md:px-6">
                                                 <div class="space-y-4">
-                                                    <span
+                                                    <!-- <span
                                                         class="mb-2 text-xs font-semibold uppercase text-gray-800 ">About
-                                                        us</span>
+                                                        us</span> -->
 
                                                     <nuxt-link to="subject"
                                                         class="flex gap-x-4 text-gray-800 hover:text-blue-600 "
@@ -167,7 +167,7 @@
                                                                 d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Integrations</p>
+                                                            <p>Administrative Law2</p>
                                                         </div>
                                                     </a>
 
@@ -185,7 +185,7 @@
                                                             <line x1="10" x2="8" y1="9" y2="9" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Guides</p>
+                                                            <p>Administrative Law3</p>
                                                         </div>
                                                     </a>
 
@@ -200,7 +200,7 @@
                                                             <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>API Reference</p>
+                                                            <p>Administrative Law4</p>
                                                         </div>
                                                     </a>
 
@@ -213,7 +213,7 @@
                                                             <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>API Status</p>
+                                                            <p>Administrative Law5</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -223,8 +223,8 @@
                                         <div class="md:col-span-3">
                                             <div class="flex flex-col py-6 px-3 md:px-6">
                                                 <div class="space-y-4">
-                                                    <span
-                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Support</span>
+                                                    <!-- <span
+                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Support</span> -->
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
                                                         <svg class="flex-shrink-0 size-4"
@@ -237,7 +237,7 @@
                                                             <path d="M12 17h.01" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Help Center</p>
+                                                            <p>Administrative Law6</p>
                                                         </div>
                                                     </a>
 
@@ -251,7 +251,7 @@
                                                             <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Developer Hub</p>
+                                                            <p>Administrative Law7</p>
                                                         </div>
                                                     </a>
 
@@ -267,14 +267,14 @@
                                                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Community Forum</p>
+                                                            <p>Administrative Law8</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
-                                                <div class="mt-7 space-y-4">
-                                                    <span
-                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Partners</span>
+                                                <div class="mt-4 space-y-4">
+                                                    <!-- <span
+                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Partners</span> -->
 
                                                     <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
                                                         <svg class="flex-shrink-0 size-4"
@@ -289,7 +289,7 @@
                                                             <path d="M7 16.5 8 22l-3-1-3 1 1-5.5" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Become a Partner</p>
+                                                            <p>Admininstrative Law9</p>
                                                         </div>
                                                     </a>
 
@@ -310,7 +310,7 @@
                                                                 d="m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17" />
                                                         </svg>
                                                         <div class="grow">
-                                                            <p>Build on Preline</p>
+                                                            <p>Administrative Law10</p>
                                                         </div>
                                                     </a>
                                                 </div>
