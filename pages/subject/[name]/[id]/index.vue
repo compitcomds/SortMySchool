@@ -76,7 +76,7 @@
                             <div>
                                 <div class="text-center">
                                     <div class="gap-3" v-if="imgSrc">
-                                        <figure class="relative w-full h-60">
+                                        <figure class="relative w-full h-96 object-cover">
                                             <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
                                                 :src="imgSrc" alt="Image Description">
                                         </figure>
