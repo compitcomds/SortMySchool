@@ -15,7 +15,7 @@ client
 export const database = new Databases(client);
 
 export async function getAllSubjects() {
-    const subjects = await database.listDocuments(DATABASE_ID, COLLECTION_SUBJECTS);
+    const subjects = await database.listDocuments(DATABASE_ID, COLLECTION_SUBJECTS, [Query.orderAsc("name")]);
     return subjects;
 }
 
@@ -51,3 +51,6 @@ export async function searchBlogsByTitle(title: string) {
     return blogs;
 }
 
+export function addViewToBlog(id: string, newViews: number) {
+    database.updateDocument(DATABASE_ID, COLLECTION_BLOGS, id, { views: newViews });
+}
