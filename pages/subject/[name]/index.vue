@@ -1,6 +1,6 @@
 <template>
-  
-<Listofcontent :propName="content"  />
+
+  <Listofcontent :propName="name" :propContent="content" />
 </template>
 
 <script>
