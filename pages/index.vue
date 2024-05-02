@@ -43,7 +43,7 @@
         </div>
     </section>
     <!-- full Image -->
-    <section class="">
+    <section style="background-color: #eef8ff;">
         <!-- <div class="max-w-750 mx-auto text-center mb-4 pt-8 ">
             <h2 class="text-2xl md:text-3xl font-medium mb-2 lg:px-0 px-2" style="color: #2B0380;">Find the best courses, wherever
                 they exist</h2>
@@ -55,10 +55,10 @@
         </div>
     </section>
     <!-- comparision -->
-    <section>
+    <section >
         
-        <div class="container mx-auto px-10 my-4">
-            <div class="flex flex-col md:flex-row justify-center text-start items-center bg-indigo-50 rounded-2xl">
+        <div class="container mx-auto px-10 py-4">
+            <div class="flex flex-col md:flex-row justify-center shadow-slate-200 text-start items-center bg-indigo-50 rounded-2xl">
                 <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0">
                     <ul class="list-none space-y-2 flex-col items-start">
                         <li class="flex justify-start items-center font-medium text-lg">
@@ -104,7 +104,7 @@
     </section>
     <!-- Testimonial -->
 
-    <section class="bg-white">
+    <section >
         <!-- Container -->
         <div class="mx-auto px-5 py-8 md:px-10 lg:py-12">
             <!-- Component -->
@@ -221,7 +221,7 @@
 
     <!-- how it works -->
 
-    <section>
+    <section >
         <!-- Container -->
         <div class="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-8 lg:py-8">
             <!-- Heading Div -->
