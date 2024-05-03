@@ -89,7 +89,7 @@
                 <div id="navbar-collapse-with-animation"
                     class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
                     <div
-                        class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+                        class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                         <div class="hidden sm:flex gap-3">
                             <div class="hidden sm:flex gap-6">
                                 <a class="text-gray-700 hover:text-white hover:bg-blue-500 rounded-xl px-2 py-2"
@@ -114,9 +114,9 @@
                             </div>
                         </div>
                         <div
-                            class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid dark:divide-neutral-700">
+                            class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
 
-                            <nuxt-link class="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500" to="/"
+                            <nuxt-link class="font-medium text-blue-600 py-3 md:py-6" to="/"
                                 aria-current="page">Home</nuxt-link>
                             <div
                                 class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
@@ -137,97 +137,281 @@
                                     <div class="grid grid-cols-2 md:grid-cols-10">
                                         <div class="md:col-span-3">
                                             <div class="flex flex-col py-6 px-3 md:px-6">
-                                                <div class="space-y-4">
-                                                    <!-- <span
-                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">About
-                                                        us</span> -->
+                                                <!-- Timeline -->
+                                                <div>
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
 
-                                                    <nuxt-link to="subject"
-                                                        class="flex gap-x-4 text-gray-800 hover:text-blue-600 "
-                                                        href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law</p>
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </nuxt-link>
+                                                        <!-- End Icon -->
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law2</p>
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law
+                                                            </h3>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law3</p>
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Icon -->
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law4</p>
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 2
+                                                            </h3>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law5</p>
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 3
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
+
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 4
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
+
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 5
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+
                                                 </div>
+                                                <!-- End Timeline -->
                                             </div>
                                         </div>
 
                                         <div class="md:col-span-3">
                                             <div class="flex flex-col py-6 px-3 md:px-6">
-                                                <div class="space-y-4">
-                                                    <!-- <span
-                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Support</span> -->
+                                                <!-- Timeline -->
+                                                <div>
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law6</p>
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Icon -->
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law7</p>
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 6
+                                                            </h3>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
 
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law8</p>
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </a>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 7
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
+
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 8
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
+
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 9
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
+
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Administrative Law 10
+                                                            </h3>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+
                                                 </div>
-
-                                                <div class="mt-4 space-y-4">
-                                                    <!-- <span
-                                                        class="mb-2 text-xs font-semibold uppercase text-gray-800 ">Partners</span> -->
-
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Admininstrative Law9</p>
-                                                        </div>
-                                                    </a>
-
-                                                    <a class="flex gap-x-4 text-gray-800 hover:text-blue-600 " href="#">
-
-                                                        <div class="grow">
-                                                            <p>Administrative Law10</p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                                <!-- End Timeline -->
                                             </div>
                                         </div>
 
@@ -247,7 +431,7 @@
                                                             reiciendis enim, voluptas facilis et voluptatum nihil odio.
                                                         </p>
                                                         <p
-                                                            class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-400 dark:hover:text-blue-500">
+                                                            class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium">
                                                             Explore Now
                                                             <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
@@ -266,9 +450,7 @@
                             </div>
 
 
-                            <nuxt-link
-                                class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6  dark:hover:text-neutral-500"
-                                to="/about">
+                            <nuxt-link class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6  " to="/about">
                                 About
                             </nuxt-link>
                         </div>
