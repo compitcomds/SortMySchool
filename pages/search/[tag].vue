@@ -25,7 +25,7 @@ export default {
     methods: {
         async searchBlog(inputname) {
             const blogs = await searchBlogByTag(inputname);
-            this.content = divideDocumentsAlphabetically(blogs);
+            this.content = divideDocumentsAlphabetically(blogs, "title");
             console.log("Search query: ", inputname);
             console.log(blogs);
         },

@@ -6,8 +6,8 @@
             <source src="assets\vlogger.mp4" type="video/ogg">
             Your browser does not support the video tag.
         </video> -->
-        
-        
+
+
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
@@ -27,7 +27,7 @@
 
                 <input type="text" placeholder="Find your brief here...." name="q" id="query" v-model="name"
                     class="w-full p-3 rounded-full  border-r-white rounded-r-none  placeholder-gray-500" />
-                <button v-on:click="searchBlog(name)"
+                <nuxt-link :to="`/search/${name}`"
                     class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                     <span>Search</span>
                     <span class="hidden md:block">
@@ -39,7 +39,7 @@
                                 d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
                         </svg>
                     </span>
-                </button>
+                </nuxt-link>
                 <!-- Image for larger screens -->
 
             </div>
@@ -62,7 +62,7 @@
         </div> -->
 
         <div class="max:w-full flex items-center justify-center">
-            <img src="C:\Users\1999g\OneDrive\Desktop\sortMyLaw\SortMySchool\assets\full.png" alt="">
+            <img src="/assets/full.png" alt="">
         </div>
     </section>
 
@@ -78,13 +78,14 @@
                     <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
                         <div
                             class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
-                            <video width="320" height="240" autoplay muted loop class="w-100 z-10 rounded-full autoplay">
+                            <video width="320" height="240" autoplay muted loop
+                                class="w-100 z-10 rounded-full autoplay">
                                 <source src="assets\vlogger.mp4" type="video/mp4">
                                 <source src="assets\vlogger.mp4" type="video/ogg">
                                 Your browser does not support the video tag.
                             </video>
-                            
-                            
+
+
 
 
                         </div>
@@ -98,12 +99,13 @@
                     <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
                         <div
                             class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
-                            <video width="320" height="240" autoplay muted loop class="w-100 z-10 rounded-full autoplay">
+                            <video width="320" height="240" autoplay muted loop
+                                class="w-100 z-10 rounded-full autoplay">
                                 <source src="assets\piggy-bank.mp4" type="video/mp4">
                                 <source src="assets\piggy-bank.mp4" type="video/ogg">
                                 Your browser does not support the video tag.
                             </video>
-                            
+
                         </div>
                         <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-sky-400 rounded-full"></div>
                     </div>
@@ -116,13 +118,14 @@
                     <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
                         <div
                             class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
-                            <video width="320" height="240" autoplay muted loop class="w-100 z-10 rounded-full autoplay">
+                            <video width="320" height="240" autoplay muted loop
+                                class="w-100 z-10 rounded-full autoplay">
                                 <source src="assets/success.mp4" type="video/mp4">
                                 <source src="assets/success.mp4" type="video/ogg">
                                 Your browser does not support the video tag.
                             </video>
-                            
-                            
+
+
                         </div>
                         <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-sky-400 rounded-full"></div>
                     </div>
@@ -286,12 +289,13 @@
                 <!-- Component -->
                 <div class="text-center">
                     <!-- <p class="uppercase text-[#1353fe]">3 easy steps</p> -->
-                    <h2 class="text-2xl font-semibold capitalize md:text-5xl">Good <span class="text-sky-400">quality content</span> leads to...
+                    <h2 class="text-2xl font-semibold capitalize md:text-5xl">Good <span class="text-sky-400">quality
+                            content</span> leads to...
                         <!-- <span
                             class="before:block before:absolute before:-inset-1 before:-skew-y-0 before:bg-green-500 relative inline-block">
                             <span class="relative text-white"></span>
                         </span> -->
-                        
+
                     </h2>
                     <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
                         <!-- <p class="text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut
@@ -322,7 +326,7 @@
                         <p class="text-xl font-bold"><img class="w-40" src="assets\7.png" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Better CV & Internships !</p>
-                    
+
                     <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639834731925279c5e0b4ee5_Vector%2033.svg"
                         alt=""
                         class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[8%] md:inline-block lg:left-auto" />
@@ -334,7 +338,7 @@
                         <p class="text-xl font-bold"><img class="w-40 object-cover" src="assets\6.png" alt=""></p>
                     </div>
                     <p class="mb-2 text-xl font-semibold">Better Colleges Abroad !</p>
-                    
+
                 </div>
 
             </div>
@@ -345,20 +349,12 @@
 </template>
 
 <script>
-import { searchBlogByTag } from "~/utils/appwrite";
 
 export default {
     name: 'CodeHelpAdvantages',
     data() {
         return {
-            name: null
-        }
-    },
-    methods: {
-        async searchBlog(inputname) {
-            const blogs = await searchBlogByTag(inputname);
-            console.log("Search query: ", inputname);
-            console.log(blogs);
+            name: ""
         }
     },
 };

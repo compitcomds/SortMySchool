@@ -42,7 +42,8 @@
                         </div>
                         <!-- search icon -->
                         <div class="h-6 w-8 white">
-                            <label for="my_modal_7" class=""><span class="">
+                            <label for="my_modal_7" class="">
+                                <span class="">
                                     <svg class="text-black h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
                                         viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
@@ -57,13 +58,16 @@
                             <div class="modal w-full" role="dialog">
                                 <div class="modal-box ">
                                     <label class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end"
-                                        for="my_modal_7"><Span
-                                            class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</Span></label>
+                                        for="my_modal_7">
+                                        <span
+                                            class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</span>
+                                    </label>
                                     <p class="flex items-center justify-center p-3">Search Your Result</p>
                                     <div class="flex">
-                                        <input type="text" placeholder="Search..." name="q" id="query"
+                                        <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
+                                            id="query"
                                             class="w-full p-3  rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
-                                        <button
+                                        <nuxt-link :to="`/search/${searchQuery}`"
                                             class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                                             <span>Search</span>
                                             <span class="hidden md:block">
@@ -77,7 +81,7 @@
                                                         d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
                                                 </svg>
                                             </span>
-                                        </button>
+                                        </nuxt-link>
                                     </div>
                                 </div>
 
@@ -119,7 +123,7 @@
                                         </path>
                                     </svg>
                                 </a>
-                                
+
 
 
                             </div>
@@ -469,7 +473,8 @@
                         </div>
                         <div class="h-full w-auto hidden md:block">
                             <div class="watsup-group flex items-center">
-                                <label for="my_modal_8" class=""><span class="">
+                                <label for="my_modal_8" class="">
+                                    <span class="">
                                         <svg class="text-black h-5 w-5 p-0 fill-current mx-4"
                                             xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
@@ -490,9 +495,10 @@
                                                 class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</Span></label>
                                         <p class="flex items-center justify-center p-3">Search Your Result</p>
                                         <div class="flex">
-                                            <input type="text" placeholder="Search..." name="q" id="query"
-                                                class="w-full p-3  rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
-                                            <button
+                                            <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
+                                                id="query"
+                                                class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
+                                            <nuxt-link :to="`/search/${searchQuery}`"
                                                 class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                                                 <span>Search</span>
                                                 <span class="hidden md:block">
@@ -506,7 +512,7 @@
                                                             d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
                                                     </svg>
                                                 </span>
-                                            </button>
+                                            </nuxt-link>
                                         </div>
                                     </div>
 
@@ -532,8 +538,8 @@
     </header>
     <!-- ========== END HEADER ========== -->
 
-    <!-- ========== HEADER ========== --
-<!-- ========== END HEADER ========== -->
+    <!-- ========== HEADER ========== -- -->
+    <!-- ========== END HEADER ========== -->
 
 </template>
 
@@ -541,7 +547,13 @@
 
 <script>
 export default {
-
+    data() {
+        return {
+            searchQuery: ""
+        }
+    },
+    methods: {
+    }
 };
 </script>
 
