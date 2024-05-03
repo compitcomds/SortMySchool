@@ -1,5 +1,6 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center  relative">          
+    <section
+        class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center  relative">
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
@@ -10,7 +11,7 @@
                 Creating India's Largest Database of Case Brief for Academia...
             </p>
         </div>
-        
+
         <div class="container mx-auto px-4 flex flex-col w-full justify-center items-center relative">
 
             <!-- Search bar goes here -->
@@ -35,15 +36,15 @@
                 <!-- Image for larger screens -->
 
             </div>
-            
+
             <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
                 <nuxt-link to="/about"
                     class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
                     Click here !!
                 </nuxt-link>
             </P>
-            
-            
+
+
         </div>
     </section>
     <!-- full Image -->
@@ -67,36 +68,45 @@
                     <ul class="list-none space-y-2 flex-col items-start">
                         <li class="flex justify-start items-center font-medium text-lg">
                             <span>Case Briefs for Academics</span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block "
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
                             </svg>
-                            
+
                         </li>
                         <li class="flex jjustify-start items-center font-medium text-lg">
                             <span>Free Quality Content: Accessible for All</span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block "
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
                             </svg>
-                            
+
                         </li>
                         <li class="flex justify-start items-center font-medium text-lg">
                             <span>Your Success, Our Victory </span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block "
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
                             </svg>
-                            
+
                         </li>
-                        
+
                     </ul>
                 </div>
                 <div class="max:w-full px-4 flex items-center justify-center py-4">
-                    <img src="assets\dssg.png"
-                        alt="Descriptive Alt Text" class="transition duration-300 ease-in-out hover:scale-110 w-full h-[350px] object-fill rounded-md shadow-lg">
+                    <img src="assets\dssg.png" alt="Descriptive Alt Text"
+                        class="transition duration-300 ease-in-out hover:scale-110 w-full h-[350px] object-fill rounded-md shadow-lg">
                 </div>
             </div>
         </div>
     </section>
-    
+
 
     <!-- Testimonial -->
 
@@ -329,7 +339,7 @@ export default {
 
 <style scoped>
 .bg-w3schools {
-    background-image: url("C:\Users\1999g\OneDrive\Desktop\sortMyLaw\SortMySchool\assets\chi.png");
+    background-image: url("/assets/chi.png");
     background-size: cover;
     object-fit: cover;
 }
