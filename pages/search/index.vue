@@ -6,7 +6,7 @@
 
 <script>
 
-await navigateTo('/');
+// await navigateTo('/');
 
 export default {
 
