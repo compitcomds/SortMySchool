@@ -7,7 +7,7 @@
                     class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
                     <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden">
                         <img class="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-t-xl"
-                        :src="sub.imgSrc" alt="Image Description">
+                            :src="sub.imgSrc" alt="Image Description">
                     </div>
                     <div class="p-3 md:px-4">
                         <h3 class="text-lg font-bold capitalize text-gray-800">

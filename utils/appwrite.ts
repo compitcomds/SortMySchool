@@ -33,7 +33,7 @@ export async function getBlogById(id: string) {
 export async function getBlogsBySubjectId(id: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
         Query.equal("subject", id),
-        Query.select(["$createdAt", "$id", "title", "tags"]),
+        Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
     ]);
     return blogs;
 }

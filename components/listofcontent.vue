@@ -24,7 +24,7 @@
           <!-- Item -->
           <template v-for="(blog, index) in blogs" :key="index">
             <div class="flex gap-1 md:gap-x-3 relative group rounded-lg hover:bg-gray-100">
-              <nuxt-link :to="`${propName}/${blog.$id}`" class="absolute inset-0 z-[1]"></nuxt-link>
+              <nuxt-link :to="`/subject/${blog.subject.$id}/${blog.$id}`" class="absolute inset-0 z-[1]"></nuxt-link>
 
               <!-- Icon -->
               <div
@@ -67,6 +67,6 @@
 
 <script>
 export default {
-  props: ['propContent', 'propName']
+  props: ['propContent']
 }
 </script>
