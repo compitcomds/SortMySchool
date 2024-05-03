@@ -8,7 +8,7 @@
         </video> -->
 
 
-        <img src="https://lottie.host/embed/c72632be-f6e2-4f77-bf27-14f344cec1b9/k502nfq9K9.json" alt="Background Image"
+        <img src="assets\lynx_in_space.png" alt="Background Image"
             class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
             <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
