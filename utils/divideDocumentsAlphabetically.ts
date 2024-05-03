@@ -1,10 +1,10 @@
 import { type Models } from "appwrite";
 
-export default function (allDocuments: Models.DocumentList<Models.Document>) {
+export default function (allDocuments: Models.DocumentList<Models.Document>, key: string = "title") {
     const dividedDocuments: { [key: string]: Models.Document[] } = {};
     allDocuments.documents.forEach(document => {
         // Get the first letter of the title, convert to uppercase
-        const firstLetter: string = document.title[0].toUpperCase();
+        const firstLetter: string = document[key][0].toUpperCase();
 
         // Check if there's already an array for this letter, if not, create one
         if (!dividedDocuments[firstLetter]) {

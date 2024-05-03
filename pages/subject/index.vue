@@ -1,48 +1,30 @@
 <!-- have list of subject  -->
 <template>
-    <div v-if="subject">
-        <ul class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto">
-            <li v-for="sub in subject" :key="sub.$id">
-                <nuxt-link :to="`/subject/${sub.$id}`"
-                    class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
-                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden">
-                        <img class="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-t-xl"
-                            :src="sub.imgSrc" alt="Image Description">
-                    </div>
-                    <div class="p-3 md:px-4">
-                        <h3 class="text-lg font-bold capitalize text-gray-800">
-                            {{ sub.name }}
-                        </h3>
-                        <p class="mt-1 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg text-blue-600 hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400"
-                            href="#">
-                            Go to blogs
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6"></path>
-                            </svg>
-                        </p>
-                    </div>
-                </nuxt-link>
-            </li>
-        </ul>
+    <div v-if="subjectObj">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl w-full p-5 mx-auto">
+            <div v-for="(subjects, letter) in subjectObj" :key="letter"
+                class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
+                <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">{{ letter }}</h3>
+                <ul class="flex flex-col justify-center items-center">
+                    <li v-for="subject in subjects" :key="subject.$id" class="text-center w-full">
+                        <nuxt-link :to="`/subject/${subject.$id}`"
+                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                            {{ subject.name }}
+                        </nuxt-link>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
     <div v-else>
         <ul class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto">
             <li v-for="i in generateRange(1, 24, 2)" :key="i">
                 <div
                     class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
-                    <div class="relative rounded-t-xl w-full h-fit min-h-48 overflow-hidden bg-gray-300 skeleton">
+                    <div class="relative rounded-t-xl w-full h-fit min-h-80 overflow-hidden bg-gray-300 skeleton">
                         <!-- Skeleton for image placeholder -->
                         <div class="bg-gray-300 skeleton"></div>
-                    </div>
-                    <div class="p-3 md:px-4">
-                        <!-- Skeleton for heading -->
-                        <div class="h-6 bg-gray-300 mb-2 skeleton rounded-md"></div>
-                        <!-- Skeleton for subheading -->
-                        <div class="h-4 bg-gray-300 w-3/4 mb-2 skeleton rounded-md"></div>
-                        <!-- Skeleton for button -->
-                        <div class="h-8 bg-gray-300 w-1/2 skeleton rounded-md"></div>
                     </div>
                 </div>
             </li>
@@ -57,7 +39,7 @@ import { getAllSubjects } from "~/utils/appwrite";
 export default {
     data() {
         return {
-            subject: null
+            subjectObj: null
         };
     },
 
@@ -69,7 +51,7 @@ export default {
         async fillAllSubject() {
             try {
                 const subs = await getAllSubjects();
-                this.subject = subs.documents;
+                this.subjectObj = divideDocumentsAlphabetically(subs, "name");
             } catch (error) {
                 console.error("Error fetching subjects:", error);
             }
