@@ -1,6 +1,13 @@
 <template>
     <section
         class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center  relative">
+        <!-- <video width="320" height="240" autoplay muted loop class="w-100 z-10 autoplay object-cover absolute right-0 lg:pr-[120px] hidden sm:block md:hidden lg:block xl:block">
+            <source src="assets\rocket.mp4" type="video/mp4">
+            <source src="assets\vlogger.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video> -->
+        
+        
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
