@@ -110,7 +110,7 @@
                                         </path>
                                     </svg>
                                 </a>
-                                <a class="text-gray-700 hover:text-white hover:bg-red-500 rounded-xl px-2 py-2"
+                                <a class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
                                     aria-label="Send us an email" href="mailto:your.email@example.com" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                                         class="h-6 rounded-xl transition duration-300 ease-in-out hover:scale-110">
