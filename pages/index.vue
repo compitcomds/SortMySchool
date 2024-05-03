@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools h-[400px] lg:h-[700px] pb-14 sm:py-4 flex flex-col items-center justify-center lg:-mt-16 relative">          
+    <section class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center  relative">          
         <img src="assets\lynx_in_space.png" alt="Background Image"
             class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
@@ -329,7 +329,7 @@ export default {
 
 <style scoped>
 .bg-w3schools {
-    background-image: url("/assets/sky.png");
+    background-image: url("C:\Users\1999g\OneDrive\Desktop\sortMyLaw\SortMySchool\assets\chi.png");
     background-size: cover;
     object-fit: cover;
 }
