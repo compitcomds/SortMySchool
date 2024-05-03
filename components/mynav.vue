@@ -97,15 +97,15 @@
                         class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                         <div class="hidden sm:flex gap-3">
                             <div class="hidden sm:flex gap-6">
-                                <a class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
-                                    aria-label="Send us an email" href="/contact" target="_blank">
+                                <nuxt-link class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
+                                    aria-label="Send us an email" to="/contact">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                                         class="h-6 rounded-xl transition duration-300 ease-in-out hover:scale-110">
                                         <path fill="currentColor"
                                             d="M499.2 108.8H12.8A12.81 12.81 0 000 121.6v268.8a12.81 12.81 0 0012.8 12.8h486.4a12.81 12.81 0 0012.8-12.8V121.6a12.81 12.81 0 00-12.8-12.8zm0 38.4L256 279.576 12.8 147.2V121.6L256 253.976 499.2 121.6z">
                                         </path>
                                     </svg>
-                                </a>
+                                </nuxt-link>
                                 <a class="text-gray-700 hover:text-white hover:bg-blue-500 rounded-xl px-2 py-2"
                                     aria-label="Visit TrendyMinds LinkedIn"
                                     href="https://www.linkedin.com/in/parthjain98?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
