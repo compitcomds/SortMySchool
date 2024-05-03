@@ -3,11 +3,13 @@
         <div class="mx-auto max-w-7xl py-0 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
             <nav class="-mx-5 -my-2 flex flex-wrap justify-center order-2" aria-label="Footer">
                 <div class="px-5">
-                    <a href="#" class="text-base text-white hover:text-gray-200">Terms of Service</a>
+                    <nuxt-link to="/terms-of-service" class="text-base text-white hover:text-gray-200">Terms of
+                        Service</nuxt-link>
                 </div>
 
                 <div class="px-5">
-                    <a href="#" class="text-base text-white hover:text-gray-200">Privacy Policy</a>
+                    <nuxt-link to="/privacy-policy" class="text-base text-white hover:text-gray-200">Privacy
+                        Policy</nuxt-link>
                 </div>
             </nav>
             <div class="mt-8 md:mb-8 flex justify-center space-x-6 md:order-3">
