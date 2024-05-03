@@ -92,6 +92,15 @@
                         class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                         <div class="hidden sm:flex gap-3">
                             <div class="hidden sm:flex gap-6">
+                                <a class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
+                                    aria-label="Send us an email" href="mailto:your.email@example.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        class="h-6 rounded-xl transition duration-300 ease-in-out hover:scale-110">
+                                        <path fill="currentColor"
+                                            d="M499.2 108.8H12.8A12.81 12.81 0 000 121.6v268.8a12.81 12.81 0 0012.8 12.8h486.4a12.81 12.81 0 0012.8-12.8V121.6a12.81 12.81 0 00-12.8-12.8zm0 38.4L256 279.576 12.8 147.2V121.6L256 253.976 499.2 121.6z">
+                                        </path>
+                                    </svg>
+                                </a>
                                 <a class="text-gray-700 hover:text-white hover:bg-blue-500 rounded-xl px-2 py-2"
                                     aria-label="Visit TrendyMinds LinkedIn" href="" target="_blank"><svg
                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -110,23 +119,26 @@
                                         </path>
                                     </svg>
                                 </a>
+                                
+
 
                             </div>
                         </div>
                         <div
-                            class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
+                            class="w-full md:w-fit  flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
 
-                            <nuxt-link class="font-medium text-blue-600 py-3 md:py-6" to="/"
+                            <nuxt-link class="font-medium lg:text-lg text-blue-600 py-3 md:py-6" to="/"
                                 aria-current="page">Home</nuxt-link>
                             <div
-                                class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
+                                class="hs-dropdown  [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
                                 <nuxt-link to="/subject">
                                     <button type="button"
-                                        class="flex items-center w-full text-gray-800 hover:text-gray-600 font-medium ">
+                                        class="flex lg:text-lg items-center w-full text-gray-800 hover:text-gray-600 font-medium ">
                                         Case Brief
-                                        <svg class="flex-shrink-0 ms-2 size-4" xmlns="http://www.w3.org/2000/svg"
-                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg class="flex-shrink-0 ms-2 size-4 lg:text-lg"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
                                             <path d="m6 9 6 6 6-6" />
                                         </svg>
                                     </button>
@@ -450,8 +462,9 @@
                             </div>
 
 
-                            <nuxt-link class="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6  " to="/about">
-                                About
+                            <nuxt-link class="font-medium lg:text-lg text-gray-800 hover:text-gray-600 py-3 md:py-6  "
+                                to="/about">
+                                Contact Us
                             </nuxt-link>
                         </div>
                         <div class="h-full w-auto hidden md:block">

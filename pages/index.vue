@@ -55,53 +55,73 @@
         </div> -->
 
         <div class="max:w-full flex items-center justify-center">
-            <img src="assets\madam.png" alt="">
+            <img src="C:\Users\1999g\OneDrive\Desktop\sortMyLaw\SortMySchool\assets\full.png" alt="">
         </div>
     </section>
+
     <!-- comparision -->
     <section>
 
-        <div class="container mx-auto px-10 py-4">
-            <div
-                class="flex flex-col md:flex-row justify-center shadow-slate-200 text-start items-center bg-indigo-50 rounded-2xl">
-                <div class="md:w-1/2 w-full pr-4 mb-6 md:mb-0 px-4">
-                    <ul class="list-none space-y-2 flex-col items-start">
-                        <li class="flex justify-start items-center font-medium text-lg">
-                            <span>Case Briefs for Academics</span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block "
-                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
+            <h2 class="font-headline text-2xl font-semibold sm:text-3xl text-center">Relax, We've Got Your Back For All
+                Your Academic Needs!</h2>
 
-                        </li>
-                        <li class="flex jjustify-start items-center font-medium text-lg">
-                            <span>Free Quality Content: Accessible for All</span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block "
-                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
+            <div class="grid sm:grid-cols-3 gap-16 sm:gap-8 mt-16 sm:mt-24">
+                <div class="text-center">
+                    <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                        <div
+                            class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
+                            <video width="320" height="240" autoplay muted loop class="w-100 z-10 rounded-full autoplay">
+                                <source src="assets\vlogger.mp4" type="video/mp4">
+                                <source src="assets\vlogger.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                            
 
-                        </li>
-                        <li class="flex justify-start items-center font-medium text-lg">
-                            <span>Your Success, Our Victory </span>
-                            <svg class="w-5 h-5 text-white ml-2 bg-green-600 rounded-full p-1 hidden sm:block "
-                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
 
-                        </li>
-
-                    </ul>
+                        </div>
+                        <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-sky-400 rounded-full"></div>
+                    </div>
+                    <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10">Case Briefs for Academics!
+                    </h3>
+                    <!-- <p class="leading-relaxed mt-4">Begin by envisioning the new look and features for your website.</p> -->
                 </div>
-                <div class="max:w-full px-4 flex items-center justify-center py-4">
-                    <img src="assets\dssg.png" alt="Descriptive Alt Text"
-                        class="transition duration-300 ease-in-out hover:scale-110 w-full h-[350px] object-fill rounded-md shadow-lg">
+                <div class="text-center">
+                    <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                        <div
+                            class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
+                            <video width="320" height="240" autoplay muted loop class="w-100 z-10 rounded-full autoplay">
+                                <source src="assets\piggy-bank.mp4" type="video/mp4">
+                                <source src="assets\piggy-bank.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                        </div>
+                        <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-sky-400 rounded-full"></div>
+                    </div>
+                    <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10">Accessible Quality Content!
+                    </h3>
+                    <!-- <p class="leading-relaxed mt-4">Collaborate with your design and development team to give your website a
+                        fresh and modern design.</p> -->
+                </div>
+                <div class="text-center">
+                    <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                        <div
+                            class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
+                            <video width="320" height="240" autoplay muted loop class="w-100 z-10 rounded-full autoplay">
+                                <source src="assets/success.mp4" type="video/mp4">
+                                <source src="assets/success.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                            
+                        </div>
+                        <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-sky-400 rounded-full"></div>
+                    </div>
+                    <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10">Your Success, Our Victory!</h3>
+                    <!-- <p class="leading-relaxed mt-4">After the redesign, relaunch your website and welcome your audience to the
+                        new experience.</p> -->
                 </div>
             </div>
         </div>
@@ -117,7 +137,7 @@
             <div class="mx-auto max-w-7xl">
                 <!-- Header -->
                 <div class="mx-auto mb-8 max-w-3xl text-center md:mb-6 lg:mb-8">
-                    <h2 class="mb-4 mt-6 text-3xl font-extrabold md:text-5xl">Knowledge Partners</h2>
+                    <h2 class="mb-4 mt-6 text-3xl font-bold md:text-5xl">Knowledge Partners</h2>
                     <!-- <p class="mx-auto mt-4 max-w-[528px] text-[#636262]">Lorem ipsum dolor sit amet elit ut aliquam</p> -->
                 </div>
                 <!-- Team Items -->
@@ -148,7 +168,7 @@
                             <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute  left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                class="absolute  left-[3.75rem] top-[5.75rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                                 src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
@@ -180,7 +200,7 @@
                             <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                                 src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
@@ -210,7 +230,7 @@
                             <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                                 src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
@@ -240,7 +260,7 @@
                             <div class="text-white text-4xl font-semibold leading-[40px] z-50 -ml-4">Rahul<br> Soni
                             </div>
                             <img loading="lazy" width="232" height="290" decoding="async" data-nimg="1"
-                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] grayscale hover:grayscale-0"
+                                class="absolute left-[3.75rem] top-[5.75rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                                 src="/assets/team1.png" style="color: transparent;">
                         </div>
                     </div>
@@ -258,15 +278,17 @@
             <div class="mx-auto w-full max-w-3xl">
                 <!-- Component -->
                 <div class="text-center">
-                    <p class="uppercase text-[#1353fe]">3 easy steps</p>
-                    <h2 class="text-3xl font-semibold capitalize md:text-5xl">We Help You With <span
-                            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
-                            <span class="relative text-white">work</span>
-                        </span>
+                    <!-- <p class="uppercase text-[#1353fe]">3 easy steps</p> -->
+                    <h2 class="text-2xl font-semibold capitalize md:text-5xl">Good <span class="text-sky-400">quality content</span> leads to...
+                        <!-- <span
+                            class="before:block before:absolute before:-inset-1 before:-skew-y-0 before:bg-green-500 relative inline-block">
+                            <span class="relative text-white"></span>
+                        </span> -->
+                        
                     </h2>
                     <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
-                        <p class="text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,purus sit amet luctus magna fringilla urna</p>
+                        <!-- <p class="text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                            aliquam,purus sit amet luctus magna fringilla urna</p> -->
                     </div>
                 </div>
             </div>
@@ -275,12 +297,12 @@
                 <!-- How it Works Item -->
                 <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-2 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold "><img class="w-16" src="assets\man.avif" alt=""></p>
+                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl  bg-white  md:mb-6 lg:mb-8">
+                        <p class="text-xl font-bold "><img class="w-40" src="assets\5.png" alt=""></p>
                     </div>
-                    <p class="mb-2 text-xl font-semibold">Find Component</p>
-                    <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
-                        purus sit.</p>
+                    <p class="mb-2 text-xl font-semibold">Better Grades !</p>
+                    <!-- <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
+                        purus sit.</p> -->
                     <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639833af1925275b6f0b43e1_Vector%2032.svg"
                         alt=""
                         class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[18%] md:inline-block lg:left-auto" />
@@ -289,12 +311,11 @@
 
                 <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold"><img class="w-24 rounded-xl" src="assets\man2.jpeg" alt=""></p>
+                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl  bg-white  md:mb-6 lg:mb-8">
+                        <p class="text-xl font-bold"><img class="w-40" src="assets\7.png" alt=""></p>
                     </div>
-                    <p class="mb-2 text-xl font-semibold">Copy and Paste</p>
-                    <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
-                        purus sit.</p>
+                    <p class="mb-2 text-xl font-semibold">Better CV & Internships !</p>
+                    
                     <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639834731925279c5e0b4ee5_Vector%2033.svg"
                         alt=""
                         class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[8%] md:inline-block lg:left-auto" />
@@ -302,12 +323,11 @@
                 <!-- How it Works Item -->
                 <div class="relative flex flex-col items-center gap-4 p-2 text-center">
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl border border-solid border-black bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px] md:mb-6 lg:mb-8">
-                        <p class="text-xl font-bold"><img class="w-32 rounded-xl" src="assets\man3.avif" alt=""></p>
+                        class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl  bg-white  md:mb-6 lg:mb-8">
+                        <p class="text-xl font-bold"><img class="w-40 object-cover" src="assets\6.png" alt=""></p>
                     </div>
-                    <p class="mb-2 text-xl font-semibold">Done!</p>
-                    <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
-                        purus sit.</p>
+                    <p class="mb-2 text-xl font-semibold">Better Colleges Abroad !</p>
+                    
                 </div>
 
             </div>
