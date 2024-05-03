@@ -57,7 +57,8 @@
                             <input type="checkbox" id="my_modal_7" class="modal-toggle" />
                             <div class="modal w-full" role="dialog">
                                 <div class="modal-box ">
-                                    <label class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end"
+                                    <label ref="my_modal_7_close_label"
+                                        class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end"
                                         for="my_modal_7">
                                         <span
                                             class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</span>
@@ -67,7 +68,7 @@
                                         <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
                                             id="query"
                                             class="w-full p-3  rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
-                                        <nuxt-link :to="`/search/${searchQuery}`"
+                                        <nuxt-link :to="`/search/${searchQuery}`" @click="closeModal7"
                                             class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                                             <span>Search</span>
                                             <span class="hidden md:block">
@@ -97,7 +98,7 @@
                         <div class="hidden sm:flex gap-3">
                             <div class="hidden sm:flex gap-6">
                                 <a class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
-                                    aria-label="Send us an email" href="mailto:your.email@example.com" target="_blank">
+                                    aria-label="Send us an email" href="/contact" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                                         class="h-6 rounded-xl transition duration-300 ease-in-out hover:scale-110">
                                         <path fill="currentColor"
@@ -106,8 +107,9 @@
                                     </svg>
                                 </a>
                                 <a class="text-gray-700 hover:text-white hover:bg-blue-500 rounded-xl px-2 py-2"
-                                    aria-label="Visit TrendyMinds LinkedIn" href="" target="_blank"><svg
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    aria-label="Visit TrendyMinds LinkedIn"
+                                    href="https://www.linkedin.com/in/parthjain98?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                                         class="h-6 transition duration-300 ease-in-out hover:scale-110">
                                         <path fill="currentColor"
                                             d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
@@ -115,8 +117,9 @@
                                     </svg>
                                 </a>
                                 <a class="text-gray-700 hover:text-white hover:bg-red-500 rounded-xl px-2 py-2"
-                                    aria-label="Visit TrendyMinds YouTube" href="" target="_blank"><svg
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                    aria-label="Visit TrendyMinds YouTube"
+                                    href="https://youtube.com/playlist?list=PL-1DBVyVi7EYNGuEvsmM2Ep0_gujUyDsB&si=Gp4qef3Ohbmd1ylx"
+                                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                                         class="h-6 transition duration-300 ease-in-out hover:scale-110">
                                         <path fill="currentColor"
                                             d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
@@ -467,13 +470,13 @@
 
 
                             <nuxt-link class="font-medium lg:text-lg text-gray-800 hover:text-gray-600 py-3 md:py-6  "
-                                to="/about">
+                                to="/contact">
                                 Contact Us
                             </nuxt-link>
                         </div>
                         <div class="h-full w-auto hidden md:block">
                             <div class="watsup-group flex items-center">
-                                <label for="my_modal_8" class="">
+                                <label for="my_modal_8" ref="my_modal_8_close_label" class="">
                                     <span class="">
                                         <svg class="text-black h-5 w-5 p-0 fill-current mx-4"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -498,7 +501,7 @@
                                             <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
                                                 id="query"
                                                 class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
-                                            <nuxt-link :to="`/search/${searchQuery}`"
+                                            <nuxt-link :to="`/search/${searchQuery}`" @click="closeModal8"
                                                 class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                                                 <span>Search</span>
                                                 <span class="hidden md:block">
@@ -553,6 +556,12 @@ export default {
         }
     },
     methods: {
+        closeModal8() {
+            this.$refs.my_modal_8_close_label.click();
+        },
+        closeModal7() {
+            this.$refs.my_modal_7_close_label.click();
+        }
     }
 };
 </script>

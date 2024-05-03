@@ -13,7 +13,8 @@
                 </div>
             </nav>
             <div class="mt-8 md:mb-8 flex justify-center space-x-6 md:order-3">
-                <a href="#" class="text-white hover:text-gray-200">
+                <a href="https://www.linkedin.com/in/parthjain98?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="text-white hover:text-gray-200">
                     <span class="sr-only">LinkedIn</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                         class="h-6 transition duration-300 ease-in-out hover:scale-110">
@@ -31,7 +32,8 @@
                     </svg>
                 </a> -->
 
-                <a href="#" class="text-white hover:text-gray-200">
+                <a href="https://youtube.com/playlist?list=PL-1DBVyVi7EYNGuEvsmM2Ep0_gujUyDsB&si=Gp4qef3Ohbmd1ylx"
+                    class="text-white hover:text-gray-200">
                     <span class="sr-only">YouTube</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                         class="h-6 transition duration-300 ease-in-out hover:scale-110">
