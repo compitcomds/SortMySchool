@@ -113,13 +113,13 @@
                 <!-- Team Items -->
                 <div class="flex flex-wrap  justify-center gap-3 md:justify-between md:gap-6  my-12">
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
                                 <h2 class="text-xl font-semibold z-50">Rahul Soni</h2>
                                 <p class="text-sm max-w-xs z-50">Co-Founder &amp; CEO at Mudrex (YC-W19)</p>
-                                <div class="flex flex-row gap-2">
+                                <div class="flex flex-row gap-2 ">
                                     <!-- <a href="https://twitter.com/imrgoyal">
                                         <svg viewBox="0 0 1024 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor; width: 16px; height: 16px;">
                                             <path d="M781.882 81.235h143.936l-314.458 359.402 369.933 489.066h-289.658l-226.865-296.616-259.588 296.616h-144.022l336.341-384.421-354.877-464.047h297.008l205.068 271.118 237.181-271.118zM731.366 843.552h79.75l-514.822-680.691h-85.587l520.658 680.691z"></path>
@@ -145,7 +145,7 @@
 
                     <!-- Repeat the same structure for other team members -->
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -205,7 +205,7 @@
                         </div>
                     </div>
                     <div
-                        class="transition duration-300 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-black hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
