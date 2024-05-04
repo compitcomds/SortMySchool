@@ -56,11 +56,11 @@ export function addViewToBlog(id: string, newViews: number) {
     database.updateDocument(DATABASE_ID, COLLECTION_BLOGS, id, { views: newViews });
 }
 
-export async function submitAboutUsForm(name: string, subject: string, whenDoYouNeedIt: string, nameOfCaseWithCitation: string, additionalComments: string) {
+export async function submitAboutUsForm(name: string, collegeName: string, yourEmail: string, nameOfCaseWithCitation: string, additionalComments: string) {
     const aboutUs = await database.createDocument(DATABASE_ID, COLLECTION_ABOUT, ID.unique(), {
         name: name,
-        subject: subject,
-        whenDoYouNeedIt: whenDoYouNeedIt,
+        collegeName: collegeName,
+        yourEmail: yourEmail,
         nameOfCaseWithCitation: nameOfCaseWithCitation,
         additionalComments: additionalComments
     });

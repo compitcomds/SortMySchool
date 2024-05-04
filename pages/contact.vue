@@ -25,8 +25,8 @@
                             <div class="col-span-1 flex flex-col gap-4 h-full">
                                 <div>
                                     <label for="about-us-subject"
-                                        class="block mb-2 text-sm text-gray-700 font-medium">Subject*</label>
-                                    <input :disabled="isSubmitting" type="text" v-model.trim="subject"
+                                        class="block mb-2 text-sm text-gray-700 font-medium">College Name*</label>
+                                    <input :disabled="isSubmitting" type="text" v-model.trim="collegeName"
                                         name="about-us-subject" id="about-us-subject"
                                         class="py-3 px-4 border-2 block w-full border-gray-200 rounded-lg text-sm focus:outline-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none">
                                 </div>
@@ -44,8 +44,8 @@
 
                             <div class="col-span-1 flex flex-col h-full">
                                 <label for="about-us-when-do-you-need-it"
-                                    class="block mb-2 text-sm text-gray-700 font-medium">When do you need it?*</label>
-                                <textarea :disabled="isSubmitting" type="text" v-model.trim="whenDoYouNeedIt"
+                                    class="block mb-2 text-sm text-gray-700 font-medium">Your Email*</label>
+                                <textarea :disabled="isSubmitting" type="text" v-model.trim="yourEmail"
                                     name="about-us-when-do-you-need-it" id="about-us-when-do-you-need-it"
                                     class="py-3 px-4 border-2 block h-full w-full border-gray-200 rounded-lg text-sm focus:outline-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"></textarea>
                             </div>
@@ -119,8 +119,8 @@ export default {
     data() {
         return {
             name: "",
-            subject: "",
-            whenDoYouNeedIt: "",
+            collegeName: "",
+            yourEmail: "",
             nameOfCaseWithCitation: "",
             additionalComments: "",
             isSubmitting: false,
@@ -133,14 +133,14 @@ export default {
     methods: {
         async submitForm() {
             try {
-                if (!this.name || !this.subject || !this.whenDoYouNeedIt || !this.nameOfCaseWithCitation) {
+                if (!this.name || !this.collegeName || !this.yourEmail || !this.nameOfCaseWithCitation) {
                     throw Error("Please fill all the required fields");
                 }
                 this.isSubmitting = true;
                 this.isError = false;
                 this.errorMessage = "";
-                await submitAboutUsForm(this.name, this.subject, this.whenDoYouNeedIt, this.nameOfCaseWithCitation, this.additionalComments);
-                this.clearForm();
+                await submitAboutUsForm(this.name, this.collegeName, this.yourEmail, this.nameOfCaseWithCitation, this.additionalComments); await
+                    this.clearForm();
             } catch (error) {
                 this.isError = true;
                 this.errorMessage = error.message;
