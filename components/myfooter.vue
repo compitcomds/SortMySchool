@@ -3,12 +3,14 @@
         <div class="mx-auto max-w-7xl py-0 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
             <nav class="-mx-5 -my-2 flex flex-wrap justify-center order-2" aria-label="Footer">
                 <div class="px-5">
-                    <nuxt-link to="/terms-of-service" class="text-base text-white hover:text-gray-200">Terms of
+                    <nuxt-link to="/privacy-and-terms-of-service" class="text-base text-white hover:text-gray-200">Terms
+                        of
                         Service</nuxt-link>
                 </div>
 
                 <div class="px-5">
-                    <nuxt-link to="/privacy-policy" class="text-base text-white hover:text-gray-200">Privacy
+                    <nuxt-link to="/privacy-and-terms-of-service"
+                        class="text-base text-white hover:text-gray-200">Privacy
                         Policy</nuxt-link>
                 </div>
             </nav>
@@ -58,4 +60,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.router-link-active {
+    @apply text-white;
+}
+</style>

@@ -36,8 +36,7 @@
                         <!-- logo -->
                         <div class="w-28">
                             <nuxt-link class="flex-none text-xl  font-semibold text-black" href="/" aria-label="Brand">
-                                <img src="/assets/MainLogo.png" 
-                                    alt="" srcset="" />
+                                <img src="/assets/MainLogo.png" alt="" srcset="" />
                             </nuxt-link>
                         </div>
                         <!-- search icon -->
@@ -438,7 +437,7 @@
                                         <div class="col-span-full md:col-span-4">
                                             <div class="flex flex-col bg-gray-50 p-6 ">
                                                 <span class="text-xs font-semibold uppercase text-gray-800 ">
-                                                    DU Case Mate</span>
+                                                    DU Case Mat</span>
 
                                                 <nuxt-link class="mt-4 group" to="/case-material">
                                                     <div class="aspect-w-16 aspect-h-9">
@@ -446,13 +445,10 @@
                                                             alt="Image Description">
                                                     </div>
                                                     <div class="mt-2">
-                                                        <p class="text-gray-800 ">Lorem ipsum,
-                                                            dolor sit amet consectetur adipisicing elit. Voluptates in
-                                                            reiciendis enim, voluptas facilis et voluptatum nihil odio.
-                                                        </p>
+                                                        <p class="text-gray-800 "></p>
                                                         <p
                                                             class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium">
-                                                            Explore Now
+                                                            Syllabus
                                                             <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
