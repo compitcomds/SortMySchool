@@ -12,7 +12,7 @@
         </div>
         <div class="max-w-[85rem] my-4 mx-auto" id="app">
             <div
-                class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8 bg-indigo-50 rounded-lg shadow-md border-2">
+                class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8  rounded-lg shadow-md border-2">
                 <!-- Content -->
                 <div class="lg:col-span-2">
                     <div class="py-6 lg:pe-8">
@@ -222,42 +222,32 @@
                             <!-- Media -->
                             <article
                                 class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-2">
-                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
-                                    class="absolute inset-0 h-full w-full object-cover">
+                                    class="absolute inset-0 h-full w-full object-cover"> -->
                                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
-                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of
-                                    love
+                                <h3 class="z-10 mt-3 text-3xl font-bold text-white"></h3>
+                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
                                 </div>
                             </article>
-
-                            <!-- End Media -->
-
-                            <!-- Media -->
                             <article
                                 class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
-                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
-                                    class="absolute inset-0 h-full w-full object-cover">
+                                    class="absolute inset-0 h-full w-full object-cover"> -->
                                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
-                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of
-                                    love
+                                <h3 class="z-10 mt-3 text-3xl font-bold text-white"></h3>
+                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
                                 </div>
                             </article>
-                            <!-- End Media -->
-
-                            <!-- Media -->
                             <article
                                 class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
-                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
-                                    class="absolute inset-0 h-full w-full object-cover">
+                                    class="absolute inset-0 h-full w-full object-cover"> -->
                                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
-                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of
-                                    love
+                                <h3 class="z-10 mt-3 text-3xl font-bold text-white"></h3>
+                                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
                                 </div>
                             </article>
                             <!-- End Media -->
