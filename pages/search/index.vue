@@ -6,10 +6,12 @@
 
 <script>
 
-navigateTo('/');
+// navigateTo('/');
 
 export default {
-
+    mounted(){
+        navigateTo("/");
+    }
 };
 </script>
 

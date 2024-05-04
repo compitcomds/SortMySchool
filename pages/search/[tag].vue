@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <Listofcontent :propName="tag" :propContent="content" />
     </div>
@@ -33,4 +33,20 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped></style> -->
+
+<template>
+    <div>
+tag page
+    </div>
+</template>
+
+<script>
+    export default {
+        
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>

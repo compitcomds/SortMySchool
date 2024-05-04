@@ -1,59 +1,37 @@
 <template>
-    <section
-        class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center  relative">
-        <!-- <video width="320" height="240" autoplay muted loop class="w-100 z-10 autoplay object-cover absolute right-0 lg:pr-[120px] hidden sm:block md:hidden lg:block xl:block">
-            <source src="assets\rocket.mp4" type="video/mp4">
-            <source src="assets\vlogger.mp4" type="video/ogg">
-            Your browser does not support the video tag.
-        </video> -->
-
-
-        <img src="assets\lynx_in_space.png" alt="Background Image"
-            class="animate-bounce hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-auto md:max-w-none" />
+    <section class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative">
+        <dotlottie-player src="https://lottie.host/e4b1ad8e-d139-4216-a6be-add6898ec1da/QSb0qk3foj.json" class=" hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-96 md:max-w-none"  background="transparent" speed="1" loop autoplay></dotlottie-player>
+    
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
-            <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
-                Looking for a case brief?
-            </h2>
-            <p class="text-lg lg:text-xl sm:text-lg opacity-80">
-                Creating India's Largest Database of Case Brief for Academia...
-            </p>
+          <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
+            Looking for a case brief?
+          </h2>
+          <p class="text-lg lg:text-xl sm:text-lg opacity-80">
+            Creating India's Largest Database of Case Brief for Academia...
+          </p>
         </div>
-
+    
         <div class="container mx-auto px-4 flex flex-col w-full justify-center items-center relative">
-
-            <!-- Search bar goes here -->
-
-            <div class="flex rounded-md w-full px-4 max-w-xl relative">
-
-                <input type="text" placeholder="Find your brief here...." name="q" id="query" v-model="name"
-                    class="w-full p-3 rounded-full  border-r-white rounded-r-none  placeholder-gray-500" />
-                <nuxt-link :to="`/search/${name}`"
-                    class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
-                    <span>Search</span>
-                    <span class="hidden md:block">
-                        <svg class="text-white h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
-                            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
-                            xml:space="preserve" width="512px" height="512px">
-                            <path
-                                d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
-                        </svg>
-                    </span>
-                </nuxt-link>
-                <!-- Image for larger screens -->
-
-            </div>
-
-            <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
-                <nuxt-link to="/about"
-                    class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
-                    Click here !!
-                </nuxt-link>
-            </P>
-
-
+          <!-- Search bar goes here -->
+          <div class="flex rounded-md w-full px-4 max-w-xl relative">
+            <input type="text" placeholder="Find your brief here...." name="q" id="query" v-model="name" class="w-full p-3 rounded-full border-r-white rounded-r-none placeholder-gray-500" />
+            <nuxt-link :to="`/search/${name}`" class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
+              <span>Search</span>
+              <span class="hidden md:block">
+                <svg class="text-white h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
+                  <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17s-17-7.626-17-17S14.61,6,23.984,6z" />
+                </svg>
+              </span>
+            </nuxt-link>
+          </div>
+    
+          <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
+            <nuxt-link to="/about" class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
+              Click here !!
+            </nuxt-link>
+          </P>
         </div>
-    </section>
+      </section>
     <!-- full Image -->
     <section style="background-color: #eef8ff;">
         <!-- <div class="max-w-750 mx-auto text-center mb-4 pt-8 ">
@@ -64,6 +42,7 @@
         <div class="max:w-full flex items-center justify-center">
             <img src="/assets/full.png" alt="">
         </div>
+        
     </section>
 
     <!-- comparision -->
@@ -349,14 +328,21 @@
 </template>
 
 <script>
-
 export default {
-    name: 'CodeHelpAdvantages',
-    data() {
-        return {
-            name: ""
-        }
-    },
+  name: 'CodeHelpAdvantages',
+  data() {
+    return {
+      name: ''
+    }
+  },
+  mounted() {
+    // You can optionally load the script here instead of in the head
+    // This ensures that the dotlottie-player script is loaded before mounting the component
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+    script.type = 'module';
+    document.body.appendChild(script);
+  }
 };
 </script>
 
