@@ -29,6 +29,7 @@ export default {
       try {
         const subs = await getBlogsBySubjectId(this.name);
         const dividedDocuments = {};
+        console.log(subs);
         this.content = divideDocumentsAlphabetically(subs);
         console.log(dividedDocuments)
       } catch (error) {

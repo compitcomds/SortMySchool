@@ -1,16 +1,17 @@
 <template>
-    <section class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative">
-        <dotlottie-player src="https://lottie.host/e4b1ad8e-d139-4216-a6be-add6898ec1da/QSb0qk3foj.json" class=" hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-96 md:max-w-none"  background="transparent" speed="1" loop autoplay></dotlottie-player>
-    
+    <section
+        class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative">
+        <!-- <dotlottie-player src="https://lottie.host/e4b1ad8e-d139-4216-a6be-add6898ec1da/QSb0qk3foj.json" class=" hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-96 md:max-w-none"  background="transparent" speed="1" loop autoplay></dotlottie-player> -->
+
         <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
-          <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
-            Looking for a case brief?
-          </h2>
-          <p class="text-lg lg:text-xl sm:text-lg opacity-80">
-            Creating India's Largest Database of Case Brief for Academia...
-          </p>
+            <h2 class="sm:text-3xl lg:text-4xl text-2xl font-bold mb-3">
+                Looking for a case brief?
+            </h2>
+            <p class="text-lg lg:text-xl sm:text-lg opacity-80">
+                Creating India's Largest Database of Case Brief for Academia...
+            </p>
         </div>
-    
+
         <div class="container mx-auto px-4 flex flex-col w-full justify-center items-center relative">
 
             <!-- Search bar goes here -->
@@ -45,7 +46,7 @@
 
 
         </div>
-      </section>
+    </section>
     <!-- full Image -->
     <section style="background-color: #eef8ff;">
         <!-- <div class="max-w-750 mx-auto text-center mb-4 pt-8 ">
@@ -56,7 +57,7 @@
         <div class="max:w-full flex items-center justify-center">
             <img src="/assets/full.png" alt="">
         </div>
-        
+
     </section>
 
     <!-- comparision -->
@@ -343,20 +344,20 @@
 
 <script>
 export default {
-  name: 'CodeHelpAdvantages',
-  data() {
-    return {
-      name: ''
+    name: 'CodeHelpAdvantages',
+    data() {
+        return {
+            name: ''
+        }
+    },
+    mounted() {
+        // You can optionally load the script here instead of in the head
+        // This ensures that the dotlottie-player script is loaded before mounting the component
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+        script.type = 'module';
+        document.body.appendChild(script);
     }
-  },
-  mounted() {
-    // You can optionally load the script here instead of in the head
-    // This ensures that the dotlottie-player script is loaded before mounting the component
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
-    script.type = 'module';
-    document.body.appendChild(script);
-  }
 };
 </script>
 

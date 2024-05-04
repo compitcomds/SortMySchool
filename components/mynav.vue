@@ -42,7 +42,7 @@
                         </div>
                         <!-- search icon -->
                         <div class="h-6 w-8 white">
-                            <label for="my_modal_7" class="">
+                            <label for="my_modal_7" class="cursor-pointer">
                                 <span class="">
                                     <svg class="text-black h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
@@ -135,13 +135,13 @@
                         <div
                             class="w-full md:w-fit  flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
 
-                            <nuxt-link class="font-medium lg:text-lg text-blue-600 py-3 md:py-6" to="/"
+                            <nuxt-link class="font-medium lg:text-lg py-3 md:py-6" to="/"
                                 aria-current="page">Home</nuxt-link>
                             <div
                                 class="hs-dropdown  [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
                                 <nuxt-link to="/subject">
                                     <button type="button"
-                                        class="flex lg:text-lg items-center w-full text-gray-800 hover:text-gray-600 font-medium ">
+                                        class="flex lg:text-lg items-center w-full hover:text-gray-600 font-medium ">
                                         Case Brief
                                         <svg class="flex-shrink-0 ms-2 size-4 lg:text-lg"
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -477,7 +477,7 @@
                         </div>
                         <div class="h-full w-auto hidden md:block">
                             <div class="watsup-group flex items-center">
-                                <label for="my_modal_8" ref="my_modal_8_close_label" class="">
+                                <label for="my_modal_8" ref="my_modal_8_close_label" class="cursor-pointer">
                                     <span class="">
                                         <svg class="text-black h-5 w-5 p-0 fill-current mx-4"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -494,7 +494,7 @@
                                 <div class="modal w-full" role="dialog">
                                     <div class="modal-box ">
                                         <label
-                                            class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end"
+                                            class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end cursor-pointer"
                                             for="my_modal_8"><span
                                                 class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</span></label>
                                         <p class="flex items-center justify-center p-3">Search Your Result</p>
@@ -567,4 +567,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.router-link-active {
+    @apply text-blue-600;
+}
+</style>
