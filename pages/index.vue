@@ -44,12 +44,12 @@
 
             </div>
 
-            <P class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
-                <nuxt-link to="/about"
+            <p class="text-lg lg:text-xl opacity-80 text-white my-6 "> Didn't find your brief ?
+                <nuxt-link to="/contact"
                     class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline">
                     Click here !!
                 </nuxt-link>
-            </P>
+            </p>
 
 
         </div>
