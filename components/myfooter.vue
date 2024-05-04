@@ -44,8 +44,8 @@
                 </a>
             </div>
             <div class="mt-8 md:order-1 md:mt-0">
-                <p class="text-center text-base text-white">
-                    &copy; FG-Lawkit Blog App.
+                <p class="text-center text-base text-white hover:text-gray-200">
+                    Developed By: <br> Compitcom Digital Solutions Pvt Ltd.
                 </p>
             </div>
         </div>
