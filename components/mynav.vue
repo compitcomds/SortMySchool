@@ -135,13 +135,13 @@
                         <div
                             class="w-full md:w-fit  flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
 
-                            <nuxt-link class="font-medium lg:text-lg text-blue-600 py-3 md:py-6" to="/"
+                            <nuxt-link class="font-medium lg:text-lg py-3 md:py-6" to="/"
                                 aria-current="page">Home</nuxt-link>
                             <div
                                 class="hs-dropdown  [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
                                 <nuxt-link to="/subject">
                                     <button type="button"
-                                        class="flex lg:text-lg items-center w-full text-gray-800 hover:text-gray-600 font-medium ">
+                                        class="flex lg:text-lg items-center w-full hover:text-gray-600 font-medium ">
                                         Case Brief
                                         <svg class="flex-shrink-0 ms-2 size-4 lg:text-lg"
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -567,4 +567,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.router-link-active {
+    @apply text-blue-600;
+}
+</style>
