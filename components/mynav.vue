@@ -35,8 +35,8 @@
                         </button>
                         <!-- logo -->
                         <div class="w-28">
-                            <nuxt-link class="flex-none text-xl font-semibold text-black" href="/" aria-label="Brand">
-                                <img src="https://www.3forty.media/zosia/demo-5/wp-content/uploads/2022/09/zosia-logo.png"
+                            <nuxt-link class="flex-none text-xl  font-semibold text-black" href="/" aria-label="Brand">
+                                <img src="/assets/LogoNew.png" 
                                     alt="" srcset="" />
                             </nuxt-link>
                         </div>

@@ -4,7 +4,7 @@
         <div class="inline-flex gap-5 justify-between items-center sm:p-0 md:p-0 lg:py-6 lg:px-10">
 
             <div class="h-auto w-36 hidden sm:block md:block"><nuxt-link to="/">
-                    <img src="https://www.3forty.media/zosia/demo-5/wp-content/uploads/2022/09/zosia-logo.png" alt=""
+                    <img src="/assets/LogoNew.png" alt=""
                         srcset="" /></nuxt-link>
                 <p>A personal blog theme</p>
             </div>
