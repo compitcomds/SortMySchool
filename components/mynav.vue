@@ -36,7 +36,7 @@
                         <!-- logo -->
                         <div class="w-28">
                             <nuxt-link class="flex-none text-xl  font-semibold text-black" href="/" aria-label="Brand">
-                                <img src="/assets/LogoNew.png" 
+                                <img src="/assets/MainLogo.png" 
                                     alt="" srcset="" />
                             </nuxt-link>
                         </div>
