@@ -16,12 +16,12 @@ client
 export const database = new Databases(client);
 
 export async function getAllSubjects() {
-    const subjects = await database.listDocuments(DATABASE_ID, COLLECTION_SUBJECTS, [Query.orderAsc("name")]);
+    const subjects = await database.listDocuments(DATABASE_ID, COLLECTION_SUBJECTS, [Query.orderAsc("name"), Query.limit(5000)]);
     return subjects;
 }
 
 export async function getAllBlogs() {
-    const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS);
+    const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [Query.limit(5000)]);
     return blogs;
 }
 
@@ -34,20 +34,21 @@ export async function getBlogsBySubjectId(id: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
         Query.equal("subject", id),
         Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
+        Query.limit(5000)
     ]);
     return blogs;
 }
 
 export async function searchBlogByTag(tag: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.search("tags", tag)
+        Query.search("tags", tag), Query.limit(5000)
     ]);
     return blogs;
 }
 
 export async function searchBlogsByTitle(title: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.search("title", title)
+        Query.search("title", title), Query.limit(5000)
     ]);
     return blogs;
 }
