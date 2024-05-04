@@ -44,7 +44,7 @@
                                         <span class=" text-gray-800 ">/</span>
                                         <nuxt-link :to="`/subject/${name}`">
                                             <span
-                                                class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                                class="ml-1 text-xs font-medium text-gray-800 hover:underline md:ml-2">
                                                 {{ name }}
                                             </span>
                                         </nuxt-link>
