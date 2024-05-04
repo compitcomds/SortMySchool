@@ -69,7 +69,7 @@
                                             class="w-full p-3  rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
                                         <nuxt-link :to="`/search/${searchQuery}`" @click="closeModal7"
                                             class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
-                                            <span>Search</span>
+                                            <span class="text-white">Search</span>
                                             <span class="hidden md:block">
                                                 <svg class="text-white h-5 w-5 p-0 fill-current"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -500,7 +500,7 @@
                                                 class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
                                             <nuxt-link :to="`/search/${searchQuery}`" @click="closeModal8"
                                                 class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
-                                                <span>Search</span>
+                                                <span class="text-white">Search</span>
                                                 <span class="hidden md:block">
                                                     <svg class="text-white h-5 w-5 p-0 fill-current"
                                                         xmlns="http://www.w3.org/2000/svg"
