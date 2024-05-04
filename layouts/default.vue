@@ -6,7 +6,7 @@
             <div class="h-auto w-36 hidden sm:block md:block"><nuxt-link to="/">
                     <img src="/assets/LogoNew.png" alt=""
                         srcset="" /></nuxt-link>
-                <p>A personal blog theme</p>
+                
             </div>
 
       <div class="object-cover lg:w-1/2 lg:rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
