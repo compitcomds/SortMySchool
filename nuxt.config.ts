@@ -3,7 +3,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
-  plugins: ["~/plugins/preline.client.ts"],
+  plugins: ["~/plugins/preline.client.ts", { src: '~/plugins/disableRightClick.ts', mode: 'client' }],
   colorMode: {
     preference: 'light', // Force light theme
     fallback: 'light', // Fallback theme if user's preference cannot be determined
