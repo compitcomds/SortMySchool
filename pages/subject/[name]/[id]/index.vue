@@ -180,51 +180,17 @@
                 <!-- End Content -->
 
                 <!-- Sidebar -->
-                <div class="lg:col-span-1 lg:w-full lg:h-full bg-indigo-150 ">
+                <!-- <div class="lg:col-span-1 lg:w-full lg:h-full bg-indigo-150 ">
                     <div class="sticky top-0 start-0 py-8 lg:ps-8">
-                        <!-- Avatar Media -->
-                        <!-- <div class="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8">
-                            <a class="block flex-shrink-0" href="#">
-                                <img class="size-10 rounded-full"
-                                    src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                    alt="Image Description">
-                            </a>
-
-                            <a class="group grow block" href="">
-                                <h5 class="group-hover:text-gray-600 text-sm font-semibold text-gray-800 ">
-                                    Leyla Ludic
-                                </h5>
-                                <p class="text-sm text-gray-500 ">
-                                    UI/UX enthusiast
-                                </p>
-                            </a>
-
-                            <div class="grow">
-                                <div class="flex justify-end">
-                                    <button type="button"
-                                        class="py-1.5 px-2.5 inline-flex items-center gap-x-2 text-xs font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
-                                        <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                                            <circle cx="9" cy="7" r="4" />
-                                            <line x1="19" x2="19" y1="8" y2="14" />
-                                            <line x1="22" x2="16" y1="11" y2="11" />
-                                        </svg>
-                                        Follow
-                                    </button>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- End Avatar Media -->
+                        
 
                         <div class="space-y-6">
-                            <!-- Media -->
+                            
                             <article
                                 class="relative isolate flex flex-col justify-end skeleton overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-2">
-                                <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
-                                    class="absolute inset-0 h-full w-full object-cover"> -->
+                                    class="absolute inset-0 h-full w-full object-cover">
                                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                                 <h3 class="z-10 mt-3 text-3xl font-bold text-white"></h3>
                                 <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
@@ -232,9 +198,9 @@
                             </article>
                             <article
                                 class="relative isolate flex flex-col justify-end skeleton overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
-                                <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
-                                    class="absolute inset-0 h-full w-full object-cover"> -->
+                                    class="absolute inset-0 h-full w-full object-cover">
                                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                                 <h3 class="z-10 mt-3 text-3xl font-bold text-white"></h3>
                                 <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
@@ -242,18 +208,17 @@
                             </article>
                             <article
                                 class="relative isolate flex flex-col justify-end skeleton overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
-                                <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+                                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
-                                    class="absolute inset-0 h-full w-full object-cover"> -->
+                                    class="absolute inset-0 h-full w-full object-cover">
                                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                                 <h3 class="z-10 mt-3 text-3xl font-bold text-white"></h3>
                                 <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
                                 </div>
                             </article>
-                            <!-- End Media -->
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- End Sidebar -->
             </div>
         </div>
