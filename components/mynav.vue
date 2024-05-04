@@ -97,7 +97,8 @@
                         class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                         <div class="hidden sm:flex gap-3">
                             <div class="hidden sm:flex gap-6">
-                                <nuxt-link class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
+                                <nuxt-link
+                                    class="text-gray-700 hover:text-red-500 hover:bg-slate-200 rounded-xl px-2 py-2"
                                     aria-label="Send us an email" to="/contact">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                                         class="h-6 rounded-xl transition duration-300 ease-in-out hover:scale-110">
@@ -152,8 +153,8 @@
                                 </nuxt-link>
 
                                 <div
-                                    class=" hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg  before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
-                                    <div class="grid grid-cols-2 md:grid-cols-10">
+                                    class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg  before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
+                                    <div class="grid grid-cols-2 md:grid-cols-10 pt-40 md:pt-0">
                                         <div class="md:col-span-3">
                                             <div class="flex flex-col py-6 px-3 md:px-6">
                                                 <!-- Timeline -->
@@ -494,8 +495,8 @@
                                     <div class="modal-box ">
                                         <label
                                             class="modal-backdrop text-red-500 -mt-4 pb-4 flex items-center justify-end"
-                                            for="my_modal_8"><Span
-                                                class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</Span></label>
+                                            for="my_modal_8"><span
+                                                class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</span></label>
                                         <p class="flex items-center justify-center p-3">Search Your Result</p>
                                         <div class="flex">
                                             <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
