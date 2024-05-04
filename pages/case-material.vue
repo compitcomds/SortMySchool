@@ -10,162 +10,360 @@
             <div class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
                 <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">LL. B 1 Term</h3>
                 <ul class="flex flex-col justify-center items-center">
-                    <li class="text-center w-full">
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
                 <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">LL. B 1 Term</h3>
                 <ul class="flex flex-col justify-center items-center">
-                    <li class="text-center w-full">
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
                 <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">LL. B 1 Term</h3>
                 <ul class="flex flex-col justify-center items-center">
-                    <li class="text-center w-full">
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
                 <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">LL. B 1 Term</h3>
                 <ul class="flex flex-col justify-center items-center">
-                    <li class="text-center w-full">
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
                 <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">LL. B 1 Term</h3>
                 <ul class="flex flex-col justify-center items-center">
-                    <li class="text-center w-full">
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
                 <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">LL. B 1 Term</h3>
                 <ul class="flex flex-col justify-center items-center">
-                    <li class="text-center w-full">
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
-                        <nuxt-link :to="`/subject/`"
-                            class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
+                    </li>
+                    <li class="w-full flex items-center justify-center gap-5">
+                        <nuxt-link target="_blank"
+                            to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+                            class="block text-end w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
                             Law of contract
                         </nuxt-link>
+                        <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+                            class="block text-start w-full h-full font-semibold hover:text-red-500 cursor-pointer py-4">
+                            Download
+                        </a>
                     </li>
                 </ul>
             </div>

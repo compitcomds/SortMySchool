@@ -41,14 +41,14 @@ export async function getBlogsBySubjectId(id: string) {
 
 export async function searchBlogByTag(tag: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.search("tags", tag), Query.limit(5000)
+        Query.search("tags", tag), Query.limit(5000), Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
     ]);
     return blogs;
 }
 
 export async function searchBlogsByTitle(title: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.search("title", title), Query.limit(5000)
+        Query.search("title", title), Query.limit(5000), Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
     ]);
     return blogs;
 }

@@ -440,7 +440,7 @@
                                                 <span class="text-xs font-semibold uppercase text-gray-800 ">
                                                     DU Case Mate</span>
 
-                                                <a class="mt-4 group" href="#">
+                                                <nuxt-link class="mt-4 group" to="/case-material">
                                                     <div class="aspect-w-16 aspect-h-9">
                                                         <img class="w-full object-cover rounded-lg" src='/assets/du.jpg'
                                                             alt="Image Description">
@@ -462,7 +462,7 @@
                                                             </svg>
                                                         </p>
                                                     </div>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                         </div>
                                     </div>
