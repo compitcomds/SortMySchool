@@ -221,7 +221,7 @@
                         <div class="space-y-6">
                             <!-- Media -->
                             <article
-                                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-2">
+                                class="relative isolate flex flex-col justify-end skeleton overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-2">
                                 <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
                                     class="absolute inset-0 h-full w-full object-cover"> -->
@@ -231,7 +231,7 @@
                                 </div>
                             </article>
                             <article
-                                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
+                                class="relative isolate flex flex-col justify-end skeleton overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
                                 <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
                                     class="absolute inset-0 h-full w-full object-cover"> -->
@@ -241,7 +241,7 @@
                                 </div>
                             </article>
                             <article
-                                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
+                                class="relative isolate flex flex-col justify-end skeleton overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-8">
                                 <!-- <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
                                     alt="University of Southern California"
                                     class="absolute inset-0 h-full w-full object-cover"> -->
