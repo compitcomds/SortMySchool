@@ -66,7 +66,7 @@
                             <div class="flex items-center gap-x-5 flex-wrap gap-y-2">
                                 <div v-for="(tag, index) in tags" :key="index">
                                     <nuxt-link
-                                        class="inline-flex items-center lg:animate-pulse gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-200 text-gray-800 hover:bg-gray-300 text-nowrap"
+                                        class="inline-flex items-center lg:animate-pulse gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-200 text-gray-800 hover:bg-gray-300"
                                         :to="`/search/${tag}`">
                                         {{ tag }}
                                     </nuxt-link>

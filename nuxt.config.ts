@@ -8,5 +8,11 @@ export default defineNuxtConfig({
     preference: 'light', // Force light theme
     fallback: 'light', // Fallback theme if user's preference cannot be determined
     classSuffix: '', // No suffix added to the class
+  },
+  routeRules: {
+    "/subject": { swr: 60 }, // 5 minutes,
+    "/subject/**": { swr: 60 }, // 5 minutes,
+    "/subject/[name]/[id]": { swr: 60 }, // 5 minutes,
+
   }
 })
