@@ -401,10 +401,10 @@
                 <div class="flex flex-row gap-2 pt-14">
                   <a
                     href="#"
-                    class="w-9 h-9 rounded-full flex justify-center items-center"
+                    class="w-9 h-9 rounded-full bg-gray-800  hover:bg-[#ffffff] flex justify-center items-center"
                   >
                     <img
-                      class="w-[2.3rem] h-[2.3rem] rounded-full bg-gray-800 hover:bg-[#ffffff] text-white lg:grayscale lg:hover:grayscale-0"
+                      class="w-[2.3rem] h-[2.3rem] rounded-full   text-white lg:grayscale lg:hover:grayscale-0"
                       src="/assets/ca-01.png"
                       alt="CA Shruti Sharma | Chartered Accountant Logo"
                     />
