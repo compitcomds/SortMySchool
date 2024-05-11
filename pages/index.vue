@@ -218,7 +218,7 @@
                     LLM - London School of Economics '25
                   </li>
                 </ul>
-                <div class="flex flex-row gap-2 pt-2">
+                <div class="flex flex-row gap-2 pt-6">
                   <a
                     href="https://www.instagram.com/legalstartupwala?igsh=Zmo3bDlhZzFzcDVk"
                     class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#dd2a7b] flex justify-center items-center"
@@ -282,13 +282,13 @@
                 <h2 class="text-xl font-semibold z-50">Harsh Vardhan Bhati</h2>
                 <ul class="text-black" style="list-style-type: disc">
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
-                    Former Associate Prof, OP Jindal University (JGU
+                    Former Associate Prof, OP Jindal University (JGU)
                   </li>
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                     LLM - Lewis &amp; Clark Law School, USA
                   </li>
                 </ul>
-                <div class="flex flex-row gap-2 pt-2">
+                <div class="flex flex-row gap-2 pt-6">
                   <a
                     href="https://www.linkedin.com/in/harshvardhanbhati?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
@@ -395,10 +395,10 @@
                     Chartered Accountant
                   </li>
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
-                    (UGC - NET Qualified)
+                    UGC - NET Qualified
                   </li>
                 </ul>
-                <div class="flex flex-row gap-2 pt-2">
+                <div class="flex flex-row gap-2 pt-14">
                   <a
                     href="#"
                     class="w-9 h-9 rounded-full flex justify-center items-center"
