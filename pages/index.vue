@@ -389,7 +389,7 @@
               class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative"
             >
               <div class="flex flex-col gap-1">
-                <h2 class="text-xl font-semibold z-50">CA Shruti Sharma</h2>
+                <h2 class="text-xl font-semibold z-50">Shruti Sharma</h2>
                 <ul class="text-black" style="list-style-type: disc">
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                     Chartered Accountant
