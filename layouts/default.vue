@@ -18,7 +18,6 @@
     <hr>
     <mynav />
     <hr>
-    <!-- here is cuted dipesh nav  -->
   </header>
   <slot />
   <myfooter />
