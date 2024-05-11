@@ -147,7 +147,7 @@
                 <!-- Team Items -->
                 <div class="flex flex-wrap  justify-center gap-3 md:justify-between md:gap-6  my-12">
                     <div
-                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -182,7 +182,7 @@
 
                     <!-- Repeat the same structure for other team members -->
                     <div
-                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                     <div
-                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <div
-                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-orange-400 shadow-md">
+                        class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
                             <div class="flex flex-col gap-1">

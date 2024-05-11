@@ -10,7 +10,7 @@
             <Meta name="description" :content="tags" />
 
         </div>
-        <div class="max-w-[85rem] my-4 mx-auto" id="app">
+        <div class="max-w-[100vw] lg:max-w-[85rem] my-4 mx-auto overflow-clip" id="app">
             <div
                 class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8  rounded-lg shadow-md border-2">
                 <!-- Content -->
@@ -44,7 +44,7 @@
                                         <span class=" text-gray-800 ">/</span>
                                         <nuxt-link :to="`/subject/${name}`">
                                             <span
-                                                class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                                                class="ml-1 text-xs font-medium text-gray-800 hover:underline md:ml-2">
                                                 {{ name }}
                                             </span>
                                         </nuxt-link>
@@ -65,10 +65,11 @@
                             </nuxt-link> -->
                             <div class="flex items-center gap-x-5 flex-wrap gap-y-2">
                                 <div v-for="(tag, index) in tags" :key="index">
-                                    <a class="inline-flex items-center lg:animate-pulse gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-200 text-gray-800 hover:bg-gray-300 text-nowrap"
-                                        href="#">
+                                    <nuxt-link
+                                        class="inline-flex items-center lg:animate-pulse gap-1.5 py-1 px-3 sm:py-2 sm:px-4 rounded-full text-xs sm:text-sm bg-gray-200 text-gray-800 hover:bg-gray-300"
+                                        :to="`/search/${tag}`">
                                         {{ tag }}
-                                    </a>
+                                    </nuxt-link>
                                 </div>
                                 <!-- <p class="text-xs sm:text-sm text-gray-800 ">January 18, 2023</p> -->
                             </div>
