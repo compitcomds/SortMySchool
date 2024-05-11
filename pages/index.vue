@@ -282,7 +282,7 @@
                 <h2 class="text-xl font-semibold z-50">Harsh Vardhan Bhati</h2>
                 <ul class="text-black" style="list-style-type: disc">
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
-                    Former Associate Prof, OP Jindal University (JGU
+                    Former Associate Prof, OP Jindal University (JGU)
                   </li>
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                     LLM - Lewis &amp; Clark Law School, USA
@@ -395,7 +395,7 @@
                     Chartered Accountant
                   </li>
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
-                    (UGC - NET Qualified)
+                    UGC - NET Qualified
                   </li>
                 </ul>
                 <div class="flex flex-row gap-2 pt-2">
