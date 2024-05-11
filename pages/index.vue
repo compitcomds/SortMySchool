@@ -401,26 +401,13 @@
                 <div class="flex flex-row gap-2 pt-2">
                   <a
                     href="#"
-                    class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
+                    class="w-9 h-9 rounded-full flex justify-center items-center"
                   >
-                    <svg
-                      class="w-[1.5rem] h-[1.5rem] text-white"
-                      viewBox="0 0 13 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <!-- Replace the existing path with the letters "CA" -->
-                      <text
-                        class="font-semibold"
-                        x="1"
-                        y="9"
-                        font-family="Arial"
-                        font-size="8"
-                        fill="currentColor"
-                      >
-                        CA
-                      </text>
-                    </svg>
+                    <img
+                      class="w-[2.3rem] h-[2.3rem] text-white lg:grayscale lg:hover:grayscale-0"
+                      src="/assets/ca-01.png"
+                      alt="CA Shruti Sharma | Chartered Accountant Logo"
+                    />
                   </a>
                 </div>
               </div>
