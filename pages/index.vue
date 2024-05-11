@@ -392,6 +392,9 @@
                 <h2 class="text-xl font-semibold z-50">CA Shruti Sharma</h2>
                 <ul class="text-black" style="list-style-type: disc">
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
+                    Chartered Accountant
+                  </li>
+                  <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                     (UGC - NET Qualified)
                   </li>
                 </ul>
@@ -540,6 +543,10 @@ export default {
       "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
     script.type = "module";
     document.body.appendChild(script);
+  },
+  head: {
+    title:
+      "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia...",
   },
 };
 </script>
