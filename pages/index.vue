@@ -221,7 +221,7 @@
                 <div class="flex flex-row gap-2 pt-6">
                   <a
                     href="https://www.instagram.com/legalstartupwala?igsh=Zmo3bDlhZzFzcDVk"
-                    class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#dd2a7b] flex justify-center items-center"
+                    class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#d9327d] flex justify-center items-center"
                   >
                     <svg
                       class="w-[1.25rem] h-[1.125rem] text-white"
