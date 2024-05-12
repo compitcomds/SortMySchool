@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/subject": { isr: 60 * 5 }, // 5 minutes,
     "/subject/**": { isr: 60 * 5 }, // 5 minutes,
-    "/subject/[name]/[id]": { isr: 60 * 5 }, // 5 minutes,
+    "/subject/[name]/[id]": { isr: false, swr: 60 * 5 }, // 5 minutes,
     "/search/**": { prerender: false },
   },
 });

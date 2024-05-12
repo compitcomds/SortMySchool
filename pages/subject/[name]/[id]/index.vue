@@ -345,7 +345,9 @@ try {
   imgSrc.value = blog.imgSrc;
   views.value = blog.views + 1;
   console.log(blog.tags);
-  addViewToBlog(id, blog.views + 1);
+  onMounted(() => {
+    addViewToBlog(id, blog.views + 1);
+  });
 } catch (error) {
   console.error("Error fetching blog:", error);
 }
