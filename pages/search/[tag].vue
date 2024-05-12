@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>SortMyLawSchool | searching for: {{ tag }}</Title>
+  </Head>
   <div>
     <Listofcontent :propName="tag" :propContent="content" />
   </div>

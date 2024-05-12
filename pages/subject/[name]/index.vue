@@ -1,41 +1,24 @@
 <template>
-
   <Listofcontent :propContent="content" />
 </template>
 
-<script>
+<script setup>
 import { getBlogsBySubjectId } from "~/utils/appwrite";
 
-export default {
-  data() {
-    return {
-      content: null
-    };
-  },
+const content = useState("content", () => null);
+const route = useRoute();
+const name = route.params.name || "";
 
-  computed: {
-    name() {
-      return this.$route.params.name || '';
-      // Ensure a default value if id is not present
-    }
-  },
+try {
+  const subs = await getBlogsBySubjectId(name);
+  content.value = divideDocumentsAlphabetically(subs);
+  console.log(subs);
+} catch (error) {
+  console.error("Error fetching blogs:", error);
+}
 
-  mounted() {
-    this.fillAllBlog();
-  },
-
-  methods: {
-    async fillAllBlog() {
-      try {
-        const subs = await getBlogsBySubjectId(this.name);
-        const dividedDocuments = {};
-        console.log(subs);
-        this.content = divideDocumentsAlphabetically(subs);
-        console.log(dividedDocuments)
-      } catch (error) {
-        console.error("Error fetching blogs:", error);
-      }
-    }
-  }
-};
+useSeoMeta({
+  title: `SortMyLawSchool | Subject | ${name}`,
+  description: "SortMyLawSchool | Subject",
+});
 </script>

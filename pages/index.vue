@@ -1,4 +1,15 @@
 <template>
+  <Head>
+    <Title
+      >SortMyLawSchool | Creating India's Largest Database of Case Brief for
+      Academia</Title
+    >
+    <Meta
+      name="description"
+      content="Creating India's Largest Database of Case Brief for
+      Academia"
+    />
+  </Head>
   <section
     class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative"
   >
@@ -401,10 +412,10 @@
                 <div class="flex flex-row gap-2 pt-14">
                   <a
                     href="#"
-                    class="w-9 h-9 rounded-full bg-gray-600  hover:bg-[#0a66c2] flex justify-center items-center"
+                    class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
                   >
                     <img
-                      class="w-[1.7rem] h-[1.7rem] rounded-full   text-white lg:grayscale lg:hover:grayscale-0"
+                      class="w-[1.7rem] h-[1.7rem] rounded-full text-white lg:grayscale lg:hover:grayscale-0"
                       src="/assets/ca-01.png"
                       alt="CA Shruti Sharma | Chartered Accountant Logo"
                     />
