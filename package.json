@@ -16,6 +16,7 @@
     "appwrite": "^14.0.1",
     "nuxt": "^3.11.2",
     "nuxt-og-image": "^3.0.0-rc.53",
+    "nuxt-schema-org": "^3.3.6",
     "preline": "^2.1.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

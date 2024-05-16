@@ -2,7 +2,12 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", "nuxt-og-image"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/sitemap",
+    "nuxt-og-image",
+    "nuxt-schema-org"
+  ],
   plugins: [
     "~/plugins/preline.client.ts",
     { src: "~/plugins/disableRightClick.ts", mode: "client" },
