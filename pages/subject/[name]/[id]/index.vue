@@ -264,6 +264,14 @@ useHead({
   script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
 });
 
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+
+})
+
 const shareOnFacebook = () => {
   window.open(
     "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href,

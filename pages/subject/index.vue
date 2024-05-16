@@ -1,27 +1,16 @@
 <!-- have list of subject  -->
 <template>
   <div v-if="subjectObj">
-    <div
-      class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl w-full p-5 mx-auto"
-    >
-      <div
-        v-for="(subjects, letter) in subjectObj"
-        :key="letter"
-        class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10"
-      >
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl w-full p-5 mx-auto">
+      <div v-for="(subjects, letter) in subjectObj" :key="letter"
+        class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
         <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">
           {{ letter }}
         </h3>
         <ul class="flex flex-col justify-center items-center">
-          <li
-            v-for="subject in subjects"
-            :key="subject.$id"
-            class="text-center w-full"
-          >
-            <nuxt-link
-              :to="`/subject/${subject.$id}`"
-              class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4"
-            >
+          <li v-for="subject in subjects" :key="subject.$id" class="text-center w-full">
+            <nuxt-link :to="`/subject/${subject.$id}`"
+              class="block w-full h-full hover:bg-sky-400/20 cursor-pointer py-4">
               {{ subject.name }}
             </nuxt-link>
           </li>
@@ -30,16 +19,11 @@
     </div>
   </div>
   <div v-else>
-    <ul
-      class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto"
-    >
+    <ul class="flex flex-wrap justify-center items-center gap-5 p-5 w-full mx-auto">
       <li v-for="i in generateRange(1, 24, 2)" :key="i">
         <div
-          class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80"
-        >
-          <div
-            class="relative rounded-t-xl w-full h-fit min-h-80 overflow-hidden bg-gray-300 skeleton"
-          >
+          class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition min-w-80">
+          <div class="relative rounded-t-xl w-full h-fit min-h-80 overflow-hidden bg-gray-300 skeleton">
             <!-- Skeleton for image placeholder -->
             <div class="bg-gray-300 skeleton"></div>
           </div>
@@ -71,6 +55,13 @@ useSeoMeta({
   title: "SortMyLawSchool | All Subjects",
   description: "SortMyLawSchool | All subjects",
 });
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+
+})
 </script>
 
 <style scoped>

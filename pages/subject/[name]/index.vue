@@ -21,4 +21,11 @@ useSeoMeta({
   title: `SortMyLawSchool | Subject | ${name}`,
   description: "SortMyLawSchool | Subject",
 });
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+
+})
 </script>

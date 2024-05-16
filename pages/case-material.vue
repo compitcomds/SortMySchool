@@ -1,4 +1,5 @@
 <template>
+
   <Head>
     <Title>SortMyLawSchool | Case Materials</Title>
     <Meta name="description" content="SortMyLawSchool | Case Materials" />
@@ -21,29 +22,16 @@
         </h3>
         <ul class="flex flex-col justify-center items-center">
           <li class="w-full flex items-center justify-center gap-5">
-            <nuxt-link
-              target="_blank"
-              to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
-              class="block text-end font-semibold hover:text-red-500 cursor-pointer py-4"
-            >
+            <nuxt-link target="_blank" to="https://lawfaculty.in/wp-content/uploads/2021/08/Law-of-Contract-I-Term.pdf"
+              class="block text-end font-semibold hover:text-red-500 cursor-pointer py-4">
               Law of contract
             </nuxt-link>
-            <a
-              download="Law_of_contract_1.pdf"
-              href="/assets/loc.pdf"
-              class="block font-semibold hover:text-red-500 cursor-pointer py-4"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
-                fill="currentColor"
-                class="bi bi-cloud-arrow-down-fill"
-                viewBox="0 0 16 16"
-              >
+            <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+              class="block font-semibold hover:text-red-500 cursor-pointer py-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
                 <path
-                  d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708"
-                />
+                  d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708" />
               </svg>
             </a>
           </li>
@@ -53,8 +41,14 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+
+})
 </script>
 
 <style scoped></style>
