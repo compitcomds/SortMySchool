@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/seo", "@nuxtjs/sitemap"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap"],
   plugins: [
     "~/plugins/preline.client.ts",
     { src: "~/plugins/disableRightClick.ts", mode: "client" },
@@ -43,6 +43,11 @@ export default defineNuxtConfig({
         "/subject/Trademarklaw",
       ]
       return urls
+    },
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
     }
   }
 });
