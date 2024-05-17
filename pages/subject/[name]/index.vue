@@ -28,6 +28,5 @@ useSeoMeta({
 //   description: "Read more...",
 //   siteLogo: "https://sortmylawschool.com/favicon.png",
 //   colorMode: "dark",
-
 // })
 </script>
