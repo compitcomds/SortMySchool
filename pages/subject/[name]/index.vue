@@ -12,7 +12,7 @@ const name = route.params.name || "";
 try {
   const subs = await getBlogsBySubjectId(name);
   content.value = divideDocumentsAlphabetically(subs);
-  console.log(subs);
+  // console.log(subs);
 } catch (error) {
   console.error("Error fetching blogs:", error);
 }
@@ -23,11 +23,11 @@ useSeoMeta({
   ogTitle: `SortMyLawSchool | Subject | ${name}`,
   ogDescription: `SortMyLawSchool | Subject | ${name}`,
 });
-defineOgImageComponent('NuxtSeo', {
-  siteName: 'SortMyLawSchool',
-  description: "Read more...",
-  siteLogo: "https://sortmylawschool.com/favicon.png",
-  colorMode: "dark",
+// defineOgImageComponent('NuxtSeo', {
+//   siteName: 'SortMyLawSchool',
+//   description: "Read more...",
+//   siteLogo: "https://sortmylawschool.com/favicon.png",
+//   colorMode: "dark",
 
-})
+// })
 </script>

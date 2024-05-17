@@ -135,13 +135,12 @@
 </template>
 
 <script setup>
-defineOgImageComponent('NuxtSeo', {
-  siteName: 'SortMyLawSchool',
-  description: "Read more...",
-  siteLogo: "https://sortmylawschool.com/favicon.png",
-  colorMode: "dark",
-
-})
+// defineOgImageComponent('NuxtSeo', {
+//  siteName: 'SortMyLawSchool',
+//  description: "Read more...",
+//   siteLogo: "https://sortmylawschool.com/favicon.png",
+//   colorMode: "dark",
+// })
 
 useSeoMeta({
   title: "SortMyLawSchool | PRIVACY POLICY AND TERMS OF CONDITION",

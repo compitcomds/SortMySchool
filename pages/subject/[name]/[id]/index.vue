@@ -262,13 +262,13 @@ try {
 //   script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
 // });
 
-defineOgImageComponent('NuxtSeo', {
-  siteName: 'SortMyLawSchool',
-  title: title.value,
-  description: "Read more...",
-  siteLogo: "https://sortmylawschool.com/favicon.png",
-  colorMode: "dark",
-})
+// defineOgImageComponent('NuxtSeo', {
+//   siteName: 'SortMyLawSchool',
+//   title: title.value,
+//   description: "Read more...",
+//   siteLogo: "https://sortmylawschool.com/favicon.png",
+//   colorMode: "dark",
+// })
 
 const shareOnFacebook = () => {
   window.open(

@@ -380,14 +380,14 @@ useSeoMeta({
   ogTitle: "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia...",
 })
 
-defineOgImageComponent('NuxtSeo', {
-  siteName: 'SortMyLawSchool',
-  title: "SortMyLawSchool | India's Largest Database of Case Brief for Academia",
-  description: "Read more...",
-  siteLogo: "https://sortmylawschool.com/favicon.png",
-  colorMode: "dark",
+// defineOgImageComponent('NuxtSeo', {
+//   siteName: 'SortMyLawSchool',
+//   title: "SortMyLawSchool | India's Largest Database of Case Brief for Academia",
+//   description: "Read more...",
+//   siteLogo: "https://sortmylawschool.com/favicon.png",
+//   colorMode: "dark",
 
-})
+// })
 
 </script>
 
