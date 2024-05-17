@@ -234,7 +234,7 @@ const name = route.params.name;
 const id = route.params.id;
 
 try {
-  const blog = await getBlogById(id);
+  const blog = await getBlogByTitle(id);
   if (!blog) {
     throw Error("Blog not found");
   }
@@ -245,7 +245,7 @@ try {
   views.value = blog.views + 1;
   console.log(blog.tags);
   onMounted(() => {
-    addViewToBlog(id, blog.views + 1);
+    addViewToBlog(blog.$id, blog.views + 1);
   });
   useSeoMeta({
     title: title.value,
