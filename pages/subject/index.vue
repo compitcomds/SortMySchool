@@ -57,12 +57,12 @@ useSeoMeta({
   ogTitle: "SortMyLawSchool | All Subjects",
   ogDescription: "SortMyLawSchool | All subjects"
 });
-// defineOgImageComponent('NuxtSeo', {
-//   siteName: 'SortMyLawSchool',
-//   description: "Read more...",
-//   siteLogo: "https://sortmylawschool.com/favicon.png",
-//   colorMode: "dark",
-// })
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+})
 </script>
 
 <style scoped>

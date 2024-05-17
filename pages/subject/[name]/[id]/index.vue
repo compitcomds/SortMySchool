@@ -234,7 +234,7 @@ const name = route.params.name;
 const id = route.params.id;
 
 try {
-  const blog = await getBlogByTitle(id);
+  const blog = await getBlogById(id);
   if (!blog) {
     throw Error("Blog not found");
   }
@@ -262,13 +262,13 @@ try {
 //   script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
 // });
 
-// defineOgImageComponent('NuxtSeo', {
-//   siteName: 'SortMyLawSchool',
-//   title: title.value,
-//   description: "Read more...",
-//   siteLogo: "https://sortmylawschool.com/favicon.png",
-//   colorMode: "dark",
-// })
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  title: title.value,
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+})
 
 const shareOnFacebook = () => {
   window.open(

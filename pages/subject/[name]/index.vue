@@ -23,10 +23,10 @@ useSeoMeta({
   ogTitle: `SortMyLawSchool | Subject | ${name}`,
   ogDescription: `SortMyLawSchool | Subject | ${name}`,
 });
-// defineOgImageComponent('NuxtSeo', {
-//   siteName: 'SortMyLawSchool',
-//   description: "Read more...",
-//   siteLogo: "https://sortmylawschool.com/favicon.png",
-//   colorMode: "dark",
-// })
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+})
 </script>
