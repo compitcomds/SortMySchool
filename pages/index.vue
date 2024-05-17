@@ -1,11 +1,4 @@
 <template>
-
-  <Head>
-    <Title>SortMyLawSchool | Creating India's Largest Database of Case Brief for
-      Academia</Title>
-    <Meta name="description" content="Creating India's Largest Database of Case Brief for
-      Academia" />
-  </Head>
   <section
     class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative">
     <!-- <dotlottie-player src="https://lottie.host/e4b1ad8e-d139-4216-a6be-add6898ec1da/QSb0qk3foj.json" class=" hidden sm:block object-cover absolute right-0 lg:pr-[120px] md:block h-auto w-96 md:max-w-none"  background="transparent" speed="1" loop autoplay></dotlottie-player> -->
@@ -381,7 +374,10 @@ onMounted(() => {
 });
 
 useSeoMeta({
-  title: "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia..."
+  title: "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia...",
+  description: "Creating India's Largest Database of Case Brief for Academia",
+  ogDescription: "Creating India's Largest Database of Case Brief for Academia",
+  ogTitle: "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia...",
 })
 
 defineOgImageComponent('NuxtSeo', {

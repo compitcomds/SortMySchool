@@ -1,9 +1,4 @@
 <template>
-
-  <Head>
-    <Title>SortMyLawSchool | Contact Us</Title>
-    <Meta name="description" content="Contact us" />
-  </Head>
   <!-- Hire Us -->
   <div class="max-w-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-slate-50 rounded-lg shadow-lg border-2 my-5">
     <div class="max-w-3xl mx-auto">
@@ -129,6 +124,13 @@ defineOgImageComponent('NuxtSeo', {
   siteLogo: "https://sortmylawschool.com/favicon.png",
   colorMode: "dark",
 
+})
+
+useSeoMeta({
+  title: "SortMyLawSchool | Contact Us",
+  description: "Contact Us",
+  ogTitle: "SortMyLawSchool | Contact Us",
+  ogDescription: "Contact Us"
 })
 
 async function submitForm() {

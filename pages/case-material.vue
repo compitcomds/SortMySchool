@@ -1,9 +1,4 @@
 <template>
-
-  <Head>
-    <Title>SortMyLawSchool | Case Materials</Title>
-    <Meta name="description" content="SortMyLawSchool | Case Materials" />
-  </Head>
   <div class="max-w-5xl w-full p-5 mx-auto">
     <h2 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
       Case Materials
@@ -47,7 +42,13 @@ defineOgImageComponent('NuxtSeo', {
   description: "Read more...",
   siteLogo: "https://sortmylawschool.com/favicon.png",
   colorMode: "dark",
+})
 
+useSeoMeta({
+  title: "SortMyLawSchool | Case Materials",
+  description: "Case Materials",
+  ogTitle: "SortMyLawSchool | Case Materials",
+  ogDescription: "Case Materials"
 })
 </script>
 

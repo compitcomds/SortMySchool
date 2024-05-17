@@ -19,7 +19,9 @@ try {
 
 useSeoMeta({
   title: `SortMyLawSchool | Subject | ${name}`,
-  description: "SortMyLawSchool | Subject",
+  description: `SortMyLawSchool | Subject | ${name}`,
+  ogTitle: `SortMyLawSchool | Subject | ${name}`,
+  ogDescription: `SortMyLawSchool | Subject | ${name}`,
 });
 defineOgImageComponent('NuxtSeo', {
   siteName: 'SortMyLawSchool',

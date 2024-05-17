@@ -1,16 +1,7 @@
 <template>
   <div>
-    <!-- {{ name }}
-        <hr>
-        {{ id }}
-        <hr> -->
-    <!-- Blog Article -->
-    <div>
-      <Title>{{ title }}</Title>
-      <Meta name="description" :content="tags" />
-    </div>
     <div class="max-w-[100vw] lg:max-w-[85rem] my-4 mx-auto overflow-clip" id="app">
-      <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8 rounded-lg shadow-md border-2">
+      <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6 px-4 sm:px-6 lg:px-8 rounded-lg">
         <!-- Content -->
         <div class="lg:col-span-2">
           <div class="py-6 lg:pe-8">
@@ -256,20 +247,27 @@ try {
   onMounted(() => {
     addViewToBlog(id, blog.views + 1);
   });
+  useSeoMeta({
+    title: title.value,
+    description: blog.tags,
+    ogTitle: title.value,
+    ogDescription: blog.tags,
+  })
+
 } catch (error) {
   console.error("Error fetching blog:", error);
 }
 
-useHead({
-  script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
-});
+// useHead({
+//   script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
+// });
 
 defineOgImageComponent('NuxtSeo', {
   siteName: 'SortMyLawSchool',
+  title: title.value,
   description: "Read more...",
   siteLogo: "https://sortmylawschool.com/favicon.png",
   colorMode: "dark",
-
 })
 
 const shareOnFacebook = () => {

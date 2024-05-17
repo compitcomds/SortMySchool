@@ -54,6 +54,8 @@ function generateRange(start, stop, step) {
 useSeoMeta({
   title: "SortMyLawSchool | All Subjects",
   description: "SortMyLawSchool | All subjects",
+  ogTitle: "SortMyLawSchool | All Subjects",
+  ogDescription: "SortMyLawSchool | All subjects"
 });
 defineOgImageComponent('NuxtSeo', {
   siteName: 'SortMyLawSchool',
