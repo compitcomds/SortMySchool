@@ -1,12 +1,15 @@
 <!-- have list of subject  -->
 <template>
+  <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
+    Case Briefs
+  </h1>
   <div v-if="subjectObj">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl w-full p-5 mx-auto">
       <div v-for="(subjects, letter) in subjectObj" :key="letter"
         class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
-        <h3 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">
+        <h2 class="text-center py-4 text-lg md:text-2xl bg-sky-400 text-white">
           {{ letter }}
-        </h3>
+        </h2>
         <ul class="flex flex-col justify-center items-center">
           <li v-for="subject in subjects" :key="subject.$id" class="text-center w-full">
             <nuxt-link :to="`/subject/${subject.$id}`"

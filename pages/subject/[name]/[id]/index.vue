@@ -59,7 +59,7 @@
                 </div>
                 <!-- <p class="text-xs sm:text-sm text-gray-800 ">January 18, 2023</p> -->
               </div>
-              <h2 class="text-3xl font-bold lg:text-5xl">{{ title }}</h2>
+              <h1 class="text-3xl font-bold lg:text-5xl">{{ title }}</h1>
               <div>
                 <div class="text-center">
                   <div class="gap-3" v-if="imgSrc">
@@ -238,6 +238,7 @@ try {
   if (!blog) {
     throw Error("Blog not found");
   }
+  console.log(blog)
   content.value = blog.content;
   title.value = blog.title;
   tags.value = blog.tags.split(",").map((item) => item.trim());
@@ -248,8 +249,8 @@ try {
     addViewToBlog(blog.$id, blog.views + 1);
   });
   useSeoMeta({
-    title: title.value,
-    description: blog.tags,
+    title: blog['meta-title'] || title.value,
+    description: blog['meta-desc'] || blog.tags,
     ogTitle: title.value,
     ogDescription: blog.tags,
   })

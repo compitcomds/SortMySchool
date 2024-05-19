@@ -1,13 +1,21 @@
 <template>
+  <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
+    {{ subject?.name || "Subject Not Found" }}
+  </h1>
   <Listofcontent :propContent="content" />
 </template>
 
 <script setup>
-import { getBlogsBySubjectId } from "~/utils/appwrite";
+import { getBlogsBySubjectId, getSubjectById } from "~/utils/appwrite";
 
+const subject = useState('subject', () => null)
 const content = useState("content", () => null);
 const route = useRoute();
 const name = route.params.name || "";
+try {
+  subject.value = await getSubjectById(name)
+} catch (error) {
+}
 
 try {
   const subs = await getBlogsBySubjectId(name);
@@ -18,10 +26,10 @@ try {
 }
 
 useSeoMeta({
-  title: `SortMyLawSchool | Subject | ${name}`,
-  description: `SortMyLawSchool | Subject | ${name}`,
-  ogTitle: `SortMyLawSchool | Subject | ${name}`,
-  ogDescription: `SortMyLawSchool | Subject | ${name}`,
+  title: `SortMyLawSchool | ${subject.value.name}`,
+  description: `SortMyLawSchool | ${subject.value.name}`,
+  ogTitle: `SortMyLawSchool | ${subject.value.name}`,
+  ogDescription: `SortMyLawSchool | ${subject.value.name}`,
 });
 defineOgImageComponent('NuxtSeo', {
   siteName: 'SortMyLawSchool',

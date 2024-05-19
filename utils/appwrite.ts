@@ -20,6 +20,11 @@ export async function getAllSubjects() {
     return subjects;
 }
 
+export async function getSubjectById(id: string){
+    const subject = await database.getDocument(DATABASE_ID, COLLECTION_SUBJECTS, id)
+    return subject
+}
+
 export async function getAllBlogs() {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [Query.limit(5000)]);
     return blogs;
