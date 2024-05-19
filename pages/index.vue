@@ -50,7 +50,8 @@
         </div> -->
 
     <div class="max:w-full flex items-center justify-center">
-      <img src="/assets/full.png" alt="" />
+      <img src="/assets/full.png"
+        alt="SortMyLawSchool | Crafting India's Most Dependable Case Briefs for Better Scores" />
     </div>
   </section>
 
@@ -179,7 +180,7 @@
               </div>
               <img loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
                 class="absolute left-[5.80rem] top-[9.08rem] z-[50] lg:grayscale lg:hover:grayscale-0"
-                src="assets\16.png" style="color: transparent" />
+                src="/assets/16.png" style="color: transparent" alt="Parth Jain (Co-Founder) | SortMyLawSchool" />
             </div>
           </div>
 
@@ -214,7 +215,8 @@
                 Vardhan<br />
                 Bhati
               </div>
-              <img loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
+              <img alt="Harsh Vardhan Bhati | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
+                decoding="async" data-nimg="1"
                 class="absolute left-[6.59rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                 src="assets\160.png" style="color: transparent" />
             </div>
@@ -251,7 +253,8 @@
               <div class="text-white text-2xl font-semibold leading-[40px] z-50 -ml-4">
                 Priyam<br />Agarwal
               </div>
-              <img loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
+              <img alt="Priyam Agarwal | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
+                decoding="async" data-nimg="1"
                 class="absolute left-[6.30rem] top-[7.97rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                 src="assets\17.png" style="color: transparent" />
             </div>
@@ -273,7 +276,7 @@
                   <a href="#"
                     class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center">
                     <img class="w-[1.7rem] h-[1.7rem] rounded-full text-white lg:grayscale lg:hover:grayscale-0"
-                      src="/assets/ca-01.png" alt="CA Shruti Sharma | Chartered Accountant Logo" />
+                      src="/assets/ca-01.png" alt="CA Shruti Sharma | SortMyLawSchool Chartered Accountant Logo" />
                   </a>
                 </div>
               </div>
@@ -281,7 +284,8 @@
                 Shruti<br />
                 Sharma
               </div>
-              <img loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
+              <img alt="Shruti Sharma | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
+                decoding="async" data-nimg="1"
                 class="absolute left-[6.60rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0 rounded-4xl"
                 src="assets\18.png" style="color: transparent" />
             </div>
@@ -321,14 +325,15 @@
           <div
             class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl bg-white md:mb-6 lg:mb-8">
             <p class="text-xl font-bold">
-              <img class="w-40" src="assets\5.png" alt="" />
+              <img class="w-40" src="/assets/5.png"
+                alt="SortMyLawSchool | Good quality content leads to better grades" />
             </p>
           </div>
           <p class="mb-2 text-xl font-semibold">Better Grades !</p>
           <!-- <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
                         purus sit.</p> -->
           <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639833af1925275b6f0b43e1_Vector%2032.svg"
-            alt=""
+            alt="SortMyLawSchool | Image"
             class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[18%] md:inline-block lg:left-auto" />
         </div>
         <!-- How it Works Item -->
@@ -337,13 +342,14 @@
           <div
             class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl bg-white md:mb-6 lg:mb-8">
             <p class="text-xl font-bold">
-              <img class="w-40" src="assets\7.png" alt="" />
+              <img class="w-40" src="/assets/7.png"
+                alt="SortMyLawSchool | Good quality content leads to better CV & internships" />
             </p>
           </div>
           <p class="mb-2 text-xl font-semibold">Better CV & Internships !</p>
 
           <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639834731925279c5e0b4ee5_Vector%2033.svg"
-            alt=""
+            alt="SortMyLawSchool | Image"
             class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[8%] md:inline-block lg:left-auto" />
         </div>
         <!-- How it Works Item -->
@@ -351,7 +357,8 @@
           <div
             class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl bg-white md:mb-6 lg:mb-8">
             <p class="text-xl font-bold">
-              <img class="w-40 object-cover" src="assets\6.png" alt="" />
+              <img class="w-40 object-cover" src="/assets/6.png"
+                alt="SortMyLawSchool | Good quality content leads to better colleges abroad" />
             </p>
           </div>
           <p class="mb-2 text-xl font-semibold">Better Colleges Abroad !</p>

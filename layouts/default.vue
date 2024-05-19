@@ -5,14 +5,14 @@
     <div class="inline-flex gap-5 justify-between items-center sm:p-0 md:p-0 lg:py-6 lg:px-10  xl:max-w-7xl xl:mx-auto">
 
       <div class="h-auto w-56 hidden sm:block md:block"><nuxt-link to="/">
-          <img src="/assets/MainLogo.png" alt="" srcset="" /></nuxt-link>
+          <img src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" /></nuxt-link>
 
       </div>
 
       <div class="object-cover lg:w-1/2 lg:rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
           <img
             src="https://yt3.googleusercontent.com/tis5V1pB6fvLi4yEXiivr9tCfw9gXNj95uyafLNH8MNzV058-yT048b4inWqeIkIO1wHkZcTyA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
-            alt="" srcset="" class="rounded-lg" /></nuxt-link>
+            alt="SortMyLawSchool | Header Banner" srcset="" class="rounded-lg" /></nuxt-link>
       </div>
     </div>
     <hr>
