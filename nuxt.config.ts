@@ -18,10 +18,8 @@ export default defineNuxtConfig({
     "/subject/**": { isr: 60 * 5 }, // 5 minutes,
     "/subject/**/**": {
       isr: false, swr: 60 * 5,
-      robots: true
     }, // 5 minutes,
-    "/search/**": { prerender: false, robots: false },
-    '/search': { robots: false }
+    "/search/**": { prerender: false },
   },
   site: {
     url: 'https://sortmylawschool.com/',
@@ -57,6 +55,6 @@ export default defineNuxtConfig({
     exclude: ['/search', '/search/**']
   },
   robots: {
-    disallow: ['/search', '/search/**', '/test']
+    mergeWithRobotsTxtPath: './public/_robots.txt'
   }
 });
