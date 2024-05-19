@@ -21,7 +21,7 @@
               class="block text-end font-semibold hover:text-red-500 cursor-pointer py-4">
               Law of contract
             </nuxt-link>
-            <a download="Law_of_contract_1.pdf" href="/assets/loc.pdf"
+            <a download="Law_of_contract_1.pdf" href="#"
               class="block font-semibold hover:text-red-500 cursor-pointer py-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
                 class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">

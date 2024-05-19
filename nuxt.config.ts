@@ -2,24 +2,26 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", // "nuxt-og-image",
-  "nuxt-schema-org", "nuxt-og-image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", 
+  "nuxt-schema-org", "nuxt-og-image", '@nuxtjs/robots'],
   plugins: [
     "~/plugins/preline.client.ts",
     { src: "~/plugins/disableRightClick.ts", mode: "client" },
   ],
   colorMode: {
-    preference: "light", // Force light theme
-    fallback: "light", // Fallback theme if user's preference cannot be determined
-    classSuffix: "", // No suffix added to the class
+    preference: "light",
+    fallback: "light", 
+    classSuffix: "",
   },
   routeRules: {
     "/subject": { isr: 60 * 5 }, // 5 minutes,
     "/subject/**": { isr: 60 * 5 }, // 5 minutes,
     "/subject/**/**": {
-      isr: false, swr: 60 * 5
+      isr: false, swr: 60 * 5,
+      robots: true
     }, // 5 minutes,
-    "/search/**": { prerender: false },
+    "/search/**": { prerender: false, robots: false },
+    '/search': { robots: false }
   },
   site: {
     url: 'https://sortmylawschool.com/',
@@ -51,6 +53,10 @@ export default defineNuxtConfig({
       changefreq: 'daily',
       priority: 1,
       lastmod: new Date()
-    }
+    },
+    exclude: ['/search', '/search/**']
+  },
+  robots: {
+    disallow: ['/search', '/search/**', '/test']
   }
 });
