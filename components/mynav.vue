@@ -2,7 +2,7 @@
     <!-- ========== HEADER ========== -->
     <header
         class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-stone-50 text-sm py-3 md:py-0  text-black">
-        <nav class="w-full mx-auto px-4 md:px-6 lg:px-14" aria-label="Global">
+        <nav class="w-full mx-auto px-4 md:px-6 " aria-label="Global">
             <div class="relative md:flex md:items-center md:justify-between">
                 <div class="flex items-center justify-between ">
                     <!-- ssocial logo  -->
@@ -177,9 +177,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -203,9 +203,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 2
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -229,9 +229,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 3
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -255,9 +255,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 4
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -281,9 +281,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 5
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -317,9 +317,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 6
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -343,9 +343,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 7
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -369,9 +369,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 8
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -395,9 +395,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 9
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
@@ -421,9 +421,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <h3 class="flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law 10
-                                                            </h3>
+                                                            </p>
                                                         </div>
                                                         <!-- End Right Content -->
                                                     </div>
