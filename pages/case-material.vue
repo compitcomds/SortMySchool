@@ -70,7 +70,7 @@ const llbCourses = [
       { name: 'Optional Subjects:', pdfLink: '#' },
       { name: "LB-3031: Media and Law", pdfLink: "/case-materials/term3-mlc.pdf" },
       { name: "LB-3032: Private International Law", pdfLink: "/case-materials/term3-pil.pdf" },
-      { name: "LB-3033: Legal Philosophy including Theory of Justice", pdfLink: "/case-materials" },
+      { name: "LB-3033: Legal Philosophy including Theory of Justice", pdfLink: "/case-material" },
       { name: "LB-3034: White Collar Crimes", pdfLink: "/case-materials/term3-wcc.pdf" },
     ]
   },
