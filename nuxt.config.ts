@@ -2,15 +2,15 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", 
-  "nuxt-schema-org", "nuxt-og-image", '@nuxtjs/robots'],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap",
+    "nuxt-schema-org", "nuxt-og-image", '@nuxtjs/robots'],
   plugins: [
     "~/plugins/preline.client.ts",
     { src: "~/plugins/disableRightClick.ts", mode: "client" },
   ],
   colorMode: {
     preference: "light",
-    fallback: "light", 
+    fallback: "light",
     classSuffix: "",
   },
   routeRules: {
@@ -56,5 +56,8 @@ export default defineNuxtConfig({
   },
   robots: {
     mergeWithRobotsTxtPath: './public/_robots.txt'
+  },
+  generate: {
+    fallback: '404.html'
   }
 });
