@@ -461,7 +461,7 @@
                                                         <div class="grow py-1 pb-8">
                                                             <p
                                                                 class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Other subjects
+                                                                Other Subjects
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
