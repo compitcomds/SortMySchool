@@ -10,10 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/sitemap": "^5.1.5",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "appwrite": "^14.0.1",
     "nuxt": "^3.11.2",
+    "nuxt-og-image": "^3.0.0-rc.53",
+    "nuxt-schema-org": "^3.3.6",
     "preline": "^2.1.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

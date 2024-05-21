@@ -34,35 +34,36 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import { getAllSubjects } from "~/utils/appwrite";
 
-export default {
-    data() {
-        return {
-            subjectObj: null
-        };
-    },
+const subjectObj = useState("subjectObj", () => null);
+try {
+  const subs = await getAllSubjects();
+  subjectObj.value = divideDocumentsAlphabetically(subs, "name");
+} catch (error) {
+  console.error("Error fetching subjects:", error);
+}
 
-    mounted() {
-        this.fillAllSubject();
-    },
+function generateRange(start, stop, step) {
+  return Array.from(
+    { length: (stop - start) / step + 1 },
+    (_, i) => start + i * step
+  );
+}
 
-    methods: {
-        async fillAllSubject() {
-            try {
-                const subs = await getAllSubjects();
-                this.subjectObj = divideDocumentsAlphabetically(subs, "name");
-            } catch (error) {
-                console.error("Error fetching subjects:", error);
-            }
-        },
-        generateRange(start, stop, step) {
-            return Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + (i * step));
-        }
-    },
-
-};
+useSeoMeta({
+  title: "SortMyLawSchool | All Subjects",
+  description: "SortMyLawSchool | All subjects",
+  ogTitle: "SortMyLawSchool | All Subjects",
+  ogDescription: "SortMyLawSchool | All subjects"
+});
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+})
 </script>
 
 <style scoped>

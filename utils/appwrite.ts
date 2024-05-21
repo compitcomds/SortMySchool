@@ -20,6 +20,11 @@ export async function getAllSubjects() {
     return subjects;
 }
 
+export async function getSubjectById(id: string){
+    const subject = await database.getDocument(DATABASE_ID, COLLECTION_SUBJECTS, id)
+    return subject
+}
+
 export async function getAllBlogs() {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [Query.limit(5000)]);
     return blogs;
@@ -28,6 +33,14 @@ export async function getAllBlogs() {
 export async function getBlogById(id: string) {
     const blog = await database.getDocument(DATABASE_ID, COLLECTION_BLOGS, id);
     return blog;
+}
+
+export async function getBlogByTitle(title: string) {
+    const blog = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
+        Query.search("title", title),
+        Query.limit(1),
+    ]);
+    return blog.documents[0];
 }
 
 export async function getBlogsBySubjectId(id: string) {
@@ -41,7 +54,9 @@ export async function getBlogsBySubjectId(id: string) {
 
 export async function searchBlogByTag(tag: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.search("tags", tag), Query.limit(5000), Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
+        Query.search("tags", tag),
+        Query.limit(5000),
+        Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
     ]);
     return blogs;
 }

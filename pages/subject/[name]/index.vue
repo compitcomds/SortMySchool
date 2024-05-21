@@ -1,41 +1,40 @@
 <template>
-
+  <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
+    {{ subject?.name || "Subject Not Found" }}
+  </h1>
   <Listofcontent :propContent="content" />
 </template>
 
-<script>
-import { getBlogsBySubjectId } from "~/utils/appwrite";
+<script setup>
+import { getBlogsBySubjectId, getSubjectById } from "~/utils/appwrite";
 
-export default {
-  data() {
-    return {
-      content: null
-    };
-  },
+const subject = useState('subject', () => null)
+const content = useState("content", () => null);
+const route = useRoute();
+const name = route.params.name || "";
+try {
+  subject.value = await getSubjectById(name)
+} catch (error) {
+}
 
-  computed: {
-    name() {
-      return this.$route.params.name || '';
-      // Ensure a default value if id is not present
-    }
-  },
+try {
+  const subs = await getBlogsBySubjectId(name);
+  content.value = divideDocumentsAlphabetically(subs);
+  // console.log(subs);
+} catch (error) {
+  console.error("Error fetching blogs:", error);
+}
 
-  mounted() {
-    this.fillAllBlog();
-  },
-
-  methods: {
-    async fillAllBlog() {
-      try {
-        const subs = await getBlogsBySubjectId(this.name);
-        const dividedDocuments = {};
-        console.log(subs);
-        this.content = divideDocumentsAlphabetically(subs);
-        console.log(dividedDocuments)
-      } catch (error) {
-        console.error("Error fetching blogs:", error);
-      }
-    }
-  }
-};
+useSeoMeta({
+  title: `SortMyLawSchool | ${subject.value.name}`,
+  description: `SortMyLawSchool | ${subject.value.name}`,
+  ogTitle: `SortMyLawSchool | ${subject.value.name}`,
+  ogDescription: `SortMyLawSchool | ${subject.value.name}`,
+});
+defineOgImageComponent('NuxtSeo', {
+  siteName: 'SortMyLawSchool',
+  description: "Read more...",
+  siteLogo: "https://sortmylawschool.com/favicon.png",
+  colorMode: "dark",
+})
 </script>

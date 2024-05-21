@@ -36,7 +36,7 @@
                         <!-- logo -->
                         <div class="w-28">
                             <nuxt-link class="flex-none text-xl  font-semibold text-black" href="/" aria-label="Brand">
-                                <img src="/assets/MainLogo.png" alt="" srcset="" />
+                                <img src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" />
                             </nuxt-link>
                         </div>
                         <!-- search icon -->
@@ -442,7 +442,7 @@
                                                 <nuxt-link class="mt-4 group" to="/case-material">
                                                     <div class="aspect-w-16 aspect-h-9">
                                                         <img class="w-full object-cover rounded-lg" src='/assets/du.jpg'
-                                                            alt="Image Description">
+                                                            alt="SortMyLawSchool | Delhi University (DU) Image">
                                                     </div>
                                                     <div class="mt-2">
                                                         <p class="text-gray-800 "></p>

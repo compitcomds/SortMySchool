@@ -2,17 +2,59 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
-  plugins: ["~/plugins/preline.client.ts", { src: '~/plugins/disableRightClick.ts', mode: 'client' }],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", 
+  "nuxt-schema-org", "nuxt-og-image", '@nuxtjs/robots'],
+  plugins: [
+    "~/plugins/preline.client.ts",
+    { src: "~/plugins/disableRightClick.ts", mode: "client" },
+  ],
   colorMode: {
-    preference: 'light', // Force light theme
-    fallback: 'light', // Fallback theme if user's preference cannot be determined
-    classSuffix: '', // No suffix added to the class
+    preference: "light",
+    fallback: "light", 
+    classSuffix: "",
   },
   routeRules: {
-    "/subject": { swr: 60 }, // 5 minutes,
-    "/subject/**": { swr: 60 }, // 5 minutes,
-    "/subject/[name]/[id]": { swr: 60 }, // 5 minutes,
-
+    "/subject": { isr: 60 * 5 }, // 5 minutes,
+    "/subject/**": { isr: 60 * 5 }, // 5 minutes,
+    "/subject/**/**": {
+      isr: false, swr: 60 * 5,
+    }, // 5 minutes,
+    "/search/**": { prerender: false },
+  },
+  site: {
+    url: 'https://sortmylawschool.com/',
+    name: 'SortMyLawSchool',
+    description: "Creating India's Largest Database of Case Brief for Academia...",
+    defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
+  },
+  sitemap: {
+    urls: async () => {
+      // fetch your URLs from a database or other source
+      const urls = [
+        "/subject/BusinessRegulations",
+        "/subject/CodeOfCivilProcedure",
+        "/subject/ConstitutionalLawI",
+        "/subject/EnvironmentalLaw",
+        "/subject/6637f17a0026153b82fc",
+        "/subject/InterpretationofStatutes",
+        "/subject/MinorActandSCRules",
+        "/subject/Partnership",
+        "/subject/PropertyLaw",
+        "/subject/PublicInternationalLaw",
+        "/subject/RentControlandSlumClearance",
+        "/subject/TaxationLaw",
+        "/subject/Trademarklaw",
+      ]
+      return urls
+    },
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    },
+    exclude: ['/search', '/search/**']
+  },
+  robots: {
+    mergeWithRobotsTxtPath: './public/_robots.txt'
   }
-})
+});
