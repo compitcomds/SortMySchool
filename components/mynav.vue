@@ -160,7 +160,7 @@
                                                 <div>
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/AdministrativeLaw"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -177,7 +177,8 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
                                                                 Administrative Law
                                                             </p>
                                                         </div>
@@ -186,7 +187,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/CodeOfCivilProcedure"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -203,8 +204,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 2
+                                                            <p
+                                                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Code of Civil Procedure
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -212,7 +214,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/CompanyLaw"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -229,8 +231,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 3
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Company Law
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -238,7 +241,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/EnvironmentalLaw"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -255,8 +258,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 4
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Environmental Law
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -264,7 +268,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/6637f17a0026153b82fc"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -281,8 +285,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 5
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Insurance & Banking Law
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -300,7 +305,7 @@
                                                 <div>
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/MinorActandSCRules"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -317,8 +322,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 6
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Minor Act & SC Rules
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -326,7 +332,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/Partnership"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -343,8 +349,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 7
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Partnership Act
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -352,7 +359,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/PublicInternationalLaw"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -369,8 +376,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 8
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Public International Law
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -378,7 +386,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/Salesofgoodsact"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -395,8 +403,9 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 9
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Sales of Goods Act
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->
@@ -404,7 +413,7 @@
                                                     <!-- End Item -->
                                                     <!-- Item -->
                                                     <div class="flex relative group rounded-lg hover:bg-gray-100">
-                                                        <nuxt-link to="subject"
+                                                        <nuxt-link to="/subject/TaxationLaw"
                                                             class="absolute inset-0 z-[1]"></nuxt-link>
 
                                                         <!-- Icon -->
@@ -421,8 +430,38 @@
 
                                                         <!-- Right Content -->
                                                         <div class="grow py-1 pb-8">
-                                                            <p class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
-                                                                Administrative Law 10
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Taxation law
+                                                            </p>
+                                                        </div>
+                                                        <!-- End Right Content -->
+                                                    </div>
+                                                    <!-- End Item -->
+
+                                                    <!-- End Item -->
+                                                    <!-- Item -->
+                                                    <div class="flex relative group rounded-lg hover:bg-gray-100">
+                                                        <nuxt-link to="/subject"
+                                                            class="absolute inset-0 z-[1]"></nuxt-link>
+
+                                                        <!-- Icon -->
+                                                        <div
+                                                            class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+                                                            <div
+                                                                class="relative z-10 size-7 flex justify-center items-center">
+                                                                <div
+                                                                    class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Icon -->
+
+                                                        <!-- Right Content -->
+                                                        <div class="grow py-1 pb-8">
+                                                            <p
+                                                                class="text-sm  flex gap-x-1.5 font-semibold text-gray-800">
+                                                                Other subjects
                                                             </p>
                                                         </div>
                                                         <!-- End Right Content -->

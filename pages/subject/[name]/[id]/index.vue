@@ -255,8 +255,15 @@ try {
   useSeoMeta({
     title: blog['meta-title'] || title.value,
     description: blog['meta-desc'] || blog.tags,
-    ogTitle: title.value,
-    ogDescription: blog.tags,
+    ogTitle: blog['meta-title'] || title.value,
+    ogDescription: blog['meta-desc'] || blog.tags,
+  })
+  defineOgImageComponent('NuxtSeo', {
+    siteName: 'SortMyLawSchool',
+    title: blog['meta-title'] || title.value,
+    description: "Read more...",
+    siteLogo: "https://sortmylawschool.com/favicon.png",
+    colorMode: "dark",
   })
 
 } catch (error) {
@@ -268,13 +275,7 @@ try {
 //   script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
 // });
 
-defineOgImageComponent('NuxtSeo', {
-  siteName: 'SortMyLawSchool',
-  title: title.value,
-  description: "Read more...",
-  siteLogo: "https://sortmylawschool.com/favicon.png",
-  colorMode: "dark",
-})
+
 
 const shareOnFacebook = () => {
   window.open(
