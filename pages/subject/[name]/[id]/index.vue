@@ -232,9 +232,13 @@ const views = useState("views", () => null);
 const route = useRoute();
 const name = route.params.name;
 const id = route.params.id;
-
+let blog = null
 try {
-  const blog = await getBlogById(id);
+  blog = await getBlogBySlug(id);
+  console.log('blog not found by slug', blog)
+  if (!blog) {
+    blog = await getBlogById(id);
+  }
   if (!blog) {
     throw Error("Blog not found");
   }
@@ -257,6 +261,7 @@ try {
 
 } catch (error) {
   console.error("Error fetching blog:", error);
+  navigateTo('/404')
 }
 
 // useHead({

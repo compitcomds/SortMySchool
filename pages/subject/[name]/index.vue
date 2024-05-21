@@ -20,7 +20,7 @@ try {
 try {
   const subs = await getBlogsBySubjectId(name);
   content.value = divideDocumentsAlphabetically(subs);
-  // console.log(subs);
+  console.log(subs);
 } catch (error) {
   console.error("Error fetching blogs:", error);
 }

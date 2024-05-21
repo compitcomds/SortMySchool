@@ -20,7 +20,7 @@ export async function getAllSubjects() {
     return subjects;
 }
 
-export async function getSubjectById(id: string){
+export async function getSubjectById(id: string) {
     const subject = await database.getDocument(DATABASE_ID, COLLECTION_SUBJECTS, id)
     return subject
 }
@@ -35,6 +35,14 @@ export async function getBlogById(id: string) {
     return blog;
 }
 
+export async function getBlogBySlug(slug: string) {
+    const blog = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
+        Query.search("slug", slug),
+        Query.limit(1),
+    ]);
+    return blog.documents[0];
+}
+
 export async function getBlogByTitle(title: string) {
     const blog = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
         Query.search("title", title),
@@ -46,7 +54,7 @@ export async function getBlogByTitle(title: string) {
 export async function getBlogsBySubjectId(id: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
         Query.equal("subject", id),
-        Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
+        Query.select(["$createdAt", "$id", "title", "tags", "slug", "subject.$id"]),
         Query.limit(5000)
     ]);
     return blogs;
@@ -56,14 +64,14 @@ export async function searchBlogByTag(tag: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
         Query.search("tags", tag),
         Query.limit(5000),
-        Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
+        Query.select(["$createdAt", "$id", "title", "tags", "slug", "subject.$id"]),
     ]);
     return blogs;
 }
 
 export async function searchBlogsByTitle(title: string) {
     const blogs = await database.listDocuments(DATABASE_ID, COLLECTION_BLOGS, [
-        Query.search("title", title), Query.limit(5000), Query.select(["$createdAt", "$id", "title", "tags", "subject.$id"]),
+        Query.search("title", title), Query.limit(5000), Query.select(["$createdAt", "$id", "title", "tags", "slug", "subject.$id"]),
     ]);
     return blogs;
 }
