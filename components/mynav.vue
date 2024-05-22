@@ -3,7 +3,7 @@
     <header
         class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-stone-50 text-sm py-3 md:py-0  text-black">
         <nav class="w-full mx-auto px-4 md:px-6 " aria-label="Global">
-            <div class="relative md:flex md:items-center md:justify-between">
+            <div class="relative md:flex md:items-center md:justify-between xl:max-w-7xl xl:mx-auto">
                 <div class="flex items-center justify-between ">
                     <!-- ssocial logo  -->
                     <!-- <div class="hidden sm:flex gap-3">
