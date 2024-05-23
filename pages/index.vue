@@ -135,7 +135,8 @@
           <!-- <p class="mx-auto mt-4 max-w-[528px] text-[#636262]">Lorem ipsum dolor sit amet elit ut aliquam</p> -->
         </div>
         <!-- Team Items -->
-        <div class="flex flex-wrap justify-center gap-3 md:justify-between md:gap-6 my-12">
+        <div
+          class="flex flex-wrap justify-center gap-3 md:gap-x-6 md:gap-y-10 xl:gap-5 my-12 md:max-w-3xl md:mx-auto xl:justify-between xl:max-w-7xl">
           <div
             class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
             <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
