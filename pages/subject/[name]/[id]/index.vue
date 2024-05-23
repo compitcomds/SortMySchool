@@ -68,7 +68,7 @@
                         alt="Image Description" />
                     </figure>
                   </div>
-                  <div v-else class="h-52 bg-slate-300 rounded-lg skeleton"></div>
+                  <div v-if="!imgSrc && !title" class="h-52 bg-slate-300 rounded-lg skeleton"></div>
                   <!-- <span class="mt-3 block text-sm text-center text-gray-500 ">
                                     Working process
                                 </span> -->
