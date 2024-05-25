@@ -397,6 +397,7 @@ defineOgImageComponent('NuxtSeo', {
 
 })
 
+
 </script>
 
 <style scoped>

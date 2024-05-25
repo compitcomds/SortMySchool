@@ -59,5 +59,13 @@ export default defineNuxtConfig({
   },
   generate: {
     fallback: '404.html'
+  },
+  schemaOrg: {
+    identity: {
+      type: "Organization",
+      name: "SortMyLawSchool",
+      url: "https://sortmylawschool.com",
+      logo: "https://sortmylawschool.com/_nuxt/MainLogo.t_bpkfPU.png"
+    }
   }
 });
