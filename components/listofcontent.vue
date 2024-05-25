@@ -23,7 +23,10 @@
           <!-- Item -->
           <template v-for="(blog, index) in blogs" :key="`listed-blog-${index}`">
             <div class="flex gap-1 md:gap-x-3 relative group rounded-lg hover:bg-gray-100">
-              <nuxt-link :to="`/subject/${blog.subject?.$id || 'others'}/${blog?.slug || blog.$id}`"
+              <nuxt-link v-if="isValidSlug(blog?.slug || null)"
+                :to="`/subject/${blog.subject?.$id || 'others'}/${blog.slug}`"
+                class="absolute inset-0 z-[1]"></nuxt-link>
+              <nuxt-link v-else :to="`/subject/${blog.subject?.$id || 'others'}/${blog.$id}`"
                 class="absolute inset-0 z-[1]"></nuxt-link>
 
               <!-- Icon -->
@@ -68,5 +71,12 @@
 <script>
 export default {
   props: ["propContent"],
+  methods: {
+    isValidSlug(slug) {
+      if (!slug) return
+      const pattern = /^[a-zA-Z0-9\s]+$/;
+      return pattern.test(slug);
+    }
+  }
 };
 </script>
