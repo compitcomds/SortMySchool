@@ -18,10 +18,11 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
   routeRules: {
-    "/subject": { isr: 60 * 5 }, // 5 minutes,
-    "/subject/**": {
-      isr: 60 * 5,
-    }, // 5 minutes,
+    // "/subject": { isr: 60 * 5 }, // 5 minutes,
+    // "/subject/**": {
+    //   isr: 60 * 5,
+    // }, // 5 minutes,
+    "/**": { prerender: true },
     "/search/**": { prerender: false },
   },
   site: {
