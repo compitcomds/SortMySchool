@@ -256,6 +256,7 @@ try {
     description: blog['meta-desc'] || blog.tags,
     ogTitle: blog['meta-title'] || title.value,
     ogDescription: blog['meta-desc'] || blog.tags,
+    keywords: blog.tags
   })
   defineOgImageComponent('NuxtSeo', {
     siteName: 'SortMyLawSchool',
@@ -264,15 +265,6 @@ try {
     siteLogo: "https://sortmylawschool.com/favicon.png",
     colorMode: "dark",
   })
-  useSchemaOrg([
-    defineArticle({
-      image: `/__og-image__/image/subject/${name}/${id}/og.png`,
-      datePublished: blog.$createdAt,
-      dateModified: blog.$updatedAt,
-      '@type': 'BlogPosting',
-    }),
-  ])
-
 } catch (error) {
   console.error("Error fetching blog:", error);
   navigateTo('/404')

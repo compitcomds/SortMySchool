@@ -2,8 +2,12 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap",
-    "nuxt-schema-org", "nuxt-og-image", '@nuxtjs/robots'],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/sitemap",
+    "nuxt-og-image",
+    "@nuxtjs/robots",
+  ],
   plugins: [
     "~/plugins/preline.client.ts",
     { src: "~/plugins/disableRightClick.ts", mode: "client" },
@@ -21,10 +25,11 @@ export default defineNuxtConfig({
     "/search/**": { prerender: false },
   },
   site: {
-    url: 'https://sortmylawschool.com/',
-    name: 'SortMyLawSchool',
-    description: "Creating India's Largest Database of Case Brief for Academia...",
-    defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
+    url: "https://sortmylawschool.com/",
+    name: "SortMyLawSchool",
+    description:
+      "Creating India's Largest Database of Case Brief for Academia...",
+    defaultLocale: "en", // not needed if you have @nuxtjs/i18n installed
   },
   sitemap: {
     urls: async () => {
@@ -43,28 +48,20 @@ export default defineNuxtConfig({
         "/subject/RentControlandSlumClearance",
         "/subject/TaxationLaw",
         "/subject/Trademarklaw",
-      ]
-      return urls
+      ];
+      return urls;
     },
     defaults: {
-      changefreq: 'daily',
+      changefreq: "daily",
       priority: 1,
-      lastmod: new Date()
+      lastmod: new Date(),
     },
-    exclude: ['/search', '/search/**']
+    exclude: ["/search", "/search/**"],
   },
   robots: {
-    mergeWithRobotsTxtPath: './public/_robots.txt'
+    mergeWithRobotsTxtPath: "./public/_robots.txt",
   },
   generate: {
-    fallback: '404.html'
+    fallback: "404.html",
   },
-  schemaOrg: {
-    identity: {
-      type: "Organization",
-      name: "SortMyLawSchool",
-      url: "https://sortmylawschool.com",
-      logo: "https://sortmylawschool.com/_nuxt/MainLogo.t_bpkfPU.png"
-    }
-  }
 });

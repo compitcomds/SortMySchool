@@ -372,7 +372,7 @@
 
 <script setup>
 
-const name = useState("name", () => null);
+const name = useState("name", () => '');
 onMounted(() => {
   const script = document.createElement("script");
   script.src =
@@ -397,7 +397,48 @@ defineOgImageComponent('NuxtSeo', {
 
 })
 
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org/",
+        "@graph": {
+          "@type": "WebSite",
+          "name": "SortMyLawSchool",
+          "url": "https://sortmylawschool.com",
+          "@id": "https://www.sortmylawschool.com/#webpage",
+          "logo": "https://sortmylawschool.com/_nuxt/MainLogo.t_bpkfPU.png"
+        "headline": "Creating India's Largest Database of Case Brief for Academia",
+          "description": "SortMyLawSchool  | Creating India's Largest Database of Case Brief for Academia",
+          "significantLink": [
+            "https://sortmylawschool.com/subject",
+            "https://sortmylawschool.com/case-material",
+            "https://sortmylawschool.com/contact"
+          ],
+          "image": "https://sortmylawschool.com/_nuxt/full.CVPs-rnJ.png",
+          "author": {
+            "@type": "Organization",
+            "name": "SortMyLawSchool"
+          },
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia",
+            "url": "https://sortmylawschool.com",
+            "description": "SortMyLawSchool  | Creating India's Largest Database of Case Brief for Academia",
+            "@id": "https://www.sortmylawschool.com/#webpage",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://sortmylawschool.com/search/{search_term_string}",
+              "query-input": "required name=search_term_string"
+            },
+          }
 
+        }
+      })
+    }
+  ]
+})
 </script>
 
 <style scoped>
