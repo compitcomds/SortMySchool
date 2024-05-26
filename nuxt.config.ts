@@ -61,7 +61,4 @@ export default defineNuxtConfig({
   robots: {
     mergeWithRobotsTxtPath: "./public/_robots.txt",
   },
-  generate: {
-    fallback: "404.html",
-  },
 });

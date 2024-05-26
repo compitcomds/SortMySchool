@@ -30,8 +30,8 @@
                   <div class="flex items-center">
                     <span class="text-gray-800">/</span>
                     <nuxt-link :to="`/subject/${name}`">
-                      <span class="ml-1 text-xs font-medium text-gray-800 hover:underline md:ml-2">
-                        {{ name }}
+                      <span class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
+                        {{ blog.subject.name }}
                       </span>
                     </nuxt-link>
                   </div>
@@ -235,7 +235,6 @@ const id = route.params.id;
 let blog = null
 try {
   blog = await getBlogBySlug(id);
-  console.log('blog not found by slug', blog)
   if (!blog) {
     blog = await getBlogById(id);
   }
@@ -247,7 +246,7 @@ try {
   tags.value = blog.tags.split(",").map((item) => item.trim());
   imgSrc.value = blog.imgSrc;
   views.value = blog.views + 1;
-  console.log(blog.tags);
+  console.log(blog);
   onMounted(() => {
     addViewToBlog(blog.$id, blog.views + 1);
   });
@@ -269,12 +268,6 @@ try {
   console.error("Error fetching blog:", error);
   navigateTo('/404')
 }
-
-// useHead({
-//   script: [{ src: "./node_modules/preline/dist/preline.js", body: true }],
-// });
-
-
 
 const shareOnFacebook = () => {
   window.open(
