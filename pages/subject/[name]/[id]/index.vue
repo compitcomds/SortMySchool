@@ -242,7 +242,6 @@ try {
   if (!blog) {
     throw Error("Blog not found");
   }
-  console.log(blog)
   content.value = blog.content;
   title.value = blog.title;
   tags.value = blog.tags.split(",").map((item) => item.trim());

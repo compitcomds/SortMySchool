@@ -43,9 +43,6 @@ export default {
         return
       }
       this.content = divideDocumentsAlphabetically(blogs, "title");
-      console.log("Search query: ", inputname);
-      console.log(blogs)
-      console.log(divideDocumentsAlphabetically(blogs, "title"));
       this.isLoading = false
     },
   },
