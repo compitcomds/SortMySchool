@@ -6,7 +6,7 @@
         <div class="lg:col-span-2">
           <div class="py-6 lg:pe-8">
             <div class="flex mb-4 items-center justify-between" aria-label="Breadcrumb">
-              <ol class="inline-flex items-center space-x-1 md:space-x-3">
+              <ol class="inline-flex items-center space-x-1 md:space-x-3 overflow-clip">
                 <li class="inline-flex items-center">
                   <nuxt-link to="/" class="ml-1 inline-flex text-sm font-medium text-gray-800 hover:underline md:ml-3">
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -29,10 +29,11 @@
                 <li aria-current="page">
                   <div class="flex items-center">
                     <span class="text-gray-800">/</span>
-                    <nuxt-link :to="`/subject/${name}`">
-                      <span class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2">
-                        {{ blog.subject.name }}
-                      </span>
+                    <nuxt-link
+                      class="ml-1 text-sm font-medium text-gray-800 hover:underline md:ml-2 text-ellipsis overflow-hidden max-w-40 md:max-w-none text-nowrap"
+                      :to="`/subject/${name}`">
+
+                      {{ blog.subject.name }}
                     </nuxt-link>
                   </div>
                 </li>
@@ -64,8 +65,8 @@
                 <div class="text-center">
                   <div class="gap-3" v-if="imgSrc">
                     <figure class="relative w-full h-96 object-cover">
-                      <img class="size-full absolute top-0 start-0 object-cover rounded-xl" :src="imgSrc"
-                        alt="Image Description" />
+                      <NuxtImg loading="lazy" class="size-full absolute top-0 start-0 object-cover rounded-xl"
+                        :src="imgSrc" alt="Image Description" />
                     </figure>
                   </div>
                   <div v-if="!imgSrc && !title" class="h-52 bg-slate-300 rounded-lg skeleton"></div>

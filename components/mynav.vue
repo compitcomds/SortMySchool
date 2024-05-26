@@ -36,7 +36,8 @@
                         <!-- logo -->
                         <div class="w-28">
                             <nuxt-link class="flex-none text-xl  font-semibold text-black" href="/" aria-label="Brand">
-                                <img src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" />
+                                <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo"
+                                    srcset="" />
                             </nuxt-link>
                         </div>
                         <!-- search icon -->
@@ -64,8 +65,8 @@
                                     </label>
                                     <p class="flex items-center justify-center p-3">Search Your Result</p>
                                     <div class="flex">
-                                        <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
-                                            id="query"
+                                        <input v-model="searchQuery" @keyup.enter="search7" type="text"
+                                            placeholder="Search..." name="q" id="query"
                                             class="w-full p-3  rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
                                         <nuxt-link :to="`/search/${searchQuery}`" @click="closeModal7"
                                             class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
@@ -480,8 +481,9 @@
 
                                                 <nuxt-link class="mt-4 group" to="/case-material">
                                                     <div class="aspect-w-16 aspect-h-9">
-                                                        <img class="w-full object-cover rounded-lg" src='/assets/du.jpg'
-                                                            alt="SortMyLawSchool | Delhi University (DU) Image">
+                                                        <NuxtImg loading="lazy" class="w-full object-cover rounded-lg"
+                                                            src='/assets/du.jpg'
+                                                            alt="SortMyLawSchool | Delhi University (DU) Image" />
                                                     </div>
                                                     <div class="mt-2">
                                                         <p class="text-gray-800 "></p>
@@ -534,8 +536,8 @@
                                                 class=" w-6 h-auto px-2 py-0 rounded-md pb-1 border hover:bg-slate-200 border-red-400 font-semibold">x</span></label>
                                         <p class="flex items-center justify-center p-3">Search Your Result</p>
                                         <div class="flex">
-                                            <input v-model="searchQuery" type="text" placeholder="Search..." name="q"
-                                                id="query"
+                                            <input v-model="searchQuery" @keyup.enter="search8" type="text"
+                                                placeholder="Search..." name="q" id="query"
                                                 class="w-full p-3 rounded-full border-2 border-r-white rounded-r-none border-gray-300 placeholder-gray-500" />
                                             <nuxt-link :to="`/search/${searchQuery}`" @click="closeModal8"
                                                 class="inline-flex items-center gap-2 bg-violet-700 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
@@ -597,6 +599,14 @@ export default {
         },
         closeModal7() {
             this.$refs.my_modal_7_close_label.click();
+        },
+        search8() {
+            this.$refs.my_modal_8_close_label.click();
+            navigateTo(`/search/${this.searchQuery}`)
+        },
+        search7() {
+            this.$refs.my_modal_7_close_label.click();
+            navigateTo(`/search/${this.searchQuery}`)
         }
     }
 };

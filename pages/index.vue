@@ -50,7 +50,7 @@
         </div> -->
 
     <div class="max:w-full flex items-center justify-center">
-      <img src="/assets/full.png"
+      <NuxtImg loading="lazy" src="/assets/full.png"
         alt="SortMyLawSchool | Crafting India's Most Dependable Case Briefs for Better Scores" />
     </div>
   </section>
@@ -139,7 +139,8 @@
           class="flex flex-wrap justify-center gap-3 md:gap-x-6 md:gap-y-10 xl:gap-5 my-12 md:max-w-3xl md:mx-auto xl:justify-between xl:max-w-7xl">
           <div
             class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
-            <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
+            <div
+              class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
                 <h2 class="text-xl font-semibold z-50">
                   Parth Jain (Co-Founder)
@@ -179,7 +180,7 @@
               <div class="text-white text-2xl font-semibold leading-[40px] z-50 -ml-4">
                 Parth<br />Jain
               </div>
-              <img loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
+              <NuxtImg loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
                 class="absolute left-[5.80rem] top-[9.08rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                 src="/assets/16.png" style="color: transparent" alt="Parth Jain (Co-Founder) | SortMyLawSchool" />
             </div>
@@ -188,7 +189,8 @@
           <!-- Repeat the same structure for other team members -->
           <div
             class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
-            <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
+            <div
+              class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
                 <h2 class="text-xl font-semibold z-50">Harsh Vardhan Bhati</h2>
                 <ul class="text-black" style="list-style-type: disc">
@@ -216,15 +218,16 @@
                 Vardhan<br />
                 Bhati
               </div>
-              <img alt="Harsh Vardhan Bhati | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
-                decoding="async" data-nimg="1"
+              <NuxtImg alt="Harsh Vardhan Bhati | SortMyLawSchool Knowledge Partner" loading="lazy" width="180"
+                height="290" decoding="async" data-nimg="1"
                 class="absolute left-[6.59rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                 src="assets\160.png" style="color: transparent" />
             </div>
           </div>
           <div
             class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
-            <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
+            <div
+              class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
                 <h2 class="text-xl font-semibold z-50">Priyam Agarwal</h2>
                 <ul class="text-black" style="list-style-type: disc">
@@ -254,7 +257,7 @@
               <div class="text-white text-2xl font-semibold leading-[40px] z-50 -ml-4">
                 Priyam<br />Agarwal
               </div>
-              <img alt="Priyam Agarwal | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
+              <NuxtImg alt="Priyam Agarwal | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
                 decoding="async" data-nimg="1"
                 class="absolute left-[6.30rem] top-[7.97rem] z-[50] lg:grayscale lg:hover:grayscale-0"
                 src="assets\17.png" style="color: transparent" />
@@ -262,7 +265,8 @@
           </div>
           <div
             class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
-            <div class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative">
+            <div
+              class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
                 <h2 class="text-xl font-semibold z-50">Shruti Sharma</h2>
                 <ul class="text-black" style="list-style-type: disc">
@@ -276,7 +280,8 @@
                 <div class="flex flex-row gap-2 pt-14">
                   <a href="#"
                     class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center">
-                    <img class="w-[1.7rem] h-[1.7rem] rounded-full text-white lg:grayscale lg:hover:grayscale-0"
+                    <NuxtImg loading="lazy"
+                      class="w-[1.7rem] h-[1.7rem] rounded-full text-white lg:grayscale lg:hover:grayscale-0"
                       src="/assets/ca-01.png" alt="CA Shruti Sharma | SortMyLawSchool Chartered Accountant Logo" />
                   </a>
                 </div>
@@ -285,7 +290,7 @@
                 Shruti<br />
                 Sharma
               </div>
-              <img alt="Shruti Sharma | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
+              <NuxtImg alt="Shruti Sharma | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
                 decoding="async" data-nimg="1"
                 class="absolute left-[6.60rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0 rounded-4xl"
                 src="assets\18.png" style="color: transparent" />
@@ -326,14 +331,15 @@
           <div
             class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl bg-white md:mb-6 lg:mb-8">
             <p class="text-xl font-bold">
-              <img class="w-40" src="/assets/5.png"
+              <NuxtImg loading="lazy" class="w-40" src="/assets/5.png"
                 alt="SortMyLawSchool | Good quality content leads to better grades" />
             </p>
           </div>
           <p class="mb-2 text-xl font-semibold">Better Grades !</p>
           <!-- <p class="text-sm text-[#636262]">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
                         purus sit.</p> -->
-          <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639833af1925275b6f0b43e1_Vector%2032.svg"
+          <NuxtImg loading="lazy"
+            src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639833af1925275b6f0b43e1_Vector%2032.svg"
             alt="SortMyLawSchool | Image"
             class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[18%] md:inline-block lg:left-auto" />
         </div>
@@ -343,22 +349,19 @@
           <div
             class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl bg-white md:mb-6 lg:mb-8">
             <p class="text-xl font-bold">
-              <img class="w-40" src="/assets/7.png"
+              <NuxtImg loading="lazy" class="w-40" src="/assets/7.png"
                 alt="SortMyLawSchool | Good quality content leads to better CV & internships" />
             </p>
           </div>
           <p class="mb-2 text-xl font-semibold">Better CV & Internships !</p>
 
-          <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639834731925279c5e0b4ee5_Vector%2033.svg"
-            alt="SortMyLawSchool | Image"
-            class="absolute bottom-[-33%] left-0 right-auto top-auto -z-10 hidden w-96 md:bottom-auto md:left-[136px] md:right-[-50%] md:top-[8%] md:inline-block lg:left-auto" />
         </div>
         <!-- How it Works Item -->
         <div class="relative flex flex-col items-center gap-4 p-2 text-center">
           <div
             class="transition duration-300 ease-in-out hover:scale-110 mb-5 flex max-w-[400px] flex-col items-center justify-center rounded-xl bg-white md:mb-6 lg:mb-8">
             <p class="text-xl font-bold">
-              <img class="w-40 object-cover" src="/assets/6.png"
+              <NuxtImg loading="lazy" class="w-40 object-cover" src="/assets/6.png"
                 alt="SortMyLawSchool | Good quality content leads to better colleges abroad" />
             </p>
           </div>

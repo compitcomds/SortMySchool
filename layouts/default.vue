@@ -5,14 +5,16 @@
     <div class="inline-flex gap-5 justify-between items-center sm:p-0 md:p-0 lg:py-6 lg:px-4 xl:max-w-7xl xl:mx-auto">
 
       <div class="h-auto w-56 hidden sm:block md:block"><nuxt-link to="/">
-          <img src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" /></nuxt-link>
+          <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" />
+        </nuxt-link>
 
       </div>
 
       <div class="object-cover lg:w-1/2 lg:rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
-          <img
+          <NuxtImg loading="lazy"
             src="https://yt3.googleusercontent.com/tis5V1pB6fvLi4yEXiivr9tCfw9gXNj95uyafLNH8MNzV058-yT048b4inWqeIkIO1wHkZcTyA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
-            alt="SortMyLawSchool | Header Banner" srcset="" class="rounded-lg" /></nuxt-link>
+            alt="SortMyLawSchool | Header Banner" srcset="" class="rounded-lg" />
+        </nuxt-link>
       </div>
     </div>
     <hr>
@@ -23,8 +25,9 @@
   <myfooter />
   <!-- back to top button -->
   <div class="fixed bottom-0 right-0 p-4">
-    <button class="bg-sky-400 text-white rounded-full w-10 h-10 flex items-center justify-center" @click="backToTop">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <button class="bg-sky-400 text-white rounded-full w-10 h-10 flex items-center justify-center" @click="backToTop"
+      aria-label="Go to top"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18">
         </path>
       </svg>

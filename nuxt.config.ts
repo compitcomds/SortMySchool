@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "nuxt-og-image",
     "@nuxtjs/robots",
+    "@nuxt/image",
   ],
   plugins: [
     "~/plugins/preline.client.ts",
@@ -22,7 +23,6 @@ export default defineNuxtConfig({
     // "/subject/**": {
     //   isr: 60 * 5,
     // }, // 5 minutes,
-    "/**": { prerender: true },
     "/search/**": { prerender: false },
   },
   site: {

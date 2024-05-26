@@ -5,7 +5,7 @@
                 class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-sky-500 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none">
                 Go back to home
             </nuxt-link>
-            <img src="/assets/not-found.svg" alt="Not found" class="max-w-full object-cover" />
+            <NuxtImg loading="lazy" src="/assets/not-found.svg" alt="Not found" class="max-w-full object-cover" />
         </div>
     </NuxtLayout>
 </template>
