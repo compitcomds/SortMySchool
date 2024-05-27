@@ -221,7 +221,7 @@
               <NuxtImg alt="Harsh Vardhan Bhati | SortMyLawSchool Knowledge Partner" loading="lazy" width="180"
                 height="290" decoding="async" data-nimg="1"
                 class="absolute left-[6.59rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0"
-                src="assets\160.png" style="color: transparent" />
+                src="/assets/160.png" style="color: transparent" />
             </div>
           </div>
           <div
@@ -260,7 +260,7 @@
               <NuxtImg alt="Priyam Agarwal | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
                 decoding="async" data-nimg="1"
                 class="absolute left-[6.30rem] top-[7.97rem] z-[50] lg:grayscale lg:hover:grayscale-0"
-                src="assets\17.png" style="color: transparent" />
+                src="/assets/17.png" style="color: transparent" />
             </div>
           </div>
           <div
@@ -293,7 +293,7 @@
               <NuxtImg alt="Shruti Sharma | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
                 decoding="async" data-nimg="1"
                 class="absolute left-[6.60rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0 rounded-4xl"
-                src="assets\18.png" style="color: transparent" />
+                src="/assets/18.png" style="color: transparent" />
             </div>
           </div>
         </div>
