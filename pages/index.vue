@@ -8,7 +8,7 @@
         Looking for a case brief?
       </h2>
       <p class="text-lg lg:text-xl sm:text-lg opacity-80">
-        Creating India's Largest Database of Case Brief for Academia...
+        SortMyLawSchool - Creating India's Largest Database of Case Brief for Academia...
       </p>
     </div>
 
@@ -128,9 +128,9 @@
       <!-- Component -->
       <div class="mx-auto max-w-7xl">
         <!-- Header -->
-        <div class="mx-auto mb-8 max-w-3xl text-center md:mb-6 lg:mb-8">
+        <div class="mx-auto mb-8 max-w-5xl text-center md:mb-6 lg:mb-8">
           <h2 class="mb-4 mt-6 text-3xl font-bold md:text-5xl">
-            Knowledge Partners
+            Knowledge Partners : Sort My Law School
           </h2>
           <!-- <p class="mx-auto mt-4 max-w-[528px] text-[#636262]">Lorem ipsum dolor sit amet elit ut aliquam</p> -->
         </div>
@@ -138,7 +138,7 @@
         <div
           class="flex flex-wrap justify-center gap-3 md:gap-x-6 md:gap-y-10 xl:gap-5 my-12 md:max-w-3xl md:mx-auto xl:justify-between xl:max-w-7xl">
           <div
-            class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+            class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
             <div
               class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
@@ -181,14 +181,14 @@
                 Parth<br />Jain
               </div>
               <NuxtImg loading="lazy" width="180" height="290" decoding="async" data-nimg="1"
-                class="absolute left-[5.80rem] top-[9.08rem] z-[50] lg:grayscale lg:hover:grayscale-0"
+                class="absolute left-[5.80rem] top-[9.08rem] z-[50] lg:grayscale knowledge-partner-img"
                 src="/assets/16.png" style="color: transparent" alt="Parth Jain (Co-Founder) | SortMyLawSchool" />
             </div>
           </div>
 
           <!-- Repeat the same structure for other team members -->
           <div
-            class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+            class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
             <div
               class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
@@ -220,12 +220,12 @@
               </div>
               <NuxtImg alt="Harsh Vardhan Bhati | SortMyLawSchool Knowledge Partner" loading="lazy" width="180"
                 height="290" decoding="async" data-nimg="1"
-                class="absolute left-[6.59rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0"
+                class="knowledge-partner-img absolute left-[6.59rem] top-[8.00rem] z-[50] lg:grayscale"
                 src="/assets/160.png" style="color: transparent" />
             </div>
           </div>
           <div
-            class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+            class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
             <div
               class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
@@ -259,12 +259,12 @@
               </div>
               <NuxtImg alt="Priyam Agarwal | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
                 decoding="async" data-nimg="1"
-                class="absolute left-[6.30rem] top-[7.97rem] z-[50] lg:grayscale lg:hover:grayscale-0"
+                class="absolute left-[6.30rem] top-[7.97rem] z-[50] lg:grayscale knowledge-partner-img"
                 src="/assets/17.png" style="color: transparent" />
             </div>
           </div>
           <div
-            class="transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+            class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
             <div
               class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
               <div class="flex flex-col gap-1">
@@ -292,7 +292,7 @@
               </div>
               <NuxtImg alt="Shruti Sharma | SortMyLawSchool Knowledge Partner" loading="lazy" width="180" height="290"
                 decoding="async" data-nimg="1"
-                class="absolute left-[6.60rem] top-[8.00rem] z-[50] lg:grayscale lg:hover:grayscale-0 rounded-4xl"
+                class="knowledge-partner-img absolute left-[6.60rem] top-[8.00rem] z-[50] lg:grayscale rounded-4xl"
                 src="/assets/18.png" style="color: transparent" />
             </div>
           </div>
@@ -375,6 +375,18 @@
 
 <script setup>
 
+// const knowledgePartners = [
+//   {
+//     title: "Parth Jain (Co-Founder)", 
+//     name: "Parth Jain", 
+//     image: "/assets/16.png", 
+//     points: ["AIR : 53, DU LLB Entrance", "LLB - Campus Law Center '23", "LLM - London School of Economics '25"],
+//     icons: [
+//       {}
+//     ]
+//   },
+// ]
+
 const name = useState("name", () => '');
 onMounted(() => {
   const script = document.createElement("script");
@@ -449,5 +461,8 @@ useHead({
   background-image: url("/assets/chi.png");
   background-size: cover;
   object-fit: cover;
+}
+.knowledge-partner-card:hover .knowledge-partner-img{
+  @apply grayscale-0
 }
 </style>

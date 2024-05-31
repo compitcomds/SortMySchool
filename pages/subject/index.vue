@@ -1,7 +1,7 @@
 <!-- have list of subject  -->
 <template>
   <div v-if="subjectObj">
-    <h3 class="text-center py-6 text-2xl font-bold">Legal Case Briefs for Academics</h3>
+    <h3 class="text-center py-6 text-2xl font-bold">Legal Case Briefs or Case Summary for Academics</h3>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl w-full p-5 mx-auto">
       <div v-for="(subjects, letter) in subjectObj" :key="letter"
         class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">
