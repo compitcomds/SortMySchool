@@ -195,7 +195,7 @@
                 <h2 class="text-xl font-semibold z-50">Harsh Vardhan Bhati</h2>
                 <ul class="text-black" style="list-style-type: disc">
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
-                    Former Assistant Prof, OP Jindal University (JGU)
+                    Assistant Prof, OP Jindal University (JGU)
                   </li>
                   <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                     LLM - Lewis &amp; Clark Law School, USA
