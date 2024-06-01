@@ -1,10 +1,10 @@
 <template>
   <div class="max-w-5xl w-full p-5 mx-auto">
     <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
-      Case Materials
+      DU Case Materials
     </h1>
     <p class="mb-7">
-      Many times, the Delhi University website isn't working, so we have uploaded the case material here in good faith.
+      Many times, the Delhi University website isn't working, so we have uploaded DU case material here in good faith.
       This way, students can access it freely whenever they want.
     </p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-8 w-full">
