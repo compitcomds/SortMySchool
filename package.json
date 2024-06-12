@@ -16,6 +16,7 @@
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "appwrite": "^14.0.1",
+    "dexie": "^4.0.7",
     "nuxt": "^3.11.2",
     "nuxt-og-image": "^3.0.0-rc.53",
     "preline": "^2.1.0",

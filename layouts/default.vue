@@ -1,47 +1,75 @@
 <template>
   <NuxtLoadingIndicator />
   <header
-    class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black">
+    class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black"
+  >
     <div class="flex gap-5 justify-between items-center w-full lg:px-6">
-
-      <div class="h-auto w-56 hidden sm:block md:block"><nuxt-link to="/">
-          <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" />
+      <div class="h-auto w-56 hidden sm:block md:block">
+        <nuxt-link to="/">
+          <NuxtImg
+            loading="lazy"
+            src="/assets/MainLogo.png"
+            alt="SortMyLawSchool | Logo"
+            srcset=""
+          />
         </nuxt-link>
-
       </div>
       <div class="flex flex-col lg:flex-row justify-end p-2 gap-3 lg:gap-5">
-        <div class="object-cover lg:w-1/3 lg:rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
-            <NuxtImg loading="lazy"
+        <div class="object-cover lg:w-1/3 lg:rounded-lg">
+          <nuxt-link to="https://www.youtube.com/@fglawkit">
+            <NuxtImg
+              loading="lazy"
               src="https://ccdstest.b-cdn.net/LLB.jpg"
-              alt="SortMyLawSchool | Header Banner" srcset="" class="rounded-lg" />
+              alt="SortMyLawSchool | Header Banner"
+              srcset=""
+              class="rounded-lg"
+            />
           </nuxt-link>
         </div>
-        <div class="object-cover lg:w-1/3 lg:rounded-lg"><nuxt-link to="https://www.youtube.com/@fglawkit">
-            <NuxtImg loading="lazy"
+        <div class="object-cover lg:w-1/3 lg:rounded-lg">
+          <nuxt-link to="https://www.youtube.com/@fglawkit">
+            <NuxtImg
+              loading="lazy"
               src="https://yt3.googleusercontent.com/tis5V1pB6fvLi4yEXiivr9tCfw9gXNj95uyafLNH8MNzV058-yT048b4inWqeIkIO1wHkZcTyA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
-              alt="SortMyLawSchool | Header Banner" srcset="" class="rounded-lg" />
+              alt="SortMyLawSchool | Header Banner"
+              srcset=""
+              class="rounded-lg"
+            />
           </nuxt-link>
         </div>
       </div>
     </div>
-    <hr>
+    <hr />
     <mynav />
-    <hr>
+    <hr />
   </header>
   <slot />
   <myfooter />
   <!-- back to top button -->
   <div class="fixed bottom-0 right-0 p-4">
-    <button class="bg-sky-400 text-white rounded-full w-10 h-10 flex items-center justify-center" @click="backToTop"
-      aria-label="Go to top"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18">
-        </path>
+    <button
+      class="bg-sky-400 text-white rounded-full w-10 h-10 flex items-center justify-center"
+      @click="backToTop"
+      aria-label="Go to top"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7m0 0l7 7m-7-7v18"
+        ></path>
       </svg>
     </button>
   </div>
+  <SearchBox />
 </template>
-
 
 <script>
 export default {
@@ -49,13 +77,12 @@ export default {
     backToTop() {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth' // This smoothens the scroll
+        behavior: "smooth", // This smoothens the scroll
       });
-    }
-  }
-}
+    },
+  },
+};
 </script>
-
 
 <style>
 body {
