@@ -43,7 +43,7 @@
                 type="text"
                 id="hs-trailing-button-add-on-with-icon"
                 name="hs-trailing-button-add-on-with-icon"
-                class="py-3 px-4 block w-full xl:min-w-[300px] lg:min-w-[350px] border border-gray-200 rounded-s-lg text-sm focus:z-10 focus:border-sky-500 focus:ring-sky-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                class="py-3 px-4 block w-full xl:min-w-[300px] lg:min-w-[350px] border border-gray-200 rounded-s-lg text-sm focus:z-10 focus:border-sky-500 focus:ring-sky-500 disabled:opacity-50 disabled:pointer-events-none"
                 v-model.trim="search"
                 @input="searchQuery"
                 placeholder="Enter your search query..."
