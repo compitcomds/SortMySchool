@@ -5,7 +5,7 @@
   >
     <div class="sm:max-w-lg sm:w-full m-3 sm:mx-auto">
       <div
-        class="flex flex-col bg-white border shadow-sm rounded-xl w-[90vw] h-[70vh] md:w-[50vw] md:h-[50vh] overflow-auto pointer-events-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1"
+        class="flex flex-col bg-white border shadow-sm rounded-xl w-[90vw] h-[70vh] lg:w-[60vw] lg:h-[60vh] overflow-auto pointer-events-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1"
       >
         <div class="flex justify-between items-center py-3 px-4">
           <h3 class="font-bold text-gray-800">Search SortMyLawSchool</h3>
@@ -33,16 +33,16 @@
             </svg>
           </button>
         </div>
-        <div class="p-4 overflow-y-auto">
+        <div class="px-4 overflow-y-auto">
           <div>
-            <label for="hs-trailing-button-add-on-with-icon" class="sr-only"
-              >Label</label
+            <label for="search-modal-input" class="sr-only">Search input</label>
+            <div
+              class="flex flex-col gap-y-3 md:flex-row rounded-lg mb-5 sticky top-0"
             >
-            <div class="flex rounded-lg shadow-sm mb-5">
               <input
                 type="text"
-                id="hs-trailing-button-add-on-with-icon"
-                name="hs-trailing-button-add-on-with-icon"
+                id="search-modal-input"
+                name="search-modal-input"
                 class="py-3 px-4 block w-full xl:min-w-[300px] lg:min-w-[350px] border border-gray-200 rounded-s-lg text-sm focus:z-10 focus:border-sky-500 focus:ring-sky-500 disabled:opacity-50 disabled:pointer-events-none"
                 v-model.trim="search"
                 @input="searchQuery"
@@ -51,8 +51,9 @@
               <nuxt-link
                 :to="`/search/${search}`"
                 @click="closeModal"
-                class="w-[2.875rem] h-[2.875rem] flex-shrink-0 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-e-md border border-transparent bg-sky-600 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none"
+                class="min-w-fit flex-1 px-3 py-3 flex-shrink-0 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-e-md border border-transparent bg-sky-600 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none"
               >
+                Search All Related Results
                 <svg
                   class="flex-shrink-0 size-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,9 +71,9 @@
                 </svg>
               </nuxt-link>
             </div>
-            <ul>
+            <ul class="flex flex-col">
               <li
-                class="flex items-center w-full text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-lg"
+                class="flex items-center w-full text-sm text-gray-800 hover:bg-gray-50 focus:outline-none py-2 rounded-lg"
                 v-for="row in searchResults"
               >
                 <nuxt-link
@@ -145,24 +146,6 @@ const closeModal = () => {
 
 onMounted(() => {
   loadData();
-  window.addEventListener("keydown", function (evt) {
-    if (evt.code === "Backslash") {
-      const overlay = HSOverlay.getInstance(
-        '[data-hs-overlay="#search-modal"]',
-        true
-      );
-      const combobox = HSComboBox.getInstance(
-        "#search-modal [data-hs-combo-box]",
-        true
-      );
-
-      if (overlay.element && overlay.element.overlay.classList.contains("open"))
-        return false;
-
-      overlay.element.open();
-      combobox.element.setCurrent();
-    }
-  });
 });
 
 const searchQuery = async (event) => {
