@@ -45,10 +45,10 @@
                     </svg>
                 </a>
             </div>
-            <div class="mt-8 md:order-1 md:mt-0">
-                <p class="text-center text-base text-white hover:text-gray-200">
-                    Developed By: <br> Compitcom Digital Solutions Pvt Ltd.
-                </p>
+            <div class="mt-8 md:order-1 md:mt-0 text-white"> Developed By: <br>
+                <nuxt-link to="https://www.compitcom.com/" class="text-center text-base text-white hover:text-gray-200">
+                    Compitcom Digital Solutions Pvt Ltd.
+                </nuxt-link>
             </div>
         </div>
     </footer>
