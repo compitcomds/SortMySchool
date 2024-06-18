@@ -6,9 +6,9 @@
       <div class=" ">
       <img
         src="https://ccdstest.b-cdn.net/partner.PNG"
-        class="hidden sm:block object-cover absolute right-0 lg:pr-[180px] md:block h-auto w-auto md:max-w-none "
+        class="hidden sm:block object-cover absolute right-0 lg:pr-[180px] md:block h-auto w-auto md:max-w-none animate-bounce"
       /></div>
-      <div class="text-[#0ad0f4] text-sm pb-12 mb-8 mr-2 hidden sm:block object-cover absolute right-0 lg:pr-[180px] md:block h-full w-auto md:max-w-full  font-semibold">Proud Partner</div>
+      <div class="text-[#0ad0f4] text-sm pb-12 mb-8 mr-2 hidden sm:block object-cover absolute right-0 lg:pr-[180px] md:block h-auto w-auto md:max-w-full animate-bounce font-semibold">Proud Partner</div>
     </div>
     <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
       <h2 class="sm:text-3xl lg:text-2xl text-2xl font-bold mb-3">
@@ -450,7 +450,7 @@
     </div>
   </section>
   <!-- partners -->
-  <div
+  <!-- <div
     class="h-[300px] w-full dark:bg-gray-900 flex flex-col justify-center items-center"
   >
     <div class="text-center mb-16">
@@ -471,7 +471,7 @@
       <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
       <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
     </div>
-  </div>
+  </div> -->
   <!-- how it works -->
 
   <section>
