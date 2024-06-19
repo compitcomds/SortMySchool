@@ -3,11 +3,11 @@
     class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative"
   >
     <div class="flex">
-      <div class=" ">
+      <!-- <div class=" ">
       <img
         src="https://ccdstest.b-cdn.net/partner.PNG"
         class="hidden sm:block object-cover absolute right-0 lg:pr-[180px] md:block h-auto w-auto md:max-w-none animate-bounce "
-      /></div>
+      /></div> -->
       <!-- <div class="text-[#0ad0f4] text-sm pb-12 mb-8 mr-2 hidden sm:block object-cover absolute right-0 lg:pr-[180px]  md:block h-auto w-auto md:max-w-full animate-bounce font-semibold">
         Proud Partner
       </div> -->
@@ -452,16 +452,16 @@
     </div>
   </section>
   <!-- partners -->
-  <!-- <div
+  <div
     class="h-[300px] w-full dark:bg-gray-900 flex flex-col justify-center items-center"
   >
     <div class="text-center mb-16">
-      <h2 class="font-semibold text-3xl">Our Sponsors</h2>
+      <h2 class="font-semibold text-6xl">Proud Partners</h2>
 
-      <p class="max-w-md mx-auto mt-2 text-gray-500">
+      <!-- <p class="max-w-md mx-auto mt-2 text-gray-500">
         We are thankful to each and every company sponsored our plugin which
         helped us to continue working on it.
-      </p>
+      </p> -->
     </div>
     <div
       class="flex w-8/12 flex-wrap items-center justify-between gap-4 md:gap-8 mb-16"
@@ -473,7 +473,7 @@
       <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
       <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
     </div>
-  </div> -->
+  </div>
   <!-- how it works -->
 
   <section>
