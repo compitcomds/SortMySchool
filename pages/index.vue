@@ -453,7 +453,7 @@
   </section>
   <!-- partners -->
   <div
-    class="h-[300px] w-full dark:bg-gray-900 flex flex-col justify-center items-center"
+    class="h-[300px] w-full  flex flex-col justify-center items-center"
   >
     <div class="text-center mb-16">
       <h2 class="font-semibold text-6xl">Proud Partners</h2>
