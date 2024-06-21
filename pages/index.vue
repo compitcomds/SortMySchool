@@ -451,27 +451,30 @@
       </div>
     </div>
   </section>
-  <!-- partners -->
-  <div
-    class="h-[300px] w-full  flex flex-col justify-center items-center"
-  >
-    <div class="text-center mb-16">
-      <h2 class="font-semibold text-6xl">Proud Partners</h2>
 
-      <!-- <p class="max-w-md mx-auto mt-2 text-gray-500">
-        We are thankful to each and every company sponsored our plugin which
-        helped us to continue working on it.
-      </p> -->
+  <!-- partners -->
+  <div class="w-full flex flex-col justify-center items-center">
+    <div class="text-center mb-12">
+      <h2 class="mb-4 mt-6 text-3xl font-bold md:text-5xl mb-5">
+        Proud Partners
+      </h2>
+      <p
+        class="text-sm px-3 md:px-5 md:text-base max-w-7xl mx-auto font-semibold"
+      >
+        At FG Lawkit, we collaborate with educational or private institutes to
+        boost their social media presence and reduce their promotional costs by
+        creating digital assets. <br />Our trusted partners include...
+      </p>
     </div>
     <div
-      class="flex w-8/12 flex-wrap items-center justify-between gap-4 md:gap-8 mb-16"
+      class="flex w-8/12 flex-wrap items-center justify-center gap-4 md:gap-8 mb-16"
     >
-      <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
-
-      <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
-      <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
-      <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
-      <img src="https://ccdstest.b-cdn.net/partner.PNG" alt="" />
+      <a href="https://testbook.com/" target="_blank"
+        ><nuxt-img
+          src="/assets/testbook.png"
+          alt="SortMyLawSchool | Testbook logo (https://testbook.com/)"
+          class="md:w-[20rem] h-auto object-cover"
+      /></a>
     </div>
   </div>
   <!-- how it works -->
