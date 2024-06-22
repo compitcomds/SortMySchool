@@ -104,7 +104,7 @@
                 >
                   <!-- Button -->
                   <div
-                    class="hs-tooltip inline-block text-gray-900 bg-slate-300 hover:bg-slate-100 px-2 py-2 rounded-full hover:text-gray-700"
+                    class="hs-tooltip hidden inline-block text-gray-900 bg-slate-300 hover:bg-slate-100 px-2 py-2 rounded-full hover:text-gray-700"
                   >
                     <div
                       class="flex items-center gap-x-2 text-sm text-gray-900 hover:text-gray-700"
