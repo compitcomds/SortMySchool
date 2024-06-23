@@ -4,13 +4,14 @@
     class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black"
   >
     <div class="flex gap-5 justify-between items-center w-full lg:px-6">
-      <div class="h-auto w-56 hidden sm:block md:block">
-        <nuxt-link to="/">
+      <div
+        class="h-auto w-56 hidden sm:block md:block lg:w-96 flex justify-center items-center"
+      >
+        <nuxt-link to="/" class="block my-auto">
           <NuxtImg
             loading="lazy"
             src="/assets/MainLogo.png"
             alt="SortMyLawSchool | Logo"
-            srcset=""
           />
         </nuxt-link>
       </div>
@@ -30,10 +31,10 @@
           <nuxt-link to="https://www.youtube.com/@fglawkit">
             <NuxtImg
               loading="lazy"
-              src="https://yt3.googleusercontent.com/tis5V1pB6fvLi4yEXiivr9tCfw9gXNj95uyafLNH8MNzV058-yT048b4inWqeIkIO1wHkZcTyA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
               alt="SortMyLawSchool | Header Banner"
+              src="/assets/banner-good-quality-case-briefs.png"
               srcset=""
-              class="rounded-lg"
+              class="rounded-lg max-w-full h-full"
             />
           </nuxt-link>
         </div>
