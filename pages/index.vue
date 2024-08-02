@@ -201,7 +201,7 @@
   <section>
     <!-- Container -->
     <div class="mx-auto px-5 py-8 md:px-10 lg:py-12">
-      <div class="mx-auto max-w-7xl">
+      <div class="mx-auto">
         <div class="mx-auto mb-8 max-w-5xl text-center md:mb-6 lg:mb-8">
           <h2 class="mb-4 mt-6 text-3xl font-bold md:text-5xl">
             Knowledge Partners : Sort My Law School
@@ -210,7 +210,7 @@
         </div>
         <!-- Team Items -->
         <div
-          class="flex flex-wrap justify-center gap-3 md:gap-x-6 md:gap-y-10 xl:gap-5 my-12 md:max-w-3xl md:mx-auto xl:justify-between xl:max-w-7xl"
+          class="flex flex-wrap justify-center gap-3 md:gap-x-6 md:gap-y-10 xl:gap-5 my-12 md:max-w-3xl md:mx-auto xl:max-w-full"
         >
           <div
             class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md"
@@ -446,6 +446,62 @@
                 class="knowledge-partner-img absolute left-[6.60rem] top-[8.00rem] z-[50] lg:grayscale rounded-4xl"
                 src="/assets/18.png"
                 style="color: transparent"
+              />
+            </div>
+          </div>
+          <div
+            class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 ease-in-out hover:scale-110 relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md"
+          >
+            <div
+              class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip"
+            >
+              <div class="flex flex-col gap-1">
+                <h2 class="text-xl font-semibold z-50">Neha Goyal</h2>
+                <ul class="text-black" style="list-style-type: disc">
+                  <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
+                    Editor in Chief
+                  </li>
+                  <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
+                    LSAT India - 98 Percentile
+                  </li>
+                  <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
+                    BALLB Hons. - OP Jindal University'25
+                  </li>
+                </ul>
+                <div class="flex flex-row gap-2 pt-6">
+                  <a
+                    href="https://www.linkedin.com/in/neha-g-55799a12a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
+                  >
+                    <svg
+                      class="w-[1rem] h-[1rem] text-white"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.8794 11.5527V3.86835H0.318893V11.5527H2.87967H2.8794ZM1.59968 2.81936C2.4924 2.81936 3.04817 2.2293 3.04817 1.49188C3.03146 0.737661 2.4924 0.164062 1.61666 0.164062C0.74032 0.164062 0.167969 0.737661 0.167969 1.49181C0.167969 2.22923 0.723543 2.8193 1.5829 2.8193H1.59948L1.59968 2.81936ZM4.29668 11.5527H6.85698V7.26187C6.85698 7.03251 6.87369 6.80255 6.94134 6.63873C7.12635 6.17968 7.54764 5.70449 8.25514 5.70449C9.18141 5.70449 9.55217 6.4091 9.55217 7.44222V11.5527H12.1124V7.14672C12.1124 4.78652 10.8494 3.68819 9.16483 3.68819C7.78372 3.68819 7.17715 4.45822 6.84014 4.98267H6.85718V3.86862H4.29681C4.33023 4.5895 4.29661 11.553 4.29661 11.553L4.29668 11.5527Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="text-white text-2xl font-semibold leading-[40px] z-50 -ml-4"
+              >
+                Neha<br />Goyal
+              </div>
+              <NuxtImg
+                loading="lazy"
+                width="180"
+                height="290"
+                decoding="async"
+                data-nimg="1"
+                class="absolute left-[6.40rem] top-[4.6rem] scale-[115%] z-[50] lg:grayscale knowledge-partner-img"
+                src="/assets/neha-goyal-3.png"
+                style="color: transparent"
+                alt="Parth Jain (Co-Founder) | SortMyLawSchool"
               />
             </div>
           </div>
