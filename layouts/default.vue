@@ -72,17 +72,17 @@
   <SearchBox />
 </template>
 
-<script>
-export default {
-  methods: {
-    backToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth", // This smoothens the scroll
-      });
-    },
-  },
+<script setup>
+const backToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 };
+
+useSeoMeta({
+  robots: "index, follow",
+});
 </script>
 
 <style>

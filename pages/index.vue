@@ -187,7 +187,7 @@
             ></div>
           </div>
           <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10">
-            Your Success, Our Victory!
+            Your Success, Our Victory!
           </h3>
           <!-- <p class="leading-relaxed mt-4">After the redesign, relaunch your website and welcome your audience to the
                         new experience.</p> -->
@@ -605,6 +605,7 @@ useSeoMeta({
   ogDescription: "Creating India's Largest Database of Case Brief for Academia",
   ogTitle:
     "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia...",
+  ogUrl: `${useRuntimeConfig().public.siteUrl}/`,
 });
 
 defineOgImageComponent("NuxtSeo", {
@@ -622,43 +623,23 @@ useHead({
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org/",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            name: "SortMyLawSchool",
-            url: "https://sortmylawschool.com",
-            "@id": "https://www.sortmylawschool.com/#webpage",
-            headline:
-              "Creating India's Largest Database of Case Brief for Academia",
-            description:
-              "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia",
-            significantLink: [
-              "https://sortmylawschool.com/subject",
-              "https://sortmylawschool.com/case-material",
-              "https://sortmylawschool.com/contact",
-            ],
-            image: "https://sortmylawschool.com/_nuxt/full.CVPs-rnJ.png",
-            author: {
-              "@type": "Organization",
-              name: "SortMyLawSchool",
-            },
-            isPartOf: {
-              "@type": "WebSite",
-              name: "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia",
-              url: "https://sortmylawschool.com",
-              description:
-                "SortMyLawSchool | Creating India's Largest Database of Case Brief for Academia",
-              "@id": "https://www.sortmylawschool.com/#webpage",
-              potentialAction: {
-                "@type": "SearchAction",
-                target:
-                  "https://sortmylawschool.com/search/{search_term_string}",
-                "query-input": "required name=search_term_string",
-              },
-            },
-          },
-        ],
+        "@type": "WebSite",
+        name: "Sort My Law School",
+        url: "https://sortmylawschool.com/",
+        description:
+          "A website that helps prospective law students sort and evaluate law schools.",
       }),
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: `${useRuntimeConfig().public.siteUrl}/`,
+    },
+    {
+      rel: "alternate",
+      hreflang: "en",
+      href: `${useRuntimeConfig().public.siteUrl}/`,
     },
   ],
 });

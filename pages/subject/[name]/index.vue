@@ -8,14 +8,13 @@
 <script setup>
 import { getBlogsBySubjectId, getSubjectById } from "~/utils/appwrite";
 
-const subject = useState('subject', () => null)
+const subject = useState("subject", () => null);
 const content = useState("content", () => null);
 const route = useRoute();
 const name = route.params.name || "";
 try {
-  subject.value = await getSubjectById(name)
-} catch (error) {
-}
+  subject.value = await getSubjectById(name);
+} catch (error) {}
 
 try {
   const subs = await getBlogsBySubjectId(name);
@@ -30,10 +29,19 @@ useSeoMeta({
   ogTitle: `SortMyLawSchool | ${subject.value.name}`,
   ogDescription: `SortMyLawSchool | ${subject.value.name}`,
 });
-defineOgImageComponent('NuxtSeo', {
-  siteName: 'SortMyLawSchool',
+defineOgImageComponent("NuxtSeo", {
+  siteName: "SortMyLawSchool",
   description: "Read more...",
   siteLogo: "https://sortmylawschool.com/favicon.png",
   colorMode: "dark",
-})
+});
+
+useHead({
+  link: [
+    {
+      rel: "canonical",
+      href: `${useRuntimeConfig().public.siteUrl}/subject/${name}`,
+    },
+  ],
+});
 </script>

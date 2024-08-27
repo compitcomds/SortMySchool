@@ -364,6 +364,15 @@ try {
   navigateTo("/404");
 }
 
+useHead({
+  link: [
+    {
+      rel: "canonical",
+      href: `${useRuntimeConfig().public.siteUrl}/subject/${name}/${id}`,
+    },
+  ],
+});
+
 const shareOnFacebook = () => {
   window.open(
     "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href,

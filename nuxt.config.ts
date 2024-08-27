@@ -62,4 +62,9 @@ export default defineNuxtConfig({
   robots: {
     mergeWithRobotsTxtPath: "./public/_robots.txt",
   },
+  runtimeConfig: {
+    public: {
+      siteUrl: "https://sortmylawschool.com",
+    },
+  },
 });

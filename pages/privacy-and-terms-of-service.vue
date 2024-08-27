@@ -135,19 +135,30 @@
 </template>
 
 <script setup>
-defineOgImageComponent('NuxtSeo', {
- siteName: 'SortMyLawSchool',
- description: "Read more...",
+defineOgImageComponent("NuxtSeo", {
+  siteName: "SortMyLawSchool",
+  description: "Read more...",
   siteLogo: "https://sortmylawschool.com/favicon.png",
   colorMode: "dark",
-})
+});
 
 useSeoMeta({
   title: "SortMyLawSchool | PRIVACY POLICY AND TERMS OF CONDITION",
-  description: "At SortMyLawSchool, we take your privacy and your trust in us very seriously. This policy deals with the sharing of personal information with the website. The user adheres to and accepts the policy once the user starts using the website. If a user does not agree with the policy, they must refrain from using the website. By using our website, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions and our Privacy Policy.",
+  description:
+    "At SortMyLawSchool, we take your privacy and your trust in us very seriously. This policy deals with the sharing of personal information with the website. The user adheres to and accepts the policy once the user starts using the website. If a user does not agree with the policy, they must refrain from using the website. By using our website, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions and our Privacy Policy.",
   ogTitle: "SortMyLawSchool | PRIVACY POLICY AND TERMS OF CONDITION",
-  ogDescription: "At SortMyLawSchool, we take your privacy and your trust in us very seriously. This policy deals with the sharing of personal information with the website. The user adheres to and accepts the policy once the user starts using the website. If a user does not agree with the policy, they must refrain from using the website. By using our website, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions and our Privacy Policy."
-})
+  ogDescription:
+    "At SortMyLawSchool, we take your privacy and your trust in us very seriously. This policy deals with the sharing of personal information with the website. The user adheres to and accepts the policy once the user starts using the website. If a user does not agree with the policy, they must refrain from using the website. By using our website, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions and our Privacy Policy.",
+});
+
+useHead({
+  link: [
+    {
+      rel: "canonical",
+      href: `${useRuntimeConfig().public.siteUrl}/privacy-and-terms-of-service`,
+    },
+  ],
+});
 </script>
 
 <style scoped></style>
