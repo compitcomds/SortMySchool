@@ -3,39 +3,37 @@
   <header
     class="flex flex-wrap md:justify-start md:flex-nowrap z-10 w-full bg-stone-50 text-sm py-3 md:py-0 text-black">
     <nav class="w-full mx-auto px-4 md:px-6" aria-label="Global">
-      <div class="md:hidden flex justify-between items-center w-full">
-
-        <!-- logo -->
-        <div class="w-28">
-          <nuxt-link class="flex-none text-xl font-semibold text-black" href="/" aria-label="Brand">
-            <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" />
-          </nuxt-link>
-        </div>
-        <button type="button" data-hs-overlay="#search-modal" class="md:hidden">
-          <svg class="text-black h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 56.966 56.966"
-            style="enable-background: new 0 0 56.966 56.966" xml:space="preserve" width="512px" height="512px">
-            <path
-              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
-          </svg>
-        </button>
+     <!-- mobile nav -->
+     <div class="md:hidden flex justify-between items-center w-full">
+      <!-- logo -->
+      <div class="w-28">
+        <nuxt-link class="flex-none text-xl font-semibold text-black" href="/" aria-label="Brand">
+          <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" srcset="" />
+        </nuxt-link>
       </div>
-
+      <button type="button" data-hs-overlay="#search-modal" class="md:hidden">
+        <svg class="text-black h-5 w-5 p-0 fill-current" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 56.966 56.966"
+          style="enable-background: new 0 0 56.966 56.966" xml:space="preserve" width="512px" height="512px">
+          <path
+            d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+        </svg>
+      </button>
+    </div>
+      <!-- mobile nav end -->
 
       <div id="navbar-collapse-with-animation"
         class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
         <div
           class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-          <div class="hidden sm:flex gap-3">
-            <div class="h-auto w-36 hidden sm:block md:block  flex justify-center items-center">
-              <nuxt-link to="/" class="block my-auto">
-                <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" />
-              </nuxt-link>
-            </div>
-
+          <div class="h-auto w-36 hidden sm:block md:block flex  items-center">
+            <nuxt-link to="/" class="block my-auto">
+              <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" />
+            </nuxt-link>
           </div>
+          <!-- nav items -->
           <div
-            class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
+            class="w-full md:w-fit flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-center md:gap-x-7 md:mt-0  md:divide-y-0 md:divide-solid">
             <nuxt-link class="font-medium lg:text-lg py-3 md:py-6" to="/" aria-current="page">Home</nuxt-link>
             <div
               class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-6">
@@ -370,6 +368,7 @@
               Contact Us
             </nuxt-link>
           </div>
+          <!-- Search  -->
           <div class="h-full w-auto hidden md:block">
             <div class="watsup-group flex items-center">
               <!-- SearchBox -->
@@ -385,7 +384,6 @@
           </div>
         </div>
       </div>
-
     </nav>
   </header>
   <!-- ========== END HEADER ========== -->
