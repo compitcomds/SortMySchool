@@ -58,7 +58,7 @@
           {
             lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Mask%20Group.png",
             heading: "Slide 1 Heading",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore eligendi laudantium, architecto dolor ipsum earum rerum modi itaque nemo.",
+            description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
               { label: "Learn More", link: "https://example.com/learn-more" },
               { label: "Contact Us", link: "https://example.com/contact" },
@@ -67,7 +67,7 @@
           {
             lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Untitled%20design%20(13).png",
             heading: "Slide 2 Heading",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore eligendi laudantium, architecto dolor ipsum earum rerum modi itaque nemo.",
+            description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
               { label: "About Us", link: "https://example.com/about" },
               { label: "Services", link: "https://example.com/services" },
@@ -76,7 +76,7 @@
           {
             lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Mask%20Group.png",
             heading: "Slide 3 Heading",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore eligendi laudantium, architecto dolor ipsum earum rerum modi itaque nemo.",
+            description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
               { label: "Products", link: "https://example.com/products" },
               { label: "Support", link: "https://example.com/support" },
@@ -85,7 +85,7 @@
           {
             lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Untitled%20design%20(13).png",
             heading: "Slide 4 Heading",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore eligendi laudantium, architecto dolor ipsum earum rerum modi itaque nemo.",
+            description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
               { label: "FAQ", link: "https://example.com/faq" },
               { label: "Blog", link: "https://example.com/blog" },
