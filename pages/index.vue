@@ -126,8 +126,7 @@
   </section>
 
   <!-- Testimonial -->
-   <Doctors />
-
+   <Testimonial />
   
 
   <!-- how it works -->
@@ -210,6 +209,8 @@
 </template>
 
 <script setup>
+import Testimonial from '~/components/testimonial.vue';
+
 const name = useState("name", () => "");
 onMounted(() => {
   const script = document.createElement("script");

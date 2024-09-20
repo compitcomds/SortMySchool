@@ -1,7 +1,7 @@
 <template>
   <section class="bg-gray-100">
     <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col-reverse md:flex-row items-center gap-8">
+      <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-8">
         <div class="max-w-lg space-y-5">
           <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Maecenas eget exiaculis, ulla
@@ -15,14 +15,14 @@
           </p>
           <div class="flex flex-wrap items-start">
             <a
-              class="relative px-3 py-1 m-2 flex gap-2 rounded-md shadow-sm sm:py-2 sm:text-base ring ring-transparent group md:px-4 hover:ring hover:ring-opacity-50 focus:ring-opacity-50 text-gray-900 bg-gray-200 dark:bg-gray-400 dark:text-gray-200"
+              class="relative px-3 py-1 m-2 flex gap-2 rounded-md shadow-sm sm:py-2 sm:text-base ring ring-transparent group md:px-4 hover:ring hover:ring-opacity-50 focus:ring-opacity-50 text-gray-900 bg-gray-200 "
               href="#"
             >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell-ring"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/><path d="M4 2C2.8 3.7 2 5.7 2 8"/><path d="M22 8c0-2.3-.8-4.3-2-6"/></svg>
               <span class="text-sm">21.8k subscribers</span>
             </a>
             <a
-              class="relative flex gap-2 px-3 py-1 m-2 rounded-md shadow-sm sm:py-2 sm:text-base ring ring-transparent group md:px-4 hover:ring hover:ring-opacity-50 focus:ring-opacity-50 text-gray-900 bg-gray-200 dark:bg-gray-400 dark:text-gray-200"
+              class="relative flex gap-2 px-3 py-1 m-2 rounded-md shadow-sm sm:py-2 sm:text-base ring ring-transparent group md:px-4 hover:ring hover:ring-opacity-50 focus:ring-opacity-50 text-gray-900 bg-gray-200 "
               href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@
                 />
                 <circle cx="12" cy="12" r="3" />
               </svg>
-              <span class="text-sm">8 Lakh Views</span>
+              <span class="text-sm text-black">8 Lakh Views</span>
             </a>
           </div>
           <a
@@ -67,7 +67,7 @@
           </a>
         </div>
 
-        <div class="mt-12 md:mt-0">
+        <div class="mt-12 md:mt-0 flex justify-end items-center">
           <img
             src="assets\law_shcools_himachal.png"
             alt="About Us Image"
