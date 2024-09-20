@@ -3,43 +3,7 @@
   <header
     class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black"
   >
-    <div class="flex gap-5 justify-between items-center w-full lg:px-6">
-      <div
-        class="h-auto w-56 hidden sm:block md:block lg:w-96 flex justify-center items-center"
-      >
-        <nuxt-link to="/" class="block my-auto">
-          <NuxtImg
-            loading="lazy"
-            src="/assets/MainLogo.png"
-            alt="SortMyLawSchool | Logo"
-          />
-        </nuxt-link>
-      </div>
-      <div class="flex flex-col lg:flex-row justify-end p-2 gap-3 lg:gap-5">
-        <div class="object-cover lg:w-1/3 lg:rounded-lg">
-          <nuxt-link to="https://www.youtube.com/@fglawkit">
-            <NuxtImg
-              loading="lazy"
-              src="https://ccdstest.b-cdn.net/LLB.jpg"
-              alt="SortMyLawSchool | Header Banner"
-              srcset=""
-              class="rounded-lg"
-            />
-          </nuxt-link>
-        </div>
-        <div class="object-cover lg:w-1/3 lg:rounded-lg">
-          <nuxt-link to="https://www.youtube.com/@fglawkit">
-            <NuxtImg
-              loading="lazy"
-              alt="SortMyLawSchool | Header Banner"
-              src="/assets/banner-good-quality-case-briefs.png"
-              srcset=""
-              class="rounded-lg max-w-full h-full"
-            />
-          </nuxt-link>
-        </div>
-      </div>
-    </div>
+    
     <hr />
     <mynav />
     <hr />

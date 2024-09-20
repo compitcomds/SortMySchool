@@ -9,6 +9,7 @@ export default {
     require("preline/plugin"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
+
   ],
   daisyui: {
     themes: ["light"],
