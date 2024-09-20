@@ -1,9 +1,9 @@
 <template>
-  <div class=" text-white mx-auto px-5 py-8 md:px-32 lg:py-12">
-    <h2 class="mb-4 mt-6 text-3xl font-bold md:text-5xl text-black text-center lg:pb-14  font-bold">
+  <div class=" text-white mx-auto ">
+    <h2 class=" mt-6 text-3xl md:text-5xl text-black text-center lg:pb-14  font-bold">
       Knowledge Partners : Sort My Law School
     </h2>
-    <div class="grid grid-cols-2 gap-4 lg:grid-cols-4 my-10">
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-4 ">
       <!-- Card for Parth Jain (Co-Founder) -->
       <div class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0">
         <img src="/assets/parth.png" alt="Harsh Vardhan Bhati"
