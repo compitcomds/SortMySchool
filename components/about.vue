@@ -13,7 +13,37 @@
             velit et magna euismod, vel aliquet nulla malesuada. Nunc pharetra massa
             lectus, a fermentum arcu volutpat vel.
           </p>
-
+          <div class="flex flex-wrap items-start">
+            <a
+              class="relative px-3 py-1 m-2 flex gap-2 rounded-md shadow-sm sm:py-2 sm:text-base ring ring-transparent group md:px-4 hover:ring hover:ring-opacity-50 focus:ring-opacity-50 text-gray-900 bg-gray-200 dark:bg-gray-400 dark:text-gray-200"
+              href="#"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell-ring"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/><path d="M4 2C2.8 3.7 2 5.7 2 8"/><path d="M22 8c0-2.3-.8-4.3-2-6"/></svg>
+              <span class="text-sm">21.8k subscribers</span>
+            </a>
+            <a
+              class="relative flex gap-2 px-3 py-1 m-2 rounded-md shadow-sm sm:py-2 sm:text-base ring ring-transparent group md:px-4 hover:ring hover:ring-opacity-50 focus:ring-opacity-50 text-gray-900 bg-gray-200 dark:bg-gray-400 dark:text-gray-200"
+              href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-eye"
+              >
+                <path
+                  d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+                />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              <span class="text-sm">8 Lakh Views</span>
+            </a>
+          </div>
           <a
             href="/"
             class="flex items-center justify-center gap-2 bg-gray-200 p-2 max-w-52 rounded-full"
