@@ -515,6 +515,7 @@
     </div>
   </section>
   <!-- end section works -->
+  <About />
 </template>
 
 <script setup>
