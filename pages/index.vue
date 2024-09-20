@@ -1,79 +1,8 @@
 <template>
-  <section
-    class="bg-cover bg-center bg-w3schools h-full lg:h-[500px] py-8 flex flex-col items-center justify-center relative"
-  >
-    <div class="mb-8 text-white flex flex-col items-center justify-center px-4">
-      <h2 class="sm:text-3xl lg:text-2xl text-2xl font-bold mb-3">
-        Looking for a case brief?
-      </h2>
-      <p class="text-lg lg:text-xl sm:text-lg opacity-80">
-        SortMyLawSchool - Creating India's Largest Database of Case Brief for
-        Academia...
-      </p>
-    </div>
-
-    <div
-      class="container mx-auto px-4 flex flex-col w-full justify-center items-center relative"
-    >
-      <div class="flex rounded-md w-full px-4 max-w-xl relative">
-        <input
-          type="text"
-          placeholder="Find your brief here...."
-          name="q"
-          id="query"
-          v-model="name"
-          class="w-full p-3 rounded-full border-r-white rounded-r-none placeholder-gray-500"
-        />
-        <nuxt-link
-          :to="`/search/${name}`"
-          class="inline-flex items-center gap-2 bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full"
-        >
-          <span>Search</span>
-          <span class="hidden md:block">
-            <svg
-              class="text-white h-5 w-5 p-0 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 56.966 56.966"
-              style="enable-background: new 0 0 56.966 56.966"
-              xml:space="preserve"
-              width="512px"
-              height="512px"
-            >
-              <path
-                d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"
-              />
-            </svg>
-          </span>
-        </nuxt-link>
-      </div>
-
-      <p class="text-lg lg:text-xl opacity-80 text-white my-6">
-        Didn't find your brief ?
-        <nuxt-link
-          to="/contact"
-          class="transition duration-300 ease-in-out hover:scale-110 text-lg lg:text-xl opacity-80 font-bold hover:text-green-400 my-6 underline"
-        >
-          Click here !!
-        </nuxt-link>
-      </p>
-    </div>
-  </section>
+  <Banner />
 
   <div class="w-full flex flex-col justify-center items-center my-16">
-    <div class="text-center mb-12">
-      <h2 class="mt-6 text-3xl font-bold md:text-5xl mb-5">Proud Partners</h2>
-      <p
-        class="text-sm px-3 md:px-5 md:text-base max-w-7xl mx-auto font-semibold"
-      >
-        At FG Lawkit, we collaborate with educational or private institutes to
-        boost their social media presence and reduce their promotional costs by
-        creating digital assets. <br />Our trusted partners include...
-      </p>
-    </div>
+    
     <div
       class="flex w-8/12 flex-wrap items-center justify-center gap-4 md:gap-8"
     >
