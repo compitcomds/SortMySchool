@@ -13,7 +13,7 @@
   
         <!-- Dynamic Heading, Paragraph, and Tags at the bottom left -->
         <div
-          class="absolute bottom-5 left-5 text-left text-white hidden lg:block p-5 w-1/2"
+          class="absolute bottom-5 left-5 text-left text-black hidden lg:block p-5 w-1/2"
         >
           <h2 class="text-4xl font-bold mb-2">{{ slides[currentSlide].heading }}</h2>
           <p class="mb-3 text-2xl">{{ slides[currentSlide].description }}</p>
@@ -56,7 +56,7 @@
         currentSlide: 0,
         slides: [
           {
-            lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Mask%20Group.png",
+            lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/1.png",
             heading: "Slide 1 Heading",
             description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
@@ -65,7 +65,7 @@
             ],
           },
           {
-            lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Untitled%20design%20(13).png",
+            lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/2.png",
             heading: "Slide 2 Heading",
             description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
@@ -74,7 +74,7 @@
             ],
           },
           {
-            lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Mask%20Group.png",
+            lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/3.png",
             heading: "Slide 3 Heading",
             description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [
@@ -83,7 +83,7 @@
             ],
           },
           {
-            lawBanner: "https://ccdstest.b-cdn.net/Medi%20u/Untitled%20design%20(13).png",
+            lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/4.png",
             heading: "Slide 4 Heading",
             description: "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
             tags: [

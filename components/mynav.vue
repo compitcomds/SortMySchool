@@ -29,7 +29,7 @@
           class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
           <div
             class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-            <div class="hidden sm:flex gap-3">
+            <div class="hidden sm:flex">
               <div class="h-auto w-36 hidden sm:block md:block  flex justify-center items-center">
                 <nuxt-link to="/" class="block my-auto">
                   <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" />
