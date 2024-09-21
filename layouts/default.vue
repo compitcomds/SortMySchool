@@ -9,8 +9,8 @@
     <hr />
   </header>
   <slot />
-  <MobileNav class="block lg:hidden" />
-  <myfooter class="hidden lg:block" />
+  <MobileNav class="block md:hidden" />
+  <myfooter class="hidden md:block" />
   <!-- back to top button -->
   <div class="fixed bottom-0 right-0 p-4">
     <button

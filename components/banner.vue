@@ -5,7 +5,7 @@
         <transition name="fade" mode="out-in">
           <img
             :key="slides[currentSlide].lawBanner"
-            class="w-full h-[450px] object-cover"
+            class="w-full h-[200px] lg:h-[450px] object-cover"
             :src="slides[currentSlide].lawBanner"
             alt="Slide Image"
           />

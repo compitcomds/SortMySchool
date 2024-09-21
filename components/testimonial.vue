@@ -1,6 +1,6 @@
 <template>
-  <div class=" text-white mx-auto ">
-    <h2 class=" mt-6 text-3xl md:text-5xl text-black text-center lg:pb-14  font-bold">
+  <div class=" text-white mx-auto my-10 lg:my-0">
+    <h2 class=" mt-6 text-3xl md:text-5xl text-black text-center lg:pb-14 pb-5   font-bold">
       Knowledge Partners : Sort My Law School
     </h2>
     <div class="grid grid-cols-2 gap-4 lg:grid-cols-4 ">
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 left-1/2 transform -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 ml-2 md:ml-10 md:left-1/4 transform md:-translate-x-1/4 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
           <p
             class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
             Parth Jain (Co-Founder)
@@ -105,7 +105,7 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 left-1/2 transform -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 ml-5 md:left-1/2 transform md:-translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
           <p
             class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
             Harsh Vardhan Bhati
@@ -143,7 +143,7 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 left-1/2 transform -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 ml-10 md:ml-0 md:left-1/2 transform md:-translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
           <p
             class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
             Shruti Sharma
@@ -190,7 +190,7 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 left-1/2 transform -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 ml-9 md:ml-0 md:left-1/2 transform md:-translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
           <p
             class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
             Priyam Agarwal

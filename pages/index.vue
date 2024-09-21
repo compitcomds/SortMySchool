@@ -1,9 +1,9 @@
 <template>
   <div>
     <Banner />
-    <div class="space-y-16 lg:space-y-20">
+    <div class="md:space-y-10 lg:space-y-16">
       <Partners class="px-4 mt-7 lg:mt-20" />
-      <About class="px-4 lg:px-32" />
+      <About class="" />
       <!-- <Board /> -->
       <!-- <AcademicNeeds /> -->
       <Testimonial class="px-4 lg:px-32" />
