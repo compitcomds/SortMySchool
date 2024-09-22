@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col-reverse md:flex-row gap-4 items-center pb-16 my-0 md:py-5 mb-20"
+    class="flex flex-col-reverse md:flex-row gap-4 items-center   "
   >
     <!-- Left Side: Text and Button -->
     <div class="md:w-1/2 w-full mb-6 md:mb-0 md:text-left mt-6 md:mt-0">
