@@ -3,7 +3,6 @@
   <header
     class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black"
   >
-    
     <hr />
     <mynav />
     <hr />
@@ -35,6 +34,8 @@
     </button>
   </div>
   <SearchBox />
+
+  <Popup />
 </template>
 
 <script setup>
