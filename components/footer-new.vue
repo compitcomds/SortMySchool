@@ -11,17 +11,26 @@
           </div>
           
           <div class="my-4">
-            <h3 class="font-semibold text-lg">For submitting a Post</h3>
-            <a href="mailto:contact@sortmylawschool.com" class="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors">
-              <IconMail /> contact@sortmylawschool.com
-            </a>
-            
-          </div>
-          <div class="my-4">
-            <p class="flex items-center gap-2 text-gray-700">
-              <IconClock /> Hours: 11 A.M. to 7 P.M. (Mon - Fri)
-            </p>
-          </div>
+            <div class="my-2 mt-5">
+              <h3 class="font-semibold">For submitting a Post</h3>
+              <a href="#" class="flex items-center gap-2"
+                ><IconMail /> @sortmylawschool.com</a
+              >
+            </div>
+            <hr class="lg:max-w-[45%] my-2 block border-[1px]" />
+            <div class="my-2">
+              <h3 class="font-semibold">For submitting a Post</h3>
+              <a href="#" class="flex items-center gap-2"
+                ><IconMail /> contact@sortmylawschool.com</a
+              >
+            </div>
+            <hr class="lg:max-w-[45%] my-2 block border-[1px]" />
+            <div class="my-2">
+              <p class="flex items-center gap-2">
+                <IconClock /> Hours: 11 A.M. to 7 P.M. (Mon - Fri)
+              </p>
+            </div>
+            </div>
         </div>
 
         <!-- Useful Links -->
