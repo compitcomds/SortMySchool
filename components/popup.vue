@@ -4,20 +4,36 @@
     class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
     @click.self="closePopup"
   >
-    <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full text-center">
-      <h2 class="text-xl font-bold mb-2">Welcome to Our Site!</h2>
+    <div
+      class="bg-white rounded-lg shadow-lg absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2"
+    >
       <img
-        src="/assets/banner-good-quality-case-briefs.png"
+        src="https://placehold.co/1920x1080"
         alt="Popup Image"
-        class="w-full h-auto mb-4 rounded"
+        class="block w-[90vw] rounded aspect-[16/9]"
       />
-      <p class="mb-4">We hope you find everything you need. Enjoy your stay!</p>
-      <button
-        @click="closePopup"
-        class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-      >
-        Close
-      </button>
+      <div class="z-10 absolute top-5 right-5 w-full">
+        <button
+          @click="closePopup"
+          class="z-10 block ml-auto text-black px-4 py-2 rounded"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-x"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </template>
