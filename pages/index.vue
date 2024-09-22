@@ -1,15 +1,13 @@
 <template>
   <div>
     <Banner />
-    <div class="md:space-y-10 lg:space-y-16">
-      <Partners class="px-4 mt-7 lg:mt-20" />
-      <About class="" />
-      <!-- <Board /> -->
-      <!-- <AcademicNeeds /> -->
-      <Testimonial class="px-4 lg:px-32" />
-      <!-- <QualityContent /> -->
-      <CarouselComponent class="px-4 lg:px-32" />
-    </div>
+    <Partners class="px-4 mt-7 lg:mt-20" />
+    <About class="" />
+    <!-- <Board /> -->
+    <!-- <AcademicNeeds /> -->
+    <Testimonial class="px-4 lg:px-32" />
+    <!-- <QualityContent /> -->
+    <CarouselComponent class="px-4 lg:px-32" />
   </div>
 </template>
 

@@ -1,10 +1,17 @@
 <template>
-  <div class="flex flex-col-reverse md:flex-row gap-4 items-center pb-16 my-0 md:py-5">
+  <div
+    class="flex flex-col-reverse md:flex-row gap-4 items-center pb-16 my-0 md:py-5 mb-20"
+  >
     <!-- Left Side: Text and Button -->
-    <div class="md:w-1/2 w-full mb-6 md:mb-0  md:text-left mt-6 md:mt-0">
+    <div class="md:w-1/2 w-full mb-6 md:mb-0 md:text-left mt-6 md:mt-0">
       <h2 class="text-4xl font-bold mb-4">Your Heading</h2>
       <p class="text-lg mb-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, optio eos cumque sit magni nostrum officia iure provident repellat deserunt veniam id amet consequuntur rerum deleniti unde voluptatem aliquid pariatur, dolorum quisquam, quasi vero. Blanditiis quae magni aperiam quo vero, obcaecati excepturi expedita magnam totam veritatis fugiat dolor tempore praesentium!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
+        optio eos cumque sit magni nostrum officia iure provident repellat
+        deserunt veniam id amet consequuntur rerum deleniti unde voluptatem
+        aliquid pariatur, dolorum quisquam, quasi vero. Blanditiis quae magni
+        aperiam quo vero, obcaecati excepturi expedita magnam totam veritatis
+        fugiat dolor tempore praesentium!
       </p>
       <button
         @click="handleClick"

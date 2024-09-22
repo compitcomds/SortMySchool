@@ -1,18 +1,28 @@
 <template>
-  <div class=" text-white mx-auto my-10 lg:my-0">
-    <h2 class=" mt-6 text-3xl md:text-5xl text-black text-center lg:pb-14 pb-5   font-bold">
+  <div class="text-white mx-auto my-10 lg:my-0 mb-40">
+    <h2
+      class="mt-6 text-3xl md:text-5xl text-black text-center lg:pb-14 pb-5 font-bold"
+    >
       Knowledge Partners : Sort My Law School
     </h2>
-    <div class="grid grid-cols-2 gap-4 lg:grid-cols-4 ">
-      <!-- Card for Parth Jain (Co-Founder) -->
-      <div class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0">
-        <img src="/assets/parth.png" alt="Harsh Vardhan Bhati"
-          class="w-full rounded-2xl shadow-lg" />
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
+      <div
+        class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0"
+      >
+        <img
+          src="/assets/parth.png"
+          alt="Harsh Vardhan Bhati"
+          class="w-full rounded-2xl shadow-lg"
+        />
         <div class="hidden lg:block">
           <div
-            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8  py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span class="text-lg">Parth Jain (Co-Founder)</span>
-            <ul class="text-white" style="list-style-type: disc">
+            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8 py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-lg text-center">
+              Parth Jain <br />
+              (Co-Founder)
+            </p>
+            <ul class="text-white px-5 list-disc">
               <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                 AIR : 53, DU LLB Entrance
               </li>
@@ -23,10 +33,10 @@
                 LLM - London School of Economics '25
               </li>
             </ul>
-            <div class="flex flex-row gap-2 pt-6">
+            <div class="flex flex-row gap-2">
               <a
                 href="https://www.instagram.com/legalstartupwala?igsh=Zmo3bDlhZzFzcDVk"
-                class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#d9327d] flex justify-center items-center"
+                class="w-9 z-10 h-9 rounded-full bg-gray-600 hover:bg-[#d9327d] flex justify-center items-center"
               >
                 <svg
                   class="w-[1.25rem] h-[1.125rem] text-white"
@@ -42,7 +52,7 @@
               </a>
               <a
                 href="https://www.linkedin.com/in/parthjain98?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
+                class="z-10 w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
               >
                 <svg
                   class="w-[1rem] h-[1rem] text-white"
@@ -60,23 +70,31 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 ml-2 md:ml-10 md:left-1/4 transform md:-translate-x-1/4 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300"
+        >
           <p
-            class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
-            Parth Jain (Co-Founder)
+            class="text-black min-w-max font-semibold bg-white rounded-full px-2 py-2 lg:py-4 text-center text-xs md:text-sm"
+          >
+            Parth Jain <br class="md:hidden" />
+            (Co-Founder)
           </p>
         </div>
       </div>
 
-      <!-- Card for Harsh Vardhan Bhati -->
-      <div class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0">
-        <img src="/assets/160.png" alt="Harsh Vardhan Bhati"
-          class="w-full rounded-2xl shadow-lg" />
+      <div
+        class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0"
+      >
+        <img
+          src="/assets/160.png"
+          alt="Harsh Vardhan Bhati"
+          class="w-full rounded-2xl shadow-lg"
+        />
         <div class="hidden lg:block">
           <div
-            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8  py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span class="text-lg">Harsh Vardhan Bhati</span>
-            <ul class="text-white" style="list-style-type: disc">
+            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8 py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-lg">Harsh Vardhan Bhati</p>
+            <ul class="text-white list-disc px-5">
               <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
                 Assistant Prof, OP Jindal University (JGU)
               </li>
@@ -84,7 +102,7 @@
                 LLM - Lewis &amp; Clark Law School, USA
               </li>
             </ul>
-            <div class="flex flex-row gap-2 pt-6">
+            <div class="flex flex-row gap-2 z-10">
               <a
                 href="https://www.linkedin.com/in/harshvardhanbhati?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
@@ -105,19 +123,27 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 ml-5 md:left-1/2 transform md:-translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300"
+        >
           <p
-            class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
+            class="text-black font-semibold bg-white rounded-full px-2 py-2 lg:py-4 text-center text-xs md:text-sm"
+          >
             Harsh Vardhan Bhati
           </p>
         </div>
       </div>
-      <div class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0">
-        <img src="/assets/18.png" alt="Shruti Sharma"
-          class="w-full rounded-2xl shadow-lg" />
+      <div
+        class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0"
+      >
+        <img
+          src="/assets/18.png"
+          alt="Shruti Sharma"
+          class="w-full rounded-2xl shadow-lg"
+        />
         <div class="hidden lg:block">
           <div
-            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8  py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8 py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
             <span class="text-lg">Shruti Sharma</span>
             <ul class="text-white" style="list-style-type: disc">
               <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
@@ -130,7 +156,7 @@
             <div class="flex flex-row gap-2 pt-14">
               <a
                 href="#"
-                class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
+                class="w-9 h-9 z-10 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
               >
                 <NuxtImg
                   loading="lazy"
@@ -143,19 +169,27 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 ml-10 md:ml-0 md:left-1/2 transform md:-translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300"
+        >
           <p
-            class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
+            class="text-black font-semibold bg-white rounded-full px-2 py-2 lg:py-4 text-center text-xs md:text-sm"
+          >
             Shruti Sharma
           </p>
         </div>
       </div>
-      <div class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0">
-        <img src="/assets/17.png" alt="Priyam Agarwal"
-          class="w-full rounded-2xl shadow-lg" />
+      <div
+        class="relative w-full group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0"
+      >
+        <img
+          src="/assets/17.png"
+          alt="Priyam Agarwal"
+          class="w-full rounded-2xl shadow-lg"
+        />
         <div class="hidden lg:block">
           <div
-            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8  py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            class="absolute inset-0 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8 py-10 items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
             <span class="text-lg">Priyam Agarwal</span>
             <ul class="text-white px-8" style="list-style-type: disc">
               <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
@@ -165,14 +199,13 @@
                 AIR : 13, DU LLB Entrance
               </li>
               <li class="text-sm max-w-xs z-50" style="line-height: 1.9">
-                Law Clerk cum RA to HMJ, Sandeep Mehta, Supreme Court of
-                    India
+                Law Clerk cum RA to HMJ, Sandeep Mehta, Supreme Court of India
               </li>
             </ul>
             <div class="flex flex-row gap-2 pt-2">
               <a
                 href="https://www.linkedin.com/in/priyam-agarwal-12505b154?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
+                class="z-10 w-9 h-9 rounded-full bg-gray-600 hover:bg-[#0a66c2] flex justify-center items-center"
               >
                 <svg
                   class="w-[1rem] h-[1rem] text-white"
@@ -190,16 +223,17 @@
           </div>
         </div>
         <div
-          class="absolute bottom-4 ml-9 md:ml-0 md:left-1/2 transform md:-translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300">
+          class="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-100 lg:group-hover:opacity-0 flex justify-center items-center transition-opacity duration-300"
+        >
           <p
-            class="text-black font-semibold bg-white rounded-full px-2  py-2 lg:py-4 text-center text-sm">
+            class="text-black font-semibold bg-white rounded-full px-2 py-2 lg:py-4 text-center text-xs md:text-sm"
+          >
             Priyam Agarwal
           </p>
         </div>
       </div>
 
       <!-- Card for Priyam Agarwal (duplicate for zig-zag) -->
-      
     </div>
   </div>
 </template>
@@ -209,8 +243,6 @@ export default {};
 </script>
 
 <style scoped>
-
-
 body {
   font-family: "Inter", sans-serif;
 }
