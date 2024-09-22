@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white w-full relative mb-20 md:mb-40">
+  <section class="text-white w-full relative">
     <div class="w-full">
       <!-- Doctor Image Section with responsive width and height -->
       <transition name="fade" mode="out-in">
