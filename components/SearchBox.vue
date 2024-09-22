@@ -46,20 +46,20 @@
                 class="py-3 px-4 block w-full xl:min-w-[300px] lg:min-w-[350px] border border-gray-200 rounded-lg md:rounded-none md:rounded-s-lg text-sm focus:z-10 focus:border-sky-500 focus:ring-sky-500 disabled:opacity-50 disabled:pointer-events-none"
                 v-model.trim="search"
                 @input="searchQuery"
-                placeholder="Enter your search query..."
+                placeholder="Search your Case here...."
               />
               <nuxt-link
                 :to="`/search/${search}`"
                 @click="closeModal"
-                class="min-w-fit flex-1 px-3 py-3 flex-shrink-0 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md md:rounded-none md:rounded-e-md border border-transparent bg-sky-600 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none"
+                class="min-w-fit flex-1 px-10 py-3 flex-shrink-0 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md md:rounded-none md:rounded-e-md border border-transparent bg-sky-600 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none"
               >
-                Search All Related Results
+                
                 <svg
                   class="flex-shrink-0 size-4"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 22 22 "
                   fill="none"
                   stroke="currentColor"
                   stroke-width="2"

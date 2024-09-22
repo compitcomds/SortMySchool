@@ -28,8 +28,8 @@
         <div id="navbar-collapse-with-animation"
           class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
           <div
-            class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-            <div class="hidden w-full sm:flex">
+            class="overflow-hidden w-full  overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full flex justify-between items-center [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+            <div class="hidden w-1/6 sm:flex">
               <div class="h-auto w-36 hidden sm:block md:block  flex justify-center items-center">
                 <nuxt-link to="/" class="block my-auto">
                   <NuxtImg loading="lazy" src="/assets/MainLogo.png" alt="SortMyLawSchool | Logo" />
@@ -38,7 +38,7 @@
 
             </div>
             <div
-              class="w-full  flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center justify-center md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
+              class="w-4/6 flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center justify-center md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid">
               <nuxt-link class="font-medium lg:text-lg " to="/" aria-current="page">Home</nuxt-link>
               <div
                 class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover]">
@@ -373,8 +373,11 @@
               <nuxt-link class="font-medium lg:text-lg text-gray-800 hover:text-gray-600 py-3 md:py-6" to="/contact">
                 Contact Us
               </nuxt-link>
+              <nuxt-link class=" font-medium lg:text-lg text-gray-800 hover:text-gray-600 py-3 md:py-6" to="/case-material">
+                DU Case Mat
+              </nuxt-link>
             </div>
-            <div class="h-full w-full hidden md:block">
+            <div class="h-full w-1/6 hidden md:block">
               <div class="watsup-group flex items-center justify-end">
                 <!-- SearchBox -->
                 <button type="button" data-hs-overlay="#search-modal" class="hidden md:block">
