@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white mx-auto my-10 lg:my-0 mb-40">
+  <div class="text-white mx-auto mb-20 md:mb-40">
     <h2
       class="mt-6 text-3xl md:text-5xl text-black text-center lg:pb-14 pb-5 font-bold"
     >

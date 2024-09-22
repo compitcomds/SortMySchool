@@ -7,7 +7,7 @@
           <h2
             class="text-3xl md:text-5xl font-bold text-black whitespace-nowrap"
           >
-            Proud Partners
+            Collaborated With
           </h2>
         </div>
       </div>
