@@ -1,22 +1,19 @@
 <template>
-  <div class="partner-section w-full overflow-hidden">
-    <div class="container mx-auto flex flex-col md:flex-row items-center">
+  <div class="partner-section w-full overflow-hidden mb-12 md:mb-40">
+    <div class="container mx-auto flex flex-col gap-10 items-center">
       <!-- Heading Section -->
       <div class="hidden md:block">
         <div class="flex items-center mb-4 md:mb-0">
           <h2
             class="text-3xl md:text-5xl font-bold text-black whitespace-nowrap"
           >
-            Proud Partner
+            Collaborated With
           </h2>
-          <span
-            class="border-l hidden lg:block border-gray-500 h-10 ml-4"
-          ></span>
         </div>
       </div>
 
       <!-- Scrolling logos with infinite loop -->
-      <div class="partner-logos w-full md:ml-8 overflow-hidden">
+      <div class="partner-logos w-full md:mx-8 overflow-hidden">
         <div class="logo-track flex items-center space-x-8 animate-scroll">
           <!-- Original Partner Logos -->
           <div v-for="n in 6" :key="`original-${n}`" class="partner-logo">
