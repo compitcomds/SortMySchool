@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-gray-600 body-font bg-gray-100">
+  <footer class="text-gray-600 body-font bg-gray-100 mb-14">
     <div class="container px-5 py-8 md:py-16 mx-auto">
       <div class="grid grid-cols-8 md:grid-cols-12 gap-x-8 gap-y-8">
         <!-- Logo and Contact Info -->
