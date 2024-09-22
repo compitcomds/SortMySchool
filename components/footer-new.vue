@@ -16,6 +16,19 @@
                 srcset=""
               />
             </nuxt-link>
+            <div class="my-2">
+              <h3 class="font-semibold">For submitting a Post</h3>
+              <a href="#">contact@sortmylawschool.com</a>
+            </div>
+            <hr class="my-2 block border-[1px]" />
+            <div class="my-2">
+              <h3 class="font-semibold">For submitting a Post</h3>
+              <a href="#">contact@sortmylawschool.com</a>
+            </div>
+            <hr class="my-2 block border-[1px]" />
+          </div>
+          <div class="my-2">
+            <p>Hours: 11 A.M. to 7 P.M. (Mon - Fri)</p>
           </div>
         </div>
         <div class="col-span-4 lg:col-span-2">
@@ -77,7 +90,7 @@
               />
             </div>
             <button
-              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
             >
               Button
             </button>

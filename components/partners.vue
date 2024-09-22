@@ -1,5 +1,5 @@
 <template>
-  <div class="partner-section w-full overflow-hidden mb-12 ">
+  <div class="partner-section w-full overflow-hidden mb-20 lg:mb-40">
     <div class="container mx-auto flex flex-col gap-10 items-center">
       <!-- Heading Section -->
       <div class="hidden md:block">

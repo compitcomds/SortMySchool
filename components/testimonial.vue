@@ -9,7 +9,7 @@
       class="flex gap-4 items-center max-w-[100vw] overflow-x-auto partner-cards"
     >
       <div
-        class="relative min-w-full md:min-w-[33%] group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0"
+        class="relative min-w-full md:min-w-[26%] group transform transition-transform border rounded-2xl duration-300 translate-y-0 lg:-translate-y-0"
         v-for="card in cards"
       >
         <img
@@ -21,9 +21,9 @@
           <div
             class="absolute inset-0 px-5 bg-black bg-opacity-75 rounded-2xl top-0 flex flex-col space-y-8 py-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
-            <p class="text-lg w-full">
+            <h3 class="font-bold text-lg w-full">
               {{ card.heading }}
-            </p>
+            </h3>
             <ul class="text-white list-disc list-inside">
               <li
                 class="text-sm z-50 leading-[1.9]"
