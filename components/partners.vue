@@ -1,5 +1,5 @@
 <template>
-  <div class="partner-section w-full overflow-hidden mb-1 md:mb-20">
+  <div class="partner-section w-full overflow-hidden mb-20 lg:mb-40">
     <div class="container mx-auto flex flex-col gap-10 items-center">
       <!-- Heading Section -->
       <div class="hidden md:block">
@@ -29,7 +29,7 @@
             <img
               src="/assets/testbook.png"
               alt="Partner"
-              class="h-8 sm:h-10 md:h-12 lg:h-14  w-auto object-contain"
+              class="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain"
             />
           </div>
         </div>
