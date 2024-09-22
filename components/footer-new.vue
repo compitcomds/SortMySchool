@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-gray-600 body-font bg-gray-100 mb-14">
+  <footer class="text-gray-600 body-font bg-gray-100 mb-14 hidden md:block">
     <div class="container px-5 py-8 md:py-16 mx-auto">
       <div class="grid grid-cols-8 md:grid-cols-12 gap-x-8 gap-y-8">
         <!-- Logo and Contact Info -->
@@ -19,17 +19,14 @@
           </div>
 
           <div class="my-4">
-            <div class="my-2 mt-5">
-              <h3 class="font-semibold">For submitting a Post</h3>
-              <a href="#" class="flex items-center gap-2"
-                ><IconMail /> @sortmylawschool.com</a
-              >
-            </div>
-            <hr class="lg:max-w-[45%] my-2 block border-[1px]" />
             <div class="my-2">
               <h3 class="font-semibold">For submitting a Post</h3>
-              <a href="#" class="flex items-center gap-2"
-                ><IconMail /> contact@sortmylawschool.com</a
+              <a href="#" class="flex items-center gap-2 group"
+                ><IconMail class="group-hover:hidden" />
+                <IconMailOpen
+                  class="hidden group-hover:block opacity-0 group-hover:opacity-100"
+                />
+                contact@sortmylawschool.com</a
               >
             </div>
             <hr class="lg:max-w-[45%] my-2 block border-[1px]" />
@@ -46,6 +43,8 @@
           <h2 class="title-font font-bold text-gray-900 text-sm mb-3">
             USEFUL LINKS
           </h2>
+          <hr class="h-[1.4px] bg-black max-w-[33%] mb-3" />
+
           <nav class="list-none flex flex-col gap-y-2">
             <li>
               <a href="#" class="text-gray-600 hover:text-gray-900"
@@ -75,6 +74,8 @@
           <h2 class="title-font font-bold text-gray-900 text-sm mb-3">
             SORT MY LAW SCHOOL
           </h2>
+          <hr class="h-[1.4px] bg-black max-w-[33%] mb-3" />
+
           <nav class="list-none flex flex-col gap-y-2">
             <li>
               <a href="#" class="text-gray-600 hover:text-gray-900"
@@ -104,12 +105,13 @@
           <h2 class="title-font font-bold text-gray-900 text-sm mb-3">
             KEEP IN TOUCH
           </h2>
+          <hr class="h-[1.4px] bg-black max-w-[33%] mb-3" />
           <div class="mt-5 mb-6 flex items-center gap-5 flex-wrap">
-            <a href="#"
+            <a href="#" class="bg-gray-300 p-2 rounded-full"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="20"
+                height="20"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -122,11 +124,11 @@
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg
             ></a>
-            <a href="#"
+            <a href="#" class="bg-gray-300 p-2 rounded-full"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="20"
+                height="20"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -141,13 +143,13 @@
                 <rect width="4" height="12" x="2" y="9" />
                 <circle cx="4" cy="4" r="2" /></svg
             ></a>
-            <a href="#"
+            <a href="#" class="bg-gray-300 p-2 rounded-full"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="20"
+                height="20"
                 viewBox="0 0 24 24"
-                fill="none"
+                fill="white"
                 stroke="currentColor"
                 stroke-width="2"
                 stroke-linecap="round"
@@ -158,11 +160,11 @@
                   d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
                 /></svg
             ></a>
-            <a href="#"
+            <a href="#" class="bg-gray-300 p-2 rounded-full"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="20"
+                height="20"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -176,11 +178,11 @@
                 />
                 <path d="m10 15 5-3-5-3z" /></svg
             ></a>
-            <a href="#"
+            <a href="#" class="bg-gray-300 p-2 rounded-full"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="20"
+                height="20"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -211,6 +213,11 @@
               SUBSCRIBE
             </button>
           </div>
+          <button
+            class="flex items-center gap-1 bg-green-500 px-5 py-3 mt-5 font-bold text-white rounded-lg hover:opacity-80"
+          >
+            <IconWhatsapp /> Join Our Communtiy
+          </button>
         </div>
       </div>
     </div>
