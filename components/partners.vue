@@ -1,5 +1,5 @@
 <template>
-  <div class="partner-section w-full overflow-hidden mb-12 ">
+  <div class="partner-section w-full overflow-hidden mb-12 md:mb-20">
     <div class="container mx-auto flex flex-col gap-10 items-center">
       <!-- Heading Section -->
       <div class="hidden md:block">
@@ -20,7 +20,7 @@
             <img
               src="/assets/testbook.png"
               alt="Partner"
-              class="h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 w-auto object-contain"
+              class="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain"
             />
           </div>
 
@@ -29,7 +29,7 @@
             <img
               src="/assets/testbook.png"
               alt="Partner"
-              class="h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 w-auto object-contain"
+              class="h-8 sm:h-10 md:h-12 lg:h-14  w-auto object-contain"
             />
           </div>
         </div>
@@ -60,7 +60,7 @@ export default {
 
 .partner-logos .logo-track {
   display: flex;
-  min-width: 200%; /* Twice the size to accommodate both the original and duplicated logos */
+  min-width: 00%; /* Twice the size to accommodate both the original and duplicated logos */
 }
 
 .partner-logos .logo-track > .partner-logo {
