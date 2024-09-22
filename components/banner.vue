@@ -31,7 +31,7 @@
       </div>
   
       <!-- Pagination Dots -->
-      <div class="hidden lg:block">
+      <div class="hidden ">
         <div
           class="absolute mt-5 left-1/2 transform -translate-x-1/2 flex space-x-2"
         >
