@@ -1,6 +1,6 @@
 <template>
-  <section class="about-us mb-20 lg:mb-40">
-    <div class="container mx-auto px-4 lg:px-10px-4 lg:px-32">
+  <section class="about-us">
+    <div class="container mx-auto">
       <div
         class="flex flex-col-reverse md:flex-row items-center justify-between gap-4 lg:gap-8"
       >
@@ -24,11 +24,11 @@
           </p>
 
           <!-- Buttons and Stats -->
-          <div class="hidden md:block md:my-4 lg:my-0">
+          <!-- <div class="hidden md:block md:my-4 lg:my-0">
             <div
               class="flex flex-wrap items-center w-96 h-10 bg-gray-200"
             ></div>
-          </div>
+          </div> -->
 
           <!-- Call to Action Button -->
           <a href="/subject" class="relative inline-flex lg:w-auto w-full justify-center lg:justify-start items-center px-12 lg:py-3 py-2 overflow-hidden text-lg font-medium text-sky-500 border-2 border-sky-500 rounded-full hover:text-white group hover:bg-gray-50">
@@ -78,15 +78,5 @@ export default {};
 </script>
 
 <style scoped>
-@media (min-width: 640px) {
-  .about-us {
-    padding: 2rem 0;
-  }
-}
 
-@media (min-width: 1024px) {
-  .about-us {
-    padding: 0rem 0;
-  }
-}
 </style>

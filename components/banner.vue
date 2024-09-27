@@ -49,7 +49,7 @@
         </svg>
       </button>
 
-      <div
+      <!-- <div
         class="absolute bottom-0 left-24 text-left text-black hidden lg:block p-5 w-1/2"
       >
         <h2 class="text-2xl font-bold mb-2 text-white">
@@ -58,7 +58,7 @@
         <p class="mb-3 text-sm text-white">
           {{ slides[currentSlide].description }}
         </p>
-      </div>
+      </div> -->
     </div>
 
     <!-- Pagination Dots -->
@@ -87,7 +87,7 @@ const currentSlide = ref(0);
 const slideInterval = ref(null);
 const slides = [
   {
-    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/1.png",
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/8.png",
     heading: "Slide 1 Heading",
     description:
       "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
@@ -96,18 +96,9 @@ const slides = [
       { label: "Contact Us", link: "https://example.com/contact" },
     ],
   },
+ 
   {
-    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/2.png",
-    heading: "Slide 2 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
-    tags: [
-      { label: "About Us", link: "https://example.com/about" },
-      { label: "Services", link: "https://example.com/services" },
-    ],
-  },
-  {
-    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/3.png",
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/10.png",
     heading: "Slide 3 Heading",
     description:
       "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
@@ -116,8 +107,39 @@ const slides = [
       { label: "Support", link: "https://example.com/support" },
     ],
   },
+ 
   {
-    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/4.png",
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/12.png",
+    heading: "Slide 4 Heading",
+    description:
+      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
+    tags: [
+      { label: "FAQ", link: "https://example.com/faq" },
+      { label: "Blog", link: "https://example.com/blog" },
+    ],
+  },
+  {
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/13.png",
+    heading: "Slide 4 Heading",
+    description:
+      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
+    tags: [
+      { label: "FAQ", link: "https://example.com/faq" },
+      { label: "Blog", link: "https://example.com/blog" },
+    ],
+  },
+  {
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/17.png",
+    heading: "Slide 4 Heading",
+    description:
+      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
+    tags: [
+      { label: "FAQ", link: "https://example.com/faq" },
+      { label: "Blog", link: "https://example.com/blog" },
+    ],
+  },
+  {
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/15.png",
     heading: "Slide 4 Heading",
     description:
       "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",

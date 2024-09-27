@@ -2,12 +2,12 @@
   <div>
     <Banner />
     <Partners class="px-4 mt-7 lg:mt-20" />
-    <About class="" />
+    <About class="px-4 lg:px-32" />
     <!-- <Board /> -->
     <!-- <AcademicNeeds /> -->
     <Testimonial class="px-4 lg:px-32" />
     <!-- <QualityContent /> -->
-    <CarouselComponent class="px-4 lg:px-32" />
+    <CarouselComponent class="" />
   </div>
 </template>
 
