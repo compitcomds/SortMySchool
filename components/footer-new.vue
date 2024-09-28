@@ -41,7 +41,7 @@
               <a href="/subject" class="text-gray-600 hover:text-gray-900">Case Briefs</a>
             </li>
             <li>
-              <a href="case-material" class="text-gray-600 hover:text-gray-900">
+              <a href="/case-material" class="text-gray-600 hover:text-gray-900">
                 DU Case Mat</a>
             </li>
             <li>

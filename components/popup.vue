@@ -16,19 +16,19 @@
       <div class="z-10 absolute top-5 right-5 w-full">
         <button
           @click="closePopup"
-          class="z-10 block ml-auto text-black px-4 py-4 bg-slate-50 rounded-full"
+          class="z-10 block ml-auto text-black p-2 md:px-4 md:py-4 bg-slate-50 rounded-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
+            viewBox="0 0 24 24"            
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-x"
+            class="lucide lucide-x w-4 h-4 md:w-auto md:h-auto"
           >
             <path d="M18 6 6 18" />
             <path d="m6 6 12 12" />

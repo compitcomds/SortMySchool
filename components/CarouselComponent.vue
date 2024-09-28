@@ -34,30 +34,30 @@
     </div>
 
     <!-- Right Side: Image Carousel -->
-    <div class="carousel w-full md:w-1/2 h-56 md:h-96">
+    <div class="carousel w-full md:w-1/2 h-56 md:h-[380px]">
       <div id="slide1" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/22.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/1.png" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide4" class="btn btn-circle">❮</a>
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
       </div>
       <div id="slide2" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/22.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/2.png" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide1" class="btn btn-circle">❮</a>
           <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
       </div>
       <div id="slide3" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/22.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/3.png" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide2" class="btn btn-circle">❮</a>
           <a href="#slide4" class="btn btn-circle">❯</a>
         </div>
       </div>
       <div id="slide4" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/22.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/1.png" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide3" class="btn btn-circle">❮</a>
           <a href="#slide1" class="btn btn-circle">❯</a>
