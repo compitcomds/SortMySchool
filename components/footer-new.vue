@@ -13,10 +13,10 @@
           <div class="my-4">
             <div class="my-2">
               <h3 class="font-semibold">For submitting a Post</h3>
-              <a href="mailto:contact@sortmylawschool.com" class="flex items-center gap-2 group">
+              <a href="mailto:parth@fglawkit.com" class="flex items-center gap-2 group">
                 <IconMail class="group-hover:hidden" />
                 <IconMailOpen class="hidden group-hover:block opacity-0 group-hover:opacity-100" />
-                contact@sortmylawschool.com
+                parth@fglawkit.com
               </a>
 
             </div>
