@@ -1,14 +1,20 @@
 <template>
   <section class="text-white w-full relative">
     <div class="w-full">
-      <!-- Doctor Image Section with responsive width and height -->
+      <!-- Image Section with responsive width and height -->
       <transition name="fade" mode="out-in">
-        <img
-          :key="slides[currentSlide].lawBanner"
-          class="w-full object-cover h-[160px] sm:h-auto"
-          :src="slides[currentSlide].lawBanner"
-          alt="Slide Image"
-        />
+        <a
+          :href="slides[currentSlide].tags[0].link" 
+          target="_blank"
+          class="block"
+        >
+          <img
+            :key="slides[currentSlide].lawBanner"
+            class="w-full object-cover h-[160px] sm:h-auto"
+            :src="slides[currentSlide].lawBanner"
+            alt="Slide Image"
+          />
+        </a>
       </transition>
 
       <button
@@ -34,7 +40,7 @@
         @click="() => changeSlideValue(currentSlide + 1)"
         class="absolute top-1/2 -translate-y-1/2 right-5 lg:right-10 z-50 rounded-full text-black bg-zinc-100"
       >
-        <span class="sr-only">Righy Chevron</span>
+        <span class="sr-only">Right Chevron</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -48,24 +54,11 @@
           <path d="m9 18 6-6-6-6" />
         </svg>
       </button>
-
-      <!-- <div
-        class="absolute bottom-0 left-24 text-left text-black hidden lg:block p-5 w-1/2"
-      >
-        <h2 class="text-2xl font-bold mb-2 text-white">
-          {{ slides[currentSlide].heading }}
-        </h2>
-        <p class="mb-3 text-sm text-white">
-          {{ slides[currentSlide].description }}
-        </p>
-      </div> -->
     </div>
 
     <!-- Pagination Dots -->
     <div class="hidden lg:block">
-      <div
-        class="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2"
-      >
+      <div class="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2">
         <span
           v-for="(slide, index) in slides"
           :key="index"
@@ -83,71 +76,48 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue';
+
 const currentSlide = ref(0);
 const slideInterval = ref(null);
 const slides = [
   {
     lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/8.png",
-    heading: "Slide 1 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
     tags: [
-      { label: "Learn More", link: "https://example.com/learn-more" },
-      { label: "Contact Us", link: "https://example.com/contact" },
+      { label: "Learn More", link: "https://youtu.be/f4yzXCX54pQ?si=EeQFC4fCFCaz6_GB" },
     ],
   },
- 
   {
     lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/10.png",
-    heading: "Slide 3 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
     tags: [
-      { label: "Products", link: "https://example.com/products" },
-      { label: "Support", link: "https://example.com/support" },
+      { label: "Products", link: "https://youtu.be/ZR0fWhjLVk8?si=NkRYe3Vt7nnXUQ6k" },
     ],
   },
- 
   {
     lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/12.png",
-    heading: "Slide 4 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
     tags: [
-      { label: "FAQ", link: "https://example.com/faq" },
-      { label: "Blog", link: "https://example.com/blog" },
+      { label: "FAQ", link: "https://youtu.be/LuTZlpRBhPA?si=n1wQNPK3QlUfCdJe" },
     ],
   },
   {
     lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/13.png",
-    heading: "Slide 4 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
     tags: [
-      { label: "FAQ", link: "https://example.com/faq" },
-      { label: "Blog", link: "https://example.com/blog" },
-    ],
-  },
-  {
-    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/17.png",
-    heading: "Slide 4 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
-    tags: [
-      { label: "FAQ", link: "https://example.com/faq" },
-      { label: "Blog", link: "https://example.com/blog" },
+      { label: "Learn More", link: "https://youtu.be/KAxGmimEpyk?si=-unIIKonJCdsVxUN" },
     ],
   },
   {
     lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/15.png",
-    heading: "Slide 4 Heading",
-    description:
-      "The company itself is a very successful company. No one, therefore, takes the pains of choosing the kind of things that are praised by the architect.",
     tags: [
-      { label: "FAQ", link: "https://example.com/faq" },
-      { label: "Blog", link: "https://example.com/blog" },
+      { label: "Products", link: "https://youtu.be/pHOB3miF3fU?si=qD8JXn0cRnnJ2nCa" },
     ],
   },
+  {
+    lawBanner: "https://ccdstest.b-cdn.net/sort%20my%20law/banners/17.png",
+    tags: [
+      { label: "FAQ", link: "https://youtu.be/auHjuYt9Yp0?si=LPwpobYfwyLlOPWD" },
+    ],
+  },
+  // Add more slides as needed...
 ];
 
 const startSlideShow = () => {
@@ -174,7 +144,7 @@ onMounted(() => {
   transition: opacity 0.5s;
 }
 .fade-enter,
-  .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+.fade-leave-to {
   opacity: 0;
 }
 </style>

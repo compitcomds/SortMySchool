@@ -2,16 +2,24 @@
   <div class="flex flex-col-reverse md:flex-row gap-4 items-center mx-auto px-4 lg:px-40 pb-16">
     <!-- Left Side: Text and Button -->
     <div class="md:w-1/2 w-full mb-6 md:mb-0 md:text-left mt-6 md:mt-0 ">
-      <h2 class="text-4xl font-bold mb-4">Your Heading</h2>
-      <p class="text-lg mb-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-        optio eos cumque sit magni nostrum officia iure provident repellat
-        deserunt veniam id amet consequuntur rerum deleniti unde voluptatem
-        aliquid pariatur, dolorum quisquam, quasi vero. Blanditiis quae magni
-        aperiam quo vero, obcaecati excepturi expedita magnam totam veritatis
-        fugiat dolor tempore praesentium!
-      </p>
-      <a href="/subject"
+      <h2 class="text-4xl font-bold mb-8">How We Help You</h2>
+      <ul class="list-disc pl-5 space-y-6">
+        <li class="text-xl">
+          <a href="https://youtube.com/playlist?list=PL-1DBVyVi7EZD7b1d-idr6XR2Br8kxKmg&si=0KkP4LhA-qrF6Hdx" class="flex items-center hover:text-blue-500 ">Improve your English – Explore our Improve Reading Skills playlist. <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-4 h-4 lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+        </li>
+        <li class="text-xl">
+          <a href="https://youtube.com/playlist?list=PL-1DBVyVi7EYNGuEvsmM2Ep0_gujUyDsB&si=3eg42Afmxzp9tQ13" class="flex items-center hover:text-blue-500">Get internships or jobs – Listen to our Legal Podcasts series. <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-4 h-4 lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+        </li>
+        <li class="text-xl">
+          <a href="https://youtube.com/playlist?list=PL-1DBVyVi7EZRFmOv-NEHRq8hvNAZlCcM&si=d_wdnucjW3ncpOah" class="flex items-center hover:text-blue-500">Learn drafting – Check out our Get Practical Knowledge series. <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-4 h-4 lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>        </li>
+        <li class="text-xl">
+          <a href="https://youtube.com/playlist?list=PL-1DBVyVi7EYuQXWtMDz1QXe19hhNM3eq&si=SCGodrj_O1y33uxm" class="flex items-center hover:text-blue-500">Build your CV or SoP – Visit our Law Internship playlist. <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-4 h-4 lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>        </li>
+        <li class="text-xl">
+          <a href="https://chat.whatsapp.com/BXUajT2udYCGk7HRXgECuq" class="flex items-center hover:text-blue-500">Legal Jobs Update – Join our WhatsApp Community. <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-4 h-4 lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+        </li>
+      </ul>
+
+      <!-- <a href="/subject"
         class="relative inline-flex lg:w-auto w-full justify-center lg:justify-start items-center px-12 lg:py-2 py-2 overflow-hidden text-lg font-medium text-sky-500 border-2 border-sky-500 rounded-full hover:text-white group hover:bg-gray-50">
         <span
           class="absolute left-0 block w-full h-0 transition-all bg-sky-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -22,7 +30,7 @@
           </svg>
         </span>
         <span class="relative">Learn More</span>
-      </a>
+      </a> -->
     </div>
 
     <!-- Right Side: Image Carousel -->

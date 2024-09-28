@@ -127,7 +127,7 @@
                 </svg>
               </button></a>
           </div>
-          <a href="link1.html">
+          <a href="https://chat.whatsapp.com/BXUajT2udYCGk7HRXgECuq">
             <button
               class="flex items-center gap-1 bg-green-500 px-5 py-3 mt-5 font-bold text-white rounded-lg hover:opacity-80">
               <IconWhatsapp /> Join Our Communtiy

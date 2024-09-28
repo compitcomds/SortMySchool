@@ -9,18 +9,15 @@
           <h2
             class="hidden md:block text-3xl mb-5 font-extrabold text-gray-900 sm:text-4xl"
           >
-            Discover Our Mission
+          One Purpose: - No Student Without Resources!
           </h2>
-          <div class="block md:hidden">
+          <div class="hidden">
             <div
               class="flex flex-wrap items-center w-full h-10 bg-gray-200"
             ></div>
           </div>
           <p class="my-4 text-gray-600 text-lg">
-            We are dedicated to providing top-notch education and empowering
-            future leaders in the field of law. Our programs are designed to
-            offer hands-on learning, rigorous curriculum, and an inclusive
-            environment for all students.
+            On this website, we aim to provide you with case summaries relevant to your semester and competitive exams, as well as previous years' question papers for the judiciary, UGC-NET, AIBE, and other competitive exams in the field of law, all for FREE! Our goal is simple: no student should be deprived of academic resources, no matter which college they belong to.
           </p>
 
           <!-- Buttons and Stats -->

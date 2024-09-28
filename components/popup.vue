@@ -1,21 +1,22 @@
 <template>
   <div
     v-if="visible"
-    class="h-screen w-screen fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+    class="h-screen w-screen fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 "
     @click.self="closePopup"
   >
     <div
-      class="bg-white w-[90vw] lg:w-[80vw] rounded-lg shadow-lg absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2"
+      class="bg-white w-[90vw] lg:w-[80vw] rounded-lg shadow-lg absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 lg:scale-50"
     >
-      <img
-        src="https://placehold.co/1920x1080"
+    <a href="https://testbook.com/">  
+    <img
+        src="/assets/carousel1.jpg"
         alt="Popup Image"
-        class="block w-full rounded aspect-[16/9]"
-      />
+        class="block w-full rounded"
+      /></a>
       <div class="z-10 absolute top-5 right-5 w-full">
         <button
           @click="closePopup"
-          class="z-10 block ml-auto text-black px-4 py-2 rounded"
+          class="z-10 block ml-auto text-black px-4 py-4 bg-slate-50 rounded-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
