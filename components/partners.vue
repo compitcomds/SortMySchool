@@ -60,7 +60,7 @@ export default {
     return {
       logos: [
         "/assets/testbook.png",
-        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/2.png",
+        // "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/2.png",
         // "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/3.png",
         "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
         'https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png',
