@@ -116,7 +116,7 @@
         </div>
       </div>
       <div id="slide7" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/Qr%20Code.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/WhatsApp%20Image%202024-09-28%20at%202.47.30%20PM.jpeg" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide6" class="btn btn-circle scale-50 md:scale-90">❮</a>
           <a href="#slide1" class="btn btn-circle scale-50 md:scale-90">❯</a>
