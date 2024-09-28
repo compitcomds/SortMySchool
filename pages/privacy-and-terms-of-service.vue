@@ -92,7 +92,18 @@
         earliest.
       </p>
 
-      <h3>6. Use of the Website:</h3>
+      <h3>6. Associations and Collaborations Disclaimer</h3>
+
+      <p>The term "Association" as used on our homepage or any other part of the website refers to academic partnerships,
+      project collaborations, or affiliations between our venture and various organizations, institutions, individuals,
+      or companies. This may include instances where we or our partners have been academically affiliated with these
+      entities or where they have utilized our services.
+
+      Please note that we do not act as representatives, contact persons, or agents for these organizations,
+      institutions, or individuals. If you wish to get in touch with them, kindly refer to their official websites or
+      contact them directly through appropriate channels.</p>
+
+      <h3>7. Use of the Website:</h3>
       <p>
         You agree to use this website only for lawful purposes and in a way that
         does not infringe the rights of, restrict or inhibit anyone else’s use
@@ -106,7 +117,7 @@
         contained on the website for any purpose.
       </p>
 
-      <h3>7. Changes:</h3>
+      <h3>8. Changes:</h3>
       <p>
         The website may alter/make changes to its Policy from time to time so as
         to incorporate changes in technology or law and will do it in its sole
@@ -116,7 +127,7 @@
         inform of the changes via email.
       </p>
 
-      <h3>8. Links to Third-Party Websites:</h3>
+      <h3>9. Links to Third-Party Websites:</h3>
       <p>
         This website may contain links to third-party websites. These links are
         provided for your convenience to provide further information. We have no
@@ -124,7 +135,7 @@
         the content or availability of any linked site.
       </p>
 
-      <h3>9. Contact:</h3>
+      <h3>10. Contact:</h3>
       <p>
         For any queries, questions, comments or suggestions with respect to the
         Privacy Policy of the Website please contact us at

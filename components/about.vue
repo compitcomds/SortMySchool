@@ -57,7 +57,7 @@
           </h2>
           <iframe
             class="w-full aspect-[16/9] md:aspect-[10/9] lg:aspect-[16/9]"
-            src="https://www.youtube.com/embed/sspBhF1z-LU?si=pgBp29HiMwWkROZ3"
+            src="https://www.youtube.com/embed/O87zZru7qRM?si=gLIF0tfeEZ5-3PqC"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
