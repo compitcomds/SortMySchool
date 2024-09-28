@@ -74,7 +74,7 @@
     <!-- Right Side: Image Carousel -->
     <div class="carousel w-full md:w-1/2 h-56 md:h-[380px]">
       <div id="slide1" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/2.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/WhatsApp%20Image%202024-09-28%20at%202.15.05%20PM.jpeg" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between ">
           <a href="#slide7" class="btn btn-circle scale-50 md:scale-90">❮</a>
           <a href="#slide2" class="btn btn-circle scale-50 md:scale-90">❯</a>
@@ -88,7 +88,7 @@
         </div>
       </div>
       <div id="slide3" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/3.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/WhatsApp%20Image%202024-09-28%20at%202.17.15%20PM.jpeg" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide2" class="btn btn-circle scale-50 md:scale-90">❮</a>
           <a href="#slide4" class="btn btn-circle scale-50 md:scale-90">❯</a>
@@ -102,7 +102,7 @@
         </div>
       </div>
       <div id="slide5" class="carousel-item relative w-full">
-        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/Like%20%26%20Subscribe.png" class="w-full" />
+        <img src="https://ccdstest.b-cdn.net/sort%20my%20law/careousel/WhatsApp%20Image%202024-09-28%20at%202.15.15%20PM.jpeg" class="w-full" />
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide4" class="btn btn-circle scale-50 md:scale-90">❮</a>
           <a href="#slide6" class="btn btn-circle scale-50 md:scale-90">❯</a>
