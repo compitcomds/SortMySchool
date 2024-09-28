@@ -10,7 +10,7 @@
         >
           <img
             :key="slides[currentSlide].lawBanner"
-            class="w-full object-cover h-[160px] sm:h-auto"
+            class="w-full object-cover "
             :src="slides[currentSlide].lawBanner"
             alt="Slide Image"
           />
