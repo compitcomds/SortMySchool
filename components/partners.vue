@@ -61,7 +61,7 @@ export default {
       logos: [
         "/assets/testbook.png",
         // "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/2.png",
-        // "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/3.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%B2%E0%A4%AF%20(2).png",
         "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
         'https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png',
         // 'https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/8.png',
