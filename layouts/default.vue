@@ -1,13 +1,8 @@
 <template>
   <NuxtLoadingIndicator />
-  <header
-    class="flex flex-col flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-stone-50 text-sm sm:py-0 text-black"
-  >
-    <hr />
-    <mynav />
-    <hr />
-  </header>
-  <slot />
+  <mynav /> 
+
+  <slot/>
   <MobileNav class="block md:hidden" />
   <FooterNew />
   <!-- back to top button -->
@@ -35,35 +30,15 @@
   </div>
   <SearchBox />
 
-  <Popup />
+  <!-- <Popup /> -->
 </template>
 
 <script setup>
-const backToTop = () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-};
-
 useSeoMeta({
   robots: "index, follow",
 });
 </script>
 
 <style>
-body {
-  background-color: aliceblue;
-}
 
-* {
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  /* Standard syntax */
-}
 </style>

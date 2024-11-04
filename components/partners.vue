@@ -41,7 +41,7 @@
           </div>
           <div v-for="(logo, index) in logos" :key="`duplicate-${index}`" class="partner-logo bg-white  border p-2 rounded-md">
             <img
-              :src="logo"
+              :src="logo" 
               alt="Partner"
               class="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain"
             />

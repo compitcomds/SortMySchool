@@ -5,14 +5,14 @@
   >
     <div class="sm:max-w-lg sm:w-full m-3 sm:mx-auto">
       <div
-        class="flex flex-col bg-white border shadow-sm rounded-xl w-[90vw] h-[70vh] lg:w-[60vw] lg:h-[60vh] overflow-auto pointer-events-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1"
+        class="flex flex-col bg-[#FFFECB] border shadow-sm rounded-xl w-[90vw] h-[70vh] lg:w-[60vw] lg:h-[60vh] overflow-auto pointer-events-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1"
       >
         <div class="flex justify-between items-center py-3 px-4">
-          <h3 class="font-bold text-gray-800">Search SortMyLawSchool</h3>
+          <h3 class="font-bold text-gray-800"></h3>
           <button
             type="button"
             id="search-modal-close-button"
-            class="flex justify-center items-center size-10 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+            class="flex justify-center items-center size-10 text-sm font-semibold rounded-full border border-transparent text-gray-900 disabled:opacity-50 disabled:pointer-events-none"
             data-hs-overlay="#search-modal"
           >
             <span class="sr-only">Close</span>
@@ -36,14 +36,12 @@
         <div class="px-4 overflow-y-auto">
           <div>
             <label for="search-modal-input" class="sr-only">Search input</label>
-            <div
-              class="flex  gap-y-3 md:flex-row rounded-lg mb-5 sticky top-0"
-            >
+            <div class="flex gap-y-3 md:flex-row rounded-lg mb-5 sticky top-0">
               <input
                 type="text"
                 id="search-modal-input"
                 name="search-modal-input"
-                class="py-3 px-4 block w-full xl:min-w-[300px] lg:min-w-[350px] border border-gray-200 rounded-l-lg md:rounded-none md:rounded-s-lg text-sm focus:z-10 focus:border-sky-500 focus:ring-sky-500 disabled:opacity-50 disabled:pointer-events-none"
+                class="py-3 px-4 block w-full xl:min-w-[300px] lg:min-w-[350px] border rounded-l-lg md:rounded-none md:rounded-s-lg text-sm"
                 v-model.trim="search"
                 @input="searchQuery"
                 placeholder="Search your Case here...."
@@ -51,9 +49,8 @@
               <nuxt-link
                 :to="`/search/${search}`"
                 @click="closeModal"
-                class="min-w-fit flex-1 px-4 py-3 flex-shrink-0 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-r-md md:rounded-none md:rounded-e-md border border-transparent bg-sky-600 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none"
+                class="min-w-fit flex-1 px-4 py-3 flex-shrink-0 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-r-md md:rounded-none md:rounded-e-md border border-transparent bg-[#4CC9FE] text-white hover:bg-[#37AFE1] disabled:opacity-50 disabled:pointer-events-none"
               >
-                
                 <svg
                   class="flex-shrink-0 size-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -159,4 +156,9 @@ const searchQuery = async (event) => {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#search-modal-input:focus {
+  outline: none;
+  box-shadow: none; /* Optional: Remove any box shadow */
+}
+</style>
