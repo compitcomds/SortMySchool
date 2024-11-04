@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen bg-white z-10 w-full -mt-14 p-4">
+    <div class="h-screen bg-white z-10 w-full -mt-14 p-6">
       <div class="carousel w-full h-full">
         <div id="slide1" class="carousel-item relative w-full">
           <div class=" w-full h-full">

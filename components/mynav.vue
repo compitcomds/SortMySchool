@@ -2,7 +2,7 @@
   <!-- ========== HEADER ========== -->
   <!-- ========== HEADER ========== -->
   <header
-    class="sticky top-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[66rem] before:mx-2 before:lg:mx-auto before:rounded-[26px] before:bg-neutral-800/30 before:backdrop-blur-md"
+    class="sticky top-10 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[66rem] before:mx-2 before:lg:mx-auto before:rounded-[26px] before:bg-neutral-800/30 before:backdrop-blur-md"
   >
     <nav
       class="relative max-w-[66rem] w-full py-2.5 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto"
@@ -92,11 +92,475 @@
             href="#"
             >PYQ</a
           >
-          <a
-            class="p-3 ps-px sm:px-3 md:py-4 text-sm text-[#FFFECB] hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
-            href="#"
-            >Case Brief</a
-          >
+          <div
+                class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] "
+              >
+                <nuxt-link to="/subject">
+                  <button
+                    type="button"
+                    class="p-3 ps-px sm:px-3 md:py-4 text-sm text-[#FFFECB] hover:text-neutral-300 focus:outline-none focus:text-neutral-300 flex items-center"
+                  >
+                    Case Brief
+                    <svg
+                      class="flex-shrink-0 ms-2 size-4 lg:text-lg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </button>
+                </nuxt-link>
+
+                <div
+                  class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg before:absolute before:-top-5 before:start-0 before:w-full before:h-5"
+                >
+                  <div class="grid grid-cols-2 md:grid-cols-10 pt-40 md:pt-0">
+                    <div class="md:col-span-3">
+                      <div class="flex flex-col py-6 px-3 md:px-6">
+                        <!-- Timeline -->
+                        <div>
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/AdministrativeLaw"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Administrative Law
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/CodeOfCivilProcedure"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Code of Civil Procedure
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/CompanyLaw"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Company Law
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/EnvironmentalLaw"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Environmental Law
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/6637f17a0026153b82fc"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Insurance & Banking Law
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                        </div>
+                        <!-- End Timeline -->
+                      </div>
+                    </div>
+
+                    <div class="md:col-span-3">
+                      <div class="flex flex-col py-6 px-3 md:px-6">
+                        <!-- Timeline -->
+                        <div>
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/MinorActandSCRules"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Minor Act & SC Rules
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/Partnership"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Partnership Act
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/PublicInternationalLaw"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Public International Law
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/Salesofgoodsact"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Sales of Goods Act
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject/TaxationLaw"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Taxation law
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+
+                          <!-- End Item -->
+                          <!-- Item -->
+                          <div
+                            class="flex relative group rounded-lg hover:bg-gray-100"
+                          >
+                            <nuxt-link
+                              to="/subject"
+                              class="absolute inset-0 z-[1]"
+                            ></nuxt-link>
+
+                            <!-- Icon -->
+                            <div
+                              class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200"
+                            >
+                              <div
+                                class="relative z-10 size-7 flex justify-center items-center"
+                              >
+                                <div
+                                  class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- End Icon -->
+
+                            <!-- Right Content -->
+                            <div class="grow py-1 pb-8">
+                              <p
+                                class="text-sm flex gap-x-1.5 font-semibold text-gray-800"
+                              >
+                                Other Subjects
+                              </p>
+                            </div>
+                            <!-- End Right Content -->
+                          </div>
+                          <!-- End Item -->
+                        </div>
+                        <!-- End Timeline -->
+                      </div>
+                    </div>
+
+                    <div class="col-span-full md:col-span-4">
+                      <div class="flex flex-col bg-gray-50 p-6">
+                        <span
+                          class="text-xs font-semibold uppercase text-gray-800"
+                        >
+                          DU Case Mat</span
+                        >
+
+                        <nuxt-link class="mt-4 group" to="/case-material">
+                          <div class="aspect-w-16 aspect-h-9">
+                            <NuxtImg
+                              loading="lazy"
+                              class="w-full object-cover rounded-lg"
+                              src="/assets/du.jpg"
+                              alt="SortMyLawSchool | Delhi University (DU) Image"
+                            />
+                          </div>
+                          <div class="mt-2">
+                            <p class="text-gray-800"></p>
+                            <p
+                              class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium"
+                            >
+                              Syllabus
+                              <svg
+                                class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              >
+                                <path d="m9 18 6-6-6-6" />
+                              </svg>
+                            </p>
+                          </div>
+                        </nuxt-link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
           <div
             class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] [--is-collapse:true] md:[--is-collapse:false] p-3 ps-px sm:px-3 md:py-4"
