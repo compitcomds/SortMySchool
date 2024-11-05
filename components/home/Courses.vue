@@ -1,6 +1,6 @@
 <template>
     <div class="w-full py-16 bg-[#fef8f3]">
-        <div class="max-w-6xl mx-auto px-4">
+        <div class=" mx-auto px-4">
             <!-- Header Section -->
             <div class="flex items-center justify-between mb-8">
                 <h2 class=" text-xl font-semibold text-gray-700 m-4 flex items-center gap-6">
@@ -14,7 +14,7 @@
 
             <!-- Course Cards Section -->
             <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div v-for="(course, index) in courses" :key="index"
                     class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
                     <!-- Course Title -->
@@ -80,7 +80,18 @@ export default {
                         "https://placehold.co/24x24",
                         "https://placehold.co/24x24"
                     ]
-                }
+                },
+                {
+                    title: "UI UX Design Course",
+                    students: "106,458",
+                    rating: 4.8,
+                    price: "345.99",
+                    avatars: [
+                        "https://placehold.co/24x24",
+                        "https://placehold.co/24x24",
+                        "https://placehold.co/24x24"
+                    ]
+                },
             ]
         };
     }

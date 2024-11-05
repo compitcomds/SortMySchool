@@ -78,13 +78,13 @@
         >
           <a
             class="p-3 ps-px sm:px-3 md:py-4 text-sm text-[#FFFECB] hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
-            href="../templates/agency/index.html"
+            href="/test"
             aria-current="page"
             >Home</a
           >
           <a
             class="p-3 ps-px sm:px-3 md:py-4 text-sm text-[#FFFECB] hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
-            href="#"
+            href="/case-material"
             >DU Casemat</a
           >
           <a
@@ -102,7 +102,7 @@
                   >
                     Case Brief
                     <svg
-                      class="flex-shrink-0 ms-2 size-4 lg:text-lg"
+                      class="flex-shrink-0 ms-2 size-4 lg:text-lg mt-1"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
