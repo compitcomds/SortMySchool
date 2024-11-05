@@ -2,7 +2,7 @@
   <div class="w-full">
     <h2 class="py-5 text-xl font-semibold text-gray-700 mb-4 flex items-center gap-6">
                 <p class="text-2xl">Our Sponsers</p>
-                <div class="text-black mt-1 bg-black h-[0.7px] w-56"></div>
+                <div class="text-black mt-1 bg-black h-[0.7px]  lg:w-56"></div>
             </h2>
   <div class=" overflow-hidden w-full h-32 mt-10 transform rotate-3 bg-gray-700 flex items-center justify-center">
     <div class="flex items-center justify-between absolute animation-scroll transform -rotate-3">

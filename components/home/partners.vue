@@ -5,7 +5,7 @@
 
             <h2 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-6">
                 <p class="text-2xl">Knowledge Partners - Sort My Law School</p>
-                <div class="text-black mt-1 bg-black h-[0.7px] w-56"></div>
+                <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
             </h2>
 
             <!-- Team Items -->
@@ -13,8 +13,9 @@
             <div class="flex items-center justify-center py-8 ">
 
                 <div
-                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:flex items-center justify-center gap-4 w-full max-w-lg text-center md:text-left md:max-w-5xl lg:max-w-6xl xl:max-w-full">
-                    <div
+                    class="flex flex-col md:flex-row md:flex-wrap items-center justify-between gap-4  w-full text-center md:text-left ">
+                    <div data-aos="fade-right" data-aos-easing="linear"
+     data-aos-duration="1000"
                         class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 relative overflow-hidden text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-hidden">
@@ -65,7 +66,8 @@
                     </div>
 
                     <!-- Repeat the same structure for other team members -->
-                    <div
+                    <div data-aos="fade-down" data-aos-easing="linear"
+     data-aos-duration="1000"
                         class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
@@ -102,7 +104,8 @@
                                 src="/assets/160.png" style="color: transparent" />
                         </div>
                     </div>
-                    <div
+                    <div data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1000"
                         class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
@@ -141,7 +144,7 @@
                                 src="/assets/17.png" style="color: transparent" />
                         </div>
                     </div>
-                    <div
+                    <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000"
                         class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">

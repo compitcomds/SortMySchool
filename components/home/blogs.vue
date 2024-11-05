@@ -2,9 +2,10 @@
     <div class="w-full mx-auto ">
         <h2 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-6 pb-6">
                 <p class="text-2xl">Our Blogs</p>
-                <div class="text-black mt-1 bg-black h-[0.7px] w-56"></div>
+                <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
             </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div data-aos="fade-right" data-aos-easing="linear"
+     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div
           v-for="(article, index) in articles"
           :key="index"

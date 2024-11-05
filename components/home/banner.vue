@@ -1,59 +1,73 @@
 <template>
-    <div class="h-screen bg-white z-10 w-full -mt-14 p-6">
-      <div class="carousel w-full h-full">
-        <div id="slide1" class="carousel-item relative w-full">
-          <div class=" w-full h-full">
-            <img
-              src="https://picsum.photos/1920/1080"
-              alt=""
-              class="w-full h-full rounded-3xl"
-            />
-          </div>
-          <div class="absolute left-5 right-5 -bottom-3.5 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
-          </div>
+  <div class="h-screen bg-white z-10 w-full -mt-16 md:-mt-14 p-2 md:p-6">
+    <swiper 
+      :slides-per-view="1" 
+      :loop="true" 
+      :autoplay="{ delay: 6000, disableOnInteraction: false }" 
+      :navigation="true"
+      :pagination="{ clickable: true }"
+      :modules="modules"
+      class="carousel w-full h-full"
+    >
+      <swiper-slide>
+        <div class="w-full h-full">
+          <img
+            src="https://picsum.photos/1920/1080"
+            alt=""
+            class="w-full h-full rounded-3xl"
+          />
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <div class=" w-full h-full">
-            <img
-              src="https://picsum.photos/id/96/1920/1080"
-              alt=""
-              class="w-full h-full rounded-3xl"
-            />
-          </div>
-          <div class="absolute left-5 right-5 -bottom-3.5 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
-          </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="w-full h-full">
+          <img
+            src="https://picsum.photos/id/96/1920/1080"
+            alt=""
+            class="w-full h-full rounded-3xl"
+          />
         </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <div class="w-full h-full">
-            <img
-              src="https://picsum.photos/id/12/1920/1080"
-              alt=""
-              class="w-full h-full rounded-3xl"
-            />
-          </div>
-          <div class="absolute left-5 right-5 -bottom-3.5 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide4" class="btn btn-circle">❯</a>
-          </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="w-full h-full">
+          <img
+            src="https://picsum.photos/id/12/1920/1080"
+            alt=""
+            class="w-full h-full rounded-3xl"
+          />
         </div>
-        <div id="slide4" class="carousel-item relative w-full">
-          <div class=" w-full h-full">
-            <img
-              src="https://picsum.photos/id/26/1920/1080"
-              alt=""
-              class="w-full h-full rounded-3xl"
-            />
-          </div>
-          <div class="absolute left-5 right-5 -bottom-3.5 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
-          </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="w-full h-full">
+          <img
+            src="https://picsum.photos/id/26/1920/1080"
+            alt=""
+            class="w-full h-full rounded-3xl"
+          />
         </div>
-      </div>
-    </div>
-  </template>
-  
+      </swiper-slide>
+    </swiper>
+  </div>
+</template>
+
+<script>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Navigation, Pagination, Autoplay],
+    };
+  },
+};
+</script>
+
+<style>
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+</style>

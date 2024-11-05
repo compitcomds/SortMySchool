@@ -1,11 +1,15 @@
 <template>
-  <div class="bg-[#fdf1f4]">
+  <div class="bg-[#ffffff]">
     <HomeBanner />
-    <div class="px-16 space-y-10">
+    <div class="px-5 lg:px-16 space-y-10">
       <HomeClient />
       <HomeWhyus />
       <HomePartners />
+      <HomeVideoCards />
       <HomeBlogs />
+      <HomeTestimonials />
+      <HomeCourses />
+      <HomeForm />
     </div>
   </div>
 </template>

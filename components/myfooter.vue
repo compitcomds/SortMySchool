@@ -45,7 +45,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="mt-8 md:order-1 md:mt-0 text-white"> Developed By: <br>
+            <div class="mt-8 md:order-1 md:mt-0 text-black"> Developed By: <br>
                 <nuxt-link to="https://www.compitcom.com/" class="text-center text-base text-white hover:text-gray-200">
                     Compitcom Digital Solutions Pvt Ltd.
                 </nuxt-link>
