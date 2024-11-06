@@ -3,18 +3,27 @@
         <!-- Container -->
         <div class="mx-auto py-8 ">
 
-            <h2 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-6">
-                <p class="text-2xl">Knowledge Partners - Sort My Law School</p>
-                <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
-            </h2>
+            <div class="flex items-center justify-between">
+                <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
+                    <p class="flex items-center justify-between">
+                    <p class="text-2xl">Knowledge Partners - Sort My Law School</p><svg id="fi_13554816"
+                        class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path>
+                    </svg></p>
+
+                </h2>
+
+            </div>
 
             <!-- Team Items -->
 
             <div class="flex items-center justify-center py-8 ">
 
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6 w-full text-center md:text-left ">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 xl:gap-6 w-full text-center md:text-left ">
                     <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000"
-                        class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 relative overflow-hidden text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+                        class="knowledge-partner-card transition w-full max-w-[291px] duration-300 lg:mt-0  relative overflow-hidden text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-hidden">
                             <div class="flex flex-col gap-1">
@@ -65,7 +74,7 @@
 
                     <!-- Repeat the same structure for other team members -->
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"
-                        class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+                        class="knowledge-partner-card transition w-full max-w-[291px] duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
@@ -102,7 +111,7 @@
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"
-                        class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+                        class="knowledge-partner-card transition w-full max-w-[291px] duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
@@ -141,7 +150,7 @@
                         </div>
                     </div>
                     <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000"
-                        class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
+                        class="knowledge-partner-card transition w-full max-w-[291px] duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md">
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
@@ -175,7 +184,7 @@
                         </div>
                     </div>
                     <!-- <div
-              class="knowledge-partner-card transition duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md"
+              class="knowledge-partner-card transition w-[291px] duration-300 lg:mt-0 mt-8 overflow-hidden relative text-left bg-slate-200 rounded-lg shadow-slate-700 hover:shadow-blue-200 shadow-md"
             >
               <div
                 class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip"

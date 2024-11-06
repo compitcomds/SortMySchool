@@ -1,7 +1,7 @@
 <!-- have list of subject  -->
 <template>
   <div v-if="subjectObj">
-    <h3 class="text-center py-6 text-2xl font-bold">
+    <h3 class="text-center py-6 text-2xl font-bold mt-10">
       Legal Case Briefs or Case Summary for Academics
     </h3>
     <div

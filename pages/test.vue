@@ -6,9 +6,9 @@
       <HomeWhyus />
       <HomePartners />
       <HomeVideoCards />
-      <HomeBlogs />
-      <HomeTestimonials />
       <HomeCourses />
+      <HomeTestimonials />
+      <HomeBlogs />
       <HomeForm />
     </div>
   </div>

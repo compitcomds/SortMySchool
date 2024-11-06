@@ -1,41 +1,44 @@
 <template>
-    <div class="w-full py-16 bg-[#fef8f3]">
-        <div class=" mx-auto px-4">
+    <div class="w-full py-8 bg-[#fef8f3]">
+        <div class="mx-auto px-4">
             <!-- Header Section -->
-            <div class="flex items-center justify-between mb-8">
-                <h2 class=" text-xl font-semibold text-gray-700 m-4 flex items-center gap-6">
-                    <p class="text-2xl">Our Popular Courses</p>
-                    <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
+            <div class="flex items-center justify-between">
+                <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center">
+                    <p class="flex items-center justify-between">
+                        <p class="text-2xl">Our Popular Law Courses</p>
+                        <svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg>
+                    </p>
                 </h2>
-                <a href="#" class="text-green-500 flex items-center font-medium hover:underline">
-                    See All <span class="ml-1">→</span>
-                </a>
+                <div class="w-full text-blue-600 flex items-center justify-end mb-4 gap-2">
+                    <a href="/subject" class="hover:font-semibold">See All</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                </div>
             </div>
 
             <!-- Course Cards Section -->
-            <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div v-for="(course, index) in courses" :key="index"
-                    class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div v-for="(course, index) in courses" :key="index" class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
                     <!-- Course Title -->
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">{{ course.title }}</h3>
 
                     <!-- Avatars and Rating -->
                     <div class="flex items-center mb-4">
                         <div class="flex -space-x-2">
-                            <img v-for="(avatar, i) in course.avatars" :key="i" :src="avatar"
-                                class="w-6 h-6 rounded-full border-2 border-white" alt="Avatar" />
+                            <img v-for="(avatar, i) in course.avatars" :key="i" :src="avatar" class="w-6 h-6 rounded-full border-2 border-white" alt="Avatar" />
                         </div>
-                        <p class="ml-3 text-gray-500">+{{ course.students }} students</p>
-                        <p class="ml-auto text-yellow-500 font-semibold">{{ course.rating }} ⭐</p>
+                        <!-- <p class="ml-3 text-gray-500">+{{ course.students }} students</p> -->
+                        <p class="ml-auto text-yellow-500 font-semibold flex items-center gap-2">{{ course.rating }} <img class="w-6 h-6" src="assets\images\star.svg" alt=""></p>
                     </div>
 
                     <!-- Price and Join Button -->
                     <div class="flex items-center justify-between">
-                        <p class="text-xl font-semibold text-green-600">${{ course.price }}</p>
-                        <button class="bg-green-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-600">
-                            Join Now
-                        </button>
+                        <p class="text-lg font-semibold text-blue-500 flex items-center justify-between gap-2">
+                            <img class="w-5 h-5" src="assets\images\like.svg" alt=""> {{ course.views }}
+                        </p>
+                        <!-- Dynamic Explore Now Link -->
+                        <a :href="course.link" class="bg-green-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-600">
+                            Explore Now
+                        </a>
                     </div>
                 </div>
             </div>
@@ -49,55 +52,67 @@ export default {
         return {
             courses: [
                 {
-                    title: "UI UX Design Course",
+                    title: "Administrative Law",
                     students: "106,458",
                     rating: 4.8,
-                    price: "345.99",
+                    views: "345k",
                     avatars: [
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24"
-                    ]
+                        "https://i.pravatar.cc/24",
+                        "https://i.pravatar.cc/24?img=3",
+                        "https://i.pravatar.cc/24?img=4",
+                        "https://i.pravatar.cc/24?img=5",
+                        "https://i.pravatar.cc/24?img=6",
+                    ],
+                    link: "/subject/AdministrativeLaw" // Dynamic link for this course
                 },
                 {
-                    title: "Python Programming",
+                    title: "Code of Civil Procedure",
                     students: "152,678",
                     rating: 4.7,
-                    price: "125.99",
+                    views: "125k",
                     avatars: [
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24"
-                    ]
+                        "https://i.pravatar.cc/24?img=9",
+                        "https://i.pravatar.cc/24?img=8",
+                        "https://i.pravatar.cc/24?img=7",
+                        "https://i.pravatar.cc/24?img=1",
+                        "https://i.pravatar.cc/24?img=2",
+                    ],
+                    link: "/subject/CodeOfCivilProcedure" // Dynamic link for this course
                 },
                 {
-                    title: "Product Design Course",
+                    title: "Partnership Act",
                     students: "306,126",
                     rating: 4.2,
-                    price: "99.99",
+                    views: "99k",
                     avatars: [
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24"
-                    ]
+                        "https://i.pravatar.cc/24?img=3",
+                        "https://i.pravatar.cc/24?img=4",
+                        "https://i.pravatar.cc/24?img=5",
+                        "https://i.pravatar.cc/24?img=6",
+                        "https://i.pravatar.cc/24?img=7",
+                    ],
+                    link: "/subject/Partnership" // Dynamic link for this course
                 },
                 {
-                    title: "UI UX Design Course",
+                    title: "TaxationLaw",
                     students: "106,458",
                     rating: 4.8,
-                    price: "345.99",
+                    views: "345k",
                     avatars: [
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24",
-                        "https://placehold.co/24x24"
-                    ]
-                },
+                        "https://i.pravatar.cc/24?img=13",
+                        "https://i.pravatar.cc/24?img=15",
+                        "https://i.pravatar.cc/24?img=16",
+                        "https://i.pravatar.cc/24?img=14",
+                        "https://i.pravatar.cc/24?img=11",
+                    ],
+                    link: "/subject/taxation-law" // Dynamic link for this course
+                }
             ]
         };
     }
 };
 </script>
 
-<style>
+<style scoped>
 /* Optional custom styling */
 </style>

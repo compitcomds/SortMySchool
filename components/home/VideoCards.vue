@@ -1,9 +1,16 @@
 <template>
   <div class="w-full mx-auto py-8">
-    <h2 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-6 pb-6">
-      <p class="text-2xl">Popular Category Introduction</p>
-      <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
-    </h2>
+    <div class="flex items-center justify-between">
+      <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
+        <p class="flex items-center justify-between">
+        <p class="text-2xl">Popular Category Introduction</p><svg id="fi_13554816" class="w-60 h-20"
+          enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path>
+        </svg></p>
+
+      </h2>
+
+    </div>
     <swiper :slides-per-view="2" :space-between="60" :loop="true" :pagination="{ clickable: true }" :navigation="true"
       :autoplay="{ delay: 5000, disableOnInteraction: false }" :modules="modules" class="video-swiper" :breakpoints="{
         320: {
@@ -24,9 +31,9 @@
         }
       }">
       <swiper-slide v-for="(category, index) in categories" :key="index">
-        <div data-aos="fade-up" data-aos-easing="linear"
-     data-aos-duration="1000" class="relative bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg">
-          <div class="w-full h-60 overflow-hidden relative">
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"
+          class="relative bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg">
+          <div class="w-full h-72 overflow-hidden relative">
             <img v-if="playingIndex !== index" :src="category.thumbnail" class="w-full h-full object-cover"
               alt="Video thumbnail" />
             <iframe v-if="playingIndex === index" :src="`${category.video}?autoplay=1&mute=1`"
@@ -35,7 +42,7 @@
             <div v-if="playingIndex !== index"
               class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 cursor-pointer"
               @click="playVideo(index)">
-              <button class="text-3xl font-bold text-white">▶️</button>
+              <button class="text-3xl font-bold text-white w-12 h-12"><img src="assets\images\play (1).svg" alt=""></button>
             </div>
           </div>
           <div class="p-4">

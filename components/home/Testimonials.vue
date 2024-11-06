@@ -1,18 +1,21 @@
 <template>
     <div class="w-full mx-auto bg-[#fef8f3] flex flex-col relative">
-        <h2 class=" text-xl font-semibold text-gray-700 m-4 flex items-center gap-6">
-            <p class="text-2xl">What Our Students Says</p>
-            <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
-        </h2>
+        <div class="flex items-center justify-between">
+                <h2 class="w-full font-semibold text-gray-700 m-4 flex items-center ">
+                    <p class="flex items-center justify-between"><p class="text-2xl">What Our Students Says</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
+                    
+                </h2>
+                
+            </div>
         <swiper :slides-per-view="1" :loop="true" :pagination="{ clickable: true }" 
             :autoplay="{ delay: 5000, disableOnInteraction: false }" :modules="modules"
             class="w-full max-w-3xl testimonial-swiper"  data-aos="fade-left" data-aos-easing="linear"
      data-aos-duration="1000">
             <swiper-slide v-for="(testimonial, index) in testimonials" :key="index"
-                class="flex justify-center items-center">
-                <div class="relative bg-white text-gray-700 rounded-lg p-6 max-w-3xl my-10 w-full">
+                class="flex justify-center items-center px-5 lg:px-0">
+                <div class="relative bg-white text-gray-700 rounded-lg p-6 lg:p-10 max-w-3xl my-8 w-full">
                     <div class="flex items-center mb-4">
-                        <img :src="testimonial.image" alt="User avatar" class="w-12 h-12 rounded-full object-cover" />
+                        <img :src="testimonial.image" alt="User avatar" class="w-16 h-16 rounded-full object-cover" />
                         <div class="ml-4">
                             <h3 class="text-lg font-semibold">{{ testimonial.name }}</h3>
                             <p class="text-yellow-500 flex items-center">

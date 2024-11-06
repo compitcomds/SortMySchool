@@ -1,15 +1,18 @@
 <template>
     <div class="w-full mx-auto ">
-        <h2 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-6 pb-6">
-                <p class="text-2xl">Our Blogs</p>
-                <div class="text-black mt-1 bg-black h-[0.7px] lg:w-56"></div>
-            </h2>
+      <div class="flex items-center justify-between">
+                <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
+                    <p class="flex items-center justify-between"><p class="text-2xl">Our Blogs</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
+                    
+                </h2>
+                
+            </div>
       <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
         <div
           v-for="(article, index) in articles"
           :key="index"
-          class="border border-gray-400 bg-white rounded-b flex flex-col justify-between leading-normal"
+          class="border border-gray-400 overflow-hidden bg-white rounded-xl flex flex-col justify-between leading-normal"
         >
           <img :src="article.image" class="w-full mb-3" />
           <div class="p-4 pt-2">
@@ -68,7 +71,7 @@
             title: "Can coffee make you a better developer?",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
             author: {
-              name: "Jonathan Reinink",
+              name: "Sort My Law School",
               date: "Aug 18",
               avatar: "https://tailwindcss.com/img/jonathan.jpg",
             },
@@ -79,7 +82,7 @@
             title: "Can coffee make you a better developer?",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
             author: {
-              name: "Jonathan Reinink",
+              name: "Sort My Law School",
               date: "Aug 18",
               avatar: "https://tailwindcss.com/img/jonathan.jpg",
             },
@@ -90,23 +93,23 @@
             title: "Can coffee make you a better developer?",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
             author: {
-              name: "Jonathan Reinink",
+              name: "Sort My Law School",
               date: "Aug 18",
               avatar: "https://tailwindcss.com/img/jonathan.jpg",
             },
             membersOnly: true,
           },
-          {
-            image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            title: "Can coffee make you a better developer?",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-            author: {
-              name: "Jonathan Reinink",
-              date: "Aug 18",
-              avatar: "https://tailwindcss.com/img/jonathan.jpg",
-            },
-            membersOnly: true,
-          },
+          // {
+          //   image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+          //   title: "Can coffee make you a better developer?",
+          //   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+          //   author: {
+          //     name: "Sort My Law School",
+          //     date: "Aug 18",
+          //     avatar: "https://tailwindcss.com/img/jonathan.jpg",
+          //   },
+          //   membersOnly: true,
+          // },
           // Add more articles here as needed
         ],
       };

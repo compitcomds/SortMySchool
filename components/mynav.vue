@@ -10,7 +10,7 @@
       <div class="flex items-center justify-between">
         <nuxt-link
           class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
-          href="../templates/agency/index.html"
+          href="/"
           aria-label="Preline"
         >
           <img
