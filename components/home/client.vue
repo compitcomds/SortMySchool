@@ -1,20 +1,23 @@
 <template>
-  <div class="w-full">
-    <div class="flex items-center justify-between">
-                <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
-                    <p class="flex items-center justify-between"><p class="text-2xl">Our Sponsers</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
-                    
-                </h2>
-                
-            </div>
-
-  <div class=" overflow-hidden w-full h-32 mt-10 transform rotate-3 bg-gray-700 flex items-center justify-center">
-    <div class="flex items-center justify-between absolute animation-scroll transform -rotate-3">
-      <div v-for="(item, index) in items" :key="index" class="flex-none w-1/10 mx-1">
-        <img :src="item" alt="Image" class="rounded object-cover w-full h-full" />
-      </div>
+  <div class="w-full px-1">
+    <div class="flex items-center justify-between px-5 lg:px-16">
+      <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
+        <p class="flex items-center justify-between">
+        <p class="text-2xl">Our Sponsers</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24"
+          viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path>
+        </svg></p>
+      </h2>
     </div>
-  </div></div>
+<div class="w-full">
+    <div class=" overflow-hidden w-full h-32 mt-10 transform rotate-3 bg-gray-700 flex items-center justify-center ">
+      <div class="flex items-center justify-between absolute  animation-scroll transform -rotate-3">
+        <div v-for="(item, index) in items" :key="index" class="bg-white border py-5 rounded-xl border-black flex-none w-1/10 mx-1 ">
+          <img :src="item" alt="Image" class="rounded object-cover w-56 h-full" />
+        </div>
+      </div>
+    </div></div>
+  </div>
 </template>
 
 <script>
@@ -22,26 +25,31 @@ export default {
   data() {
     return {
       items: [
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
-        "https://placehold.co/150x80",
+        "/assets/testbook.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%B2%E0%A4%AF%20(2).png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/10.png",
+        "/assets/testbook.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%B2%E0%A4%AF%20(2).png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/10.png",
+        "/assets/testbook.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%B2%E0%A4%AF%20(2).png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/10.png",
+        "/assets/testbook.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%B2%E0%A4%AF%20(2).png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/10.png",
+        "/assets/testbook.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/%E0%A4%A6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%B2%E0%A4%AF%20(2).png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/4.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/7.png",
+        "https://ccdstest.b-cdn.net/sort%20my%20law/partner%20logo/10.png",
       ],
     };
   }
@@ -53,6 +61,7 @@ export default {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }

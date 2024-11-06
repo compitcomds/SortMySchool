@@ -7,7 +7,7 @@
       :navigation="true"
       :pagination="{ clickable: true }"
       :modules="modules"
-      class="carousel w-full h-full"
+      class="mySwiper carousel w-full h-full"
     >
       <swiper-slide>
         <div class="w-full h-full">
@@ -67,7 +67,48 @@ export default {
 </script>
 
 <style>
-@import 'swiper/css';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination';
+/* Swiper navigation buttons styling */
+/* Increase specificity and use direct resizing if necessary */
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  color: rgb(0, 68, 0) !important;
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 25px;
+  margin-top: 200px;
+}
+
+/* Default font size for larger screens */
+.mySwiper .swiper-button-prev::after,
+.mySwiper .swiper-button-next::after {
+  font-size: 30px !important; /* Default font size for larger screens */
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .mySwiper .swiper-button-prev::after,
+  .mySwiper .swiper-button-next::after {
+    font-size: 18px !important; /* Adjusted font size for tablets */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .mySwiper .swiper-button-prev::after,
+  .mySwiper .swiper-button-next::after {
+    font-size: 14px !important; /* Further reduced font size for mobile screens */
+  }
+}
+
+
+/* Optional: to style the Swiper container itself */
+.mySwiper {
+  background-color: white;
+  border-radius: 8px; /* Example for rounded corners */
+}
+.swiper-pagination-bullet{
+  background-color:  rgb(0, 68, 0);
+
+}
+
 </style>

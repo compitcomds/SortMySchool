@@ -2,17 +2,17 @@
     <div class="w-full mx-auto ">
       <div class="flex items-center justify-between">
                 <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
-                    <p class="flex items-center justify-between"><p class="text-2xl">Our Blogs</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
+                    <p class="flex items-center justify-between"><p class="text-2xl">Our Latest Blogs</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
                     
                 </h2>
                 
             </div>
       <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
+     data-aos-duration="500" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 lg:gap-10 bg-[#fef8f3] p-5">
         <div
           v-for="(article, index) in articles"
           :key="index"
-          class="border border-gray-400 overflow-hidden bg-white rounded-xl flex flex-col justify-between leading-normal"
+          class=" overflow-hidden  rounded-xl flex flex-col justify-between leading-normal"
         >
           <img :src="article.image" class="w-full mb-3" />
           <div class="p-4 pt-2">

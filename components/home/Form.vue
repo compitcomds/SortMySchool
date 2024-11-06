@@ -3,17 +3,17 @@
       <!-- Stats Section -->
       <div class="flex items-center justify-center lg:gap-12 mb-12">
         <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="text-center border-r border-gray-300 pr-8 last:border-none">
+     data-aos-duration="500" class="text-center border-r border-gray-300 pr-8 last:border-none">
           <p class="text-4xl font-semibold text-gray-800">{{ formatCount(studentCount) }}k</p>
           <p class="text-gray-600">Views</p>
         </div>
         <div data-aos="fade-down" data-aos-easing="linear"
-     data-aos-duration="1000" class="text-center border-r border-gray-300 px-8 last:border-none">
+     data-aos-duration="500" class="text-center border-r border-gray-300 px-8 last:border-none">
           <p class="text-4xl font-semibold text-gray-800">{{ formatCount(mentorCount) }}k</p>
           <p class="text-gray-600">Subscribers</p>
         </div>
         <div data-aos="fade-left" data-aos-easing="linear"
-     data-aos-duration="1000" class="text-center px-8">
+     data-aos-duration="500" class="text-center px-8">
           <p class="text-4xl font-semibold text-gray-800">{{ formatCount(courseCount) }}k</p>
           <p class="text-gray-600">Likes</p>
         </div>
@@ -23,7 +23,7 @@
       <div class="bg-white rounded-lg shadow-lg h-72 p-12 max-w-4xl w-full relative flex items-center justify-between">
         <!-- Bell Icon -->
         <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="absolute left-0 -top-16">
+     data-aos-duration="500" class="absolute left-0 -top-16">
           <img src="assets/images/notify.svg" alt="Bell icon" class="w-36 h-36" />
         </div>
   
@@ -46,7 +46,7 @@
           
           <!-- Book Icon -->
           <div data-aos="fade-left" data-aos-easing="linear"
-     data-aos-duration="1000" class="absolute -right-20 -top-3 hidden lg:block">
+     data-aos-duration="500" class="absolute -right-20 -top-3 hidden lg:block">
             <img src="assets/images/law-book.svg" alt="Book icon" class="w-36 h-36" />
           </div>
         </div>

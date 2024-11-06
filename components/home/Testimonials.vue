@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mx-auto bg-[#fef8f3] flex flex-col relative">
+    <div class="w-full mx-auto bg-white flex flex-col relative">
         <div class="flex items-center justify-between">
                 <h2 class="w-full font-semibold text-gray-700 m-4 flex items-center ">
                     <p class="flex items-center justify-between"><p class="text-2xl">What Our Students Says</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
@@ -9,11 +9,11 @@
             </div>
         <swiper :slides-per-view="1" :loop="true" :pagination="{ clickable: true }" 
             :autoplay="{ delay: 5000, disableOnInteraction: false }" :modules="modules"
-            class="w-full max-w-3xl testimonial-swiper"  data-aos="fade-left" data-aos-easing="linear"
-     data-aos-duration="1000">
+            class="w-full max-w-3xl testimonial-swiper bg-[#fef8f3]"  data-aos="fade-left" data-aos-easing="linear"
+     data-aos-duration="500">
             <swiper-slide v-for="(testimonial, index) in testimonials" :key="index"
-                class="flex justify-center items-center px-5 lg:px-0">
-                <div class="relative bg-white text-gray-700 rounded-lg p-6 lg:p-10 max-w-3xl my-8 w-full">
+                class="flex justify-center items-center px-5 lg:px-0 bg-[#fef8f3]">
+                <div class="relative  bg-[#fef8f3] text-gray-700 rounded-lg p-6 h-72 lg:p-10 max-w-3xl mb-8 w-full">
                     <div class="flex items-center mb-4">
                         <img :src="testimonial.image" alt="User avatar" class="w-16 h-16 rounded-full object-cover" />
                         <div class="ml-4">
@@ -56,25 +56,25 @@ export default {
         return {
             testimonials: [
                 {
-                    name: "Maria John",
+                    name: "Shailesh Sharma",
                     rating: 4.8,
                     date: "23 February 2024",
-                    feedback: "I've taken several online courses, and this has been my favorite by far. The interactive assignments and peer feedback were extremely helpful. This course helped me gain practical skills that I was able to apply in my job immediately.",
-                    image: "https://placehold.co/48x48",
+                    feedback: "I have completed numerous online courses, and this one stands out as my favorite. The interactive assignments and feedback from peers were incredibly beneficial. This course equipped me with practical skills that I could immediately implement in my job.",
+                    image: "https://i.pravatar.cc/150?img=12",
                 },
                 {
-                    name: "John Doe",
+                    name: "Prachi Luthra",
                     rating: 4.6,
                     date: "10 January 2024",
-                    feedback: "The course structure and support were top-notch. I enjoyed learning with peers and the assignments were very engaging. The course structure and support were top-notch. I enjoyed learning with peers and the assignments were very engaging.",
-                    image: "https://placehold.co/48x48",
+                    feedback: "The structure of the course and the level of support provided were truly exceptional. I thoroughly enjoyed the experience of learning alongside my peers, which made the process even more enriching. Additionally, the assignments were not only challenging but also highly engaging, allowing me to apply what I learned effectively.",
+                    image: "https://i.pravatar.cc/150?img=1",
                 },
                 {
-                    name: "Sarah Lee",
+                    name: "Jatin Nair",
                     rating: 4.9,
                     date: "5 March 2024",
-                    feedback: "This course provided a great foundation for my career, and I learned so much that I can apply to real-world projects. The course structure and support were top-notch. I enjoyed learning with peers and the assignments were very engaging.",
-                    image: "https://placehold.co/48x48",
+                    feedback: "This course offered an excellent foundation for my career, equipping me with valuable knowledge and skills that I can directly apply to real-world projects. The structure of the course and the level of support provided were outstanding, creating a conducive learning environment. I particularly enjoyed collaborating with my peers, and the assignments were not only informative but also highly engaging, which greatly enhanced my learning experience.",
+                    image: "https://i.pravatar.cc/150?img=8",
                 },
             ],
         };

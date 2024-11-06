@@ -1,16 +1,16 @@
 <template>
-  <div data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000" class="mission-section flex flex-col items-center py-8  md:flex-row md:justify-center">
+  <div  class="mission-section flex flex-col items-center py-8  md:flex-row md:justify-center">
     <div class="w-full max-w-lg text-center md:text-left md:max-w-5xl lg:max-w-6xl xl:max-w-full">
       <div class="flex items-center justify-between">
                 <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
-                    <p class="flex items-center justify-between"><p class="text-2xl">Our Mission</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
+                    <p class="flex items-center justify-between"><p class="text-2xl">Our Organization's Purpose and Goals</p><svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg></p>
                     
                 </h2>
                 
             </div>
 
-      <div class="mission-box relative bg-green-600 p-6 rounded-b-lg shadow-lg text-white mt-24">
+      <div data-aos="fade-right" data-aos-easing="linear"
+      data-aos-duration="500" class="mission-box relative bg-green-600 p-6 rounded-b-lg shadow-lg text-white mt-24">
         <div class="mission-header text-2xl font-semibold mb-4 text-center text-white py-4 px-4 custom-header">
           What is our Mission?
         </div>

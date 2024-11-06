@@ -16,7 +16,7 @@
             </div>
 
             <!-- Course Cards Section -->
-            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div v-for="(course, index) in courses" :key="index" class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
                     <!-- Course Title -->
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">{{ course.title }}</h3>
@@ -57,11 +57,11 @@ export default {
                     rating: 4.8,
                     views: "345k",
                     avatars: [
-                        "https://i.pravatar.cc/24",
-                        "https://i.pravatar.cc/24?img=3",
-                        "https://i.pravatar.cc/24?img=4",
-                        "https://i.pravatar.cc/24?img=5",
-                        "https://i.pravatar.cc/24?img=6",
+                        "https://i.pravatar.cc/150?img=14",
+                        "https://i.pravatar.cc/150?img=3",
+                        "https://i.pravatar.cc/150?img=4",
+                        "https://i.pravatar.cc/150?img=5",
+                        "https://i.pravatar.cc/150?img=6",
                     ],
                     link: "/subject/AdministrativeLaw" // Dynamic link for this course
                 },
@@ -71,11 +71,11 @@ export default {
                     rating: 4.7,
                     views: "125k",
                     avatars: [
-                        "https://i.pravatar.cc/24?img=9",
-                        "https://i.pravatar.cc/24?img=8",
-                        "https://i.pravatar.cc/24?img=7",
-                        "https://i.pravatar.cc/24?img=1",
-                        "https://i.pravatar.cc/24?img=2",
+                        "https://i.pravatar.cc/150?img=9",
+                        "https://i.pravatar.cc/150?img=8",
+                        "https://i.pravatar.cc/150?img=7",
+                        "https://i.pravatar.cc/150?img=1",
+                        "https://i.pravatar.cc/150?img=2",
                     ],
                     link: "/subject/CodeOfCivilProcedure" // Dynamic link for this course
                 },
@@ -85,11 +85,11 @@ export default {
                     rating: 4.2,
                     views: "99k",
                     avatars: [
-                        "https://i.pravatar.cc/24?img=3",
-                        "https://i.pravatar.cc/24?img=4",
-                        "https://i.pravatar.cc/24?img=5",
-                        "https://i.pravatar.cc/24?img=6",
-                        "https://i.pravatar.cc/24?img=7",
+                        "https://i.pravatar.cc/150?img=3",
+                        "https://i.pravatar.cc/150?img=4",
+                        "https://i.pravatar.cc/150?img=5",
+                        "https://i.pravatar.cc/150?img=6",
+                        "https://i.pravatar.cc/150?img=7",
                     ],
                     link: "/subject/Partnership" // Dynamic link for this course
                 },
@@ -99,11 +99,11 @@ export default {
                     rating: 4.8,
                     views: "345k",
                     avatars: [
-                        "https://i.pravatar.cc/24?img=13",
-                        "https://i.pravatar.cc/24?img=15",
-                        "https://i.pravatar.cc/24?img=16",
-                        "https://i.pravatar.cc/24?img=14",
-                        "https://i.pravatar.cc/24?img=11",
+                        "https://i.pravatar.cc/150?img=13",
+                        "https://i.pravatar.cc/150?img=15",
+                        "https://i.pravatar.cc/150?img=16",
+                        "https://i.pravatar.cc/150?img=14",
+                        "https://i.pravatar.cc/150?img=11",
                     ],
                     link: "/subject/taxation-law" // Dynamic link for this course
                 }
