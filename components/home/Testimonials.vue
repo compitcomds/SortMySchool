@@ -9,7 +9,7 @@
             </div>
         <swiper :slides-per-view="1" :loop="true" :pagination="{ clickable: true }" 
             :autoplay="{ delay: 5000, disableOnInteraction: false }" :modules="modules"
-            class="w-full max-w-3xl testimonial-swiper bg-[#fef8f3]"  data-aos="fade-left" data-aos-easing="linear"
+            class="w-full max-w-3xl testimonial-swiper bg-[#fef8f3] rounded-lg px-10"  data-aos="fade-left" data-aos-easing="linear"
      data-aos-duration="500">
             <swiper-slide v-for="(testimonial, index) in testimonials" :key="index"
                 class="flex justify-center items-center px-5 lg:px-0 bg-[#fef8f3]">
