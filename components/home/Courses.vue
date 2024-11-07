@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full py-8 bg-[#fef8f3]">
+    <div class="w-full py-8 bg-[#fef1e1]">
         <div class="mx-auto px-4">
             <!-- Header Section -->
             <div class="flex items-center justify-between">
@@ -9,7 +9,7 @@
                         <svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path></svg>
                     </p>
                 </h2>
-                <div class="w-full text-blue-600 flex items-center justify-end mb-4 gap-2">
+                <div class="w-full text-[#0ba083] flex items-center justify-end mb-4 gap-2">
                     <a href="/subject" class="hover:font-semibold">See All</a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
                 </div>
@@ -36,7 +36,7 @@
                             <img class="w-5 h-5" src="assets\images\like.svg" alt=""> {{ course.views }}
                         </p>
                         <!-- Dynamic Explore Now Link -->
-                        <a :href="course.link" class="bg-green-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-600">
+                        <a :href="course.link" class="bg-[#0ba083] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#4cb9a3]">
                             Explore Now
                         </a>
                     </div>

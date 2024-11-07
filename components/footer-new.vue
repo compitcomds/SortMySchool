@@ -1,6 +1,6 @@
 <template>
-  <footer class="text-gray-600 body-font bg-gray-800 hidden md:block">
-    <div class="container px-5 py-8 md:py-16 mx-auto">
+  <footer class="text-black body-font bg-white hidden md:block border-t border-black mt-5">
+    <div class="container px-5 py-8 md:py-16 mx-auto bg-white text-black">
       <div class="grid grid-cols-8 md:grid-cols-12 gap-x-8 gap-y-8 px-5 lg:px-10">
         <!-- Logo and Contact Info -->
         <div class="col-span-12 md:col-span-4">
@@ -10,16 +10,16 @@
             </nuxt-link>
           </div>
 
-          <div class="text-white">
+          <div class="text-black">
             <h3 class="font-semibold mb-2">For Submitting a Post</h3>
             <a href="mailto:parth@fglawkit.com"
-              class="flex items-center gap-2 group text-gray-300 hover:text-gray-50 transition">
+              class="flex items-center gap-2 group text-black hover:text-gray-600 transition">
               <IconMail class="group-hover:hidden" />
               <IconMailOpen class="hidden group-hover:block opacity-0 group-hover:opacity-100" />
               parth@fglawkit.com
             </a>
             <hr class="my-2 border-gray-600" />
-            <p class="flex items-center gap-2 text-gray-300">
+            <p class="flex items-center gap-2 text-black">
               <IconClock /> Hours: 11 A.M. to 7 P.M. (Mon - Fri)
             </p>
           </div>
@@ -27,28 +27,28 @@
 
         <!-- Useful Links -->
         <div class="col-span-6 md:col-span-3">
-          <h2 class="title-font font-bold text-white text-sm mb-3">USEFUL LINKS</h2>
+          <h2 class="title-font font-bold text-black text-sm mb-3">USEFUL LINKS</h2>
           <hr class="h-[1.4px] bg-gray-600 max-w-[33%] mb-3" />
           <nav class="list-none flex flex-col gap-y-2">
             <li>
-              <a href="/subject" class="text-gray-300 hover:text-gray-50 transition">Case Briefs</a>
+              <a href="/subject" class="text-black hover:text-gray-600 transition">Case Briefs</a>
             </li>
             <li>
-              <a href="/case-material" class="text-gray-300 hover:text-gray-50 transition">DU Case Mat</a>
+              <a href="/case-material" class="text-black hover:text-gray-600 transition">DU Case Mat</a>
             </li>
             <li>
-              <a href="/contact" class="text-gray-300 hover:text-gray-50 transition">Contact Us</a>
+              <a href="/contact" class="text-black hover:text-gray-600 transition">Contact Us</a>
             </li>
           </nav>
         </div>
 
         <!-- Legal Links -->
         <div class="col-span-6 md:col-span-2">
-          <h2 class="title-font font-bold text-white text-sm mb-3">LEGAL</h2>
+          <h2 class="title-font font-bold text-black text-sm mb-3">LEGAL</h2>
           <hr class="h-[1.4px] bg-gray-600 max-w-[33%] mb-3" />
           <nav class="list-none flex flex-col gap-y-2">
             <li>
-              <a href="/privacy-and-terms-of-service" class="text-gray-300 hover:text-gray-50 transition">Privacy
+              <a href="/privacy-and-terms-of-service" class="text-black hover:text-gray-600 transition">Privacy
                 Policy</a>
             </li>
           </nav>
@@ -56,7 +56,7 @@
 
         <!-- Social Media & Newsletter -->
         <div class="col-span-12 md:col-span-3">
-          <h2 class="title-font font-bold text-white text-sm mb-3">KEEP IN TOUCH</h2>
+          <h2 class="title-font font-bold text-black text-sm mb-3">KEEP IN TOUCH</h2>
           <hr class="h-[1.4px] bg-gray-600 max-w-[33%] mb-3" />
           <div class="mt-5 mb-6 flex items-center gap-5 flex-wrap">
             <a href="https://www.instagram.com/legalstartupwala">
@@ -83,7 +83,7 @@
             <a href="https://wa.me/+916376129819" target="_blank">
               <button class="transition-all duration-500 hover:-translate-y-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 93 92" fill="none">
-                  <rect x="1.13867" width="91.5618" height="91.5618" rx="15" fill="#00D95F" />
+                  <rect x="1.13867" width="91.5618" height="91.5618" rx="15" fill="#0ba083" />
                   <path
                     d="M23.5068 66.8405L26.7915 54.6381C24.1425 49.8847 23.3009 44.3378 24.4211 39.0154C25.5413 33.693 28.5482 28.952 32.89 25.6624C37.2319 22.3729 42.6173 20.7554 48.0583 21.1068C53.4992 21.4582 58.6306 23.755 62.5108 27.5756C66.3911 31.3962 68.7599 36.4844 69.1826 41.9065C69.6053 47.3286 68.0535 52.7208 64.812 57.0938C61.5705 61.4668 56.8568 64.5271 51.5357 65.7133C46.2146 66.8994 40.6432 66.1318 35.8438 63.5513L23.5068 66.8405ZM36.4386 58.985L37.2016 59.4365C40.6779 61.4918 44.7382 62.3423 48.7498 61.8555C52.7613 61.3687 56.4987 59.5719 59.3796 56.7452C62.2605 53.9185 64.123 50.2206 64.6769 46.2279C65.2308 42.2351 64.445 38.1717 62.4419 34.6709C60.4388 31.1701 57.331 28.4285 53.6027 26.8734C49.8745 25.3184 45.7352 25.0372 41.8299 26.0736C37.9247 27.11 34.4729 29.4059 32.0124 32.6035C29.5519 35.801 28.2209 39.7206 28.2269 43.7514C28.2237 47.0937 29.1503 50.3712 30.9038 53.2192L31.3823 54.0061L29.546 60.8167L36.4386 58.985Z"
                     fill="white" />
@@ -116,8 +116,16 @@
           </div>
           <a href="https://chat.whatsapp.com/BXUajT2udYCGk7HRXgECuq">
             <button
-              class="flex items-center gap-1 bg-green-600 px-5 py-3 mt-5 font-bold text-white rounded-lg hover:opacity-80 transition">
-              <IconWhatsapp /> Join Our Community
+              class="flex items-center gap-1 bg-[#0ba083] px-5 mt-5 font-bold text-white rounded-lg hover:opacity-80 transition">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 93 92" fill="none">
+                  <rect x="1.13867" width="91.5618" height="91.5618" rx="15" fill="#0ba083" />
+                  <path
+                    d="M23.5068 66.8405L26.7915 54.6381C24.1425 49.8847 23.3009 44.3378 24.4211 39.0154C25.5413 33.693 28.5482 28.952 32.89 25.6624C37.2319 22.3729 42.6173 20.7554 48.0583 21.1068C53.4992 21.4582 58.6306 23.755 62.5108 27.5756C66.3911 31.3962 68.7599 36.4844 69.1826 41.9065C69.6053 47.3286 68.0535 52.7208 64.812 57.0938C61.5705 61.4668 56.8568 64.5271 51.5357 65.7133C46.2146 66.8994 40.6432 66.1318 35.8438 63.5513L23.5068 66.8405ZM36.4386 58.985L37.2016 59.4365C40.6779 61.4918 44.7382 62.3423 48.7498 61.8555C52.7613 61.3687 56.4987 59.5719 59.3796 56.7452C62.2605 53.9185 64.123 50.2206 64.6769 46.2279C65.2308 42.2351 64.445 38.1717 62.4419 34.6709C60.4388 31.1701 57.331 28.4285 53.6027 26.8734C49.8745 25.3184 45.7352 25.0372 41.8299 26.0736C37.9247 27.11 34.4729 29.4059 32.0124 32.6035C29.5519 35.801 28.2209 39.7206 28.2269 43.7514C28.2237 47.0937 29.1503 50.3712 30.9038 53.2192L31.3823 54.0061L29.546 60.8167L36.4386 58.985Z"
+                    fill="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M54.9566 46.8847C54.5093 46.5249 53.9856 46.2716 53.4254 46.1442C52.8651 46.0168 52.2831 46.0186 51.7236 46.1495C50.8831 46.4977 50.3399 47.8134 49.7968 48.4713C49.6823 48.629 49.514 48.7396 49.3235 48.7823C49.133 48.8251 48.9335 48.797 48.7623 48.7034C45.6849 47.5012 43.1055 45.2965 41.4429 42.4475C41.3011 42.2697 41.2339 42.044 41.2557 41.8178C41.2774 41.5916 41.3862 41.3827 41.5593 41.235C42.165 40.6368 42.6098 39.8959 42.8524 39.0809C42.9063 38.1818 42.6998 37.2863 42.2576 36.5011C41.9157 35.4002 41.265 34.42 40.3825 33.6762C39.9273 33.472 39.4225 33.4036 38.9292 33.4791C38.4359 33.5546 37.975 33.7709 37.6021 34.1019C36.9548 34.6589 36.4411 35.3537 36.0987 36.135C35.7562 36.9163 35.5939 37.7643 35.6236 38.6165C35.6256 39.0951 35.6864 39.5716 35.8046 40.0354C36.1049 41.1497 36.5667 42.2144 37.1754 43.1956C37.6145 43.9473 38.0937 44.6749 38.6108 45.3755C40.2914 47.6767 42.4038 49.6305 44.831 51.1284C46.049 51.8897 47.3507 52.5086 48.7105 52.973C50.1231 53.6117 51.6827 53.8568 53.2237 53.6824C54.1018 53.5499 54.9337 53.2041 55.6462 52.6755C56.3588 52.1469 56.9302 51.4518 57.3102 50.6512C57.5334 50.1675 57.6012 49.6269 57.5042 49.1033C57.2714 48.0327 55.836 47.4007 54.9566 46.8847Z"
+                    fill="white" />
+                </svg> Join Our Community
             </button>
           </a>
         </div>

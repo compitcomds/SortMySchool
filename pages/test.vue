@@ -1,16 +1,16 @@
 <template>
   <div class="bg-[#ffffff] w-full">
     <HomeBanner /><HomeClient />
-    <div class="px-5 lg:px-16 space-y-10">
+    <div class=" space-y-10">
       
-      <HomeWhyus />
-      <HomePartners />
+      <HomeWhyus class="px-5 lg:px-16" />
+      <HomePartners class="px-5 lg:px-16"  />
       <HomeBlogs />
-      <HomeVideoCards />
-      <HomeCourses />
-      <HomeTestimonials />
+      <HomeVideoCards  />
+      <!-- <HomeCourses class="px-5 lg:px-16"  /> -->
+      <HomeTestimonials class="px-5 lg:px-16"  />
       
-      <HomeForm />
+      <HomeForm class="px-5 lg:px-16"  />
     </div>
   </div>
 </template>

@@ -1,18 +1,13 @@
 <template>
   <div class="w-full mx-auto py-8">
-    <div class="flex items-center justify-between">
-      <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
-        <p class="flex items-center justify-between">
-          <p class="text-2xl">Popular Category Introduction</p>
-          <svg id="fi_13554816" class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path>
-          </svg>
-        </p>
+    <div class="flex items-center justify-between px-5 lg:px-16 mb-6">
+      <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center gap-6">
+        <p class="text-2xl">Popular Category Introduction</p>
+        <hr class="text-black bg-black h-[1.5px] w-[450px] mt-2 hidden lg:block">
       </h2>
     </div>
-    <swiper :slides-per-view="2" :space-between="60" :loop="true" :pagination="{ clickable: true }" :navigation="true"
-      :autoplay="{ delay: 5000, disableOnInteraction: false }" :modules="modules" class="video-swiper" 
-      :breakpoints="{
+    <swiper :slides-per-view="2" :space-between="60" :loop="true" :pagination="{ clickable: true }"
+      :autoplay="{ delay: 5000, disableOnInteraction: false }" :modules="modules" class="video-swiper" :breakpoints="{
         320: {
           slidesPerView: 1,
           spaceBetween: 20
@@ -23,33 +18,37 @@
         },
         1024: {
           slidesPerView: 2,
-          spaceBetween: 50
+          spaceBetween: 20
         },
         1440: {
           slidesPerView: 2,
-          spaceBetween: 60
+          spaceBetween: 20
         }
       }">
       <swiper-slide v-for="(category, index) in categories" :key="index">
         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500"
-          class="relative bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg">
-          <div class="w-full h-72 overflow-hidden relative">
-            <img v-if="playingIndex !== index" :src="category.thumbnail" class="w-full h-full object-cover"
-              alt="Video thumbnail" />
-            <iframe v-if="playingIndex === index" :src="`${category.video}?autoplay=1&mute=1`"
-              class="w-full h-full object-cover" frameborder="0" allow="autoplay; encrypted-media"
-              allowfullscreen></iframe>
-            <div v-if="playingIndex !== index"
-              class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 cursor-pointer"
-              @click="playVideo(index)">
-              <button class="text-3xl font-bold text-white w-12 h-12">
-                <img src="assets/images/play (1).svg" alt="">
-              </button>
+          class="relative  text-white overflow-hidden shadow-lg">
+          <div class="w-full h-[348px] overflow-hidden relative">
+
+            <h3 class="absolute uppercase text-4xl text-white font-bold p-8">{{ category.title }}</h3>
+            <a :href="category.video"
+              class="absolute z-10 rounded-full border bg-white hover:bg-black text-black p-3 hover:text-white bottom-8 right-10"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-move-up-right">
+                <path d="M13 5H19V11" />
+                <path d="M19 5L5 19" />
+              </svg></a>
+            <img :src="category.thumbnail" class="w-full h-full object-cover" alt="Video thumbnail" />
+            
+            <div class="absolute inset-0 flex items-center justify-center">
+              <a :href="category.video" class="text-3xl font-bold bg-white rounded-full p-3 bg-opacity-70 text-white w-12 h-12">
+                <img src="assets/images/play.png" alt="">
+              </a>
             </div>
+
           </div>
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">{{ category.title }}</h3>
-          </div>
+
         </div>
       </swiper-slide>
     </swiper>
@@ -58,7 +57,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation } from 'swiper/modules';
+// import { Navigation } from 'swiper/modules';
 
 export default {
   components: {
@@ -66,9 +65,9 @@ export default {
     SwiperSlide,
   },
   setup() {
-    return {
-      modules: [Navigation],
-    };
+    // return {
+    //   modules: [Navigation],
+    // };
   },
   data() {
     return {
@@ -101,11 +100,7 @@ export default {
       playingIndex: null,
     };
   },
-  methods: {
-    playVideo(index) {
-      this.playingIndex = index;
-    },
-  },
+  
 };
 </script>
 

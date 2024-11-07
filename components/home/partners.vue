@@ -4,14 +4,9 @@
         <div class="mx-auto py-8 ">
 
             <div class="flex items-center justify-between">
-                <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center ">
-                    <p class="flex items-center justify-between">
-                    <p class="text-2xl">Knowledge Partners - Sort My Law School</p><svg id="fi_13554816"
-                        class="w-60 h-20" enable-background="new 0 0 24 24" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="m23.939 12-3.454-1.995v1.653l-20.424.342 20.424.342v1.653z"></path>
-                    </svg></p>
-
+                <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center gap-6">
+                    <p class="text-2xl">Knowledge Partners - Sort My Law School</p>
+                    <hr class="text-black bg-black h-[1.5px] w-[350px] mt-2 hidden lg:block">
                 </h2>
 
             </div>
