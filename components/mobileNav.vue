@@ -3,52 +3,27 @@
     <div class="flex justify-around items-center py-2">
       <!-- Home -->
       <nuxt-link to="/" class="flex flex-col items-center text-gray-600 hover:text-blue-500 cursor-pointer">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M3 9.75L12 4.5l9 5.25v9.75A1.5 1.5 0 0119.5 21h-15A1.5 1.5 0 013 19.5V9.75z"></path>
-          <path stroke-linecap="round" stroke-linejoin="round" d="M9 21V11.25h6V21"></path>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24">
+<path d="M 12 2.0996094 L 1 12 L 4 12 L 4 21 L 11 21 L 11 15 L 13 15 L 13 21 L 20 21 L 20 12 L 23 12 L 12 2.0996094 z M 12 4.7910156 L 18 10.191406 L 18 11 L 18 19 L 15 19 L 15 13 L 9 13 L 9 19 L 6 19 L 6 10.191406 L 12 4.7910156 z"></path>
+</svg>
         <span class="text-xs mt-1">Home</span>
       </nuxt-link>
 
       <!-- Case Brief -->
       <nuxt-link to="/subject" class="flex flex-col items-center text-gray-600 hover:text-blue-500 cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="lucide lucide-notebook-pen">
-          <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" />
-          <path d="M2 6h4" />
-          <path d="M2 10h4" />
-          <path d="M2 14h4" />
-          <path d="M2 18h4" />
-          <path
-            d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
-        </svg>
+        <img class="w-6 h-6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAa0lEQVR4nO3VMQqAMAyF4f94HsvRc8aDPBF0EaVJqlCCDzIUkn5DhkDFTMAKqFFzFjDH5+pBzmFPj4Dla0BRJAMogmQBeZEeQG8BdxkX0MO71TcO4M24gP4d1FuyBQ6OLrXPuk5mBrFjtlg2kYCbs5LSzcYAAAAASUVORK5CYII=" alt="brief">
         <span class="text-xs mt-1">Case Brief</span>
       </nuxt-link>
       <!-- Du Case Mat -->
       <nuxt-link to="/case-material"
         class="flex flex-col items-center text-gray-600 hover:text-blue-500 cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="lucide lucide-book-marked">
-          <path d="M10 2v8l3-3 3 3V2" />
-          <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-        </svg>
+        <img class="w-6 h-6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB30lEQVR4nO2au0oDQRSGv4AQLwE1WAiaJwgWIhZWXkpbS19AQdLZq51vobXW3goxYKGgoJ1gShttRBQFUUcWTmBZSDJnN8nOhP3gQJjMf5j/n7BhJoEM/8gDFeAK+ABMyhWLCeDOgcWbJEbyDpowcYxUHFi0aYeR614x8t4rRoyjpSbtBZvMSIR2JXgMnPi+I7/ANDAF/Phm5BRYAIaAsVC/4HUBWATOXDXyCdwAq0DOondO5t4CX64YqUZ0A8AO8AIMh8ZHgGdgS+aEqbpgZEnml4ENoBZ6bzLUrxQaf5S5gQbpkaqRaotUj8RMSZ5eWr3plpH6bmhTTaJXY7sbo1Laz3pcvRrbNLeltLsSV6+mWbNLmRM8lV6BN6AoYxcWi0miV2ObZn1Mk2oSvRrbNOvjtqkm1avRpKlJNaleTaNGwaVEK/o7qFfTqNGMhXa2g3o1jRrtWWj3O6hX06jRH7DWRLfe4qmTVK/GtKgDYF7OHQU5gxxa6JLq1RhHS03aCzaZkQhpJ2+yHYmQdvIm25EIaSdvsh2JEE4k+NFnOXJz6A1G6hzow2OMVP0SzVu+FQchp6mJkTk8Z1eM3AODeEwReBIzD8AKMI6nlCO36y5UbILT26Z8l3j7p5oMusw/15sKMCczrBIAAAAASUVORK5CYII=" alt="law-book">
         <span class="text-xs mt-1">Du Case Mat</span>
       </nuxt-link>
 
       <!-- Contact Us -->
-      <nuxt-link to="/contact" class="flex flex-col items-center text-gray-600 hover:text-blue-500 cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="lucide lucide-phone-call">
-          <path
-            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-          <path d="M14.05 2a9 9 0 0 1 8 7.94" />
-          <path d="M14.05 6A5 5 0 0 1 18 10" />
-        </svg>
+      <nuxt-link to="/test" class="flex flex-col items-center text-gray-600 hover:text-blue-500 cursor-pointer">
+        <img class="w-6 h-6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEK0lEQVR4nO2bX4hXRRTHPxvqZljb/nERC1wUIUHawBWDzGAfCrZNesiyyBfXMkTrpZcEESGDiITEPyi+ZGCh9KCRPYjuS6EGCpsouhpYaqTbrprmn9T9yYFZuBzm7s69M/fn3ev9wHma+5u5892555w5MwslJSUlJSV54UPgfeBtYDZQx0PGLaASsXvAUeALoI2CM05N3mYngC7z7APlUeBNYA/wL9ANTPbsczywAzjjIMSfwAKqzCPAS8A24IrlpQ4CYwON1Qh0AFuBf4YRYi/QTMbMANYCZx3+Ml9mtNpk2Z+OGfMvYG4G4zIH+MVh0lEbBOZn8TJALbASuG4Z9ybwesjBZgE3Ek5+yPqBKSnHnQe8BjxrJmzjaeAHy7h3Q4qwO+Xkff3Br+qvuh9YAjymnqsxq2HQshKCfA6XPQVI6w/i/MwF4D1gjHp+EXDH4hOa8yDAYAp/0G2WclyfPcA0iwh6JfzoK8DOAAKIDaTwB43G6/fE9ClhsV39ZqXluTd8BGgPJIDYIY/84NWYxOh/JUKNxTH+4ZMx1pi0M5QIqz0zxPUxK2Gaig46RMpKSs2KgAJIVHChfpjVstziH3qUY/xEtR/3EaAuJulIY5JJuvC1Wd4/AZ0xIui+JToMUWvJGCWnSc26AJPvTvAtHlW/lc3Wk+qZDZYQGc0TulT75z4CTPLICMVOAg0J/E6fpY9jSgSZ7O/qGUmWoj5jINJ2BE/WpZx8nyVmu/iAVZbCiKwEHR2i7ftU+zZVVPGqLE1MkRhJSvqCx5hSDjuv+pRJR/kt0nZD7R061W+lPy8+TjD5QVPT86VNrQTZ+0dZosadGWlrUm1v+b5MrWOlRmwz4VgV6fe2CpFNKixKASVK1E98EOJlOhwF6DVFjBA0mO21RIftxkdEOWAyvsPAi6rtW/M+soqWBXofdjiKsIYHz/gsiqfNI9ToKhHVWyko7ybIASZQUL5xFOE7CsoTCaKCHHcVkjYTmlzyAqnaFJLFjqtAhHqZgrLRUYSrvlvTvDLGlK9dRLgGvEIBaTQZYMUxR5CD1SRIQvOZqS+uDngGGZQW4JyjCPcSRId6k/LqElva06dMmQ787SiC2K4R9upThynOXvEtfWdFq6rIjGSngOcs/TwPXHQIsV/l4cKEZq7x+pUEYXJNZBe50BRVXH+fy09iFnApwSQqxpFushx1uVh/hkfzqXnGXGepVMly+Um0JAiRoUw+iafIWZ6wv8oiyO2W3GWMG6sogNxeyyVLHXeRvqbPEnIXIXozFqDq9wiT8jiwJaPJXzVF0VHBO46F1iQmR2OjiobAq0Gu241KOhLUGuPsrLnWO2oZC3zkcVPtUwpCkzma/y+hAHK3uVBMMkJcc5j8zxSYOnNxK65Acv1h+K+Soas07eYyZ7+x74t8FllSUlJCVtwHwfwAwIpu1LQAAAAASUVORK5CYII=" alt="ringer-volume">
         <span class="text-xs mt-1">Contact Us</span>
       </nuxt-link>
     </div>

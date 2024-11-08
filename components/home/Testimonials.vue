@@ -7,7 +7,7 @@
       />
     </h2>
   </div>
-  <div class="w-full mx-auto bg-white flex flex-col relative max-w-5xl">
+  <div class="w-full mx-auto bg-white flex flex-col lg:relative lg:max-w-5xl">
     <swiper
       :slides-per-view="1"
       :loop="true"
@@ -22,7 +22,7 @@
         :key="index"
         class="relative text-gray-700 rounded-lg p-6 h-auto lg:px-16 mb-5 w-full"
       >
-        <div class="bg-[#fff2e8] p-10 rounded-3xl">
+        <div class="bg-[#fff2e8] p-3 lg:p-10 rounded-3xl">
           <div class="flex items-center mb-4 px-10">
             <img
               :src="testimonial.image"
@@ -195,7 +195,7 @@ export default {
 .custom-next {
   position: absolute;
   top: 40%;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
   width: 40px;
   height: 40px;
   background: #fa8d44;
@@ -209,20 +209,18 @@ export default {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* .custom-prev:hover,
-.custom-next:hover {
-    transform: translateY(-50%) scale(1.1);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-} */
-
-.custom-prev::after {
-  content: "";
-  font-size: 18px;
+/* Hide navigation buttons on small and medium screens */
+.custom-prev,
+.custom-next {
+  display: none;
 }
 
-.custom-next::after {
-  content: "";
-  font-size: 18px;
+@media (min-width: 1024px) {
+  /* Show navigation buttons only on lg and xl screens */
+  .custom-prev,
+  .custom-next {
+    display: flex;
+  }
 }
 
 .custom-prev {
@@ -232,4 +230,5 @@ export default {
 .custom-next {
   right: -40px;
 }
+
 </style>

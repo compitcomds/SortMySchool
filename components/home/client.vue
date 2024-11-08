@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-1">
+  <div class="w-full px-1 mt-10">
     <div class="flex items-center justify-between px-5 lg:px-16">
       <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center gap-6">
         <p class="text-2xl">Our Associative Partners</p>
@@ -7,8 +7,8 @@
       </h2>
     </div>
 <div class="w-full">
-    <div class=" overflow-hidden w-full h-32 mt-10 transform rotate-3 bg-gray-700 flex items-center justify-center ">
-      <div class="flex items-center justify-between absolute  animation-scroll transform -rotate-3">
+    <div class=" overflow-hidden w-full h-32 lg:mt-10 transform lg:rotate-3 bg-gray-700 flex items-center justify-center ">
+      <div class="flex items-center justify-between absolute  animation-scroll transform lg:-rotate-3">
         <div v-for="(item, index) in items" :key="index" class="bg-white border py-5 rounded-xl border-black flex-none w-1/10 mx-1 ">
           <img :src="item" alt="Image" class="rounded object-cover w-56 h-full" />
         </div>
@@ -68,4 +68,35 @@ export default {
   display: flex;
   animation: scroll linear 80s infinite;
 }
+
+/* Default scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .animation-scroll {
+    animation-duration: 60s; /* Faster on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .animation-scroll {
+    
+    animation-duration: 40s; /* Even faster on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .animation-scroll {
+    animation-duration: 30s; /* Fastest on very small screens */
+  }
+}
+
 </style>

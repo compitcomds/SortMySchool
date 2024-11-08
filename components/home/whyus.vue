@@ -15,13 +15,12 @@
         </div>
         <p class="mission-text text-lg leading-relaxed px-4 py-6">
           Our mission is to empower aspiring interested students and professionals with passion through a comprehensive
-          and engaging online learning experience.
-          At onlinecourses.net, we are committed to providing accessible, practical, and up-to-date courses that cater
-          to the needs of individuals at all levels of expertise.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum in perspiciatis aut, exercitationem harum
-          tenetur repudiandae a quidem unde hic provident deleniti eos, cum aperiam necessitatibus, asperiores possimus
-          libero repellendus? Voluptas, adipisci debitis, totam ipsum sunt id eos repudiandae aliquam ducimus, labore
-          non magni atque sequi perferendis ab dolorum ipsa.
+          and engaging online learning experience. At onlinecourses.net, we are committed to providing accessible,
+          practical, and up-to-date courses that cater to the needs of individuals at all levels of expertise. The
+          customer himself, the customer will be able to pursue the adipiscing of the company. Are you aware of the
+          pains, or is it necessary to reject the training of these from where the gentle ones provide for them here,
+          when I open to the needs, can we be more harshly repelled by the free? Pleasures, which you ought to obtain,
+          are the whole of it, and we lead them to some repudiation.
         </p>
         <!-- Decorative Icon -->
         <div class="mission-icon absolute hidden lg:block -top-14 right-5 transform translate-x-1/2">

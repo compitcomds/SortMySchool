@@ -5,7 +5,7 @@
   <MobileNav class="block md:hidden" />
   <FooterNew class="hidden md:block" />
   <!-- Back to top button -->
-  <div v-if="showButton" class="fixed z-50 bottom-5 right-5 p-4">
+  <div v-if="showButton" class="fixed z-50 bottom-6 hidden lg:block right-5 p-4">
     <button
       class="bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg"
       @click="backToTop"
