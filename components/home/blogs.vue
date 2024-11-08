@@ -11,36 +11,26 @@
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" v-for="(article, index) in articles"
         :key="index" class=" overflow-hidden flex flex-col justify-between leading-normal">
         <a :href="article.link">
-          <img :src="article.image" class="w-full mb-3" /></a>
+          <img :src="article.image" class="w-full mb-3 relative" /></a>
+          <div class="bg-[#fef1e1] absolute w-1/6 py-2 rounded-l-xl  flex items-center justify-center right-0">
+          <a :href="article.link"
+              class="rounded-xl border hover:bg-black text-black hover:text-white border-black p-1"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-move-up-right">
+                <path d="M13 5H19V11" />
+                <path d="M19 5L5 19" />
+              </svg></a></div>
         <div class="p-4 pt-2">
           <div class="mb-8">
-            <p v-if="article.membersOnly" class="text-sm text-gray-600 flex items-center">
-              <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20">
-                <path
-                  d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z">
-                </path>
-              </svg>
-              Members only
-            </p>
-            <a :href="article.link" class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">
+            
+            <a :href="article.link" class="text-gray-900 font-bold text-lg lg:text-2xl mb-2 hover:text-indigo-600 inline-block">
               {{ article.title }}
             </a>
-            <p class="text-gray-700 text-sm">{{ article.description }}</p>
+            <p class="text-gray-700 text-lg">{{ article.description }}</p>
           </div>
-          <div class="flex items-center justify-between">
-            <div class="flex">
-              <a href="#">
-                <img :src="article.author.avatar" class="w-10 h-10 rounded-full mr-4"
-                  alt="Avatar of {{ article.author.name }}" />
-              </a>
-              <div class="text-sm">
-                <a href="#" class="text-gray-900 font-semibold leading-none hover:text-indigo-600">
-                  {{ article.author.name }}
-                </a>
-                <p class="text-gray-600">{{ article.author.date }}</p>
-              </div>
-            </div>
+          <!-- <div class="flex items-center justify-between">
+            
             <a :href="article.link"
               class="rounded-xl border hover:bg-black text-black hover:text-white border-black p-2"><svg
                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -49,7 +39,7 @@
                 <path d="M13 5H19V11" />
                 <path d="M19 5L5 19" />
               </svg></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
