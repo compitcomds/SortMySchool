@@ -3,7 +3,7 @@
     class="hs-overlay hs-overlay-open:opacity-100 hs-overlay-open:duration-500 hidden size-full fixed top-0 start-0 z-[80] opacity-0 overflow-x-hidden transition-all overflow-y-auto pointer-events-none bg-black bg-opacity-50">
     <div class="sm:max-w-lg sm:w-full m-3 sm:mx-auto">
       <div
-        class="flex flex-col shadow-lg rounded-2xl w-[90vw] bg-white overflow-hidden pointer-events-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1 transition-all duration-300">
+        class="flex flex-col shadow-lg rounded-2xl w-[90vw] lg:w-[50vw] bg-white overflow-hidden pointer-events-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-1 transition-all duration-300">
         <div class="flex justify-between items-center py-4 px-6 border-b border-gray-300">
           <h3 class="text-lg font-semibold text-gray-700">Search</h3>
           <button

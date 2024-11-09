@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[70vh] lg:h-screen bg-white z-10 w-full -mt-16 md:-mt-14 p-2 md:p-6">
+  <div class="h-[70vh] lg:h-screen bg-white z-10 w-full  md:-mt-2 p-2 md:p-6">
     <swiper :slides-per-view="1" :loop="true" :autoplay="{ delay: 6000, disableOnInteraction: false }"
       :navigation="true" :pagination="{ clickable: true }" :modules="modules" class="mySwiper carousel w-full h-full">
       <swiper-slide>

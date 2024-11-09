@@ -2,11 +2,10 @@
   <!-- ========== HEADER ========== -->
   <!-- ========== HEADER ========== -->
   <header
-    class="sticky top-10 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[56rem] lg:before:max-w-[66rem] before:mx-5 before:lg:mx-auto before:rounded-[26px] before:bg-neutral-800/30 before:backdrop-blur-md"
-  >
-    <nav
-      class="relative max-w-[360px] lg:max-w-[66rem] w-full py-2 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto"
-    >
+  class="sticky top-10 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[56rem] lg:before:max-w-[66rem] before:mx-5 before:lg:mx-auto before:rounded-[26px] before:bg-neutral-800/30 before:backdrop-blur-md transition-transform duration-300"
+  :class="{ '-translate-y-full': isHidden, 'margin-top-visible': !isHidden }"
+>
+  <nav class="relative max-w-[360px] lg:max-w-[66rem] w-full py-2 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto">
       <div class="flex items-center justify-between">
         <nuxt-link
           class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
@@ -101,7 +100,7 @@
                 </nuxt-link>
 
                 <div
-                  class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white md:shadow-2xl rounded-lg before:absolute before:-top-5 before:start-0 before:w-full before:h-5"
+                  class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-[705px] lg:w-[750px] hidden z-10 top-full end-0 overflow-hidden bg-white  rounded-lg before:absolute before:-top-5 before:start-0 before:w-full before:h-5"
                 >
                   <div class="grid grid-cols-2 md:grid-cols-10 pt-40 md:pt-0">
                     <div class="md:col-span-3">
@@ -578,9 +577,56 @@
   </header> 
   <!-- ========== END HEADER ========== -->
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      isHidden: false,
+      lastScrollY: 0,
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      if (window.scrollY > this.lastScrollY) {
+        // User is scrolling down
+        this.isHidden = true;
+      } else {
+        // User is scrolling up
+        this.isHidden = false;
+      }
+      this.lastScrollY = window.scrollY;
+    },
+  },
+};
+</script>
 <style>
 .router-link-active {
   @apply text-blue-600;
+}
+/* Optional: Smooth transition for navbar hide/show */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  
+}
+
+
+.margin-top-visible {
+  margin-top: 30px; /* Adjust margin as needed */
+  transition: margin 0.3s ease;
+}
+
+/* Class to hide the navbar */
+.-translate-y-full {
+  transform: translateY(-100%);
 }
 </style>

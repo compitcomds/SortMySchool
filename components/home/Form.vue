@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full pb-20 px-2 justify-center md:px-5 lg:px-0 bg-white flex flex-col items-center">
+  <div ref="statsSection" class="w-full pb-20 px-2 justify-center md:px-5 lg:px-0 bg-white flex flex-col items-center">
     <!-- Stats Section -->
-    <div class="flex items-center justify-between lg:justify-center lg:gap-12 xl:gap-28 mb-10 lg:mb-20 w-full">
+    <div class="flex items-center justify-between lg:justify-center -mt-16 lg:-mt-0 ml-8 lg:gap-12 xl:gap-28 mb-10 lg:mb-20 w-full">
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"
         class="text-center pr-8 last:border-none">
         <p class="text-2xl xl:text-5xl font-semibold text-gray-800">{{ formatCount(studentCount) }}k</p>
@@ -63,16 +63,39 @@ export default {
         mentors: 12,
         courses: 35,
       },
+      isAnimating: false,
+      lastScrollPosition: 0,
     };
   },
   mounted() {
-    this.startCountAnimation();
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
+    handleScroll() {
+      const currentScrollPosition = window.scrollY;
+
+      // Check if scrolling down
+      if (currentScrollPosition > this.lastScrollPosition && !this.isAnimating) {
+        this.startCountAnimation();
+      }
+
+      // Update last scroll position
+      this.lastScrollPosition = currentScrollPosition;
+    },
     startCountAnimation() {
+      this.isAnimating = true;
+      this.resetCounts();
       this.animateCount('studentCount', this.targetValues.students, 1000);
       this.animateCount('mentorCount', this.targetValues.mentors, 1000);
       this.animateCount('courseCount', this.targetValues.courses, 1000);
+    },
+    resetCounts() {
+      this.studentCount = 0;
+      this.mentorCount = 0;
+      this.courseCount = 0;
     },
     animateCount(field, target, duration) {
       const startTime = performance.now();
@@ -85,6 +108,7 @@ export default {
           requestAnimationFrame(updateCount);
         } else {
           this[field] = target; // Ensure we end at the target value
+          this.isAnimating = false;
         }
       };
       requestAnimationFrame(updateCount);
