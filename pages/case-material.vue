@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-5xl w-full p-5 mx-auto mt-10">
+  <div class="max-w-5xl w-full p-5 py-16 mx-auto mt-10">
     <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
       DU Case Materials
     </h1>

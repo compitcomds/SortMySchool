@@ -1,7 +1,7 @@
 <template>
   <!-- Hire Us -->
   <div
-    class="max-w-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-slate-50 rounded-lg shadow-lg border-2 my-5"
+    class="max-w-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-slate-50 rounded-lg shadow-lg border-2 my-28 lg:my-5"
   >
     <div class="max-w-3xl mx-auto">
       <div class="text-center">

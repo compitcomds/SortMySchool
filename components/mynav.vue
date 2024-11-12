@@ -5,8 +5,8 @@
   class="sticky top-10 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[56rem] lg:before:max-w-[66rem] before:mx-5 before:lg:mx-auto before:rounded-[26px] before:bg-neutral-800/30 before:backdrop-blur-md transition-transform duration-300"
   :class="{ '-translate-y-full': isHidden, 'margin-top-visible': !isHidden }"
 >
-  <nav class="relative max-w-[360px] lg:max-w-[66rem] w-full py-2 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto">
-      <div class="flex items-center justify-between">
+  <nav class="relative  lg:max-w-[66rem] w-full py-2 ps-5 pe-5 lg:pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto">
+      <div class="flex items-center w-full lg:w-auto justify-between">
         <nuxt-link
           class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
           href="/"
@@ -21,7 +21,7 @@
           />
         </nuxt-link>
 
-        <div class="md:hidden">
+        <div class="lg:hidden">
             <button
               class="group inline-flex items-center gap-x-24 py-2 px-3 border-[#37AFE1] border font-medium text-sm text-[#FFFECB] rounded-full focus:outline-none"
               type="button"
@@ -51,7 +51,7 @@
       
       <div
         id="hs-navbar-floating-dark"
-        class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
+        class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
         aria-labelledby="hs-navbar-floating-dark-collapse"
       >
         <div
@@ -70,7 +70,7 @@
           >
           <a
             class="p-3 ps-px sm:px-3 md:py-4 text-sm text-[#FFFECB] hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
-            href="#"
+            href="/previous-year-paper"
             >PYQ</a
           >
           <div

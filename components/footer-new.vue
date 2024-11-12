@@ -28,6 +28,9 @@
               <a href="/case-material" class="text-black hover:text-gray-600 transition">DU Case Mat</a>
             </li>
             <li>
+              <a href="/previous-year-paper" class="text-black hover:text-gray-600 transition">PYQ</a>
+            </li>
+            <li>
               <a href="/contact" class="text-black hover:text-gray-600 transition">Contact Us</a>
             </li>
             <li>
