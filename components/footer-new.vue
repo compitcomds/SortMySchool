@@ -22,14 +22,15 @@
           <hr class="h-[1.4px] bg-gray-600 max-w-[33%] mb-3" />
           <nav class="list-none flex flex-col gap-y-2">
             <li>
+              <a href="/previous-year-paper" class="text-black hover:text-gray-600 transition">PYQ</a>
+            </li>
+            <li>
               <a href="/subject" class="text-black hover:text-gray-600 transition">Case Briefs</a>
             </li>
             <li>
               <a href="/case-material" class="text-black hover:text-gray-600 transition">DU Case Mat</a>
             </li>
-            <li>
-              <a href="/previous-year-paper" class="text-black hover:text-gray-600 transition">PYQ</a>
-            </li>
+            
             <li>
               <a href="/contact" class="text-black hover:text-gray-600 transition">Contact Us</a>
             </li>
@@ -43,7 +44,7 @@
         <!-- Legal Links -->
         <div class="col-span-6 md:col-span-3">
           <h2 class="title-font font-bold text-black text-sm mb-3">Popular Courses</h2>
-          <hr class="h-[1.4px] bg-gray-600 max-w-[33%] mb-3" />
+          <hr class="h-[1.4px] bg-gray-600 max-w-[50%] mb-3" />
           <nav class="list-none flex flex-col gap-y-2">
             <li>
               <a href="/" class="text-black hover:text-gray-600 transition">Administrative Law</a>

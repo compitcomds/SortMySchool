@@ -22,7 +22,7 @@
       </nuxt-link>
       <nuxt-link to="/previous-year-paper"
         class="flex flex-col items-center text-gray-600 hover:text-blue-500 cursor-pointer">
-        <img class="w-6 h-6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB30lEQVR4nO2au0oDQRSGv4AQLwE1WAiaJwgWIhZWXkpbS19AQdLZq51vobXW3goxYKGgoJ1gShttRBQFUUcWTmBZSDJnN8nOhP3gQJjMf5j/n7BhJoEM/8gDFeAK+ABMyhWLCeDOgcWbJEbyDpowcYxUHFi0aYeR614x8t4rRoyjpSbtBZvMSIR2JXgMnPi+I7/ANDAF/Phm5BRYAIaAsVC/4HUBWATOXDXyCdwAq0DOondO5t4CX64YqUZ0A8AO8AIMh8ZHgGdgS+aEqbpgZEnml4ENoBZ6bzLUrxQaf5S5gQbpkaqRaotUj8RMSZ5eWr3plpH6bmhTTaJXY7sbo1Laz3pcvRrbNLeltLsSV6+mWbNLmRM8lV6BN6AoYxcWi0miV2ObZn1Mk2oSvRrbNOvjtqkm1avRpKlJNaleTaNGwaVEK/o7qFfTqNGMhXa2g3o1jRrtWWj3O6hX06jRH7DWRLfe4qmTVK/GtKgDYF7OHQU5gxxa6JLq1RhHS03aCzaZkQhpJ2+yHYmQdvIm25EIaSdvsh2JEE4k+NFnOXJz6A1G6hzow2OMVP0SzVu+FQchp6mJkTk8Z1eM3AODeEwReBIzD8AKMI6nlCO36y5UbILT26Z8l3j7p5oMusw/15sKMCczrBIAAAAASUVORK5CYII=" alt="law-book">
+        <img class="w-6 h-6" src="../assets/task-list.png" alt="law-book">
         <span class="text-xs mt-1">PYQ</span>
       </nuxt-link>
 

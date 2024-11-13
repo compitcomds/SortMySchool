@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-5xl w-full p-5 mx-auto mt-10 py-16">
         <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
-            previous-year-paper Case Materials
+            Previous Year Papers <br class="lg:hidden"> Case Materials
         </h1>
         <p class="mb-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis veritatis necessitatibus vel?

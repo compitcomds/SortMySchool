@@ -8,8 +8,9 @@
         </h2>
       </div>
 
+      <!-- Updated HTML -->
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"
-        class="mission-box relative  p-6 rounded-b-lg shadow-lg text-white mt-20">
+        class="mission-box relative p-6 rounded-b-lg shadow-lg text-white mt-20">
         <div class="mission-header text-2xl font-semibold mb-4 text-center text-white py-4 px-4 custom-header">
           What is our Mission?
         </div>
@@ -23,11 +24,11 @@
           are the whole of it, and we lead them to some repudiation.
         </p>
         <!-- Decorative Icon -->
-        <div class="mission-icon absolute hidden lg:block -top-14 right-5 transform translate-x-1/2">
-          <img src="assets\images\graduation.svg" alt="Graduation Cap"
-            class="w-20 h-20 object-cover rounded-full shadow-xl shadow-slate-600 bg-white" />
-        </div>
+        <!-- <div class="mission-icon absolute hidden lg:block -top-14 right-5 transform translate-x-1/2">
+          <img src="/assets/images/law-cap.png" alt="Graduation Cap" class="w-20 h-20 object-cover rounded-full" />
+        </div> -->
       </div>
+
     </div>
   </div>
 </template>

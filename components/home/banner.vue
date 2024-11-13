@@ -52,7 +52,48 @@ export default {
   background-color: aliceblue;
   border-radius: 50%;
   padding: 25px;
+ 
+}
+/* Default margin-top for larger screens */
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
   margin-top: 200px;
+}
+/* Further adjust for mobile screens */
+@media (min-width: 1340px) and (max-width: 1960px) {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    margin-top: 350px;
+  }
+}
+/* Further adjust for mobile screens */
+@media (min-width: 1024px) and (max-width: 1339px) {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    margin-top: 200px;
+  }
+}
+/* Further adjust for mobile screens */
+@media (max-width: 1024px) {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    margin-top: 250px;
+  }
+}
+/* Adjust for tablets and smaller screens */
+@media (max-width: 768px) {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    margin-top: 90px;
+  }
+}
+
+/* Further adjust for mobile screens */
+@media (max-width: 480px) {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    margin-top: 250px;
+  }
 }
 
 /* Default font size for larger screens */

@@ -32,7 +32,7 @@
         </div>
         <div class="px-6 py-4 overflow-y-auto">
           <label for="search-modal-input" class="sr-only">Search input</label>
-          <div class="flex gap-3 items-center mb-5 sticky top-0 bg-white z-10">
+          <div class="flex gap-3 items-center mb-5  top-0 bg-white z-10">
             <input type="text" id="search-modal-input" name="search-modal-input"
               class="py-3 px-4 w-full border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:outline-none"
               v-model.trim="search" @input="searchQuery" placeholder="Search your case here..." />
@@ -131,14 +131,100 @@ const searchQuery = async (event) => {
 </script>
 
 <style scoped>
-#search-modal-input:focus {
-  outline: none;
-  box-shadow: 0 0 5px rgba(72, 165, 255, 0.6);
+#search-modal {
+  background: rgba(0, 0, 0, 0.75); /* Darker background overlay */
 }
 
-button:hover,
-nuxt-link:hover {
-  transform: scale(1.02);
-  transition: transform 0.3s;
+.sm\:max-w-lg {
+  max-width: 600px; /* Wider modal for larger screens */
+}
+
+.modal-container {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  border-radius: 15px; /* Softer, rounded corners */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.modal-container:hover {
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.modal-header {
+  background-color: #f3f4f6; /* Soft grey background */
+  color: #333; /* Darker header text */
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-header h3 {
+  font-size: 1.25rem;
+  color: #4a5568; /* Neutral grey for a professional tone */
+}
+
+#search-modal-close-button {
+  color: #cbd5e1;
+  transition: color 0.3s ease;
+}
+
+#search-modal-close-button:hover {
+  color: #4a5568; /* Dark grey on hover */
+}
+
+#search-modal-input {
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  border: 1px solid #e5e7eb; /* Light border */
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+#search-modal-input:focus {
+  border-color: #3b82f6; /* Blue border on focus */
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); /* Blue focus shadow */
+}
+
+.search-button {
+  background-color: #3b82f6; /* Vibrant blue */
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.search-button:hover {
+  background-color: #2563eb; /* Slightly darker blue */
+  transform: scale(1.05); /* Small scale effect */
+}
+
+.results-list li {
+  padding: 10px 16px;
+  color: #4a5568;
+  transition: background-color 0.3s ease;
+}
+
+.results-list li:hover {
+  background-color: #f3f4f6;
+}
+
+.no-results {
+  font-size: 1rem;
+  color: #9ca3af; /* Muted grey */
+  padding-top: 16px;
+}
+
+/* Optional animation for modal entrance */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-container {
+  animation: fadeInUp 0.4s ease-out;
 }
 </style>
+

@@ -3,9 +3,9 @@
   <Head>
     <Title>SortMyLawSchool | searching for: {{ tag }}</Title>
   </Head>
-  <div>
+  <div class="mt-28">
     <Listofcontent v-if="isLoading || content" :propContent="content" />
-    <div v-else class="h-[50vh] my-20 flex flex-col gap-10 items-center">
+    <div v-else class="h-[50vh] my-20  flex flex-col gap-10 items-center">
       <h1 class="text-3xl text-center font-bold">No Results Found!</h1>
       <nuxt-link to="/subject"
         class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-sky-500 text-white hover:bg-sky-700 disabled:opacity-50 disabled:pointer-events-none">
@@ -49,4 +49,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
