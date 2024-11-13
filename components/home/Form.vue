@@ -1,5 +1,5 @@
 <template>
-  <div ref="statsSection" class="w-full pb-20 px-2 justify-center md:px-5 lg:px-0 bg-white flex flex-col items-center pt-20 ">
+  <div ref="statsSection" class="w-full pb-20 px-2 justify-center md:px-5 lg:px-0 bg-white flex flex-col items-center pt-2">
     <!-- Stats Section -->
     <div class="flex items-center justify-between lg:justify-center -mt-16 lg:-mt-0 ml-8 lg:gap-12 xl:gap-28 mb-10 lg:mb-20 w-full">
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"

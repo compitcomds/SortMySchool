@@ -9,8 +9,8 @@
       <HomeBlogs />
       <HomeVideoCards />
       <!-- <HomeCourses class="px-5 lg:px-16"  /> -->
-      <!-- <HomeTestimonials class="px-5 lg:px-16"  /> -->
-      <HomeTesti class="" />
+      <HomeTestimonials class="px-5 lg:px-16"  />
+      <!-- <HomeTesti class="" /> -->
 
       <HomeForm class="px-5 lg:px-16" />
     </div>
