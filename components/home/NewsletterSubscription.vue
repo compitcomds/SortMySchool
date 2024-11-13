@@ -1,9 +1,9 @@
 <template>
-    <div class="w-full mx-auto bg-[#fef1e1] overflow-hidden rounded-lg md:flex md:items-center md:space-x-6">
-        <div class="hidden lg:block lg:w-1/2">
-            <img src="https://placehold.co/600x400" alt="">
+    <div class="w-full mx-auto bg-[#fef1e1] overflow-hidden rounded-xl md:flex md:items-center md:space-x-6">
+        <div class="hidden lg:block lg:w-1/3">
+            <img src="/assets/mail illustration.png" alt="">
         </div>
-        <div class="p-7 lg:w-1/2 flex flex-col space-y-4 md:space-y-6">
+        <div class="p-6 lg:w-2/3 flex flex-col space-y-4 ">
             <!-- Label -->
             <p class=" text-gray-600 bg-[#DED5D1] text-sm font-semibold py-1 px-4 rounded-full inline-block self-start">
                 Our newsletters
