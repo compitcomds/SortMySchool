@@ -1,5 +1,5 @@
 <template>
-  <div ref="statsSection" class="w-full pb-20 px-2 justify-center md:px-5 lg:px-0 bg-white flex flex-col items-center">
+  <div ref="statsSection" class="w-full pb-20 px-2 justify-center md:px-5 lg:px-0 bg-white flex flex-col items-center pt-20 ">
     <!-- Stats Section -->
     <div class="flex items-center justify-between lg:justify-center -mt-16 lg:-mt-0 ml-8 lg:gap-12 xl:gap-28 mb-10 lg:mb-20 w-full">
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"
@@ -21,13 +21,13 @@
     </div>
 
     <!-- Subscription Form -->
-    <div class="bg-[#fef1e1] rounded-lg shadow-lg h-60 py-6 px-5 w-full relative flex items-center justify-between">
-      <!-- Bell Icon -->
+    <!-- <div class="bg-[#fef1e1] rounded-lg shadow-lg h-60 py-6 px-5 w-full relative flex items-center justify-between">
+      
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" class="absolute left-0 hidden lg:block -top-16">
         <img src="assets/images/notify.svg" alt="Bell icon" class="w-28 h-28" />
       </div>
 
-      <!-- Subscription Text and Form -->
+      
       <div class="flex flex-col md:flex-row items-center justify-between w-full px- py-12">
         <p class="text-gray-800 font-semibold text-xl xl:text-3xl mb-4 md:mb-0 md:text-left text-center lg:w-1/3">
           ENTER YOUR EMAIL TO GET NEW COURSES <br class="hidden lg:block">FOR <span
@@ -41,13 +41,14 @@
           </button>
         </div>
 
-        <!-- Book Icon -->
+        
         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500"
           class="hidden lg:block  flex justify-end items-center">
           <img src="assets/images/law-book.svg" alt="Book icon" class="w-64" />
         </div>
       </div>
-    </div>
+    </div> -->
+    <HomeNewsletterSubscription />
   </div>
 </template>
 

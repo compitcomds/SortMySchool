@@ -1,79 +1,112 @@
 <template>
-    <div class="bg-gray-50 py-12">
-      <div class="max-w-3xl mx-auto px-4">
-        <h2 class="text-center text-2xl font-semibold mb-8">What our students say?</h2>
-        
-        <div class="relative bg-white p-6 rounded-lg shadow-lg text-gray-800">
-          <!-- Avatar and Name -->
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full bg-gray-300 mr-4"></div>
-            <div>
-              <h3 class="font-semibold text-lg">Maria John</h3>
-              <div class="flex items-center text-yellow-500 text-sm">
-                <i class="fas fa-star mr-1"></i> 4.8
-              </div>
-            </div>
-          </div>
-  
-          <!-- Testimonial Text -->
-          <p class="text-gray-600 mb-4">
-            I've taken several online courses, and this has been my favorite by far. The interactive assignments and peer feedback were extremely helpful. This course helped me gain practical skills that I was able to apply in my job immediately.
-          </p>
-          
-          <!-- Date and Pagination Dots -->
-          <div class="flex justify-between items-center text-gray-400 text-sm">
-            <span>23 February 2024</span>
-            <div class="flex space-x-1">
-              <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
-              <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
-              <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
-            </div>
-          </div>
-  
-          <!-- Slide Navigation -->
-          <button class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-200 rounded-full p-2">
-            <i class="fas fa-chevron-left text-gray-600"></i>
+  <div class="flex items-center justify-between px-5 lg:px-16 mb-6">
+    <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center gap-6">
+      <p class="text-2xl text-gray-800">What our students say?</p>
+      <hr
+        class="text-black bg-black h-[1.5px] w-[350px] mt-2 hidden lg:block"
+      />
+    </h2>
+  </div>
+  <div class="mx-5 lg:mx-16 p-6 bg-[#fef1e1] rounded-lg shadow-md flex flex-col lg:flex-row gap-6 lg:gap-0 items-center space-x-6">
+    <!-- Image Section -->
+    <div class="lg:w-1/3 flex items-center justify-center">
+      <img :src="testimonials[currentIndex].image" alt="User Image" class="w-full rounded-lg max-w-[400px] h-full max-h-[250px]" />
+    </div>
+
+    <!-- Content Section -->
+    <div class="lg:w-2/3 space-y-4 lg:space-y-6 xl:space-y-8">
+      <div class="space-y-3">
+      <p class=" text-gray-600 bg-[#DED5D1] text-sm font-semibold py-1 px-4 rounded-full inline-block self-start">
+                User Story
+            </p>
+      <h2 class="text-2xl text-gray-900">
+        {{ testimonials[currentIndex].quote }}
+      </h2></div>
+      <hr class="bg-slate-600 text-black h-[1px] mt-4">
+      <!-- Navigation Buttons -->
+      <div class="flex items-center justify-between space-x-4">
+        <div class="text-gray-700">
+          <p class="font-semibold text-xl">{{ testimonials[currentIndex].name }}</p>
+          <p class="text-sm">{{ testimonials[currentIndex].position }}</p>
+        </div>
+        <div class="flex items-center space-x-4 pt-4">
+          <button @click="prevSlide"
+            class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 hover:bg-gray-200 transition">
+            <span class="text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-move-left">
+                <path d="M6 8L2 12L6 16" />
+                <path d="M2 12H22" />
+              </svg></span>
           </button>
-          <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 rounded-full p-2">
-            <i class="fas fa-chevron-right text-gray-600"></i>
+          <button @click="nextSlide"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-[#fef1e1] text-black border border-gray-300 hover:bg-gray-200 transition">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-move-right">
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg></span>
           </button>
         </div>
       </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'TestimonialSlider',
-    data() {
-      return {
-        testimonials: [
-          {
-            name: "Maria John",
-            rating: 4.8,
-            text: "I've taken several online courses, and this has been my favorite by far. The interactive assignments and peer feedback were extremely helpful. This course helped me gain practical skills that I was able to apply in my job immediately.",
-            date: "23 February 2024"
-          },
-          // Add more testimonials here
-        ],
-        currentTestimonialIndex: 0,
-      };
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentIndex: 0,
+      testimonials: [
+        {
+          image: "https://readymadeui.com/team-2.webp",
+          quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequatur culpa commodi. Veniam, ratione culpa sed quam explicabo tenetur earum.",
+          name: "Julia Roberts",
+          position: "Product and Sales Manager",
+        },
+        {
+          image: "https://readymadeui.com/team-3.webp",
+          quote: "Ipsum Lorem dolor sit amet consectetur adipisicing elit. Corrupti consequatur culpa commodi. Veniam, ratione culpa sed quam explicabo tenetur earum.",
+          name: "Michael Johnson",
+          position: "Operations Head",
+        },
+        {
+          image: "https://readymadeui.com/team-4.webp",
+          quote: "Dolor sit Lorem ipsum amet consectetur adipisicing elit. Corrupti consequatur culpa commodi. Veniam, ratione culpa sed quam explicabo tenetur earum.",
+          name: "Sara Lee",
+          position: "Marketing Director",
+        },
+      ],
+    };
+  },
+  mounted() {
+    this.startAutoplay();
+  },
+  beforeDestroy() {
+    this.stopAutoplay();
+  },
+  methods: {
+    nextSlide() {
+      this.currentIndex =
+        (this.currentIndex + 1) % this.testimonials.length;
     },
-    methods: {
-      prevSlide() {
-        this.currentTestimonialIndex =
-          (this.currentTestimonialIndex - 1 + this.testimonials.length) %
-          this.testimonials.length;
-      },
-      nextSlide() {
-        this.currentTestimonialIndex =
-          (this.currentTestimonialIndex + 1) % this.testimonials.length;
-      },
+    prevSlide() {
+      this.currentIndex =
+        (this.currentIndex - 1 + this.testimonials.length) %
+        this.testimonials.length;
     },
-  };
-  </script>
-  
-  <style scoped>
-  /* Additional custom styles if needed */
-  </style>
-  
+    startAutoplay() {
+      this.autoplayInterval = setInterval(this.nextSlide, 3000); // Change slide every 3 seconds
+    },
+    stopAutoplay() {
+      clearInterval(this.autoplayInterval);
+    },
+  },
+};
+</script>
+
+<style scoped>
+/* Additional styling if needed */
+</style>
