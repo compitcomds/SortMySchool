@@ -1,25 +1,25 @@
 <template>
-  <div class="h-[70vh] lg:h-screen bg-white z-10 w-full  md:-mt-2 p-2 md:p-6">
+  <div class="aspect-[16/9] bg-white z-10 mt-16 md:-mt-2 p-2 md:p-6">
     <swiper :slides-per-view="1" :loop="true" :autoplay="{ delay: 6000, disableOnInteraction: false }"
-      :navigation="true" :pagination="{ clickable: true }" :modules="modules" class="mySwiper carousel w-full h-full">
+      :navigation="true" :pagination="{ clickable: true }" :modules="modules" class="mySwiper  h-full w-full">
       <swiper-slide>
         <div class="w-full h-full">
-          <img src="https://picsum.photos/1920/1080" alt="" class="w-full h-full rounded-3xl" />
+          <img src="/assets/banners/newbanner1.png" alt="" class="w-full h-full rounded-3xl" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="w-full h-full">
-          <img src="https://picsum.photos/id/96/1920/1080" alt="" class="w-full h-full rounded-3xl" />
+          <img src="/assets/banners/newbanner2.png" alt="" class="w-full h-full rounded-3xl" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="w-full h-full">
-          <img src="https://picsum.photos/id/12/1920/1080" alt="" class="w-full h-full rounded-3xl" />
+          <img src="/assets/banners/newbanner1.png" alt="" class="w-full h-full rounded-3xl" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="w-full h-full">
-          <img src="https://picsum.photos/id/26/1920/1080" alt="" class="w-full h-full rounded-3xl" />
+          <img src="/assets/banners/newbanner2.png" alt="" class="w-full h-full rounded-3xl" />
         </div>
       </swiper-slide>
     </swiper>

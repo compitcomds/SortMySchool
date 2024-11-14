@@ -7,9 +7,9 @@
       </h2>
     </div>
 <div class="w-full">
-    <div class=" overflow-hidden w-full h-32 lg:mt-10 transform lg:rotate-3 bg-gray-700 flex items-center justify-center ">
+    <div class=" overflow-hidden w-full h-16 lg:h-32 lg:mt-10 transform lg:rotate-3 bg-gray-700 flex items-center justify-center ">
       <div class="flex items-center justify-between absolute  animation-scroll transform lg:-rotate-3">
-        <div v-for="(item, index) in items" :key="index" class="bg-white border py-5 rounded-xl border-black flex-none w-1/10 mx-1 ">
+        <div v-for="(item, index) in items" :key="index" class="bg-white border lg:py-5 rounded-xl border-black flex-none w-1/10 mx-1 ">
           <img :src="item" alt="Image" class="rounded object-cover w-56 h-full" />
         </div>
       </div>
