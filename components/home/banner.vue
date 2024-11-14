@@ -1,5 +1,5 @@
 <template>
-  <div class="aspect-[16/9] bg-white z-10 mt-10 md:-mt-2 p-2 md:p-6">
+  <div class="aspect-[16/8] bg-white z-10 mt-10 md:-mt-2 p-2 md:p-6">
     <swiper :slides-per-view="1" :loop="true" :autoplay="{ delay: 6000, disableOnInteraction: false }"
       :navigation="true" :pagination="{ clickable: true }" :modules="modules" class="mySwiper  h-full w-full">
       <swiper-slide>
@@ -51,7 +51,7 @@ export default {
   color: rgb(0, 68, 0) !important;
   background-color: aliceblue;
   border-radius: 50%;
-  padding: 25px;
+  padding: 22px;
  
 }
 /* Default margin-top for larger screens */
@@ -70,7 +70,7 @@ export default {
 @media (min-width: 1024px) and (max-width: 1339px) {
   .mySwiper .swiper-button-prev,
   .mySwiper .swiper-button-next {
-    margin-top: 250px;
+    margin-top: 220px;
   }
 }
 /* Further adjust for mobile screens */
@@ -84,7 +84,7 @@ export default {
 @media (max-width: 768px) {
   .mySwiper .swiper-button-prev,
   .mySwiper .swiper-button-next {
-    margin-top: 120px;
+    margin-top: 100px;
   }
 }
 
