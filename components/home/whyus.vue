@@ -10,11 +10,11 @@
 
       <!-- Updated HTML -->
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"
-        class="mission-box relative p-6 rounded-b-lg shadow-lg text-white mt-20">
-        <div class="mission-header text-2xl font-semibold mb-4 text-center text-white py-4 px-4 custom-header">
+        class="mission-box relative  lg:p-6 rounded-b-lg shadow-lg text-white mt-20">
+        <div class="mission-header text-lg lg:text-2xl font-semibold mb-4 text-center text-white py-4 px-4 custom-header">
           What is our Mission?
         </div>
-        <p class="mission-text text-lg leading-relaxed px-4 py-6">
+        <p class="mission-text text-lg leading-relaxed px-2 lg:px-4 py-6 hidden lg:block">
           Our mission is to empower aspiring interested students and professionals with passion through a comprehensive
           and engaging online learning experience. At onlinecourses.net, we are committed to providing accessible,
           practical, and up-to-date courses that cater to the needs of individuals at all levels of expertise. The
@@ -23,6 +23,9 @@
           when I open to the needs, can we be more harshly repelled by the free? Pleasures, which you ought to obtain,
           are the whole of it, and we lead them to some repudiation.
         </p>
+        <p class="mission-text text-base leading-relaxed px-2 lg:px-4 pb-6 lg:hidden">Our mission is to empower aspiring interested students and professionals with passion through a comprehensive
+          and engaging online learning experience. At onlinecourses.net, we are committed to providing accessible,
+          practical, and up-to-date courses that cater to the needs of individuals at all levels of expertise.</p>
         <!-- Decorative Icon -->
         <!-- <div class="mission-icon absolute hidden lg:block -top-14 right-5 transform translate-x-1/2">
           <img src="/assets/images/law-cap.png" alt="Graduation Cap" class="w-20 h-20 object-cover rounded-full" />
@@ -75,18 +78,35 @@ export default {
 /* Custom header with curved top */
 .custom-header {
   background-color: #0ba083;
-  ;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   padding: 0.5rem 1rem;
   border-radius: 12px 12px 0 0;
-  width: calc(50% - 2rem);
-  /* Leave space for the borders */
+  width: calc(50% - 2rem); /* Default width for larger screens */
   margin-top: -2.75rem;
   z-index: 10;
 }
+
+@media (max-width: 1024px) {
+  .custom-header {
+    width: calc(50% - 2rem); /* Adjust for medium screens like tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-header {
+    width: calc(50% - 2rem); /* Adjust for smaller screens like mobile phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-header {
+    width: calc(70% - 2rem); /* Full width for very small screens */
+  }
+}
+
 
 /* Icon styling */
 .mission-icon {

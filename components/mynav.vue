@@ -5,7 +5,7 @@
   class="sticky top-10 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[56rem] lg:before:max-w-[66rem] before:mx-5 before:lg:mx-auto before:rounded-[26px] before:bg-neutral-800/30 before:backdrop-blur-md transition-transform duration-300"
   :class="{ '-translate-y-full': isHidden, 'margin-top-visible': !isHidden }"
 >
-  <nav class="relative  lg:max-w-[66rem] w-full py-2 ps-5 pe-5 lg:pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto">
+  <nav class="relative  lg:max-w-[66rem] w-full py-1 ps-5 pe-5 lg:pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto">
       <div class="flex items-center w-full lg:w-auto justify-between">
         <nuxt-link
           class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
@@ -621,8 +621,26 @@ export default {
 
 
 .margin-top-visible {
-  margin-top: 30px; /* Adjust margin as needed */
+  margin-top: 30px; /* Default margin for larger screens */
   transition: margin 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .margin-top-visible {
+    margin-top: 20px; /* Adjust margin for medium screens (e.g., tablets) */
+  }
+}
+
+@media (max-width: 768px) {
+  .margin-top-visible {
+    margin-top: 15px; /* Adjust margin for smaller screens (e.g., mobile devices) */
+  }
+}
+
+@media (max-width: 480px) {
+  .margin-top-visible {
+    margin-top: 10px; /* Adjust margin for extra small screens (e.g., very small phones) */
+  }
 }
 
 /* Class to hide the navbar */
