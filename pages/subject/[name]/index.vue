@@ -1,5 +1,5 @@
 <template>
-  <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5 mt-12">
+  <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5 mt-24">
     {{ subject?.name || "Subject Not Found" }}
   </h1>
   <Listofcontent :propContent="content" />

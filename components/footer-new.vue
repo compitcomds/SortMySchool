@@ -11,7 +11,7 @@
           </div>
 
           <div class="text-black">
-            <h3 class="text-sm lg:text-base mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, harum?
+            <h3 class="text-sm lg:text-base mb-2">Access free case summaries, previous years' question papers, and resources for judiciary, UGC-NET, AIBE, and law exams.
             </h3>
           </div>
         </div>
@@ -47,16 +47,19 @@
           <hr class="h-[1.4px] bg-gray-600 max-w-[50%] mb-3" />
           <nav class="list-none flex flex-col gap-y-2">
             <li>
-              <a href="/" class="text-black hover:text-gray-600 transition">Administrative Law</a>
+              <a href="/subject/AdministrativeLaw" class="text-black hover:text-gray-600 transition">Administrative Law</a>
             </li>
             <li>
-              <a href="/" class="text-black hover:text-gray-600 transition">Administrative Law</a>
+              <a href="/subject/CodeOfCivilProcedure" class="text-black hover:text-gray-600 transition">Code of Civil Procedure</a>
             </li>
             <li>
-              <a href="/" class="text-black hover:text-gray-600 transition">Administrative Law</a>
+              <a href="/subject/CompanyLaw" class="text-black hover:text-gray-600 transition">Company Law</a>
             </li>
             <li>
-              <a href="/" class="text-black hover:text-gray-600 transition">Administrative Law</a>
+              <a href="/subject/EnvironmentalLaw" class="text-black hover:text-gray-600 transition">Environmental Law</a>
+            </li>
+            <li>
+              <a href="/subject/6637f17a0026153b82fc" class="text-black hover:text-gray-600 transition">Insurance & Banking Law</a>
             </li>
           </nav>
         </div>

@@ -70,36 +70,32 @@ export default {
     // };
   },
   data() {
-    return {
-      categories: [
-        {
-          title: "Rajasthan Judiciary",
-          participants: "793,901",
-          video: "https://www.youtube.com/embed/ZR0fWhjLVk8",
-          thumbnail: "https://img.youtube.com/vi/ZR0fWhjLVk8/0.jpg", // Correct thumbnail URL
-        },
-        {
-          title: "LLM Scholarships in USA",
-          participants: "943,101",
-          video: "https://www.youtube.com/embed/LuTZlpRBhPA?si=AduVGdeP5DkOPIc6",
-          thumbnail: "https://img.youtube.com/vi/LuTZlpRBhPA/0.jpg", // Correct thumbnail URL
-        },
-        {
-          title: "How to become Data Privacy & Technology Lawyer",
-          participants: "523,401",
-          video: "https://www.youtube.com/embed/CSyqJaqOAG0?si=D_84sKM3yniPPrBZ",
-          thumbnail: "https://img.youtube.com/vi/CSyqJaqOAG0/0.jpg", // Correct thumbnail URL
-        },
-        {
-          title: "LLM From Paris",
-          participants: "342,221",
-          video: "https://www.youtube.com/embed/jnUJCumOAQs?si=X3OJCKmJm2MD6j9_",
-          thumbnail: "https://img.youtube.com/vi/jnUJCumOAQs/0.jpg", // Correct thumbnail URL
-        },
-      ],
-      playingIndex: null,
-    };
-  },
+  return {
+    categories: [
+      {
+        title: "Moot Court Series",
+        participants: "793,901",
+        video: "",
+        thumbnail: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/vc1.jpg", // Replace with your actual image path
+      },
+      {
+        title: "Daily Reading Comprehension",
+        participants: "943,101",
+        video: "https://www.youtube.com/embed/LuTZlpRBhPA?si=AduVGdeP5DkOPIc6",
+        thumbnail: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/vc2.jpg", // Replace with your actual image path
+      },
+      {
+        title: "AIBE Solved Papers",
+        participants: "523,401",
+        video: "https://www.youtube.com/embed/CSyqJaqOAG0?si=D_84sKM3yniPPrBZ",
+        thumbnail: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/vc3.jpg", // Replace with your actual image path
+      },
+      
+    ],
+    playingIndex: null,
+  };
+},
+
   
 };
 </script>

@@ -69,23 +69,23 @@ const llbCourses = [
 
         ],
     },
-    {
-        term: "UGC Net",
-        subjects: [
-            {
-                name: "UGC Net June-2019",
-                pdfLink: "/pyq/ugc-net-2019-june.pdf",
-            },
-            {
-                name: "UGC Net September-2019",
-                pdfLink: "/pyq/ugc-net-2019-september.pdf",
-            },
-            {
-                name: "UGC Net September-2020 Paper",
-                pdfLink: "/pyq/ugc-net-paper-2020.pdf",
-            },
-        ],
-    },
+    // {
+    //     term: "UGC Net",
+    //     subjects: [
+    //         {
+    //             name: "UGC Net June-2019",
+    //             pdfLink: "/pyq/ugc-net-2019-june.pdf",
+    //         },
+    //         {
+    //             name: "UGC Net September-2019",
+    //             pdfLink: "/pyq/ugc-net-2019-september.pdf",
+    //         },
+    //         {
+    //             name: "UGC Net September-2020 Paper",
+    //             pdfLink: "/pyq/ugc-net-paper-2020.pdf",
+    //         },
+    //     ],
+    // },
 
 ];
 
