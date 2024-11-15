@@ -4,7 +4,8 @@
           <h2 class="font-headline text-2xl font-semibold sm:text-3xl text-center">
             Relax, We've Got Your Back For All Your Academic Needs!
           </h2>
-    
+
+            
           <div class="grid sm:grid-cols-3 gap-16 sm:gap-8 mt-16 sm:mt-24">
             <div class="text-center">
               <div
