@@ -52,10 +52,10 @@ export default {
     return {
       articles: [
         {
-          image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-          title: "Lorem ipsum dolor sit amet",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-          link: "/test",
+          image: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/ADMINISTRATIVE%20LAW.jpg",
+          title: "Administrative Law",
+          description: "Governs public administration, regulates government agencies' actions, ensuring accountability, fairness, and compliance with the law.",
+          link: "/subject/AdministrativeLaw",
           author: {
             name: "Sort My Law School",
             date: "Aug 18",
@@ -64,10 +64,10 @@ export default {
           membersOnly: true,
         },
         {
-          image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-          title: "Lorem ipsum dolor sit amet",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-          link: "/test",
+          image: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/enviornmental%20law%20(2).png",
+          title: "Environment Law",
+          description: "Protects ecosystems by regulating pollution, conserving resources, and enforcing sustainable practices to maintain ecological balance.",
+          link: "/subject/EnvironmentalLaw",
           author: {
             name: "Sort My Law School",
             date: "Aug 18",
@@ -76,10 +76,10 @@ export default {
           membersOnly: true,
         },
         {
-          image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-          title: "Lorem ipsum dolor sit amet",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-          link: "/test",
+          image: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/Untitled%20design.jpg",
+          title: "Taxation Law",
+          description: " Establishes rules for imposing, collecting, and enforcing taxes, ensuring government revenue while balancing taxpayer rights and obligations",
+          link: "/subject/TaxationLaw",
           author: {
             name: "Sort My Law School",
             date: "Aug 18",
