@@ -82,7 +82,7 @@
                                         LLB,Campus Law Centre
                                     </li>
                                 </ul>
-                                <div class="flex flex-row gap-2 pt-6">
+                                <div class="flex flex-row z-10 gap-2 pt-6">
                                     <a href="https://www.instagram.com/charvi_virmani/profilecard/?igsh=MWNueXFzNjJsbTc3aA=="
                                         class="w-9 h-9 rounded-full bg-gray-600 hover:bg-[#d9327d] flex justify-center items-center">
                                         <svg class="w-[1.25rem] h-[1.125rem] text-white" viewBox="0 0 15 15" fill="none"
@@ -104,7 +104,7 @@
                                 </div>
                             </div>
 
-                            <NuxtImg alt="Shruti Sharma | SortMyLawSchool Knowledge Partner" loading="lazy" width="180"
+                            <NuxtImg alt="Charvi Virmani | SortMyLawSchool Knowledge Partner" loading="lazy" width="180"
                                 height="290" decoding="async" data-nimg="1"
                                 class="knowledge-partner-img w-[100%] absolute  top-[8.00rem] lg:grayscale rounded-4xl"
                                 src="https://ccdstest.b-cdn.net/sort%20my%20law/charvi-virmani.png" style="color: transparent" />
