@@ -2,7 +2,7 @@
   <div class="w-full mx-auto py-8">
     <div class="flex items-center justify-between px-5 lg:px-16 mb-6">
       <h2 class="w-full font-semibold text-gray-700 mb-4 flex items-center gap-6">
-        <p class="text-2xl">Popular Category Introduction</p>
+        <p class="text-2xl">Popular Category</p>
         <hr class="text-black bg-black h-[1.5px] w-[450px] mt-2 hidden lg:block">
       </h2>
     </div>

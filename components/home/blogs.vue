@@ -7,24 +7,26 @@
       </h2>
 
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 lg:gap-10 bg-[#fef1e1] px-5 lg:px-16 py-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-10 bg-[#fef1e1] px-5 lg:px-16 py-6">
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" v-for="(article, index) in articles"
         :key="index" class=" overflow-hidden flex flex-col justify-between leading-normal">
         <a :href="article.link">
           <img :src="article.image" class="w-full mb-3 relative" /></a>
-          <div class="bg-[#fef1e1] absolute w-1/6 py-2 flex items-center custom-rounded-lb justify-center right-0">
+        <div class="bg-[#fef1e1] absolute w-1/6 py-2 flex items-center custom-rounded-lb justify-center right-0">
           <a :href="article.link"
-              class="rounded-xl border bg-black hover:bg-white hover:text-black text-white border-black p-1"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-move-up-right">
-                <path d="M13 5H19V11" />
-                <path d="M19 5L5 19" />
-              </svg></a></div>
+            class="rounded-xl border bg-black hover:bg-white hover:text-black text-white border-black p-1"><svg
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-move-up-right">
+              <path d="M13 5H19V11" />
+              <path d="M19 5L5 19" />
+            </svg></a>
+        </div>
         <div class="p-4 pt-2">
           <div class="mb-8">
-            
-            <a :href="article.link" class="text-gray-900 font-semibold text-xl lg:text-2xl mb-2 hover:text-indigo-600 inline-block">
+
+            <a :href="article.link"
+              class="text-gray-900 font-semibold text-xl lg:text-2xl mb-2 hover:text-indigo-600 inline-block">
               {{ article.title }}
             </a>
             <p class="text-gray-700 text-sm lg:text-lg">{{ article.description }}</p>
@@ -87,17 +89,18 @@ export default {
           },
           membersOnly: true,
         },
-        // {
-        //   image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        //   title: "Can coffee make you a better developer?",
-        //   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-        //   author: {
-        //     name: "Sort My Law School",
-        //     date: "Aug 18",
-        //     avatar: "https://tailwindcss.com/img/jonathan.jpg",
-        //   },
-        //   membersOnly: true,
-        // },
+        {
+          image: "https://ccdstest.b-cdn.net/sort%20my%20law/video%20card/ADMINISTRATIVE%20LAW.jpg",
+          title: "Other Case Briefs",
+          description: "Governs public administration, regulates government agencies' actions, ensuring accountability, fairness, and compliance with the law.",
+          link: "/subject/AdministrativeLaw",
+          author: {
+            name: "Sort My Law School",
+            date: "Aug 18",
+            avatar: "https://tailwindcss.com/img/jonathan.jpg",
+          },
+          membersOnly: true,
+        },
         // Add more articles here as needed
       ],
     };
@@ -108,6 +111,7 @@ export default {
 <style scoped>
 /* Additional styles if needed */
 .custom-rounded-lb {
-  border-radius: 0 0 0 10px; /* Adjust the radius value as needed */
+  border-radius: 0 0 0 10px;
+  /* Adjust the radius value as needed */
 }
 </style>
