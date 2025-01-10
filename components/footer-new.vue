@@ -122,7 +122,7 @@
               </svg>
             </button>
           </a>
-          <a href="https://www.linkedin.com/in/your-profile">
+          <a href="https://www.linkedin.com/in/parthjain98/?originalSubdomain=in">
             <button class="transition-all duration-500 hover:-translate-y-2">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" height="28" viewBox="0 0 32 32">
                 <path

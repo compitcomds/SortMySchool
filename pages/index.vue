@@ -12,7 +12,7 @@
       <HomeTestimonials class="px-5 lg:px-16"  />
       <!-- <HomeTesti class="" /> -->
 
-      <HomeForm class="px-5 lg:px-16" />
+      <!-- <HomeForm class="px-5 lg:px-16" /> -->
     </div>
   </div>
 </template>

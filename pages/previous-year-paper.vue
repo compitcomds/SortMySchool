@@ -3,10 +3,10 @@
         <h1 class="bg-sky-800 text-center text-white py-5 text-3xl mb-5">
             Previous Year Papers <br class="lg:hidden"> Case Materials
         </h1>
-        <p class="mb-7">
+        <!-- <p class="mb-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis veritatis necessitatibus vel?
             Architecto, ipsum nulla quibusdam fuga quod veniam. Esse odit consequatur harum reprehenderit magni.
-        </p>
+        </p> -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-8 w-full">
             <div v-for="(courses, index) in llbCourses" :key="`course-${index}`"
                 class="rounded-xl overflow-clip md:w-full md:h-full bg-sky-400/10">

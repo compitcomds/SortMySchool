@@ -22,7 +22,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-hidden">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold">Parth Jain (Co-Founder)</h2>
+                                <h2 class="text-lg font-semibold">Parth Jain (Co-Founder)</h2>
                                 <ul class="text-black" style="list-style-type: disc">
                                     <li class="text-sm max-w-xs" style="line-height: 1.9">
                                         AIR : 53, DU LLB Entrance
@@ -69,11 +69,11 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold">Charvi Virmani</h2>
+                                <h2 class="text-lg font-semibold">Charvi Virmani(Co-Founder)</h2>
                                 <ul class="text-black" style="list-style-type: disc">
-                                    <li class="text-sm max-w-xs" style="line-height: 1.9">
+                                    <!-- <li class="text-sm max-w-xs" style="line-height: 1.9">
                                         Co-Founder
-                                    </li>
+                                    </li> -->
                                     <li class="text-sm max-w-xs" style="line-height: 1.9">
                                         MA(Mathematics) +
                                         B.Ed
@@ -117,7 +117,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold">Harsh Vardhan Bhati</h2>
+                                <h2 class="text-lg font-semibold">Harsh Vardhan Bhati</h2>
                                 <ul class="text-black" style="list-style-type: disc">
                                     <li class="text-sm max-w-xs" style="line-height: 1.9">
                                         Assistant Prof, OP Jindal University (JGU)
@@ -152,7 +152,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold">Priyam Agarwal</h2>
+                                <h2 class="text-lg font-semibold">Priyam Agarwal</h2>
                                 <ul class="text-black" style="list-style-type: disc">
                                     <li class="text-sm max-w-xs" style="line-height: 1.9">
                                         BTech + LL.B
@@ -191,7 +191,7 @@
                         <div
                             class="flex flex-col justify-between bg-background-medium p-6 w-[291px] h-[382px] relative overflow-clip">
                             <div class="flex flex-col gap-1">
-                                <h2 class="text-xl font-semibold">Shruti Sharma</h2>
+                                <h2 class="text-lg font-semibold">Shruti Sharma</h2>
                                 <ul class="text-black" style="list-style-type: disc">
                                     <li class="text-sm max-w-xs" style="line-height: 1.9">
                                         Chartered Accountant

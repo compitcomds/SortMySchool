@@ -126,41 +126,41 @@ export default {
     return {
       testimonials: [
         {
-          name: "Shailesh Sharma",
-          rating: 4.8,
-          date: "23 February 2024",
-          feedback:
-            "I have completed numerous online courses, and this one stands out as my favorite. The interactive assignments and feedback from peers were incredibly beneficial. This course equipped me with practical skills that I could immediately implement in my job.",
-          image: "https://i.pravatar.cc/150?img=12",
-          socialLinks: [
-            { name: "Facebook", link: "/" },
-            { name: "LinkedIn", link: "/" },
-          ],
-        },
-        {
-          name: "Prachi Luthra",
-          rating: 4.6,
-          date: "10 January 2024",
-          feedback:
-            "I have completed numerous online courses, and this one stands out as my favorite. The interactive assignments and feedback from peers were incredibly beneficial. This course equipped me with practical skills that I could immediately implement in my job.",
-          image: "https://i.pravatar.cc/150?img=1",
-          socialLinks: [
-            { name: "Facebook", link: "/" },
-            { name: "LinkedIn", link: "/" },
-          ],
-        },
-        {
-          name: "Jatin Nair",
+          name: "Nikhil Kumar",
           rating: 4.9,
-          date: "5 March 2024",
+          date: "23 December 2024",
           feedback:
-            "I have completed numerous online courses, and this one stands out as my favorite. The interactive assignments and feedback from peers were incredibly beneficial. This course equipped me with practical skills that I could immediately implement in my job.",
-          image: "https://i.pravatar.cc/150?img=8",
+            "The comprehensive syllabus of Delhi University includes studying the law through landmark judgments.I am really thankful to the team of sortmylawschool for making it easy for us to study all the judgements through such precise case summaries available on a single platform",
+          image: "https://ccdstest.b-cdn.net/sort%20my%20law/Screenshot%202025-01-10%20213901.png",
           socialLinks: [
             { name: "Facebook", link: "/" },
             { name: "LinkedIn", link: "/" },
           ],
         },
+        // {
+        //   name: "Prachi Luthra",
+        //   rating: 4.6,
+        //   date: "10 January 2024",
+        //   feedback:
+        //     "I have completed numerous online courses, and this one stands out as my favorite. The interactive assignments and feedback from peers were incredibly beneficial. This course equipped me with practical skills that I could immediately implement in my job.",
+        //   image: "https://i.pravatar.cc/150?img=1",
+        //   socialLinks: [
+        //     { name: "Facebook", link: "/" },
+        //     { name: "LinkedIn", link: "/" },
+        //   ],
+        // },
+        // {
+        //   name: "Jatin Nair",
+        //   rating: 4.9,
+        //   date: "5 March 2024",
+        //   feedback:
+        //     "I have completed numerous online courses, and this one stands out as my favorite. The interactive assignments and feedback from peers were incredibly beneficial. This course equipped me with practical skills that I could immediately implement in my job.",
+        //   image: "https://i.pravatar.cc/150?img=8",
+        //   socialLinks: [
+        //     { name: "Facebook", link: "/" },
+        //     { name: "LinkedIn", link: "/" },
+        //   ],
+        // },
       ],
     };
   },
