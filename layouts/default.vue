@@ -1,9 +1,9 @@
 <template>
   <NuxtLoadingIndicator />
-  <mynav />
+  <!-- <mynav /> -->
   <slot />
-  <MobileNav class="block lg:hidden" />
-  <FooterNew class="hidden lg:block" />
+  <!-- <MobileNav class="block lg:hidden" />
+  <FooterNew class="hidden lg:block" /> -->
   <!-- Back to top button -->
   <div v-if="showButton" class="fixed z-50 bottom-6 hidden lg:block right-5 p-4">
     <button
